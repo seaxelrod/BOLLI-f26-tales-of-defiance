@@ -1,0 +1,80 @@
+/* CORRECT: Loads upright AND italic styles */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+
+.hero-title {
+    /* Replace 'your-image.jpg' with your image file path */
+    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), 
+                url('stories_in_the_dystopian_arc.png') center/cover no-repeat;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.hero-title h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    color: #105293;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Base style for all content blocks */
+.section-block {
+    padding: 30px 10%;
+}
+
+/* Headings */
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+    color: #105293;
+}
+
+/* Meta Information Block */
+.meta-info {
+    background-color: #ffffff;
+    padding: 30px 10%;
+    font-style: italic;
+    font-weight: 600;
+    color: #1a425a;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+/* Theme Classes */
+.light-blue {
+    background-color: #dce8f5;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.dark-blue {
+    background-color: #105293;
+    color: #ffffff;
+}
+
+.dark-blue h2 {
+    color: #ffffff;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+}

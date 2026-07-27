@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tales of Defiance to Mind Control in the Modern Age</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            color: #1a1a1a;
+            overflow: hidden; /* Prevents double scrollbars on the main window */
+        }
+
+        /* --- CONTENT FRAME UNDER HEADER --- */
+        .content-frame {
+            width: 100%;
+            /* Fills remaining viewport height beneath the header */
+            height: calc(100vh - 110px); 
+            border: none;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top Navigation Header with Custom Logo and Title -->
+  <header style="
+    background-color: #DCE8F5; /* very light blue */ /* #003478; (Official Brandeis Dark Blue / PMS 294 */ /* #0070FF; brandeis blue*/  /* #f1f6fa; Solid light blue background */
+    padding: 0.1 rem 0.1rem; /* 0.4rem 1rem; */
+    border-top: 2px solid black; /* dashed #a7bacb; Top border matching image */
+    border-bottom: 2px solid black; /* dashed #a7bacb; Bottom border matching image */
+    color: #003061; /* Dark blue text color from logo */
+  ">
+
+
+      <div style="display: flex; justify-content: flex-start; align-items: center; max-width: 1200px; margin: 0 auto; gap: 2rem;">
+        
+        <!-- GROUP 1: Grouping the Dropdown and Brand Logo -->
+        <div style="display: flex; align-items: center; gap: 1.5rem;">
+          <!-- Course Week Dropdown (Targeting iframe below) -->
+
+	  <!--
+          <select onchange="if (this.value) document.getElementById('main-content').src = this.value;" style="
+            padding: 0.4rem 0.5rem;
+            font-size: 0.95rem;
+            cursor: pointer;
+            width: max-content; /* Shrinks the dropdown box tightly around the selected text */
+            max-width: 120px;   /* Prevents the select box from widening when longer option texts are viewed */
+          ">
+          -->
+         <select id="page-select"
+           onchange="if (this.value) document.getElementById('main-content').src = this.value;"
+           style="
+             padding: 0.4rem 0.5rem;
+             font-size: 0.95rem;
+             cursor: pointer;
+             width: 105px;             /* Fixed width to display short labels cleanly */
+             max-width: 105px;
+             text-overflow: ellipsis;  /* Truncates extra text in the closed box */
+             white-space: nowrap;
+             overflow: hidden;
+           ">
+        <option value="" disabled hidden>Page ...</option>
+        <option value="home.html" selected>Home</option>
+        <option value="week1.html">Week 1: Introduction</option>
+        <option value="week2.html">Week 2: Discussion & Readings</option>
+        <option value="week3.html">Week 3: Primary Sources</option>
+        <option value="week4.html">Week 4: Analysis</option>
+        <option value="week5.html">Week 5: Final Wrap-up</option>
+      </select>
+
+          <!-- Brandeis logo and institute name as a single image asset -->
+          <img src="BOLLI_logo.pdf" alt="Logo" style="height: 35px; width: auto; display: inline-block;">
+      </div>
+
+        <!-- GROUP 2: Course Title (Editable Text) -->
+        <h1 style="
+          display: inline-block;   /* Fits the element tightly around the text */
+          text-align: center;      /* Centers the two lines relative to each other */
+          font-size: 1.0rem;        /* Slightly reduced font size so two lines fit gracefully */
+          line-height: 1.25;        /* Tightens line spacing between the two lines */
+          font-weight: 500;
+          font-family: serif;
+          margin: 0;
+        ">
+          Tales of Defiance to Mind Control in the Modern Age <!-- can put <br>'s here to force line breaks -->
+        </h1>
+
+      </div>
+    </header>
+
+    <!-- Main Content Display Area (Loads home.html by default) -->
+    <iframe id="main-content" name="main-content" src="home.html" class="content-frame"></iframe>
+
+</body>
+</html>
