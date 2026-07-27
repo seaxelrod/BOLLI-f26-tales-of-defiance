@@ -21,18 +21,13 @@ git commit -m "Initial commit with compiled site files"
 - Do not initialize with a README, .gitignore, or license (leave those unchecked).
 - Click Create repository.
 
-### note initially started repository with underscores rather than dashes, but changed it with
-
-```bash
-git remote set-url origin https://github.com/seaxelrod/BOLLI-f26-tales-of-defiance.git
-
 ```
 
 
 # Link Local Folder and Push
 ```bash
 git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git
+git remote add origin https://github.com/seaxelrod/BOLLI-f26-tales-of-defiance.git
 git push -u origin main
 ```
 
@@ -41,11 +36,13 @@ git push -u origin main
 
 pandoc home.md -s \
   --css="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap" \
+  --embed-resources \
   -c styles.css \
   -o home.html
 
 pandoc week1.md -s \
   --css="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap" \
+  --embed-resources \
   -c styles.css \
   -o week1.html
 ```

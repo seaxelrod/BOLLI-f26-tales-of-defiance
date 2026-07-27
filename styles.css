@@ -1,13 +1,34 @@
 /* CORRECT: Loads upright AND italic styles */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
 
 .hero-title {
-    /* Replace 'your-image.jpg' with your image file path */
-    background: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)), 
-                url('stories_in_the_dystopian_arc.png') center/cover no-repeat;
-    padding: 60px 10%;
-    text-align: center;
+  /* Set a minimum height so it fills the screen or hero area */
+  width: 100%;
+  min-height: 80vh; /* Takes up 80% of the viewport height (adjust to 100vh if you want full screen) */
+  
+  /* Flexbox settings to keep text vertically and horizontally centered */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Ensure the background image covers the entire container without repeating */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('stories_in_the_dystopian_arc.png');
+  background-size: contain; /* cover; truncates */
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Reset margins/paddings if needed */
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 .hero-title h1 {
