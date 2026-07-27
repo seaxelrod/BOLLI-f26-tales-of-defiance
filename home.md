@@ -83,7 +83,7 @@ Week 5: "The Perfect Match":
 ::: {.section-block .light-blue}
 #  Course Materials (e.g. readings, videos, digital images):  
 
-Note: Links below open in a new browser tab.
+Note: Each Link below opens in a new browser tab.
 
   - ["Notes From The Undeground", one man show starring Larry Cedar, free on youtube](https://www.youtube.com/watch?v=asp5tqDql0g)
   - ["1984" movie directed by Michael Radford,  free on tubitv]( https://tubitv.com/movies/300443/1984?resume_time=3)
@@ -92,9 +92,22 @@ Note: Links below open in a new browser tab.
     - [$3.99 to rent, $14.99 to buy on Amazon Prime Video](https://www.amazon.com/gp/video/detail/B0B6DB8G7C/ref=atv_dp_amz_c_yxuuUK_1_1)
   - ["The Perfect Match", free on lightspeed magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/)
 
-- Additional/optional materials will be provided on a class website or by email links.
+- Additional/optional materials will be provided on the class website or by email links.
+
+Embedded Links:
+
 
 :::
+
+
+<!-- "Notes From The Undeground", one man show starring Larry: -->
+
+<!-- ::: {.video-container} -->
+
+
+<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/asp5tqDql0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<!-- ::: -->
 
 ::: {.section-block .white}
 ## Objectives
