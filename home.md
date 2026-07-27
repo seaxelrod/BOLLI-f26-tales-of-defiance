@@ -8,7 +8,11 @@
 **Meeting Times/Dates:** Mondays, Period 2 (11:10 am - 12:35 pm), November 2-30  
 **Location:** Sawyer Road, Room ?
 **Contact:** axelrod@alumni.princeton.edu  
-**Course Number:** HG19-LIT-5b-Mon2-F26
+**Course Number:** HG19-LIT-5b-Mon2-F26  
+**Preparation time:**  2-3 hours per week, which includes time to
+watch the movies, and read selections from written works and other
+material on course web site.  
+
 :::
 
 ::: {.section-block .light-blue}
@@ -22,8 +26,7 @@ We begin with a filmed one-man play version of Fyodor Dostoevsky’s *Notes from
 Applying literary analysis, philosophy, and social theory,  we examine how power and psychology shape what we call "real."  In discussing these narratives, we aim to build the intellectual muscles that each of us needs to navigate a world fractured by algorithms, social media, and the onslaught of  AI, all the while resisting the persistent pull of old-fashioned ideological brainwashing. 
 
 
-
-<!-- # Original Description
+### Pre-committe first paragraph:
 
 Who creates and controls our perception of reality? Is true mental autonomy still possible? 
 Has our individual mental freedom been taken away from us? 
@@ -31,33 +34,68 @@ Have we traded it for the comfort of a pre-packaged life?
 We will see how characters confront these questions in four seminal works of fiction. 
 They trace an arc of defiance against worlds with increasingly sophisticated, multi-layered methods of controlling the mind.
 
-We begin with (a film adaption of) Fyodor Dostoevsky’s "Notes from The Underground" (1864), a visceral scream against  a world that imposes rationalism as the highest ideal..
-In George Orwell’s "1984" (1949), and the film adaptation,  "Big Brother" uses totalitarianism and a vocabulary of submission to colonize the inner self. 
-From there, we enter the digital age with "The Matrix" (the Wachowskis film, 1999), exploring an engineered reality that replaces the physical world entirely. 
-Finally, Ken Liu’s short story "The Perfect Match" (2012) confronts invisible control through the "corporate nudge" of algorithms and big data.
-
-Applying literary analysis, philosophy, and social theory,
-we examine how power and psychology shape what we call "real."
-In discussing these narratives, we aim to build the intellectual muscles needed to navigate 
-a world  fractured by algorithms, social media, and the onslaught of 
-AI, all while resisting the persistent pull of  old-fashioned ideological brainwashing.
-
--->
-
 :::
 
 ::: {.section-block .white}
-## Course Texts
+## Course Topics, by week
 
-Text
+1:  Overview of increasingly sophisticated, multi-layered  arc of stories and lenses.
+
+   - Each week we will see a different kind of societally imposed mind control. 
+   - We will discuss  how each story presents a specific realization of a general pattern by which this type of mind control works.
+   - This will help clarify how this type of control is still relevant today.
+   - Class will discuss how the stories move them and reflect on how participants understand, work within, 
+	   or rebel against this type of control.
+
+2:  "Notes From The Underground": 
+
+  - Feelings/complexity are suppressed by dominance of simple rationalism. 
+  - Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
+  - Who controls what thoughts are "acceptable" controls the perceived reality.
+
+3: "1984":
+
+  - Independent thoughts and feelings are disallowed under totalitarianism. 
+  - This is enforced by surveillance and control of language and media.
+  - Who controls the narrative controls the perceived reality.
+
+4: "The Matrix": 
+
+  - The nature of reality itself is replaced by a computer simulation.
+  - People cannot even perceive that their reality is constructed.
+  - Who controls information we receive controls the perceived reality.
+
+5: "The Perfect Match": 
+
+  - Independent thoughts and feeling are not possible because algorithm and bots constantly "nudge" people what to think and feel.
+  - We are lured by comfort of a constructed, false-but-pleasant narrative.
+  - Who provides the most comfort controls the perceived reality. \
+    \ 
+  - Pulling it all together and looking forward.
+
+:::
+
+
+
+::: {.section-block .dark-blue}
+#  Course Materials (e.g. readings, videos, digital images):  
+
+  - ["Notes From The Undeground", one man show starring Larry Cedar, free on youtube](https://www.youtube.com/watch?v=asp5tqDql0g) 
+  - ["1984" movie directed by Michael Radford,  free on tubitv]( https://tubitv.com/movies/300443/1984?resume_time=3)
+  - *The Matrix* movie, written and directed by the Wachowskis
+    - [$3.99 to rent on YouTube](https://www.youtube.com/watch?v=GuE0Mtr-w6g)
+    - [$3.99 to rent, $14.99 to buy on Amazon Prime Video](https://www.amazon.com/gp/video/detail/B0B6DB8G7C/ref=atv_dp_amz_c_yxuuUK_1_1)
+  - ["The Perfect Match", free on lightspeed magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/)
+
+- Additional/optional materials will be provided on a class website or by email links.
+
 :::
 
 ::: {.section-block .dark-blue}
 ## Objectives
 
-* Text
-* Text
-* Text
+Students should develop skills for analyzing and discussing various methods of societally imposed mind control. We study strategies for reacting to mental influences. Students should come away with a better sense of how their strategies are adapted to their personality type. 
+
 :::
 
 ::: {.section-block .white}
