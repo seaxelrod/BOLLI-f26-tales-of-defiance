@@ -25,8 +25,9 @@ We begin with a filmed one-man play version of Fyodor Dostoevsky’s *Notes from
 
 Applying literary analysis, philosophy, and social theory,  we examine how power and psychology shape what we call "real."  In discussing these narratives, we aim to build the intellectual muscles that each of us needs to navigate a world fractured by algorithms, social media, and the onslaught of  AI, all the while resisting the persistent pull of old-fashioned ideological brainwashing. 
 
+<!--
 
-### Pre-committe first paragraph:
+### Pre-committee first paragraph:
 
 Who creates and controls our perception of reality? Is true mental autonomy still possible? 
 Has our individual mental freedom been taken away from us? 
@@ -34,12 +35,14 @@ Have we traded it for the comfort of a pre-packaged life?
 We will see how characters confront these questions in four seminal works of fiction. 
 They trace an arc of defiance against worlds with increasingly sophisticated, multi-layered methods of controlling the mind.
 
+-->
+
 :::
 
 ::: {.section-block .white}
 ## Course Topics, by week
 
-1:  Overview of increasingly sophisticated, multi-layered  arc of stories and lenses.
+Week 1:  Overview of increasingly sophisticated, multi-layered  arc of stories and lenses.
 
    - Each week we will see a different kind of societally imposed mind control. 
    - We will discuss  how each story presents a specific realization of a general pattern by which this type of mind control works.
@@ -47,25 +50,25 @@ They trace an arc of defiance against worlds with increasingly sophisticated, mu
    - Class will discuss how the stories move them and reflect on how participants understand, work within, 
 	   or rebel against this type of control.
 
-2:  "Notes From The Underground": 
+Week 2:  "Notes From The Underground": 
 
   - Feelings/complexity are suppressed by dominance of simple rationalism. 
   - Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
   - Who controls what thoughts are "acceptable" controls the perceived reality.
 
-3: "1984":
+Week 3: "1984":
 
   - Independent thoughts and feelings are disallowed under totalitarianism. 
   - This is enforced by surveillance and control of language and media.
   - Who controls the narrative controls the perceived reality.
 
-4: "The Matrix": 
+Week 4: "The Matrix": 
 
   - The nature of reality itself is replaced by a computer simulation.
   - People cannot even perceive that their reality is constructed.
   - Who controls information we receive controls the perceived reality.
 
-5: "The Perfect Match": 
+Week 5: "The Perfect Match": 
 
   - Independent thoughts and feeling are not possible because algorithm and bots constantly "nudge" people what to think and feel.
   - We are lured by comfort of a constructed, false-but-pleasant narrative.
@@ -77,10 +80,12 @@ They trace an arc of defiance against worlds with increasingly sophisticated, mu
 
 
 
-::: {.section-block .dark-blue}
+::: {.section-block .light-blue}
 #  Course Materials (e.g. readings, videos, digital images):  
 
-  - ["Notes From The Undeground", one man show starring Larry Cedar, free on youtube](https://www.youtube.com/watch?v=asp5tqDql0g) 
+Note: Links below open in a new browser tab.
+
+  - ["Notes From The Undeground", one man show starring Larry Cedar, free on youtube](https://www.youtube.com/watch?v=asp5tqDql0g)
   - ["1984" movie directed by Michael Radford,  free on tubitv]( https://tubitv.com/movies/300443/1984?resume_time=3)
   - *The Matrix* movie, written and directed by the Wachowskis
     - [$3.99 to rent on YouTube](https://www.youtube.com/watch?v=GuE0Mtr-w6g)
@@ -91,14 +96,14 @@ They trace an arc of defiance against worlds with increasingly sophisticated, mu
 
 :::
 
-::: {.section-block .dark-blue}
+::: {.section-block .white}
 ## Objectives
 
 Students should develop skills for analyzing and discussing various methods of societally imposed mind control. We study strategies for reacting to mental influences. Students should come away with a better sense of how their strategies are adapted to their personality type. 
 
 :::
 
-::: {.section-block .white}
+::: {.section-block .light-blue}
 ## SGL Biography
 
 In his career as a mathematical physicist, Scott Axelrod studied geometrical quantum field theories as an assistant professor of mathematics at MIT, before working on nuclear magnetic resonance, natural language processing, and finance in industry. On the humanistic side, Scott has self-published books "Off the Deep End: Diary of a Mathematician", "Infinite Regress", and "After-Time". Much of the latter book consists of essays for the BOLLI Writers Guild. He has several other works in progress. Scott is looking forward to his first-time teaching experience at BOLLI.
