@@ -80,13 +80,31 @@ Week 5: "The Perfect Match":
 
 
 
-::: {.section-block .light-blue}
+:::: {.section-block .light-blue}
 #  Course Materials (e.g. readings, videos, digital images):  
 
 Note: Each Link below opens in a new browser tab.
 
   - ["Notes From The Undeground", one man show starring Larry Cedar, free on youtube](https://www.youtube.com/watch?v=asp5tqDql0g)
-  - ["1984" movie directed by Michael Radford,  free on tubitv]( https://tubitv.com/movies/300443/1984?resume_time=3)
+
+::: {.video-card data-external="1"} 
+[![Larry Cedar - Notes from Underground](https://img.youtube.com/vi/asp5tqDql0g/hqdefault.jpg)](https://www.youtube.com/watch?v=asp5tqDql0g){data-external="1"}
+      
+[▶ Watch on YouTube](https://www.youtube.com/watch?v=asp5tqDql0g){.video-play-btn data-external="1"}
+
+::: 
+
+
+  - ["1984" movie directed by Michael Radford,  free on tubitv](https://tubitv.com/movies/300443/1984?resume_time=1)
+
+::: {.video-card}
+[![1984 Movie Directed by Michael Radford](images/1984-poster.jpg)](https://tubitv.com/movies/300443/1984?resume_time=1)
+
+[▶ Watch Free on Tubi](https://tubitv.com/movies/300443/1984?resume_time=1){.video-play-btn}
+:::
+
+
+
   - *The Matrix* movie, written and directed by the Wachowskis
     - [$3.99 to rent on YouTube](https://www.youtube.com/watch?v=GuE0Mtr-w6g)
     - [$3.99 to rent, $14.99 to buy on Amazon Prime Video](https://www.amazon.com/gp/video/detail/B0B6DB8G7C/ref=atv_dp_amz_c_yxuuUK_1_1)
@@ -94,18 +112,18 @@ Note: Each Link below opens in a new browser tab.
 
 - Additional/optional materials will be provided on the class website or by email links.
 
-Embedded Links:
 
 
+::::
+
+
+<!--
+::: {.video-card data-external="1"}
+[![Larry Cedar - Notes from Underground](https://img.youtube.com/vi/asp5tqDql0g/hqdefault.jpg)](https://www.youtube.com/watch?v=asp5tqDql0g){data-external="1"}
+
+[▶ Watch on YouTube](https://www.youtube.com/watch?v=asp5tqDql0g){.video-play-btn data-external="1"}
 :::
-
-
-<!-- "Notes From The Undeground", one man show starring Larry: -->
-
-<!-- ::: {.video-container} -->
-
-
-<iframe width="560" height="315"  src="https://www.youtube-nocookie.com/embed/asp5tqDql0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+-->
 
 <!-- ::: -->
 

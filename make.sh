@@ -16,6 +16,12 @@ pandoc week1.md -s \
   -c styles.css \
   -o week1.htm
 
+# test locally with
+
+## > python3 -m http.server 8000
+## open http://localhost:8000/index.html in Safari
+
+
 git add .
 git commit -m 'changes'
 git push

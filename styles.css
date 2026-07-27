@@ -21,7 +21,7 @@ html, body {
   align-items: center;
 
   /* Ensure the background image covers the entire container without repeating */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('stories_in_the_dystopian_arc.png');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('images/stories_in_the_dystopian_arc.png');
   background-size: contain; /* cover; truncates */
   background-position: center;
   background-repeat: no-repeat;
@@ -120,4 +120,35 @@ li {
   width: 100%;
   height: 100%;
   border: 0;
+}
+
+.video-card {
+  max-width: 560px;
+  margin: 1.5rem 0;
+  position: relative;
+  display: block;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.video-play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff !important;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.video-play-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
 }
