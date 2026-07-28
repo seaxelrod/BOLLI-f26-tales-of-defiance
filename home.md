@@ -106,9 +106,25 @@ Note: Each Link below opens in a new browser tab.
 
 
   - *The Matrix* movie, written and directed by the Wachowskis
-    - [$3.99 to rent on YouTube](https://www.youtube.com/watch?v=GuE0Mtr-w6g)
+    - [$3.99 to rent on YouTube](https://www.youtube.com/watch?v=GuE0Mtr-w6g)  
+	   * need to create a free YouTube login to do this
     - [$3.99 to rent, $14.99 to buy on Amazon Prime Video](https://www.amazon.com/gp/video/detail/B0B6DB8G7C/ref=atv_dp_amz_c_yxuuUK_1_1)
+	   * need an Amazon Prime account to do this
+
+<!-- Image from: https://facts.net/wp-content/uploads/2023/06/47-facts-about-the-movie-the-matrix-1687246419.jpg -->
+::: {.video-card data-external="1"}
+[![The Matrix Movie](images/matrix_image.jpg)](https://www.youtube.com/watch?v=GuE0Mtr-w6g){data-external="1"}
+
+[▶ Rent on YouTube](https://www.youtube.com/watch?v=GuE0Mtr-w6g){.video-play-btn data-external="1"}
+:::
+
+
   - ["The Perfect Match", free on lightspeed magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/)
+
+  <!-- Image from: https://ecdn.teacherspayteachers.com/thumbitem/-The-Perfect-Match-Short-Story-by-Ken-Liu-2-Day-Lesson-Digital-Print--9912050-1693253669/original-9912050-1.jpg -->
+  
+  [![Perfect Match Image](images/perfect_match.jpg)
+   
 
 - Additional/optional materials will be provided on the class website or by email links.
 
