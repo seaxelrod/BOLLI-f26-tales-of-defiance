@@ -121,9 +121,13 @@ Note: Each Link below opens in a new browser tab.
 
   - ["The Perfect Match", free on lightspeed magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/)
 
+
+>   - [PDF of "The Perfect Match" extracted from above website](the_perfect_match.pdf)
+
   <!-- Image from: https://ecdn.teacherspayteachers.com/thumbitem/-The-Perfect-Match-Short-Story-by-Ken-Liu-2-Day-Lesson-Digital-Print--9912050-1693253669/original-9912050-1.jpg -->
   
   [![Perfect Match Image](images/perfect_match.jpg)
+
    
 
 - Additional/optional materials will be provided on the class website or by email links.
