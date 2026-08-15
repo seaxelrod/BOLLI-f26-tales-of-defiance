@@ -1,3 +1,25 @@
-<!-- note: don't put extra white space here, or else it put's the word "white" in the hmtl file -->
-<!-- default open link in new tab, with security. Override by adding {target="_self"}  in markdown -->
+<!-- old approach:
+   #  note: don't put extra white space here, or else it put's the word "white" in the hmtl file 
+   #  default open link in new tab, with security. Override by adding {target="_self"}  in markdown 
 <base target="_blank" rel="noopener">
+-->
+
+<!--
+  The Better Approach: Target External Links Automatically
+   Instead of a global rule that overrides your iframe, you can drop a tiny JavaScript snippet into your Pandoc header or template.
+   This script scans your page on load and applies target="_blank" rel="noopener" only to links that point outside your site:
+-->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('a').forEach(link => {
+      // If the link goes to an external website (has a different hostname)
+      if (link.hostname && link.hostname !== window.location.hostname) {
+        link.setAttribute('target', '_blank');
+        link.setAttribute('rel', 'noopener');
+      }
+    });
+  });
+</script>
+
+<script src="nav-sync.js"></script>

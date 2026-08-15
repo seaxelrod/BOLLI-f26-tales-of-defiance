@@ -1,5 +1,6 @@
 /* CORRECT: Loads upright AND italic styles */
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('fonts/google-fonts.css');
+/* to fetch remotely : @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap'); */
 
 html, body {
   margin: 0;
@@ -137,8 +138,8 @@ li {
 
 .video-play-btn {
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 93%;
+  left: 40%;
   transform: translate(-50%, -50%);
   background: rgba(0, 0, 0, 0.75);
   color: #ffffff !important;
@@ -152,3 +153,4 @@ li {
 .video-play-btn:hover {
   background: rgba(0, 0, 0, 0.9);
 }
+

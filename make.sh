@@ -5,9 +5,10 @@
 
 git_makehtml () {
     filebase=$1;
+    # pandoc used to have:
+    # 	   --css="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap" \
+    # 	   --embed-resources \
     pandoc $filebase.md -s \
-	   --css="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap" \
-	   --embed-resources \
 	   -H header.html \
 	   -c styles.css \
 	   -o $filebase.html
@@ -24,7 +25,7 @@ git_makelocal () {
 
 git_testlocal_server  () {
     # after this, should be able to view files on python server at:  http://localhost:8000/index.html 
-    open http://localhost:8000/index.html in Safari  # refresh this after server runs and waits for break on next command
+    open http://localhost:8000/index.html   # refresh this after server runs and waits for break on next command
     python3 -m http.server 8000
 }
 

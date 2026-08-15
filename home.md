@@ -42,39 +42,48 @@ They trace an arc of defiance against worlds with increasingly sophisticated, mu
 ::: {.section-block .white}
 ## Course Topics, by week
 
-Week 1:  Overview of increasingly sophisticated, multi-layered  arc of stories and lenses.
+Week 1:  Introduction, "Notes From the Underground"
 
-   - Each week we will see a different kind of societally imposed mind control. 
-   - We will discuss  how each story presents a specific realization of a general pattern by which this type of mind control works.
-   - This will help clarify how this type of control is still relevant today.
-   - Class will discuss how the stories move them and reflect on how participants understand, work within, 
-	   or rebel against this type of control.
+   - Course Overview:
 
-Week 2:  "Notes From The Underground": 
+     - Each week we will focus on a tale of societally imposed mind control. 
+     - Even while new forms of control emerge, the old ones are still present.
+     - This gives an increasingly sophisticated, multi-layered  arc of stories and lenses.
 
-  - Feelings/complexity are suppressed by dominance of simple rationalism. 
-  - Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
-  - Who controls what thoughts are "acceptable" controls the perceived reality.
+     - We will discuss  how each story presents a specific realization of a general pattern by which this type of mind control works.
+     - This will help clarify how this type of control is still relevant today.
+     - Class will discuss how the stories move them and reflect on how participants understand, work within, 
+	     or rebel against this type of control.
 
-Week 3: "1984":
+
+   - Themes: ...
+
+   -  "Notes From The Underground": 
+      - Feelings/complexity are suppressed by dominance of simple rationalism. 
+      - Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
+      - Who controls what thoughts are "acceptable" controls the perceived reality.
+
+Week 2: "1984"
 
   - Independent thoughts and feelings are disallowed under totalitarianism. 
   - This is enforced by surveillance and control of language and media.
   - Who controls the narrative controls the perceived reality.
 
-Week 4: "The Matrix": 
+Week 3: "The Matrix": 
 
   - The nature of reality itself is replaced by a computer simulation.
   - People cannot even perceive that their reality is constructed.
   - Who controls information we receive controls the perceived reality.
 
-Week 5: "The Perfect Match": 
+Week 4: "The Perfect Match": 
 
   - Independent thoughts and feeling are not possible because algorithm and bots constantly "nudge" people what to think and feel.
   - We are lured by comfort of a constructed, false-but-pleasant narrative.
   - Who provides the most comfort controls the perceived reality. \
-    \ 
-  - Pulling it all together and looking forward.
+
+Week 5: Final Warp-up
+
+- Pulling it all together and looking forward.
 
 :::
 
@@ -122,7 +131,7 @@ Note: Each Link below opens in a new browser tab.
   - ["The Perfect Match", free on lightspeed magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/)
 
 
->   - [PDF of "The Perfect Match" extracted from above website](the_perfect_match.pdf)
+>   - [PDF of "The Perfect Match" extracted from above website](texts/the_perfect_match.pdf)
 
   <!-- Image from: https://ecdn.teacherspayteachers.com/thumbitem/-The-Perfect-Match-Short-Story-by-Ken-Liu-2-Day-Lesson-Digital-Print--9912050-1693253669/original-9912050-1.jpg -->
   

@@ -27,6 +27,7 @@
             display: block;
         }
     </style>
+  <script src="nav-sync.js"></script>
 </head>
 <body>
 
@@ -46,17 +47,7 @@
         <div style="display: flex; align-items: center; gap: 1.5rem;">
           <!-- Course Week Dropdown (Targeting iframe below) -->
 
-	  <!--
-          <select onchange="if (this.value) document.getElementById('main-content').src = this.value;" style="
-            padding: 0.4rem 0.5rem;
-            font-size: 0.95rem;
-            cursor: pointer;
-            width: max-content; /* Shrinks the dropdown box tightly around the selected text */
-            max-width: 120px;   /* Prevents the select box from widening when longer option texts are viewed */
-          ">
-          -->
          <select id="page-select"
-           onchange="if (this.value) document.getElementById('main-content').src = this.value;"
            style="
              padding: 0.4rem 0.5rem;
              font-size: 0.95rem;
@@ -68,13 +59,94 @@
              overflow: hidden;
            ">
         <option value="" disabled hidden>Page ...</option>
-        <option value="home.html" selected>Home</option>
-        <option value="week1.html">Week 1: Introduction</option>
-        <option value="week2.html">Week 2: Discussion & Readings</option>
-        <option value="week3.html">Week 3: Primary Sources</option>
-        <option value="week4.html">Week 4: Analysis</option>
-        <option value="week5.html">Week 5: Final Wrap-up</option>
+        <option value="home.html"> Home</option>  <!-- selected ?? -->
+        <option value="themes.html">Themes</option>
+        <option value="week1.html">Week 1: Introduction, *Notes from Undeground*</option>
+        <option value="week2.html">Week 2: *1984* </option>
+        <option value="week3.html">Week 3: *The Matrix* </option>
+        <option value="week4.html">Week 4: *The Perfect Match*</option>
+        <option value="week5.html">Week 5: *Final Wrap-up*</option>
+        <option value="references.html"> References</option>
+
       </select>
+
+
+<!-- 
+ <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('page-select');
+    const iframe = document.getElementById('main-content');
+
+    if (!select || !iframe) {
+      console.warn("Could not find #page-select or #main-content elements.");
+      return;
+    }
+
+    // 1. Restore previous selection on initial load
+    const savedPage = localStorage.getItem('selectedCoursePage') || 'home.html';
+    select.value = savedPage;
+    iframe.src = savedPage;
+
+    // 2. Listen for user dropdown changes
+    select.addEventListener('change', function(e) {
+      const selectedValue = e.target.value;
+      console.log("Selected:", selectedValue);
+
+      if (selectedValue) {
+        iframe.src = selectedValue;
+        localStorage.setItem('selectedCoursePage', selectedValue);
+      }
+    });
+  });
+</script>     
+
+-->
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const select = document.getElementById('page-select');
+    const iframe = document.getElementById('main-content');
+    const fallbackPage = 'under-construction.html';
+
+    if (!select || !iframe) {
+      console.warn("Could not find #page-select or #main-content elements.");
+      return;
+    }
+
+    function loadPage(url) {
+      if (!url) return;
+
+      // Check if target file exists before pointing the iframe to it
+      fetch(url, { method: 'HEAD' })
+        .then(response => {
+          if (response.ok) {
+            iframe.src = url;
+            localStorage.setItem('selectedCoursePage', url);
+          } else {
+            iframe.src = fallbackPage;
+          }
+        })
+        .catch(() => {
+          // If fetch fails (file doesn't exist locally/on server)
+          console.warn("Select page doesn't exist, falling back to under-construction.html.");
+          iframe.src = fallbackPage;
+        });
+    }
+
+    // 1. Restore previous selection on initial load
+    const savedPage = localStorage.getItem('selectedCoursePage') || 'home.html';
+    select.value = savedPage;
+    loadPage(savedPage);
+
+    // 2. Listen for dropdown changes
+    select.addEventListener('change', function(e) {
+      const selectedValue = e.target.value;
+      console.log("Selected:", selectedValue);
+      loadPage(selectedValue);
+    });
+  });
+</script>
+      
 
           <!-- Brandeis logo and institute name as a single image asset -->
           <img src="images/BOLLI_logo.pdf" alt="Logo" style="height: 35px; width: auto; display: inline-block;">
