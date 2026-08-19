@@ -31,6 +31,21 @@ git remote add origin https://github.com/seaxelrod/BOLLI-f26-tales-of-defiance.g
 git push -u origin main
 ```
 
+# see make.sh
+
+# 20260815   conver logo to svg
+
+```bash
+> pdf2svg BOLLI_logo.pdf BOLLI_logo.svg
+```
+
+# also converted to png, but that came out fuzzy, so I delete it
+
+```bash
+> sips -s format png BOLLI_logo.pdf --out BOLLI_logo.png
+> rm BOLL_logo.png
+```
+
 
 
 	

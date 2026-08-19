@@ -22,7 +22,8 @@ html, body {
   align-items: center;
 
   /* Ensure the background image covers the entire container without repeating */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url('images/stories_in_the_dystopian_arc.png');
+  /* !! change 0.0 to 0.6 in the following lines to have 60% opacity */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255,  0.0)), url('images/stories_in_the_dystopian_arc.png');
   background-size: contain; /* cover; truncates */
   background-position: center;
   background-repeat: no-repeat;
@@ -87,9 +88,14 @@ h2 {
     color: #ffffff;
 }
 
-.yellow {
-    background-color: #FFFF00;
-    color: #ffffff;
+.yellow, .yellow *  {
+    background-color: #FFFF00 !important;
+    color: #000000   !important;
+}
+/* Specifically style the list bullet / number */
+.yellow::marker,
+li.yellow::marker {
+    color: #000000 !important;
 }
 
 .dark-blue h2 {

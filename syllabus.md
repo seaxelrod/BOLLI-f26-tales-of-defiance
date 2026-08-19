@@ -1,12 +1,13 @@
-::: {.section-block .hero-title}
 # Tales of Defiance To Mind Control in the Modern Age
+
+::: {.section-block .hero-title}
 :::
 
 
 ::: {.meta-info}
 **Study Group Leader:** Scott Axelrod  
 **Meeting Times/Dates:** Mondays, Period 2 (11:10 am - 12:35 pm), November 2-30  
-**Location:** Sawyer Road, Room ?
+**Location:** Sawyer Road, Room ?  
 **Contact:** axelrod@alumni.princeton.edu  
 **Course Number:** HG19-LIT-5b-Mon2-F26  
 **Preparation time:**  2-3 hours per week, which includes time to
@@ -15,8 +16,20 @@ material on course web site.
 
 :::
 
+<!-- 
+:::: {.section-block .yellow}
+
+## Testing stuff
+
+- Hi, this is a test.
+
+::::
+-->
+
+
+
 ::: {.section-block .light-blue}
-## Course Description
+# Course Description
 
 
 Are you concerned about the increasingly sophisticated ways social forces are attempting to control your mind?  In this course we examine four different mind control scenarios as depicted in four seminal works of fiction.  In each case, the lead character seeks to defiantly challenge a specific threat to mental autonomy.   Taken together, these works of fiction (three films and a short story) trace an arc of defiance against increasingly sophisticated and multi-layered methods of thought control.  
@@ -27,7 +40,7 @@ Applying literary analysis, philosophy, and social theory,  we examine how power
 
 <!--
 
-### Pre-committee first paragraph:
+## Pre-committee first paragraph:
 
 Who creates and controls our perception of reality? Is true mental autonomy still possible? 
 Has our individual mental freedom been taken away from us? 
@@ -40,9 +53,9 @@ They trace an arc of defiance against worlds with increasingly sophisticated, mu
 :::
 
 ::: {.section-block .white}
-## Course Topics, by week
+# Course Topics, by week
 
-Week 1:  Introduction, "Notes From the Underground"
+Week 1, Nov. 2:  Introduction, "Notes From the Underground"
 
    - Course Overview:
 
@@ -52,36 +65,36 @@ Week 1:  Introduction, "Notes From the Underground"
 
      - We will discuss  how each story presents a specific realization of a general pattern by which this type of mind control works.
      - This will help clarify how this type of control is still relevant today.
-     - Class will discuss how the stories move them and reflect on how participants understand, work within, 
-	     or rebel against this type of control.
+     - Participants will reflect on how the stories move them and reflect and how they understand, work within, or rebel against the type of control illustrated in the story.
 
 
-   - Themes: ...
+   - Approaches:
+      - Introdution to Narrative Control
 
    -  "Notes From The Underground": 
       - Feelings/complexity are suppressed by dominance of simple rationalism. 
       - Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
       - Who controls what thoughts are "acceptable" controls the perceived reality.
 
-Week 2: "1984"
+Week 2, Nov. 9: "1984"
 
   - Independent thoughts and feelings are disallowed under totalitarianism. 
   - This is enforced by surveillance and control of language and media.
   - Who controls the narrative controls the perceived reality.
 
-Week 3: "The Matrix": 
+Week 3, Nov. 16: "The Matrix": 
 
   - The nature of reality itself is replaced by a computer simulation.
   - People cannot even perceive that their reality is constructed.
   - Who controls information we receive controls the perceived reality.
 
-Week 4: "The Perfect Match": 
+Week 4, Nov. 23: "The Perfect Match": 
 
   - Independent thoughts and feeling are not possible because algorithm and bots constantly "nudge" people what to think and feel.
   - We are lured by comfort of a constructed, false-but-pleasant narrative.
   - Who provides the most comfort controls the perceived reality. \
 
-Week 5: Final Warp-up
+Week 5, Nov. 30: Final Warp-up
 
 - Pulling it all together and looking forward.
 
@@ -90,7 +103,7 @@ Week 5: Final Warp-up
 
 
 :::: {.section-block .light-blue}
-#  Course Materials (e.g. readings, videos, digital images):  
+#  Course Materials 
 
 Note: Each Link below opens in a new browser tab.
 
@@ -142,6 +155,10 @@ Note: Each Link below opens in a new browser tab.
 - Additional/optional materials will be provided on the class website or by email links.
 
 
+##  Additional Supplementary Materials Will Appear on the weekly web pages:
+
+### [Week1 Supplementary Matrials](week1.html#supplementary)
+
 
 ::::
 
@@ -157,14 +174,14 @@ Note: Each Link below opens in a new browser tab.
 <!-- ::: -->
 
 ::: {.section-block .white}
-## Objectives
+# Objectives
 
 Students should develop skills for analyzing and discussing various methods of societally imposed mind control. We study strategies for reacting to mental influences. Students should come away with a better sense of how their strategies are adapted to their personality type. 
 
 :::
 
 ::: {.section-block .light-blue}
-## SGL Biography
+# SGL Biography
 
 In his career as a mathematical physicist, Scott Axelrod studied geometrical quantum field theories as an assistant professor of mathematics at MIT, before working on nuclear magnetic resonance, natural language processing, and finance in industry. On the humanistic side, Scott has self-published books "Off the Deep End: Diary of a Mathematician", "Infinite Regress", and "After-Time". Much of the latter book consists of essays for the BOLLI Writers Guild. He has several other works in progress. Scott is looking forward to his first-time teaching experience at BOLLI.
 :::

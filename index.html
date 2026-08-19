@@ -59,7 +59,7 @@
              overflow: hidden;
            ">
         <option value="" disabled hidden>Page ...</option>
-        <option value="home.html"> Home</option>  <!-- selected ?? -->
+        <option value="syllabus.html"> Syllabus </option>  <!-- selected ?? -->
         <option value="themes.html">Themes</option>
         <option value="week1.html">Week 1: Introduction, *Notes from Undeground*</option>
         <option value="week2.html">Week 2: *1984* </option>
@@ -83,7 +83,7 @@
     }
 
     // 1. Restore previous selection on initial load
-    const savedPage = localStorage.getItem('selectedCoursePage') || 'home.html';
+    const savedPage = localStorage.getItem('selectedCoursePage') || 'syllabus.html';
     select.value = savedPage;
     iframe.src = savedPage;
 
@@ -134,7 +134,7 @@
     }
 
     // 1. Restore previous selection on initial load
-    const savedPage = localStorage.getItem('selectedCoursePage') || 'home.html';
+    const savedPage = localStorage.getItem('selectedCoursePage') || 'syllabus.html';
     select.value = savedPage;
     loadPage(savedPage);
 
@@ -149,7 +149,7 @@
       
 
           <!-- Brandeis logo and institute name as a single image asset -->
-          <img src="images/BOLLI_logo.pdf" alt="Logo" style="height: 35px; width: auto; display: inline-block;">
+          <img src="images/BOLLI_logo.svg" alt="Logo" style="height: 35px; width: auto; display: inline-block;">
       </div>
 
         <!-- GROUP 2: Course Title (Editable Text) -->
@@ -168,8 +168,8 @@
       </div>
     </header>
 
-    <!-- Main Content Display Area (Loads home.html by default) -->
-    <iframe id="main-content" name="main-content" src="home.html" class="content-frame"></iframe>
+    <!-- Main Content Display Area (Loads syllabus.html by default) -->
+    <iframe id="main-content" name="main-content" src="syllabus.html" class="content-frame"></iframe>
 
 </body>
 </html>
