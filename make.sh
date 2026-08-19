@@ -15,12 +15,44 @@ git_makehtml_noTOC () {
 }
 
 git_makehtml () {
-    filebase=$1;
-    pandoc $filebase.md -s \
-	   -H header.html \
-	   -c styles.css \
-	   -o $filebase.html \
-           --toc --toc-depth=2
+    local filebase=$1;
+    local src="$1.md"
+    local out="$1.html"
+    
+    # Recompile if output doesn't exist OR input is newer than output
+    if [ ! -f "$out" ] || [ "$src" -nt "$out" ]; then
+        echo "Compiling $src -> $out..."
+	pandoc $src -s \
+	       -H header.html \
+	       -c styles.css \
+	       -o $out \
+               --toc --toc-depth=2
+    else
+        echo "$out is up to date."
+    fi
+}
+
+
+git_makepdf () {
+    # file links don't work with this, use mdtohtmlpdf
+    
+    local filebase=$1;
+    local src="$1.md"
+    local out="$1.pdf"
+    
+    # Recompile if output doesn't exist OR input is newer than output
+    if [ ! -f "$out" ] || [ "$src" -nt "$out" ]; then
+        echo "Compiling $src -> $out..."
+	dir=$(dirname "$filebase");
+	src_file=$(basename "$src");
+	out_file=$(basename "$out");
+	(cd $dir;
+         echo -n "compile dir: "; pwd
+	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone --mathjax -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
+        )
+    else
+        echo "$out is up to date."
+    fi
 }
 
 git_makelocal () {
@@ -28,6 +60,9 @@ git_makelocal () {
 
     git_makehtml syllabus;
     git_makehtml week1;
+    git_makehtml mind_control_1/mind_control_1;
+    git_makepdf  mind_control_1/mind_control_1;  
+
 }
     
 # test locally with

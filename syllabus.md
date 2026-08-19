@@ -55,7 +55,7 @@ They trace an arc of defiance against worlds with increasingly sophisticated, mu
 ::: {.section-block .white}
 # Course Topics, by week
 
-Week 1, Nov. 2:  Introduction, "Notes From the Underground"
+Week 1, Nov. 2:  Introduction, *Notes From the Underground*
 
    - Course Overview:
 
@@ -68,27 +68,35 @@ Week 1, Nov. 2:  Introduction, "Notes From the Underground"
      - Participants will reflect on how the stories move them and reflect and how they understand, work within, or rebel against the type of control illustrated in the story.
 
 
-   - Approaches:
-      - Introdution to Narrative Control
+   - Some Lenses:
 
-   -  "Notes From The Underground": 
+      - Panopticon (Michel Foucault)
+	  - Narrative Reconstruction (Jerom Bruner)
+	  - False Needs (Herbert Marcuse)
+	  - Socieites of Control (Gilles Deleuse)
+
+   -  "Notes From The Underground*: 
       - Feelings/complexity are suppressed by dominance of simple rationalism. 
       - Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
       - Who controls what thoughts are "acceptable" controls the perceived reality.
 
-Week 2, Nov. 9: "1984"
+Week 2, Nov. 9: *1984*
 
-  - Independent thoughts and feelings are disallowed under totalitarianism. 
-  - This is enforced by surveillance and control of language and media.
-  - Who controls the narrative controls the perceived reality.
+  - Connection to *Notes from the Underground*
+     - We, Brave New World
 
-Week 3, Nov. 16: "The Matrix": 
+  - 1984:
+     - Independent thoughts and feelings are disallowed under totalitarianism. 
+     - This is enforced by surveillance and control of language and media.
+     - Who controls the narrative controls the perceived reality.
+
+Week 3, Nov. 16: *The Matrix* 
 
   - The nature of reality itself is replaced by a computer simulation.
   - People cannot even perceive that their reality is constructed.
   - Who controls information we receive controls the perceived reality.
 
-Week 4, Nov. 23: "The Perfect Match": 
+Week 4, Nov. 23: *The Perfect Match* 
 
   - Independent thoughts and feeling are not possible because algorithm and bots constantly "nudge" people what to think and feel.
   - We are lured by comfort of a constructed, false-but-pleasant narrative.

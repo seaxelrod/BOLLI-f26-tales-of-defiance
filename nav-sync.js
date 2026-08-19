@@ -61,7 +61,7 @@
 	document.addEventListener('DOMContentLoaded', function () {
 	    document.querySelectorAll('a').forEach(link => {
 		// External links -> open in new tab
-		if (link.hostname && link.hostname !== window.location.hostname) {
+		    if (link.target === '_blank' || (link.hostname && link.hostname !== window.location.hostname)) {
 		    link.setAttribute('target', '_blank');
 		    link.setAttribute('rel', 'noopener');
 		} 

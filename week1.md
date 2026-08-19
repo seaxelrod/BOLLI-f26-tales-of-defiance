@@ -1,3 +1,4 @@
+
 :::: {.section-block .white}
 
 ## Homework:
@@ -62,6 +63,7 @@ Increasingly sophisticated, multi-layered  arc of stories and lenses.
 ::::
 
 :::: {.section-block .white}
+
 ## Quotes for Discussion
 
 ### Quote 1
@@ -75,3 +77,11 @@ Increasingly sophisticated, multi-layered  arc of stories and lenses.
 ::::
 
 
+:::: {.section-block .light-blue}
+
+##  Week1 Class Presentation
+
+- [Week 1 Class Presentation, html](mind_control_1/mind_control_1.html){target="_blank" rel="noopener"}
+- [Week 1 Class Presentation, pdf](mind_control_1/mind_control_1.pdf){target="_blank" rel="noopener"}
+
+::::
