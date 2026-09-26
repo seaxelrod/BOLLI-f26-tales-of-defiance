@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>test</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <!-- old approach:
+     #  note: don't put extra white space here, or else it put's the word "white" in the hmtl file 
+     #  default open link in new tab, with security. Override by adding {target="_self"}  in markdown 
+  <base target="_blank" rel="noopener">
+  -->
+
+  <!--
+    The Better Approach: Target External Links Automatically
+     Instead of a global rule that overrides your iframe, you can drop a tiny JavaScript snippet into your Pandoc header or template.
+     This script scans your page on load and applies target="_blank" rel="noopener" only to links that point outside your site:
+  -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('a').forEach(link => {
+        // If the link goes to an external website (has a different hostname)
+        if (link.hostname && link.hostname !== window.location.hostname) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener');
+        }
+      });
+    });
+  </script>
+
+  <script src="nav-sync.js"></script>
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">test</h1>
+</header>
+<nav id="TOC" role="doc-toc">
+<ul>
+<li><a href="#quotes" id="toc-quotes">quotes</a></li>
+</ul>
+</nav>
+<p>——– Test of pandoc-include:</p>
+<p>hi from temp</p>
+<h1 id="quotes">quotes</h1>
+<ul>
+<li>“To be a hero or to grovel in the mud - there was nothing in
+between.”</li>
+</ul>
+<p>—- end test</p>
+<p>More stuff</p>
+</body>
+</html>

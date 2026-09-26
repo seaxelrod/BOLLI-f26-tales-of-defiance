@@ -1,0 +1,676 @@
+[Transcript of Dostoevsky's NOTES FROM THE UNDERGROUND, starring Larry Cedar](https://www.youtube.com/watch?v=asp5tqDql0g)
+
+Remove timestamps:
+
+> perl -pe 's/(?:(?:\d+:)?\d+:)?\d+\s*(?:\d+\s*hours?,\s*)?(?:\d+\s*minutes?,\s*)?\d+\s*seconds?\s*//g'  Cedar_NotesFromTheUndegroundTranscript.txt > ~/trash/temp.text
+
+0:022 seconds[Music]
+0:2020 secondsyeah
+0:2323 seconds[Music]
+1:061 minute, 6 seconds[Music]
+1:131 minute, 13 seconds[Music]
+1:301 minute, 30 secondsyeah I I'm a sick man
+1:421 minute, 42 secondsI'm a spiteful man I am an unattractive
+1:501 minute, 50 secondsman I believe my liver is diseased
+1:581 minute, 58 secondshowever I know nothing at all about my disease and don't know for certain what ails me I don't consult a doctor for it and I never have though I have respect for
+2:072 minutes, 7 secondsmedicine and doctors besides I'm extremely superstitious sufficiently so to respect medicine
+2:142 minutes, 14 secondsanyway hmm no I refuse to consult the doctor from spite now that you probably
+2:212 minutes, 21 secondswill not understand well I understand it though of course I can't explain who it is precisely I'm mortifying in this case by my spite I know better than anyone to
+2:302 minutes, 30 secondsbuy all this I'm only injuring myself and no one else oh I've been going on like this for a long time some 40 years
+2:372 minutes, 37 secondsI used to be in the government service but I am no longer I was a spiteful official I was rude and I took pleasure
+2:462 minutes, 46 secondsin being so I did not take bribes you see so I was bound to find a recompense in that at least when petitioners used
+2:552 minutes, 55 secondsto come for information to the table of which i sat I used to grind my teeth at them and felt intense enjoyment whenever I succeeded in making anyone unhappy ah
+3:023 minutes, 2 secondsI almost did succeed for the most part they were all timid people of course they were petitioners but at the uppish
+3:113 minutes, 11 secondsones there was one officer in particular I could not endure he simply would not be humble and clanked his sword at me in
+3:183 minutes, 18 secondsa most disgusting way I carried on a feud with him for some 18 months over that sword at last I got the better of
+3:263 minutes, 26 secondshim yes he left off clanking it haha but
+3:353 minutes, 35 secondsdo you know ladies and gentlemen what was the chief point about my spite the whole point the real sting of it lay in the fact that continually even in the
+3:433 minutes, 43 secondsmoment of a cutest spleen I was inwardly conscious with shame that I was not only not a spiteful person but not even an
+3:533 minutes, 53 secondsembittered man I was simply scaring sparrows at random brutal and amusing myself is it yeah I
+4:014 minutes, 1 secondmight foam at the mouth but bring me a doll to play with her give me a cup of tea with sugar in it maybe I should be appeased that I might even be genuinely
+4:094 minutes, 9 secondstouched no probably I should grind my teeth at myself afterwards and lie awake at night with shame for months after
+4:164 minutes, 16 secondsthat was my way well now are you not fancying ladies and gentlemen that I am
+4:234 minutes, 23 secondsexpressing remorse for something that I'm asking for your forgiveness for something oh I'm sure you are fancying that however I can assure you I do not
+4:304 minutes, 30 secondscare if you are it's not only that I could not become spiteful like I did not
+4:374 minutes, 37 secondsknow how to become anything neither spiteful nor kind neither a reskin or an
+4:454 minutes, 45 secondshonest man neither a hero nor an insect now I'm living out my life in my corner
+4:524 minutes, 52 secondstaunting myself with a spiteful and useless consolation that an intelligent man cannot become anything seriously and
+5:005 minutesit's only the fool who becomes anything you imagine no doubt ladies and
+5:075 minutes, 7 secondsgentlemen that I want to amuse you well you are mistaken in that - I am by no means such a mirthful person as you may imagine you think fit to ask me who I am
+5:165 minutes, 16 secondswell my answer is I am a Collegiate Assessor I was in the service that I
+5:235 minutes, 23 secondsmight have something to eat but when last year a distant relation left me 6000 rubles in his will well I
+5:315 minutes, 31 secondsimmediately retired from the service and settled down in my corner my room
+5:375 minutes, 37 secondsis a wretched horrid one on the outskirts of town my servant is presently an old country woman
+5:455 minutes, 45 secondsill-natured from stupidity and moreover there's always a nasty smell about her I'm told the Petersburg climate is bad
+5:535 minutes, 53 secondsfor me and with us with my small means it is very expensive to live in Petersburg I know that better than all
+6:016 minutes, 1 secondthese sage inexperienced counselors and monitors hahaha but I'm remaining in Petersburg yeah I'm not going away from Petersburg now
+6:086 minutes, 8 secondsI'm not going away because then is absolutely no matter whether I'm going
+6:146 minutes, 14 secondsthe way or not going away but what can a decent man speak of with most pleasure
+6:226 minutes, 22 secondsanswer of himself so I will talk about myself I want to tell you ladies and gentlemen why I could not even become an
+6:296 minutes, 29 secondsinsect well I have many times tried to become an insect but I was not equal
+6:406 minutes, 40 secondseven to that toe I swear ladies and gentleman but to be too conscious is an illness now I am firmly persuaded that a great deal of
+6:486 minutes, 48 secondsconsciousness every sort of consciousness is in fact a disease I stick to that let us leave that to for a minute tell
+6:586 minutes, 58 secondsme is why does it happen that at the very yes at the very moments when I'm most capable of feeling all that is
+7:067 minutes, 6 secondssublime and beautiful I would not only feel but do such ugly things when I was most conscious they
+7:137 minutes, 13 secondsought not to be committed the more conscious I was of goodness and all that was sublime and beautiful the more
+7:207 minutes, 20 secondsdeeply I sank into my mire this was perhaps my normal condition but at first in the beginning oh what agony is I
+7:287 minutes, 28 secondsendured in the struggle I did not think it was the same with other people and all my life I hid this fact about myself
+7:357 minutes, 35 secondsas a secret I was ashamed I got to the point of feeling a sort of secret abnormal despicable enjoyment in
+7:447 minutes, 44 secondsreturning home to my corner and some disgusting Petersburg night acutely conscious of that day I had committed some loathsome action again that what
+7:537 minutes, 53 secondswas done could never be undone and secretly inwardly nine it myself nine
+8:008 minutestearing and consuming myself until at last the bitterness turned into a sort of shameful accursed sweetness and at
+8:078 minutes, 7 secondslast in the positive real enjoyment into enjoyment yes I insist upon that ah well
+8:198 minutes, 19 secondsI've spoken to this because I keep wanting to know for a fact whether other people feel such enjoyment let me explain the enjoyment was from the intense
+8:278 minutes, 27 secondsconsciousness of one's own degradation from feeling that one had reached the
+8:338 minutes, 33 secondslast barrier but there was no escape for you but you never could become a different man but even if time and faith were left to
+8:428 minutes, 42 secondsyou to change into something different you would most likely not wish to change or if you did wish to even then you would do nothing because perhaps in reality there was nothing for you to change into and the consequently one was
+8:518 minutes, 51 secondsnot only unable to change but could do absolutely nothing I've talked a lot of
+9:039 minutes, 3 secondsnonsense oh but what have I explained how is enjoyment in this to be explained
+9:109 minutes, 10 secondsI will get to the bottom of it hmm that is why I have taken up my pen I for instance have had moments when if I
+9:199 minutes, 19 secondshappen to be slapped in the face I should probably have been able to discover even in that a peculiar sense of enjoyment the enjoyment of course of
+9:279 minutes, 27 secondsdespair and it is just in that cold abominable despair when that conscious
+9:369 minutes, 36 secondsburying oneself alive for grief in the underworld for 40 years and that acutely recognized it doubtful hopelessness of one's position in that hell of
+9:469 minutes, 46 secondsunsatisfied desires turn inward in that fever of oscillations of resolutions determined forever and then repented of
+9:539 minutes, 53 secondsagain a minute later that the savour of that strange enjoyment of which I have spoken lies oh you will be finding
+10:0410 minutes, 4 secondsenjoyment in a toothache next you cry with a laugh well well well even in a toothache there is enjoyment I had a toothache for a whole month I know there
+10:1210 minutes, 12 secondsis in that case of course people are not spiteful in silence but moan oh and they
+10:2210 minutes, 22 secondsare not candid moans they are malignant moans and the malignancy is the whole point the enjoyment of the sufferer finds expression in those moans if he
+10:3010 minutes, 30 secondsdid not feel enjoyment in them he would not moan oh ho this is a good example I will to explain imagine ladies and gentlemen
+10:3910 minutes, 39 secondsan educated man suffering from toothache oh now in the second or third day of his
+10:4610 minutes, 46 secondsattacks his moans become nasty disgustingly malignant and carry on for whole days and nights of course he knows
+10:5410 minutes, 54 secondshe's doing himself no sort of good with his moans he's only lacerating himself and others for nothing he knows his whole family listen to him and loathing
+11:0211 minutes, 2 secondsunderstanding that he might moan without the trills Oh and the flourishes oh that he's only
+11:0911 minutes, 9 secondsamusing himself like that from ill humor from malignancy but therein lies the voluptuous pleasure as though he would
+11:1811 minutes, 18 secondssay oh I'm worrying you I'm lacerating your hearts oh I'm
+11:2811 minutes, 28 secondskeeping everyone in the house awake well stay awake then you to feel every minute that I have a toothache ah I'm not a
+11:3611 minutes, 36 secondshero to you now as I try and deceive before but simply a nasty person and in pasta oh well so be it then I'm glad
+11:4411 minutes, 44 secondsthat you see through me it is nasty for you to hear my despicable moans well let it be nasty here I'll let you have a nasty or flourish in a minute
+11:5211 minutes, 52 seconds[Music]
+12:0212 minutes, 2 secondsmy Jess ladies and gentlemen or of course in bad taste but that is because
+12:0812 minutes, 8 secondsI do not respect myself can a man a perception respect himself at all gum can a man who attempts to in find
+12:1712 minutes, 17 secondsenjoyment in the very feeling of his own degradation possibly have a spark of respect for himself ladies and gentleman
+12:2612 minutes, 26 secondsI consider myself an intelligent man because all my life I've neither been able to begin nor to finish anything
+12:3312 minutes, 33 secondsfrom the battler harmless McLeish's
+12:3912 minutes, 39 secondsbabbler like all of us but what has to be done if the direct and sole vocation
+12:4812 minutes, 48 secondsof every intelligent man is Babel that is the intentional pouring of water through a scene uh if only I'd done
+12:5812 minutes, 58 secondsnothing simply from laziness oh heavens how I should have respected myself then I should have respected myself because I should at least have been capable of being lazy
+13:0713 minutes, 7 secondsthat would at least have been one quality as it were positive in me in which I could have believed in myself question what is he answer a sluggard Oh
+13:1713 minutes, 17 secondsa very pleasant it would be to hear that of oneself it would mean I was positively defined it would mean there
+13:2413 minutes, 24 secondswas something to say about me sluggard why it is a calling it is a vocation it is a career I do not jest
+13:3213 minutes, 32 secondsit is so these are all golden dreams
+13:4113 minutes, 41 secondstell me this who was it first proclaim that man only does nasty
+13:4913 minutes, 49 secondsthings because he does not know his own interests that if he were enlightened if his eyes were open to his real normal
+13:5613 minutes, 56 secondsinterest man with a once ceased to do nasty things would at once become good and Noble because being enlightened and understanding his real advantage he
+14:0514 minutes, 5 secondswould see his own advantage in the good and nothing else and we all know that not one man can consciously act against his own interests consequently ask so to say
+14:1214 minutes, 12 secondsthrough necessity he would begin doing good the babe oh the pure innocent shot
+14:2614 minutes, 26 secondswhy in the first place when in all these thousands of years has it been a time when man acted only from his own
+14:3314 minutes, 33 secondsinterests what has to be done with the millions of facts that bear witness that man consciously that is fully understanding his real interest has left
+14:4214 minutes, 42 secondsthem in the background and rushed headlong on another path to me peril and danger compelled to this path by nobody and by nothing but as it were simply
+14:5014 minutes, 50 secondsdisliking the beaten track and his obstinately willfully struck out in another difficult absurd way seeking it
+14:5714 minutes, 57 secondsalmost in the darkness man everywhere at all times whoever he may be has preferred to act as he chose and not in
+15:0415 minutes, 4 secondsthe least as his reason an advantage dictated and one may choose what is contrary to one's interests and
+15:1115 minutes, 11 secondssometimes one positively ought what man wants is simply independent choice whatever that independence may cost and
+15:2015 minutes, 20 secondswherever it may lead ladies and gentlemen you must forgive me for being overly philosophical it is the result of
+15:2815 minutes, 28 seconds40 years underground just allow me to indulge my fancy you see ladies and
+15:3515 minutes, 35 secondsgentlemen reason is an excellent thing there is no disputing that but reason is I think reason and satisfies only the
+15:4415 minutes, 44 secondsrational side of man's nature well will is a manifestation of the whole life that is the whole human life including
+15:5215 minutes, 52 secondsreason and all the impulses and although our life in this manifestation of it is often worthless yet it is life and not
+16:0016 minutessimply Oh extracting square roots I for instance quite naturally want to live in order to satisfy all my capacities for
+16:0816 minutes, 8 secondslife not simply my capacity for reasoning that is not simply one twentieth of my capacity for life what does reason no reason only knows what it
+16:1716 minutes, 17 secondshas succeeded in learning but you nature acts as a whole with everything that is in it consciously or
+16:2416 minutes, 24 secondsunconsciously and even if it goes wrong it lives haha I suspect ladies and gentlemen that
+16:3416 minutes, 34 secondsyou were looking upon me with compassion you tell me again that an enlightened and developed man cannot consciously desire what is disadvantageous to
+16:4216 minutes, 42 secondshimself that this could be proven mathematically well I thoroughly agree it can by mathematics but I repeat for
+16:5116 minutes, 51 secondsthe hundredth time there is one case one only one man may consciously purposely
+16:5716 minutes, 57 secondsdesire what is injurious to himself what is stupid very stupid simply in order to have the right to desire for himself
+17:0517 minutes, 5 secondseven what is very stupid and not be bound by an obligation to desire only what is sensible for in any circumstances it preserves for him what
+17:1417 minutes, 14 secondsis most precious and most important that is his individuality his personality Oh
+17:2117 minutes, 21 secondssome you see maintain this really is the most precious thing for mankind choice can of course if it chooses be an
+17:2917 minutes, 29 secondsagreement with reason especially if this be not abused and kept within bounds it is profitable and sometimes even praiseworthy but very often even most
+17:3717 minutes, 37 secondsoften choice is utterly and stubbornly opposed to reason and and do you know that this too is profitable and
+17:4417 minutes, 44 secondssometimes even praiseworthy in short one may say anything about the history of the world the only thing one can't say
+17:5117 minutes, 51 secondsis that it's rational and the very word sticks in one's throat and a deed this is the odd thing that is continually happening they are continually turning
+17:5817 minutes, 58 secondsup in life moral and rational persons hmm sages and lovers of humanity who make it their object to live all their
+18:0618 minutes, 6 secondslives as morally and this rationally as possible to be so to speak a light to their neighbors simply in order to show
+18:1318 minutes, 13 secondsthem that it is possible to live morally and rationally in this world and yet we all know those very persons sooner or
+18:2218 minutes, 22 secondslater have been false to themselves playing some queer trick often an unseemly one simply in order to prove to
+18:2918 minutes, 29 secondsthemselves that men are still men and not the keys of a piano and that is not all even if man really
+18:3818 minutes, 38 secondswere nothing but a piano key even if this were proved to him by natural science and mathematics even then he would not become reasonable that would purposely contrive some destruction some
+18:4618 minutes, 46 secondschaos purposely go mad Marat in order to be rid of reason and gain his point for the whole work of man really seems to consist in proving to
+18:5418 minutes, 54 secondshimself every minute that he is a man and not a piano key ladies and gentlemen I am tormented by questions answer them
+19:0319 minutes, 3 secondsfor me you for instance want to cure men of their old habits and reform their will in accordance with science and good
+19:1119 minutes, 11 secondssense but how do you know not only that it is possible but also that it is
+19:1819 minutes, 18 secondsdesirable to reform man in that way and what leads you to the conclusion that man's inclinations need reforming in
+19:2519 minutes, 25 secondsshort how do you know that such a reformation will be a benefit to man and why are you so firmly so triumphantly
+19:3219 minutes, 32 secondsconvinced that only the normal and the positive in other words only what is conducive to welfare is for the advantage of man that does not man
+19:4119 minutes, 41 secondsperhaps love something besides well-being perhaps he is just as fond of suffering perhaps suffering is just as great a
+19:5019 minutes, 50 secondsbenefit to him as well-being man is sometimes extraordinarily passionately in love with suffering and that is a
+19:5719 minutes, 57 secondsfact as far as my personal opinion is concerned to care only for well-being that seems to be positively ill-bred
+20:0520 minutes, 5 secondswhether it is good or bad it is sometimes very pleasant to to smash
+20:1220 minutes, 12 secondsthings oh you will say that perhaps it
+20:2220 minutes, 22 secondsis not worth your trouble well in that case I can give you the same answer we are discussing things seriously but if you won't deign to give me your
+20:3020 minutes, 30 secondsattention I will drop your acquaintance I can retreat to my underground hole I'm convinced we underground folk ought to
+20:3820 minutes, 38 secondsbe kept on a curb though we sit 40 years underground without speaking when we do come out into the light of day we talk and talk and talk
+20:4720 minutes, 47 secondsthe long and short of it is ladies and gentlemen it is better to do nothing better conscious inertia so hurrah for
+20:5720 minutes, 57 secondsthe underground oh but even now I'm lying I'm lying because I know it is not
+21:0621 minutes, 6 secondsthe underground which is better but something different quite different from which I am searching but which I cannot find oh oh then why have you written all
+21:1421 minutes, 14 secondsthis you will say to me well I ought to put you underground for 40 years without anything to do then come to you in your cellar and find out what stage you have
+21:2021 minutes, 20 secondsreached how can a man be left underground for 40 years without anything to do isn't it shameful it's
+21:2921 minutes, 29 secondsnot humiliating but you see a fancy has occurred to me and I want to realize it
+21:3521 minutes, 35 secondsat all costs let me explain every man has reminiscences which he would not tell to everyone but only to his friends
+21:4321 minutes, 43 secondshe has other matters on his mind which he not reveal even to his friends but only to himself and that in secret but
+21:5121 minutes, 51 secondsthere are other things which a man is afraid to tell even to himself and every decent man has a number of such things stored away in his mind the more decent
+21:5921 minutes, 59 secondshe is the greater the number of such things anyway I have only lately determined to
+22:0622 minutes, 6 secondsremember some of my early adventures till now I've always avoided them even with a certain uneasiness now when I'm
+22:1522 minutes, 15 secondsnot only recalling them but I've actually decided to write an account of them I want to try to experiment whether one can even with oneself be perfectly open and not take fright at the whole
+22:2322 minutes, 23 secondstruth today for instance I am particularly oppressed by one memory of a distant past it came back vividly to
+22:3222 minutes, 32 secondsmy mind a few days ago and has remained haunting me like an annoying tune what can I get rid of and yet I must get rid of it somehow whoa I have hundreds of such
+22:4122 minutes, 41 secondsreminiscences and at times one stands out from the hundred and oppresses me for some reason I believe that if I write it down I should get rid of it why
+22:4822 minutes, 48 secondsnot try besides I'm bored I never have anything to do writing will be a sort of work they say work makes a man
+22:5622 minutes, 56 secondskind-hearted and honest well here's a chance for me anyway
+23:0023 minuteshmm snow is falling today yellow and
+23:0823 minutes, 8 secondsdingy fell yesterday too and a few days ago I fancy it as the wet snow that has reminded me of that incident which I
+23:1723 minutes, 17 secondscannot shake off now and so let it be a
+23:2223 minutes, 22 secondsstory I propose of the falling snow
+23:3123 minutes, 31 secondsI at that time was only 24 my life even then was gloomy ill regulated in a
+23:3923 minutes, 39 secondssolitary as that of a savage I made friends with no one had positively avoided talking they work in the office
+23:4823 minutes, 48 secondsI never looked at anyone it was perfectly well aware of my companions looked upon me with a sort of loathing I sometimes wondered why I was that nobody
+23:5623 minutes, 56 secondsexcept me fancy he was looked upon with a version one of the clerks said the most repulsive ly pockmarked face which look positively villainous I believe I
+24:0524 minutes, 5 secondsshould not have dared to look at anyone with such an unsightly countenance another had such a very dirty old uniform that there was always an
+24:1324 minutes, 13 secondsunpleasant odor in his proximity yet not one of these gentlemen showed the slightest self-consciousness either about their their clothing or or the
+24:2024 minutes, 20 secondscountenance their character in any way but I would have put up a looking bass if at the same time my face could have at least been thought strikingly
+24:2824 minutes, 28 secondsintelligent I despised them all yet at the same time I was as it were afraid of
+24:3724 minutes, 37 secondsthem and dropped my eyes whenever I met anyone I was fearfully afraid of being seen being met and being recognized
+24:4424 minutes, 44 secondsI used to wriggle along in the most unseemly fashion like an eel continually moving aside to make way for generals
+24:5124 minutes, 51 secondsofficers of the gods of hasar for ladies I was a mere fly and the eyes of the world nasty disgusting fly more
+25:0125 minutes, 1 secondintelligent more highly developed more refined in feeling than any of them of course but a fly continually making way
+25:1025 minutes, 10 secondsfor everyone insulted and injured by everyone but I had a means of escape which reconciled
+25:1825 minutes, 18 secondseverything and that was in dreams of course I used to dream for months on end tucked away
+25:2625 minutes, 26 secondsin my corner and at those moments I was triumphant over everyone everyone was of course forced to recognize my
+25:3325 minutes, 33 secondssuperiority and I forgave them all I was a poet and a grand gentleman I fell in
+25:4025 minutes, 40 secondslove I came in for countless millions and immediately devoted them to humanity and at the same time I confess before all the people my shameful deeds which
+25:4825 minutes, 48 secondswere of course not merely shameful but sublime and beautiful everyone would kiss me and weep what I should go
+25:5625 minutes, 56 secondsbarefoot and hungry preaching new ideas and Dara that's enough there'll be no end to it
+26:0426 minutes, 4 secondsI can understand more than three months of dreaming without feeling an irresistible desire to plunge back into society to embrace my fellows and all
+26:1226 minutes, 12 secondsmankind I had a number of school fellows indeed there were two or three left to whom I
+26:2026 minutes, 20 secondsnodded in the street one of them was seeming off who had in no way been distinguished at school and was a very
+26:2726 minutes, 27 secondsquiet and equable disposition he had a certain honesty and independence of character and we had shared some soulful
+26:3426 minutes, 34 secondsmoments that they had not lasted long and so on one occasion unable to endure
+26:4026 minutes, 40 secondsmy solitude I I sought him out climbing up to his fourth storey
+26:4726 minutes, 47 secondsI was thinking that the man disliked me and it was a mistake to go and see him but as it always happened that such
+26:5626 minutes, 56 secondsreflections impelled me as though purposely to put myself in a false position I went in it had been almost a
+27:0427 minutes, 4 secondsyear since I'd last seen siminoff I found two of my old school fellows with him they seemed to be discussing an important matter
+27:1227 minutes, 12 secondsall of them scarcely took any notice of my entrance evidently they too looked upon me as something on the level of a common fly I knew of course they must
+27:2127 minutes, 21 secondsdespise me now for my lack of success in the service having let myself sink so low going about badly dressed and so on
+27:2927 minutes, 29 secondsthey were engaged in a conversation about a farewell dinner which they wanted to arrange for a fellow of theirs named Zia called an
+27:3827 minutes, 38 secondsofficer in the army who was going away to a distant province this vehicle had been at school with me as well I had
+27:4727 minutes, 47 secondshated him however even in the lower forms because he was a pretty and playful boy it was always bad at his lessons and got
+27:5527 minutes, 55 secondsworse as he went on however he left with a good certificate as he had powerful interests during his last year at school
+28:0328 minutes, 3 secondshe came in for an estate of 200 serfs and as almost all of us were poor he took up a swaggering tone among us I
+28:1228 minutes, 12 secondshated the abrupt self-confident tone of his voice his admiration of his own witticisms which are often frightfully
+28:2028 minutes, 20 secondsstupid I hated the way he used to talk of his future conquests of women boast of the duels he would constantly be
+28:2828 minutes, 28 secondsfighting and once declared that he would not leave a single village girl on his estate unnoticed that this was his sexual privilege and if the peasants
+28:3728 minutes, 37 secondsdared to protest he would have them all flogged the bearded Rascals and so it
+28:4528 minutes, 45 secondswas to this vehicle that my school fellows were going to give a dinner on his departure of seminars to visitors
+28:5228 minutes, 52 secondsone was [ __ ] a little fella with the face of a monkey and black kid who was always deriving everyone a very bitter
+28:5928 minutes, 59 secondsenemy of mine from our days in the lower forms and vulgar imputed it swaggering fellow though of course he was a wretched little coward at heart
+29:0829 minutes, 8 secondsseminars other visitor was adorable a tall young fellow in the army with a
+29:1529 minutes, 15 secondscold a fairly on his face no he worships success of every sort and was only capable of thinking of promotion he was some sort of distant
+29:2529 minutes, 25 secondsrelation desire coughs in this foolish as it seems gave him a certain importance well with seven rubles each
+29:3329 minutes, 33 seconds21 the rubles between the three Aleister we ought to be able to give a good dinner zero curve of course won't pay
+29:4029 minutes, 40 secondsseminars chimed in and no no of course not since we are inviting him for fits
+29:4729 minutes, 47 secondscame into can you imagine Svea cover let us pay alone hmm he will accept from delicacy but he will
+29:5429 minutes, 54 secondsorder half a dozen bottles of champagne do we meet happy dozen for the four of us so the three of us with Zika for the
+30:0330 minutes, 3 secondsfourth it twenty-one rubles hotel jeopardy five o'clock tomorrow I interrupted uh how 21 rubles well if you
+30:1130 minutes, 11 secondscount me it will not be 21 but 28 rubles it seemed to me that to invite myself so unexpectedly would be positively graceful and they would look upon me
+30:1930 minutes, 19 secondswith respect do you want to join too well why not I'm an old-school fellow of his - now I feel
+30:2830 minutes, 28 secondshurt that you have left me out where were we to find you yes you were never on good terms with severe cough well perhaps that's just my reason
+30:3730 minutes, 37 secondsfor wanting it now oh there's no making you out there with these refinements we'll put your name down so tomorrow a
+30:4530 minutes, 45 secondsfive o'clock the hotel jeopardy now what about the money yeah it will do if he wants to come so much Latium but it's a private thing between us friends it's not an official
+30:5330 minutes, 53 secondsgathering we do not want to all perhaps and here - dorri above left the room arguing leaving me alone with siminoff
+31:0231 minutes, 2 secondsyes tomorrow will you pay your subscription hour I just asked so as to
+31:0831 minutes, 8 secondsknow I flushed as I remember that I had owed seminar 15 rubles sir you will
+31:1631 minutes, 16 secondsunderstand seminar that I could have no way of knowing when I came here I'm very much vexed that I have forgotten all right all right that doesn't matter you
+31:2331 minutes, 23 secondscan pay tomorrow after the dinner I wanted to know please don't he looked at the door am i keeping you hmm
+31:3231 minutes, 32 secondsoh yes to be truthful I have to go and see someone not far from here oh my goodness well why didn't you say so it's
+31:3931 minutes, 39 secondsclose by I'm not two paces away so a 5 o'clock in it punctually tomorrow and he
+31:4531 minutes, 45 secondswas gone Oh what possessed me what
+31:5231 minutes, 52 secondspossessed me to force myself upon him a scoundrel of people Ike that's vehicle no of course I'd better not go I'll send Simonov a note by tomorrow's post
+32:0132 minutes, 1 secondbut what made me furious was that I knew that I would go that I would make a point of going more tactless and more
+32:0932 minutes, 9 secondsunseemly my going would be the more certainly I would go but all I had was a trubel's I'd put aside seven of that
+32:1832 minutes, 18 secondsfrom my servant EPEL own for his monthly wages not to pay him was impossible considering his character but I will
+32:2632 minutes, 26 secondstalk more about that fellow that plague of mine another time that night I had the most hideous dreams of my miserable
+32:3432 minutes, 34 secondsdays at school I was sent there a forlorn silent boy troubled by doubt looking with savage distrust on everyone
+32:4332 minutes, 43 secondsmy school fellows met me with spiteful and merciless jives because I was not like any of them the coarseness revolted
+32:5132 minutes, 51 secondsme but stupid faces they had even it's sixteen I was struck by the pettiness of their thoughts the stupidity of their
+32:5832 minutes, 58 secondspursuits their games their conversations I could not help considering them inferior to myself they understood nothing they had no idea
+33:0733 minutes, 7 secondsof real life on the contrary they only respected success and this took rank for intelligence everything that was just
+33:1533 minutes, 15 secondsbut oppressed they laughed at heartlessly they were monstrously depraved to escape from their derision I made all the progress I could with my
+33:2333 minutes, 23 secondsstudies this impressed them they began to grasp that I had read books none of them could read and understood things of
+33:3033 minutes, 30 secondswhich they had not even heard they took a sarcastic view of it but were morally impressed especially as the teachers
+33:3733 minutes, 37 secondsbegan to notice me on those grounds the mockery ceased but the hostility remained in the end I could not put up
+33:4433 minutes, 44 secondswith it the craving for society for friends developed in me I attempted to get on friendly terms with some of my school fellows but somehow or other my
+33:5233 minutes, 52 secondsintimacy with them was always strained and soon ended of itself first thing I did on leaving school was to break all
+33:5933 minutes, 59 secondsties curse my past and shake the dust from off my feet goodness knows why after all that I
+34:0734 minutes, 7 secondsshould go trudging off to seminars early the next morning I rouse myself
+34:1534 minutes, 15 secondsand jumped outta bed with excitement as though some radical change in my life upcoming but i neva tably come that day the great thing i thought is not to be
+34:2434 minutes, 24 secondsthe first to arrive or they'll think I'm overjoyed at coming I polished my boots a second time and minutely examined my
+34:3434 minutes, 34 secondsclothes everything was old worn and threadbare my uniform perhaps was tidy but I could not go out to dinner in
+34:4334 minutes, 43 secondsuniform the worst of it was that on the knee of my trousers was a big yellow stain I was already shaking with fever of
+34:5134 minutes, 51 secondscourse the best thing would be not to go at all but that was the most impossible of all what's more even in the acutest paroxysm of cowardly fever i dreamed of
+35:0135 minutes, 1 secondgetting the upper hand of dominating them carrying them away making them like me if only for my elevation of thought
+35:0835 minutes, 8 secondsand unmistakable wit they would abandon Svea cough he would sit on one side silent and ashamed well I should crush
+35:1535 minutes, 15 secondshim then perhaps we should be reconciled and drink to our everlasting friendship
+35:2235 minutes, 22 secondsbut what was most bitter and humiliating for me of all was that I knew that I needed nothing of all this really I did
+35:3135 minutes, 31 secondsnot really want to crush to subdue to attract them I did not care a straw really for the results even if I achieved it
+35:3635 minutes, 36 secondsoh I prayed for the day to pass quickly at last my Richard little clock hissed
+35:4435 minutes, 44 secondsfive I seized my hat and tried not to look at Appl own who'd been expecting his month's wages he was about to speak when I slipped between him and the door
+35:5235 minutes, 52 secondsjumped into a high class sledge giving the driver a half ruble note drove up in
+35:5735 minutes, 57 secondsgrand style to the Hotel de Perry I'd been certain the day before that I
+36:0536 minutes, 5 secondsshould be the first to arrive but not only were they not there but I had difficulty in finding our room after a
+36:1336 minutes, 13 secondsgood many questions I elicited from the waiter that the dinner had been ordered not for five but for six o'clock if
+36:2036 minutes, 20 secondsthey'd changed the dinner hour they ought to at least have let me know down servant began laying the table
+36:2936 minutes, 29 secondsthere's a great deal of noise even shouting in a room further away minions sir Mon chéri one could hear the
+36:3736 minutes, 37 secondslaughter of a crowd of people nasty little shrieks in French oh no no no there were ladies at the dinner it was
+36:4636 minutes, 46 secondssickening in fact I rarely past more unpleasant moments so much so that when
+36:5336 minutes, 53 secondsthey did arrive altogether punctually at 6:00 I was overjoyed to see them as though they were my saviors and even forgot that it was incumbent upon me to
+37:0037 minutesshow resentment his vehicle entered first to their laughter but I noting my presence drew himself up and addressed me with a slight rather jaunty Bend of
+37:0937 minutes, 9 secondsthe waist I was surprised to hear of your desire to join us you and I seem to have seen nothing of one another you
+37:1837 minutes, 18 secondsfight shy of us you shouldn't we're not such terrible people as you think well I'm glad to renew our acquaintance have
+37:2837 minutes, 28 secondsyou been waiting long well I arrived at five o'clock as you told me yesterday Trudeau you both turned to seminar didn't you little know we had changed
+37:3637 minutes, 36 secondsthe hour I know I didn't I forgot to excuse me I must order the hors d'oeuvres so you've been waiting a whole
+37:4437 minutes, 44 secondshour oh you poor fellow the fitch considered it isn't funny at all it wasn't my fault
+37:5237 minutes, 52 secondsthey've neglected to let me know it was was simply absurd not only absurd but simply rudeness oh but how could
+37:5937 minutes, 59 secondssiminoff cool if it clicked like that haven't played on me [ __ ] I showed him but you should have ordered something for yourself simply asked for dinner
+38:0838 minutes, 8 secondswithout waiting for us like I might have done that without your permission if I waited there it was because
+38:1538 minutes, 15 secondssiminoff returned gentlemen everything is ready now I can answer for the champagne it is capital e frozen
+38:2338 minutes, 23 secondsyou see I didn't know your address we always like to look for you tell me are
+38:3038 minutes, 30 secondsyou in a government office does he want me to throw a bottle at his head yes yes I'm in the assessor's office No
+38:3838 minutes, 38 secondsand have you a good birth I say what made you want to leave your original job
+38:4838 minutes, 48 secondswhat made me was that I wanted to leave my original job for Fitch can go far and
+38:5638 minutes, 56 secondstheir enumeration what remuneration I mean your salary why are you cross-examining me but I
+39:0339 minutes, 3 secondstold him my salary no it's not very handsome yes you can't afford to dine in cafes on that by my way of thinking it
+39:1139 minutes, 11 secondsis very poor and how thin you grow how you've changed oh he blesses My dear sir I am NOT
+39:1939 minutes, 19 secondsblushing to you here I'm dining here at this cafe that my own expense not other people's note that mr. Fitch kid hahaha
+39:2639 minutes, 26 secondseveryone here dining at his own expense or you intend to show off your intelligence I suppose but don't disturb yourself it would be quite at a place
+39:3539 minutes, 35 secondswhy are you clacking away like that my good sir have you gone out of your wits enough gentleman enough how stupid it is
+39:4439 minutes, 44 secondsit really is stupid we have met here a company of friends for a farewell dinner to a companion and you carry on an altercation you invited yourself to join
+39:5339 minutes, 53 secondsus so don't disturb the general harmony gentlemen it is out of place better let
+40:0240 minutes, 2 secondsme tell you how I nearly got married the day before yesterday and then followed a
+40:1140 minutes, 11 secondsburlesque narrative of how severe Cobb had almost been married two days before there was not a word about the marriage however but the story was adorned with generals
+40:1840 minutes, 18 secondsand Connor's and kammo junk as well severe cough took the lead among them it was greeted with approving laughter Oh
+40:2640 minutes, 26 secondswhich can positively squeal these are not the people for me what a fool I've
+40:3540 minutes, 35 secondsmade it myself before them these brutes imagine they're doing me and honor and letting me sit down with them they don't understand it's an honor to them and not
+40:4240 minutes, 42 secondsto me I have grown thinner my clothes down my trousers this vehicle of noticed
+40:5040 minutes, 50 secondsthe yellow stain on my knee as soon as I came in no what's the use I must get up at once this very minute take my hat and simply
+40:5840 minutes, 58 secondsgo without a word with contempt tomorrow I can send a challenge scoundrels damn it as though I cared about the seven rubles famine I don't care about
+41:0641 minutes, 6 secondsthe seven rubles I'll I'll go this minute of course I remained and drank sherry
+41:1441 minutes, 14 secondsand the feet in my discomfiture being unaccustomed to it I was quickly
+41:2141 minutes, 21 secondsaffected my annoyance increased is the wine went to my head how long to insult them all in the most flagrant manner and
+41:3041 minutes, 30 secondsthen go away to seize the moment and show them what I could do so that they would say oh no he is absurd and and in
+41:3941 minutes, 39 secondsfact damn them all but they seem to have forgotten me altogether huh they were
+41:4741 minutes, 47 secondsnoisy vociferous cheerful severe cough was talking of some exuberant lady who made at last lead on to declaring her
+41:5541 minutes, 55 secondslove and how he had been helped in this affair by an intimate friend of his a prince Kolya an officer in the huzzah
+42:0342 minutes, 3 secondssue has three thousand serves i interject it Oh and yet this Prince Kolya who has three
+42:1142 minutes, 11 secondsthousand surfaces not put in an appearance here tonight to see you off has he you or don't go ready you're
+42:2142 minutes, 21 secondshealthier cough and good luck on the journey to old times to our future haha I refuse to raise my glass what
+42:2942 minutes, 29 secondsaren't you going to drink it I want to make a speech separately on my own account and then I'll drink it mr.
+42:3542 minutes, 35 secondstrudeau you both spiteful brute silence and now for a display of with mr.
+42:4842 minutes, 48 secondslieutenant's vehicle I want to tell you that I hate phrases phrase mongers and
+42:5742 minutes, 57 secondsmen in courses that is the first point and there is a second point to follow it second point is I hate rye Baldry
+43:0643 minutes, 6 secondsand wry bold talkers especially ride bald talkers the third point I love
+43:1343 minutes, 13 secondsjustice truth and honesty I I loved thought miss yours vehicle kind of true
+43:2043 minutes, 20 secondscomradeship and an equal footing enough I love but however why not I drink your
+43:3143 minutes, 31 secondshealth to miss yours vehicle seduce this star cast seeing girls huh shoot the enemies of the fatherland and to your health
+43:4043 minutes, 40 secondsmiss your vehicle but I'm very much
+43:4543 minutes, 45 secondsobliged to you then the fellow ho ho he wants a punch in the face for that we ought to turn him out not a word not a
+43:5443 minutes, 54 secondsmovement gentlemen I thank you all but I can show him for myself how much value I attached to his words forfeit skin
+44:0244 minutes, 2 secondssnickered again mr. forfeit skin you will give me satisfaction tomorrow for
+44:0944 minutes, 9 secondsyour words just now endure you mean leave him alone he's quite drunk I'll
+44:1744 minutes, 17 secondsnever forgive myself for letting him join us no was the time to throw a bottle at their heads I picked up a
+44:2544 minutes, 25 secondsbottle and filled my glass no I'd better
+44:3344 minutes, 33 secondssit on to the end they'd be pleased if I went away nothing will induce me to go I'll go on sitting here and drinking to the end on purpose there's a sign that I
+44:4144 minutes, 41 secondsdon't think of them the slightest consequence I'll go on sitting here and drinking because this is a public house I'd paid my entrance money I'll sit here
+44:4944 minutes, 49 secondsand drink because I look upon them as pawns in animate pawns yeah I'll sit here and drinking and and
+44:5644 minutes, 56 secondsand sing if I want to yes sing mm-hmm
+45:0645 minutes, 6 secondsbut I did not sing I simply tried not to look at any of them there's some most unconcerned attitudes and waited
+45:1445 minutes, 14 secondsimpatiently for them to speak first but alas they did not address me how I wished I wished at that moment to be reconciled
+45:2145 minutes, 21 secondswith them it struck eight at last nine they moved from the table to the sofa this vehicle stretched himself and
+45:2945 minutes, 29 secondsallowed to put one foot on a round table they listened to him almost with reverence it was evident they were fond
+45:3545 minutes, 35 secondsof him what for what for I wondered from time to time they were moved to drunken
+45:4345 minutes, 43 secondsenthusiasm kissed each other ah they talked to the caucuses of the nature of true passion of snug births in the
+45:5145 minutes, 51 secondsservice of an income of a Nizam in Pulaski who none of them knew personally rejoiced in the largeness of it the
+45:5845 minutes, 58 secondsextraordinary grace and beauty of princess you've got food none of them had ever seen ah and then it came to
+46:0546 minutes, 5 secondsShakespeare's being immortal smiled contemptuously and walked up and down on the other side of the room from the sofa to the table I tried my very odd Mo's to
+46:1446 minutes, 14 secondsshow them that I could do without them but I purposely made a noise with my boots thumping my heels but it was all
+46:2446 minutes, 24 secondsin vain they paid no attention I walked up and down in front of them from eight o'clock to eleven from the table to the
+46:3246 minutes, 32 secondsstove and back again I walk up and down to please myself and no one can but then me the waiter who came into the room
+46:4046 minutes, 40 secondsstopped from time to time to look at me oh I was somewhat giddy from turning around so often in at moments it seemed to me I was in delirium during those
+46:4946 minutes, 49 secondsthree hours I was three times soaked with sweat and try again at times with
+46:5646 minutes, 56 secondsan intense acute pang I was stabbed to the heart by the thought that ten years twenty years forty years would pass and that even in 40 years I would remember
+47:0447 minutes, 4 secondswith loathing and humiliation please filthiest most ludicrous most awful moments of my life no one could have
+47:1247 minutes, 12 secondsgone out of his way to degrade himself more shamelessly and I fully realized it fully and you know I went on pacing up and down from the table to the stove oh
+47:2247 minutes, 22 secondsif you only knew what thoughts and feelings I have how cultured I am but my
+47:2947 minutes, 29 secondsenemies behaved as though I was not in the room once only once they turned toward me just when his vehicle was talking about Shakespeare and I I
+47:3747 minutes, 37 secondssuddenly gave a contemptuous laugh ha ha ha ha but nothing came of it they said
+47:4647 minutes, 46 secondsnothing and two minutes later ceased to notice me again the clock struck eleven friends he let us be off now yeah see
+47:5547 minutes, 55 secondsyou cough I beg your pardon for fits can yours to everyone's everyone's eye I've
+48:0248 minutes, 2 secondsinsulted you all duel is not in your nature old man no it's not the duel I'm afraid of a [ __ ] chicken I'm ready to
+48:1048 minutes, 10 secondsfight you tomorrow after we have reconciled in fact I insist upon it and you cannot refuse I want to show you I'm not afraid of a duel you shall fire
+48:1848 minutes, 18 secondsfirst and I shall fire into the air he's comforting himself no he's simply raving but let us pass
+48:2548 minutes, 25 secondswhy are you borrowing our way what do you want I ask for your friendship it's your cover I have insulted you
+48:3348 minutes, 33 secondsinsulted you insulted me I understand so
+48:4148 minutes, 41 secondsthat you never under any circumstances could possibly insult me that's enough for you out of our way
+48:5048 minutes, 50 secondsOlympia is mine friends ah I stood it so
+48:5648 minutes, 56 secondsspat upon the party went noisily out of the room but siminoff remained a hind to tip the waiters siminoff give me seven
+49:0449 minutes, 4 secondsrubles you don't mean you're coming with us yes yes but I have no money seminoff I saw you had money why do you
+49:1049 minutes, 10 secondsrefuse me am i a scoundrel beware of accusing me if you knew why I am asking
+49:1749 minutes, 17 secondswhat my whole future my whole plans depend upon it if you have no sense of shame and he ran
+49:2449 minutes, 24 secondsto overtake them I was left for a moment
+49:2949 minutes, 29 secondsalone disorder the remains of dinner a broken wine glass on the floor spilt
+49:3749 minutes, 37 secondswine cigarette ends fumes of drink and delirium in my brain agonizing misery in my heart
+49:4649 minutes, 46 secondsI will pursue them either they shall all go down on their knees and beg for my friendship or or I will give this
+49:5649 minutes, 56 secondsvehicle a slap in the face I ran headlong downstairs there was no trace to be seen of them that made no difference I knew where they had gone
+50:0450 minutes, 4 secondsthat the steps was a driver on a rough peasant coat i tumbled into his sledge like a sack go and so I was bound to
+50:1350 minutes, 13 secondsslap your car's face it was my duty and it was settled go drive a tug to the reins as soon as I go in I'll give it to
+50:2050 minutes, 20 secondshim hard to say a few words by way of preface no no I'll simply go in and I'll give it to him they'll all be sitting in the drawing
+50:2850 minutes, 28 secondsroom I'll post via cars ears no no no no better one here pull him by it round the room ha ha ha maybe they will all begin
+50:3650 minutes, 36 secondsbeating me and kick me out no matter the initiative will be mine and by the laws of Honor that is everything he will be branded and cannot wipe off the slap by
+50:4550 minutes, 45 secondsany blows by nothing but a duel he'll be forced to fight ha ha ha let them beat me let them grateful wretches trudolyubov
+50:5450 minutes, 54 secondswill beat me the hardest he's so strong no couldn't be sure to tug at my hair no matter no matter that's what I'm going
+51:0351 minutes, 3 secondsfor block kids will be forced at last to see the tragedy of it all when they dragged me to the door I shall call out to them that in reality they are not worth my
+51:1151 minutes, 11 secondslittle finger get on driver get on we do it at daybreak ha that's a settled thing but we're can I get pistols nonsense so
+51:2051 minutes, 20 secondsI'll get my salary in advance and buy them no hunt powder and bullets no that's the second business but where am I to get a second I have no friends oh
+51:2851 minutes, 28 secondsoh wouldn't it be better to go straight home like God my God why did I invite
+51:3551 minutes, 35 secondsmyself to this dinner yesterday no no no that's impossible am i walking up and down for 2 hours
+51:4251 minutes, 42 secondsfrom the table to the stove no no they and no one else must pay for my walking up and down they must wipe out this
+51:4851 minutes, 48 secondsdishonor drive on what if severe cough is so contemptuous that he refuses to fight a duel I'm sure - but and in that
+51:5651 minutes, 56 secondscase I'll show them I'll turn up at the posting station when he's setting off tomorrow I'll catch him by the leg now I'll pull off his coat when he gets out of the
+52:0352 minutes, 3 secondscarriage I'll I'll get my teeth into his hand I'll bite him huh you see with lanes you can drive a desperate man too he may hit me on the head and they may
+52:1152 minutes, 11 secondsbe labor me from behind but I will shout to the assembled multitude so ah look at this young puppy who's driving off to
+52:1852 minutes, 18 secondscaptivate this sarcassian girls after letting me spit in his face huh of course after that everything will be
+52:2652 minutes, 26 secondsover I should be arrested I should be tried dismissed from the service sent to prison sent to Siberia
+52:3552 minutes, 35 secondsnever might in 15 years when they let me out of prison I will trudge off to him a beggar in rags I shall find him in some provincial
+52:4352 minutes, 43 secondstown he'll be married and happy he'll have a grown-up daughter I shall say to him look monster at my hollow cheeks in my rags I've lost everything
+52:5252 minutes, 52 secondsmy career happiness art science the woman I loved and all through you here are pistols
+52:5952 minutes, 59 secondsI have come to discharge my pistol and and I forgive you
+53:1153 minutes, 11 secondsthen I shall fire into the air bang and he shall hear nothing more of me and
+53:2153 minutes, 21 secondsalthough once I felt horribly ashamed so ashamed that I stopped the driver I got out of the sledge and stood still in the
+53:2853 minutes, 28 secondssnow in the middle of the street what was I to do I couldn't go on there it was stupid but I could not leave things as they were
+53:3753 minutes, 37 secondsbecause then it would seem as though heavens how could I leave things after
+53:4153 minutes, 41 secondssuch insult no it is ordained it is fate
+53:4953 minutes, 49 secondsright on right on I forgot everything else for I had finally decided on the slap and felt with horror that it was going to happen now at once and that no
+53:5753 minutes, 57 secondsforce could stop me blast me arrived I ran up the steps and began knocking and kicking at the door
+54:0554 minutes, 5 secondsthe door was open quickly as though they knew I was coming it was one of those millinery establishments which were abolished by the police a good time ago
+54:1254 minutes, 12 secondsby day it really was a shot but at night if one had an introduction one might visit for other purposes I walked
+54:2154 minutes, 21 secondsrapidly through the dark shop and into the familiar drawing-room where there was only one candle burning and stood still with amazement there was no one
+54:2954 minutes, 29 secondsthere before me was standing the madam herself who had seen me before I felt as
+54:3854 minutes, 38 secondsthough I've been saved from death and it was joyfully all over oh I should have
+54:4754 minutes, 47 secondsgiven that slap I should certainly certainly have given it but but now they were not here everything had vanished
+54:5654 minutes, 56 secondsand had changed a girl came in fresh young with a rather
+55:0655 minutes, 6 secondspale face straight dark eyebrows and grave wandering eyes there's something simple and good-natured in her face but
+55:1355 minutes, 13 secondssomething strangely grave I'm sure that this stood in her way here and not one of those fellows had noticed her she
+55:2055 minutes, 20 secondscould not however have been called a beauty though she was tall strong looking and well-built she was very
+55:2855 minutes, 28 secondssimply dressed something loathsome stirred within me I went straight up to
+55:3755 minutes, 37 secondsher a chance to look in the glass my face struck me as revolting in the extreme
+55:4555 minutes, 45 secondstale angry object no matter I'm glad of
+55:5455 minutes, 54 secondsit I thought I'm glad that I saw seem repulsive to her I like that
+56:1856 minutes, 18 secondsyes
+56:5856 minutes, 58 secondssomewhere behind a screen at clock struck two I'm not gonna sleep it lying
+57:0657 minutes, 6 secondshalf-conscious it was almost completely dark in the narrow cramped low-pitched room candolyn
+57:1657 minutes, 16 secondsthat was burning on the table was going out and gave a faint flicker from time to time in a few minutes there would be complete darkness my head was full of
+57:2657 minutes, 26 secondsfumes suddenly I saw beside me two
+57:3257 minutes, 32 secondswide-open eyes scrutinizing me curiously and persistently there was something unnatural in those two eyes and I recall
+57:4257 minutes, 42 secondsthat during those two hours I had not said a single word to this creature in fact the silence it for some reason
+57:4957 minutes, 49 secondsgratified me now I was suddenly revolted by the hideous idea of Vice for a long
+58:0058 minutestime we gazed at each other like that but her expression never changed and until it last I felt uncomfortable
+58:1658 minutes, 16 secondswhat is your name Liza what weather huh
+58:2458 minutes, 24 secondsand then the snow it's it's disgusting where are you from
+58:3158 minutes, 31 secondsRiga are you German Oh Russian hmm have you been here long in this house only a
+58:4058 minutes, 40 secondsfortnight I see the candle went out I could no longer distinguish your face if you were father and mother well where
+58:4858 minutes, 48 secondsare they what are they nothing why what class are they oh tradespeople and you've always lived
+58:5758 minutes, 57 secondswith them how old are you 20 and why did you leave them for no reason
+59:0559 minutes, 5 secondsI see she was silent I thought sick I
+59:1659 minutes, 16 secondsI saw them carrying a coffin out yesterday in the Haymarket they immediately dropped it they were bringing it up out of a cellar well not from a cellar but a basement you know
+59:2459 minutes, 24 secondsdown below a house of your fame it's filthy all around eggshells litter the
+59:3259 minutes, 32 secondsstench cast loathesome she was a girl like you she died of consumption you mean to say
+59:4259 minutes, 42 secondsyou don't mind how you died she was in debt to her madam but went on earning money for up to the end some sledge
+59:4959 minutes, 49 secondsdrivers were standing a by talking about her to some soldiers no doubt they knew her they were laughing never go into a
+59:5559 minutes, 55 secondstavern to drink to her memory now you
+1:00:011 hour, 1 secondare young pretty fresh you you fetch a high price but after another year of this life you will be very different
+1:00:101 hour, 10 secondsyou will be worth less you'll go from here to someplace lower another house a
+1:00:171 hour, 17 secondsyear later to a third lower and lower and in seven years you may come to a basement in the Haymarket there you may
+1:00:251 hour, 25 secondsdie makes one sorry sorry for life have
+1:00:361 hour, 36 secondsyou been engaged to be married huh no I'm not cross-examining you what is it to me it's simply that I felt sorry for
+1:00:441 hour, 44 secondsyou do you think you're on the right path well that's what's wrong you don't think realize it well there's still time there
+1:00:531 hour, 53 secondsis still time yeah you're still young good-looking you might love be married be happy no no of course not all married
+1:01:001 hour, 1 minutewomen are happy of course but it's much better than a life here infinitely better besides would love one can live
+1:01:081 hour, 1 minute, 8 secondseven without happiness here even in sorrow life is sweet life is sweet however one lives but here what is there
+1:01:161 hour, 1 minute, 16 secondsbut paulus no never mind my coming here I'm not an example for you I'm perhaps worse than
+1:01:241 hour, 1 minute, 24 secondsyou are I was drunk when I came here besides a man is no example for a woman it's different I may degrade and defile myself but I'm not anyone's slave I come
+1:01:331 hour, 1 minute, 33 secondsand I go and that's the end of it I shake myself off and I am a different man but you are a slave from the start
+1:01:411 hour, 1 minute, 41 secondsyes a slave you give up everything your whole freedom if you want to break your chains afterwards you won't be able to
+1:01:481 hour, 1 minute, 48 secondsit is an accursed bondage I know like selling your soul to the devil here you
+1:01:561 hour, 1 minute, 56 secondsand I came together just now and did not say one word to one another is that is that loving afterwards you you stare to
+1:02:031 hour, 2 minutes, 3 secondsme like a wild creature and I at you is that loving is that how one human being should meet another it's hideous that's what it is why have you come here you
+1:02:131 hour, 2 minutes, 13 secondsdon't know well I'm convinced someone is wrong to you and that you are more sinned against than sinning of course I
+1:02:211 hour, 2 minutes, 21 secondsknow nothing of your story but it's not likely a girl like you has come here of her own inclination see lies I will tell you about myself if I had had a home
+1:02:301 hour, 2 minutes, 30 secondsfrom childhood I shouldn't be what I am today I often think that however bad it may be at home anyway they are your father and mother and not enemies
+1:02:381 hour, 2 minutes, 38 secondsstrangers I grew up without a home perhaps that's why I've turned out so I'm feeling I knew a father who was a
+1:02:481 hour, 2 minutes, 48 secondscold austere man but he used to go down in his hands and knees to his daughter he used to kiss her hands and feet he couldn't make enough of her really when
+1:02:561 hour, 2 minutes, 56 secondswhen she danced at parties he would stand for five hours at a stretch gazing at her he was mad over her I understand that she would fall asleep tired at
+1:03:041 hour, 3 minutes, 4 secondsnight and and he would wait to to kiss her and asleep and make the sign of the Cross over her he was stingy with everyone else but he would spend his last penny for her
+1:03:121 hour, 3 minutes, 12 secondsgiving her expensive presents and it was his greatest delight when she was pleased with what he gave her of course some families are glad to sell their
+1:03:211 hour, 3 minutes, 21 secondsdaughters rather than marrying them honorably such a thing Eliza happens and those are curse in families where there's neither love nor God and where there's no love there's no sense either
+1:03:291 hour, 3 minutes, 29 secondsthere are such families it's true but I'm not speaking of them you must have seen wickedness in your own family mm-hmm
+1:03:371 hour, 3 minutes, 37 secondstruly you must have been unlucky you see lies a man is fond of reckoning up his
+1:03:441 hour, 3 minutes, 44 secondstroubles but he does not count his Joy's if he counted them up is he odd he would see that every lot has enough happiness
+1:03:511 hour, 3 minutes, 51 secondsprovided for it and what if all goes well with the family if the blessing of God is upon it if the
+1:03:581 hour, 3 minutes, 58 secondshusband is a good one loves you cherishes you there's happiness in such a family even sometimes there's happiness in the midst of sorrow and
+1:04:071 hour, 4 minutes, 7 secondsindeed sorrow is everywhere if you marry you will find out for yourself but think of the first years of married life with
+1:04:151 hour, 4 minutes, 15 secondsone you love oh what happiness what happiness is sometimes isn't it and if the husband is kind and and
+1:04:231 hour, 4 minutes, 23 secondsstraightforward why should not love last the first phase of married love will pass it is true but then there will come a love that is better still then there
+1:04:301 hour, 4 minutes, 30 secondswill be a union of souls they they will have everything in common there will be no secrets between them think of your
+1:04:381 hour, 4 minutes, 38 secondspresent life I mean you are young attractive nice with the soul and and
+1:04:451 hour, 4 minutes, 45 secondsfeeling it you know as soon as I came to myself just now I felt that once sick at being here with you one can only come here when one is drunk
+1:04:541 hour, 4 minutes, 54 secondsbut if you were anywhere else living as good people live I should perhaps be more than attracted to you I I should fall in love with you I should be glad
+1:05:031 hour, 5 minutes, 3 secondsof a look from you little in a word I should hang about your door I should go down on my knees to you I should think of viewers might be truths and think it
+1:05:111 hour, 5 minutes, 11 secondsan honor to be allowed to I should not dare to have an impure thought about you here you see I know I only have to
+1:05:201 hour, 5 minutes, 20 secondswhistle and you must come to me whether you like it or not now I don't consult your wishes but you mind the lowest labor hires himself out as a workman but
+1:05:291 hour, 5 minutes, 29 secondsdoesn't make a slave of himself besides he knows he will be free again but when are you free only think what you're
+1:05:351 hour, 5 minutes, 35 secondsgiving up here love that's everything it's it's a priceless diamond it's it's
+1:05:451 hour, 5 minutes, 45 secondsa mains I'm sure a man would be ready to give up his soul to face death to gain that love but how much is your love worth now how
+1:05:541 hour, 5 minutes, 54 secondsmuch does your love worth now you've sold yourself body and soul do you understand and there's no greater insult to a girl than that uh-oh or you don't believe it is so
+1:06:021 hour, 6 minutes, 2 secondshateful go look for yourself sometime with your own eyes once on New Year's Day I saw a woman like you turned out in the frost as a joke because she'd been crying so much and they shut the door
+1:06:111 hour, 6 minutes, 11 secondsbehind her at nine o'clock in the morning she was already drunk disheveled half naked with a black eye had covered with bruises blood was
+1:06:191 hour, 6 minutes, 19 secondstrickling from a nose of teeth she was crying and wailing some cabman had just given her a drubbing perhaps she was
+1:06:261 hour, 6 minutes, 26 secondsonce like you proud ready to take offense not like the others perhaps she once looked like a queen and knew what
+1:06:351 hour, 6 minutes, 35 secondshappiness was in store for the man who should love her and whom she should love do you see how it ended and suppose at
+1:06:421 hour, 6 minutes, 42 secondsthat very minute she recalled the pure early days at her father's house when she used to go to school when the neighbor's son watched for her along the way declaring that he would love her as
+1:06:501 hour, 6 minutes, 50 secondslong as he lived that he would devote his life to her that make vows to love one another forever and be married as soon as they were grown up don't doubt
+1:06:581 hour, 6 minutes, 58 secondsit that's how it is you've sold your soul and what's more you owe money so you dare and say a word and when you are dying all will abandon you all will turn
+1:07:071 hour, 7 minutes, 7 secondsaway from you for then there'll be nothing to get from you what's more they'll reproach you for come burring the place for being so long over dying however you beg you won't get
+1:07:161 hour, 7 minutes, 16 secondsa drink of water without abuse the thrust you dying into the filthiest corner of the cellar and the damp and darkness what were your thoughts be
+1:07:241 hour, 7 minutes, 24 secondslying there alone when you died strange hands will lay you out grumbling in a patient no one will bless you no one will sigh for you they'll
+1:07:321 hour, 7 minutes, 32 secondsonly want to get rid of you as soon as maybe but buy a cheap coffin and take it to the grave as they did that poor woman in the hay market in the grave
+1:07:411 hour, 7 minutes, 41 secondssleet filth wet snow there your memory on earth will end other women have
+1:07:481 hour, 7 minutes, 48 secondschildren to come to their graves fathers husband well for you another tear no sigh no remembrance no one in the whole world will ever come to you your name
+1:07:561 hour, 7 minutes, 56 secondswill vanish from the face of the earth as though you had never existed Neven born at all nothing but filth and mud
+1:08:031 hour, 8 minutes, 3 secondshowever you knock on your coffin lid at night when the debtor eyes however you cry let me out kind people deliver the world
+1:08:101 hour, 8 minutes, 10 secondsagain my life has been no life at all my life has been thrown away like a dish-clout
+1:08:161 hour, 8 minutes, 16 secondsit was drunk away in the tavern let me out kind people to live in the world again and I worked myself up to such a
+1:08:251 hour, 8 minutes, 25 secondspitch that I began to have a lump in my throat myself and all that once I
+1:08:311 hour, 8 minutes, 31 secondsstopped I felt for some time that I was turning her soul upside down and rending her heart and the more convinced I
+1:08:391 hour, 8 minutes, 39 secondswasn't the more eagerly I desired to gain my object is quickly and as effectually as possible it was the exercise of my skill that
+1:08:461 hour, 8 minutes, 46 secondscarried me away but now I haven't seen my effect I was suddenly panic-stricken never before had I witnessed such
+1:08:541 hour, 8 minutes, 54 secondsdespair she was lying on her face thrusting her face into the pillow and clutching it with both hands her heart was being torn her her
+1:09:011 hour, 9 minutes, 1 secondyouthful body was shuddering all over as though in convulsions suppressed sobs rent her bosom and suddenly burst out and weeping and wailing then she pressed
+1:09:101 hour, 9 minutes, 10 secondscloser into the pillow she did not want anyone here not a living soul to know of her anguish and her tears I I began
+1:09:191 hour, 9 minutes, 19 secondsfumbling in the dark trying hurriedly to go eliza sat up in bed with a contorted face and looked at me almost senselessly i sat down beside her and took her hands
+1:09:281 hour, 9 minutes, 28 secondsLysa my dear I was wrong forgive me she squeezed my hand in her finger so
+1:09:361 hour, 9 minutes, 36 secondstightly I I thought I was saying the wrong thing this is my address lyza come to me you will come third head
+1:09:451 hour, 9 minutes, 45 secondsremain bowed but now I am going goodbye
+1:09:521 hour, 9 minutes, 52 secondsuntil we meet again wait a minute she
+1:09:591 hour, 9 minutes, 59 secondssaid she ran off evidently she wanted to show me something she came back a minute later with a piece of paper I unfolded
+1:10:081 hour, 10 minutes, 8 secondsit it was a letter from a medical student of someone of that sort of a love letter when I'd finished reading it she explained to me that she'd been to a
+1:10:161 hour, 10 minutes, 16 secondsdance somewhere at a private house a family of very nice people who knew nothing nothing whatsoever for she had only come here so lately and and it all
+1:10:241 hour, 10 minutes, 24 secondshappened and she hadn't made up her mind to stay and was certainly going away as soon as she had paid her debt and had that party had been the student to a
+1:10:321 hour, 10 minutes, 32 secondsdance with her all the evening he had talked to her and it turned out that he had known her from the old days in Riga
+1:10:391 hour, 10 minutes, 39 secondswhen he was a child they had played together but a very long time ago and he knew her parents but about this he knew
+1:10:481 hour, 10 minutes, 48 secondsnothing nothing whatsoever and no no suspicions and the day after the dance three days ago he had sent her that letter through the friend with whom
+1:10:561 hour, 10 minutes, 56 secondsshe'd gone to the party and well that was all the poor girl was keeping that
+1:11:031 hour, 11 minutes, 3 secondsstudent's letter as a precious treasure and I'd run to fetch it her only treasure because she did not want me to go away without knowing that she too was
+1:11:111 hour, 11 minutes, 11 secondshonestly and genuinely loved that she too was addressed respectfully no doubt that letter was destined to lie in her
+1:11:201 hour, 11 minutes, 20 secondsbox and lead to nothing nevertheless I'm certain she would keep it all her life as a precious treasure as her pride and justification and now
+1:11:291 hour, 11 minutes, 29 secondsat such a minute she had thought of that letter and brought it to me with naive pride to raise herself in my eyes that I
+1:11:351 hour, 11 minutes, 35 secondsmight see that I too might think well of her I said nothing
+1:11:441 hour, 11 minutes, 44 secondspress their hands and one out
+1:11:591 hour, 11 minutes, 59 secondswaking up the following morning I was amazed at my sentimentality why did I
+1:12:061 hour, 12 minutes, 6 secondsthrust my headdress upon her what if she comes it's horrid that she should see how I live
+1:12:131 hour, 12 minutes, 13 secondsyesterday I seems such a hero to her well now it's horrid that I'd let myself go so the room looks like a beggar's
+1:12:201 hour, 12 minutes, 20 secondstahun I brought myself to go out to dinner in such a suit and my dressing gown in such tatters on my servant app
+1:12:281 hour, 12 minutes, 28 secondsalone the Beast will be sure to insult her he will fasten upon her in order to be rude to me I of course shall be
+1:12:371 hour, 12 minutes, 37 secondspanic-stricken as usual I should like in bowing and scraping pulling my dress of ground around me I began smiling and telling lies oh the beastliness and to
+1:12:471 hour, 12 minutes, 47 secondsput on at this honest lying mask again why dishonest h-how'd astonished I was
+1:12:551 hour, 12 minutes, 55 secondsspeaking sincerely last night I remember there was real feeling in me too what I wanted was to excite an honorable
+1:13:021 hour, 13 minutes, 2 secondsfeeling in her her crying was a good thing it would have a good effect but I could not feel at ease one day past
+1:13:121 hour, 13 minutes, 12 secondsanother she did not come and I began to grow calmer yeah I even began dreaming
+1:13:191 hour, 13 minutes, 19 secondsrather sweetly I for instance become the salvation of Liza simply through her coming to me am i talking to her I
+1:13:261 hour, 13 minutes, 26 secondsdevelop her educator finally I noticed that she loves me loves me passionately
+1:13:331 hour, 13 minutes, 33 secondsI pretend not to understand it just through effect perhaps at last transfigured trembling and sobbing she
+1:13:421 hour, 13 minutes, 42 secondsflings herself at my feet and says that I am her Savior that she loves me better than anything in the world I am amazed
+1:13:491 hour, 13 minutes, 49 secondsbut Liza can you not see that I saw it all i divined it but I did not dare approach you first because I had an
+1:13:571 hour, 13 minutes, 57 secondsinfluence over you and I was afraid that you might force yourself from gratitude to respond to my love to to rouse in your heart a feeling which was perhaps
+1:14:041 hour, 14 minutes, 4 secondsabsent and I did not wish that because though it would be tyranny it it would be indelicate god
+1:14:111 hour, 14 minutes, 11 secondsdamn it all she will come she's sure to come there was a good thing in fact that Apple own distracted my attention at
+1:14:191 hour, 14 minutes, 19 secondsthat time by his rudeness he drove me beyond all patience he was the bane of my life the curse
+1:14:281 hour, 14 minutes, 28 secondslaid upon me by Providence we had been squabbling continually for years and I hated him my god how I hated him I believed I had never hated anyone in my
+1:14:361 hour, 14 minutes, 36 secondslife as I hated him he was an elderly dignified man who worked part of his time as a tailor but for some unknown
+1:14:441 hour, 14 minutes, 44 secondsreason he despised me beyond all measure and looked down upon me insufferably though indeed he looked down upon everyone simply to glance at that flaxen
+1:14:541 hour, 14 minutes, 54 secondssmoothly brushed head at that tuft of hair he combed up on his forehead and oiled with sunflower oil and that dignified mouth compressed into the
+1:15:021 hour, 15 minutes, 2 secondsshape of a letter he made one feel one was confronting a man who never doubted of himself he was in love with every button on his coat every nail on his
+1:15:101 hour, 15 minutes, 10 secondsfingers absolutely in love with him and he looked it in his behavior for me he was a perfect tyrant he spoke very little to me and if he chanced to glance
+1:15:191 hour, 15 minutes, 19 secondsat me he gave me a firm majestically self-confident and invariably ironical look which sometimes drove me to fury
+1:15:261 hour, 15 minutes, 26 secondsthere could be no doubt he looked down upon me as the greatest fool on earth but for some reason agreed to do absolutely nothing for me for seven
+1:15:341 hour, 15 minutes, 34 secondsrubles a month but I could not get rid of him It was as though he were chemically combined with my existence my lodging
+1:15:431 hour, 15 minutes, 43 secondswas my private solitude my shell my cave in which I concealed myself from all mankind a nap alone seemed to me for some reason an integral part of that
+1:15:511 hour, 15 minutes, 51 secondsflat and I I could not turn him away but I was so exasperated that I made up my mind for some reason and with some
+1:15:581 hour, 15 minutes, 58 secondsobject to punish him and to not pay him his wages for a fortnight in order to teach him not to give himself heirs with me and to show them that if I liked I go
+1:16:071 hour, 16 minutes, 7 secondswithhold his wages because I was the master and it was up from me to decide because he had been disrespectful and rude but if you were to ask respectfully
+1:16:151 hour, 16 minutes, 15 secondsI might be softened didn't give it to him otherwise he might wait another fortnight another three weeks a whole month hahaha
+1:16:241 hour, 16 minutes, 24 secondsbut angry as I was yet he got the better of me it began as it always did apropos of nothing he would walk into my
+1:16:321 hour, 16 minutes, 32 secondsroom and fix upon the Astaire severe utterly contemptuous if I asked him what
+1:16:401 hour, 16 minutes, 40 secondshe wanted he would give no answer but continue staring at me persistently for some seconds and then deliberately turn
+1:16:461 hour, 16 minutes, 46 secondsround and go back to his room two hours later he would return and again stare at me in the same way and so he'd stare at
+1:16:551 hour, 16 minutes, 55 secondsone another for two minutes at which point he would suddenly begin sighing long deep sighs there's no measuring by
+1:17:061 hour, 17 minutes, 6 secondsthem the depths of my moral degradation this time our staring manoeuvres had scarcely begun when I lost my temper and
+1:17:141 hour, 17 minutes, 14 secondsflew at him in a fury how dare you come to look at me like that without being sent for answer you began to leave stay
+1:17:211 hour, 17 minutes, 21 secondsdon't stir there and so now what did you come in to look at hmm I'll tell you why you came here
+1:17:271 hour, 17 minutes, 27 secondsyou see I don't give you your wages and and you are so proud that you don't want to bow down and ask for it so you come to punish me with your stupid stares to
+1:17:361 hour, 17 minutes, 36 secondsworry me and you have no suspicion how stupid it is stupid stupid stupid stupid
+1:17:431 hour, 17 minutes, 43 secondslook here's the money do you see here's the seven rubles complete but you are not going to have it you are not going
+1:17:511 hour, 17 minutes, 51 secondsto have it until you bow down respectfully and beg my pardon do you hear do it or else you can't imagine
+1:17:591 hour, 17 minutes, 59 secondswhat will happen beg beg but just as I
+1:18:061 hour, 18 minutes, 6 secondswas about to strike him the passage door opens slowly a figure entered stopped short and stared i nearly swooned with
+1:18:151 hour, 18 minutes, 15 secondsshame and rushed to my study two minutes later a pallone knocks softly and announced that there was a woman to see
+1:18:211 hour, 18 minutes, 21 secondsme I opened the door and there stood Eliza the clock struck eleven into my
+1:18:301 hour, 18 minutes, 30 secondshouse come bold and free it's rightful mistress there to be after
+1:18:391 hour, 18 minutes, 39 secondsstanding over us for a moment a pallone went away I turned to Liza sit down you have found me in a strange
+1:18:491 hour, 18 minutes, 49 secondsposition Liza no no no don't imagine anything I'm not ashamed of my poverty on the contrary I look with pride on my poverty
+1:18:571 hour, 18 minutes, 57 secondsI am poor but honorable one can be poor and honorable however would you like tea
+1:19:071 hour, 19 minutes, 7 secondswait a minute I crossed the hall hello here are your wages you see I give them
+1:19:161 hour, 19 minutes, 16 secondsto you but for that you must come to my rescue bring me tea and it doesn't rusts if you won't go you'll make me a miserable man
+1:19:241 hour, 19 minutes, 24 secondsyou don't know what this woman is this this this is everything you may be imagining something but you don't know
+1:19:321 hour, 19 minutes, 32 secondswhat that woman is a pallone at first look the scan said the money without paying the slightest attention to me or
+1:19:381 hour, 19 minutes, 38 secondsmaking any answer but thank God he must have been moved to pity as he deliberately pushed back his chair
+1:19:451 hour, 19 minutes, 45 secondscounted the money and left the room I
+1:19:501 hour, 19 minutes, 50 secondsreturned to Liza Tahoe I will kill him kill him health you don't know what that
+1:19:581 hour, 19 minutes, 58 secondsman is to me Liza he's he's my torturer he he's gone now to fetch tea he why
+1:20:071 hour, 20 minutes, 7 secondshave you come to me tell me that please why have you come answer answer
+1:20:181 hour, 20 minutes, 18 secondsI'll tell you my good girl why you have come you've come because I talk sentimental stuff to you then so now you're soft as butter and longing for
+1:20:261 hour, 20 minutes, 26 secondsfine sentiments again so you may as well know that I was laughing at you today
+1:20:341 hour, 20 minutes, 34 secondsand I'm laughing at you now why are you shuddering I was laughing at
+1:20:421 hour, 20 minutes, 42 secondsyou I'd been insulted just before at dinner by the fellows that came before me I came to you meaning to thrash one of
+1:20:491 hour, 20 minutes, 49 secondsthem an officer I didn't succeed I didn't find him I had to avenge the insult on someone to get back my own again you turned up i vented my spleen on you and I laughed at
+1:20:581 hour, 20 minutes, 58 secondsyou had been humiliated so I wanted to humiliate I've been treated like a rag so I wanted to show my power that's what
+1:21:051 hour, 21 minutes, 5 secondsit was when you imagined that I had come there on purpose to save you yes yes you imagined that you imagined that save you
+1:21:131 hour, 21 minutes, 13 secondssave you from what perhaps I'm worse than you myself why didn't you throw it in my teeth when I was giving you that
+1:21:211 hour, 21 minutes, 21 secondssermon power power was what I wanted then sport was what I wanted I wanted to wring out your tears your humiliation
+1:21:291 hour, 21 minutes, 29 secondsyour hysteria that's what I wanted then of course I couldn't keep it up then because I am a wretched creature was frightened and the devil knows why I
+1:21:361 hour, 21 minutes, 36 secondsgave you my address in my folly afterwards before I got home I was cursing and swearing at you about that address I hated you already because of
+1:21:441 hour, 21 minutes, 44 secondsthe lies I told you because I only liked playing with words only dreaming you know what I really want so you should
+1:21:531 hour, 21 minutes, 53 secondsall go to hell that's what I want I want peace yes I would sell the whole world
+1:22:001 hour, 22 minutesfor a farthing straight off so long as I was left in peace is the world to go to
+1:22:071 hour, 22 minutes, 7 secondspot or am I to go without my tea I say the whole world may go to pot for me so long as they always get my tea do you
+1:22:141 hour, 22 minutes, 14 secondsknow that or not anyway I know that I am a blanket scoundrel and egoist sluggard
+1:22:221 hour, 22 minutes, 22 secondshere I have been shuddering for the past three days at the thought of your coming you know what is worried me particular these three days that I posed as such a
+1:22:301 hour, 22 minutes, 30 secondshero to you and now you would see me in this Richard torn dressing-gown beggarly loathesome I told you just now I'm not ashamed of my
+1:22:381 hour, 22 minutes, 38 secondspoverty so you may as well know I am ashamed of it more ashamed of it than anything more afraid of it then a being
+1:22:461 hour, 22 minutes, 46 secondsfound out if I were a thief because I am as vain as though I had been skinned in the very air blowing on me hurt surely
+1:22:551 hour, 22 minutes, 55 secondsby now you must realize that I shall never forgive you for having found me in this wretched dressing-gown just as I was flying a nap alone like a spiteful cur
+1:23:021 hour, 23 minutes, 2 secondsthe Savior the former hero is flying like a mangy sheepdog in his Lackey and their Lackey was tearing at him and I
+1:23:111 hour, 23 minutes, 11 secondsshould never forgive you for the tears I could not help shedding before you just now like some silly woman put the shame for what I am confessing to you now I
+1:23:181 hour, 23 minutes, 18 secondsshall never forgive you either coz I am a braggart nasty stupid absurd as most envious of all the worms on earth I'm
+1:23:271 hour, 23 minutes, 27 secondsnot a bit better than I am but the devil knows why I never put to confusion while I shall always be insulted by every louse that is my doom what is it to me
+1:23:371 hour, 23 minutes, 37 secondsthat you don't understand a word of this what do I care what do I care about you and whether you go to ruin there or not
+1:23:441 hour, 23 minutes, 44 secondsGod as you're hatin after saying this for having been here and listening like that once in a lifetime a man speaks out
+1:23:511 hour, 23 minutes, 51 secondslike this and then in this in hysterics what more do you want from me why do used to sit there confronting me after
+1:23:591 hour, 23 minutes, 59 secondsoffice why are you worrying me why won't
+1:24:031 hour, 24 minutes, 3 secondsyou go he won't let me I can't be good
+1:24:121 hour, 24 minutes, 12 secondshuh
+1:24:281 hour, 24 minutes, 28 secondsquarter of an hour later I went up to the screen and peeped through the crack at Liza she was sitting on the ground with her head leaning against the bed
+1:24:361 hour, 24 minutes, 36 secondsand must have been crying but she did not go away this time she understood it
+1:24:421 hour, 24 minutes, 42 secondsall I had insulted her finally she realized that my outburst of passion had
+1:24:491 hour, 24 minutes, 49 secondsbeen simply revenge a personal hatred born of envy she now understood that I
+1:24:571 hour, 24 minutes, 57 secondswas a despicable man and what's worse incapable of loving her because for me
+1:25:041 hour, 25 minutes, 4 secondsloving meant showing my moral superiority I'm never in my life been able to imagine any other sort of love and have come to the point of sometimes
+1:25:121 hour, 25 minutes, 12 secondsthinking that love really consists in the write freely given by the beloved object to tyrannize for over her even in
+1:25:201 hour, 25 minutes, 20 secondsmy underground dreams I did not imagine love except as a struggle I began it always with hatred and ended it with
+1:25:271 hour, 25 minutes, 27 secondsmoral subjugation I never imagined that she had come not to hear fine sentiments
+1:25:341 hour, 25 minutes, 34 secondsbut to love me because to a woman all Reformation all salvation from any sort
+1:25:411 hour, 25 minutes, 41 secondsof ruin all moral renewal is included in that love and can only show itself in that form I did not hate her so much it
+1:25:521 hour, 25 minutes, 52 secondswas only insufferably oppressed her being here I just wanted her to disappear I wanted peace just to be left alone in
+1:26:011 hour, 26 minutes, 1 secondmy underground world this real life oppressed me so much I could hardly breathe suddenly she sprang up and flew
+1:26:111 hour, 26 minutes, 11 secondsthe secret code as though making her escape I seized her hand open it thrust something in and closed it again as she flew out the door Liza Liza I heard her
+1:26:211 hour, 26 minutes, 21 secondsfootsteps lower down the stairs Liza I heard the stiff outer glass door open heavily with a creaking and slam
+1:26:291 hour, 26 minutes, 29 secondsviolently she had gone I went back to my room there on the floor was the crumpled blue
+1:26:371 hour, 26 minutes, 37 secondsfive ruble note I thrust into her hand a moment before she managed to fling it to the furthest corner it flew like a madman to dress and ran
+1:26:461 hour, 26 minutes, 46 secondsheadlong after her she could not have got 200 paces away when I came to the street there was no one no sound I ran
+1:26:551 hour, 26 minutes, 55 secondsto the crossroads and stopped where'd she gone and why was i running
+1:27:021 hour, 27 minutes, 2 secondsafter her to fall down before her to solve with remorse to kiss her feet to
+1:27:081 hour, 27 minutes, 8 secondsentreat her forgiveness what for oh how do I not recognize that day for the hundredth time what I was worth will it
+1:27:171 hour, 27 minutes, 17 secondsnot be better that she should keep the resentment of my insult forever resentment well hi it's a purification
+1:27:251 hour, 27 minutes, 25 secondsit is the most stinging and painful consciousness tomorrow I should have defiled her soul and exhausted her heart
+1:27:331 hour, 27 minutes, 33 secondswhile now the feeling of insult will never die and however loathsome the filth awaiting or the feeling of insult will elevate and
+1:27:411 hour, 27 minutes, 41 secondspurify her perhaps to forgiveness well all that make things easier for her though
+1:27:481 hour, 27 minutes, 48 secondsand indeed which is better cheap happiness or exalted sufferings well
+1:27:571 hour, 27 minutes, 57 secondswhich is better so I dreamed as I sat at
+1:28:041 hour, 28 minutes, 4 secondshome that evening almost dead with the pain in my soul never had I endured such suffering and remorse and yet could
+1:28:131 hour, 28 minutes, 13 secondsthere have been the faintest doubt when I ran after her that I should turn back half way I never met Liza again and I've
+1:28:221 hour, 28 minutes, 22 secondsheard nothing other even now so many years later all this is somehow a very evil memory I have many evil memories
+1:28:321 hour, 28 minutes, 32 secondsnow but haven't I better in my notes here I believe I made a mistake in beginning to write them anyway I felt a
+1:28:391 hour, 28 minutes, 39 secondsshame all the time I've been writing this story so it's hardly literature as much as corrective punishment why to
+1:28:471 hour, 28 minutes, 47 secondstell long stories show I have ruined my life through morally rotting in my corner through lack of a
+1:28:541 hour, 28 minutes, 54 secondsfitting environment to divorce from real life and rankling spite in my underground world certainly would not be interesting
+1:29:011 hour, 29 minutes, 1 seconda novel needs a hero and all the traits of an antihero are expressly gathered
+1:29:081 hour, 29 minutes, 8 secondstogether here and what matters most it all makes an unpleasant impression but
+1:29:151 hour, 29 minutes, 15 secondswe're all divorced from life we're all cripples every one of us more or less ripp so divorced from it that we feel and once a sort of loathing of real life
+1:29:241 hour, 29 minutes, 24 secondsand so cannot bear to be reminded of it why we've come almost looking upon real life as an effort it's hard work and
+1:29:311 hour, 29 minutes, 31 secondswe're all privately agreed that it's better in books why do we us and fume
+1:29:381 hour, 29 minutes, 38 secondssometimes why are we perverse and ask for something different we don't know what ourselves it would be worse for us if our petulant prayers were answered
+1:29:451 hour, 29 minutes, 45 secondscome try give any one of us for instance a little more independence untie our hands widen the spheres of our activity
+1:29:531 hour, 29 minutes, 53 secondsrelax the control and we yes I assure you we should be begging to be under control again at once yeah I know you
+1:30:021 hour, 30 minutes, 2 secondswill very likely be angry at me for that now and begin shouting and stamping will you speak for yourself you will say and for your miseries and your underground
+1:30:091 hour, 30 minutes, 9 secondsholes and don't dare to say all of us excuse me ladies and gentlemen I am NOT justifying myself without all of us as for what concerns me in particular well
+1:30:181 hour, 30 minutes, 18 secondsI'm only in my life carried to an extreme what you have not dared to carry halfway and what's more you've taken your cowardice for good
+1:30:261 hour, 30 minutes, 26 secondssense and if found comfort in deceiving yourself so that perhaps after all there's more life in me than you look
+1:30:341 hour, 30 minutes, 34 secondsinto it more carefully why we don't even know what living means now what it is what it is called leave us alone without books and we
+1:30:421 hour, 30 minutes, 42 secondsshall be lost and in confusion at once we shall not know what to join on to what took cling to what to love what to hate but to respect what the despised
+1:30:501 hour, 30 minutes, 50 secondswere oppressed at being men men with a real individual body and blood were ashamed of it we think it a disgrace and
+1:30:581 hour, 30 minutes, 58 secondstried to contrive to be some sort of impossible generalized man we're still bored and four generations
+1:31:061 hour, 31 minutes, 6 secondspast it but be God not by living fathers and that suits us better and better we're developing a taste for it soon we
+1:31:161 hour, 31 minutes, 16 secondsshall contrive to be born somehow from an idea hmm but enough
+1:31:331 hour, 31 minutes, 33 secondsI don't want to write more from underground
+1:31:441 hour, 31 minutes, 44 seconds[Music]
+
+Sync to video time

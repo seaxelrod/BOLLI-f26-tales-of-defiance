@@ -9,6 +9,7 @@ git_makehtml_noTOC () {
     # 	   --css="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap" \
     # 	   --embed-resources \
     pandoc $filebase.md -s \
+           --filter pandoc-include  \
 	   -H header.html \
 	   -c styles.css \
 	   -o $filebase.html 
@@ -23,6 +24,7 @@ git_makehtml () {
     if [ ! -f "$out" ] || [ "$src" -nt "$out" ]; then
         echo "Compiling $src -> $out..."
 	pandoc $src -s \
+               --filter pandoc-include  \
 	       -H header.html \
 	       -c styles.css \
 	       -o $out \
@@ -48,7 +50,9 @@ git_makepdf () {
 	out_file=$(basename "$out");
 	(cd $dir;
          echo -n "compile dir: "; pwd
-	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone --mathjax -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
+	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
+         --filter pandoc-include  \
+         --math-method=mathjax  -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
         )
     else
         echo "$out is up to date."
@@ -62,6 +66,8 @@ git_makelocal () {
     git_makehtml week1;
     git_makehtml mind_control_1/mind_control_1;
     git_makepdf  mind_control_1/mind_control_1;  
+    git_makehtml DMC_preface;
+    git_makepdf DMC_preface;
 
 }
     
