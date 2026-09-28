@@ -115,5 +115,5 @@ git_push () {
     echo "pusing with comment: '$comment'"
     git add .
     git commit -m "$comment"
-    git pus
+    git push
 }
