@@ -15,23 +15,37 @@ git_makehtml_noTOC () {
 	   -o $filebase.html 
 }
 
+
+git_makehtml_force () {
+    local filebase=$1;
+    local src="$1.md"
+    local out="$1.html"
+    echo "Compiling $src -> $out..."
+    pandoc $src -s \
+       --filter /Users/axelrod/.local/bin/pandoc-include  \
+       -H header.html \
+       -c styles.css \
+       -o $out \
+       --toc --toc-depth=2
+}
+
 git_makehtml () {
     local filebase=$1;
     local src="$1.md"
     local out="$1.html"
     
-    # Recompile if output doesn't exist OR input is newer than output
-    if [ ! -f "$out" ] || [ "$src" -nt "$out" ]; then
-        echo "Compiling $src -> $out..."
-	pandoc $src -s \
-               --filter pandoc-include  \
-	       -H header.html \
-	       -c styles.css \
-	       -o $out \
-               --toc --toc-depth=2
+    # Recompile if output doesn't exist OR input, header, or styles  is newer than output
+    if [ ! -f "$out" ] || [ "$src" -nt "$out" ] || [ "header.html" -nt "$out" ] || [ "styles.css" -nt "$out" ]; then
+	git_makehtml_force $filebase
     else
         echo "$out is up to date."
     fi
+}
+
+git_makehtml_all () {
+  git_makehtml DMC_syllabus;
+  git_makehtml DMC_preface;
+  git_makehtml DMC_week1;
 }
 
 
@@ -51,7 +65,7 @@ git_makepdf () {
 	(cd $dir;
          echo -n "compile dir: "; pwd
 	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
-         --filter pandoc-include  \
+         --filter /Users/axelrod/.local/bin/pandoc-include  \
          --math-method=mathjax  -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
         )
     else
@@ -63,11 +77,11 @@ git_makelocal () {
     # after this, should be able to view files locally at: file:///Users/axelrod/Library/CloudStorage/Dropbox/sync/writing/j26/2026f_BOLLI/2026f_mind_control/git/index.html
 
     git_makehtml syllabus;
+    git_makehtml DMC_preface;
+    git_makepdf DMC_preface;
     git_makehtml week1;
     git_makehtml mind_control_1/mind_control_1;
     git_makepdf  mind_control_1/mind_control_1;  
-    git_makehtml DMC_preface;
-    git_makepdf DMC_preface;
 
 }
     
@@ -101,5 +115,5 @@ git_push () {
     echo "pusing with comment: '$comment'"
     git add .
     git commit -m "$comment"
-    git push
+    git pus
 }

@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc 3.11" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>test</title>
+  <title>-</title>
   <style>
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,7 +28,12 @@
     }
   </style>
   <link rel="stylesheet" href="styles.css" />
-  
+  <!-- old approach:
+     #  note: don't put extra white space here, or else it put's the word "white" in the hmtl file 
+     #  default open link in new tab, with security. Override by adding {target="_self"}  in markdown 
+  <base target="_blank" rel="noopener">
+  -->
+
   <!--
     The Better Approach: Target External Links Automatically
      Instead of a global rule that overrides your iframe, you can drop a tiny JavaScript snippet into your Pandoc header or template.
@@ -50,15 +55,11 @@
   <script src="nav-sync.js"></script>
 </head>
 <body>
-<header id="title-block-header">
-<h1 class="title">test</h1>
-</header>
 <nav id="TOC" role="doc-toc">
 <ul>
 <li><a href="#a-hero" id="toc-a-hero">a hero</a></li>
 </ul>
 </nav>
-<p>——– Test of pandoc-include:</p>
 <h1 id="a-hero">a hero</h1>
 <p>To be a hero or to grovel in the mud - there was nothing in between
 To be a hero or to grovel in the mud - there was nothing in between To
@@ -74,7 +75,5 @@ grovel in the mud - there was nothing in between To be a hero or to
 grovel in the mud - there was nothing in between To be a hero or to
 grovel in the mud - there was nothing in between To be a hero or to
 grovel in the mud - there was nothing in between</p>
-<p>—- end test</p>
-<p>More stuff</p>
 </body>
 </html>

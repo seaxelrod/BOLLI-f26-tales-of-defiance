@@ -2,11 +2,42 @@
 @import url('fonts/google-fonts.css');
 /* to fetch remotely : @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap'); */
 
+/*
 html, body {
-  margin: 0;
+  margin: 25px;
   padding: 0;
   width: 100%;
   height: 100%;
+}
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+
+  /* Provides the slight margin around the text */
+  margin: 0;
+
+  /* Add comfortable padding around all edges (Top, Right, Bottom, Left) */
+  /* Increase the second value (e.g., 24px) for more room on the right */
+  padding: 20px 24px 20px 20px;
+
+  /* Let the width calculate automatically within box-sizing */
+  box-sizing: border-box;
+  width: auto;
+
+
+  /* Ensures unbreakable long strings wrap cleanly */
+  overflow-wrap: break-word;
 }
 
 
@@ -40,17 +71,11 @@ html, body {
     margin: 0;
 }
 
-body {
-    font-family: 'Open Sans', Arial, sans-serif;
-    color: #1a1a1a;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-}
 
-/* Base style for all content blocks */
+/* Base style for all content blocks (padding was 30px 10%) */
+
 .section-block {
-    padding: 30px 10%;
+    padding: 0px 0%
 }
 
 /* Headings */

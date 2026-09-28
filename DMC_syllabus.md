@@ -1,10 +1,16 @@
-# Tales of Defiance To Mind Control in the Modern Age
+---
+title: |
+  | Tales of Defiance To Mind Control in the Modern Age
+  | Syllabus
+---
 
 ::: {.section-block .hero-title}
 :::
 
 
 ::: {.meta-info}
+**Title:** Tales of Defiance To Mind Control in the Modern Age  
+**Title Abbreviation:** DMC  
 **Study Group Leader:** Scott Axelrod  
 **Meeting Times/Dates:** Mondays, Period 2 (11:10 am - 12:35 pm), November 2-30  
 **Location:** Sawyer Road, Room ?  
@@ -29,7 +35,7 @@ material on course web site.
 
 
 ::: {.section-block .light-blue}
-# Course Description
+# Course Description in BOLLI Course Catalog
 
 
 Are you concerned about the increasingly sophisticated ways social forces are attempting to control your mind?  In this course we examine four different mind control scenarios as depicted in four seminal works of fiction.  In each case, the lead character seeks to defiantly challenge a specific threat to mental autonomy.   Taken together, these works of fiction (three films and a short story) trace an arc of defiance against increasingly sophisticated and multi-layered methods of thought control.  
@@ -52,57 +58,70 @@ They trace an arc of defiance against worlds with increasingly sophisticated, mu
 
 :::
 
+
 ::: {.section-block .white}
+# Objectives
+
+Students should develop skills for analyzing and discussing various methods of societally imposed mind control. We study strategies for reacting to mental influences. Students should come away with a better sense of how their strategies are adapted to their personality type. 
+
+:::
+
+
+::: {.section-block .light-blue}
 # Course Topics, by week
 
-Week 1, Nov. 2:  Introduction, *Notes From the Underground*
+## Week 1, Nov. 2:  Introduction, *Notes From the Underground*
 
-   - Course Overview:
+### Course Overview:  
 
-     - Each week we will focus on a tale of societally imposed mind control. 
-     - Even while new forms of control emerge, the old ones are still present.
-     - This gives an increasingly sophisticated, multi-layered  arc of stories and lenses.
+- In each of the first four week we will focus on a tale of societally imposed mind control and (at least one) tool, or lens, to look at the story.
+- This gives an increasingly sophisticated, multi-layered  arc of stories and lenses.
+- Even while new forms of control emerge, the old ones are still present today.   
+   People are still rebelling ...
 
-     - We will discuss  how each story presents a specific realization of a general pattern by which this type of mind control works.
-     - This will help clarify how this type of control is still relevant today.
-     - Participants will reflect on how the stories move them and reflect and how they understand, work within, or rebel against the type of control illustrated in the story.
+  1.  against The Enlightenment, as the Undeground Man did in *Notes from the Undeground*;
+  2.  against state control of truth, as Winston Smith did in *1984*;
+  3.  against a virtual fake reality, as Neo did in *The Matrix*; and
+  4.  against companies controlling us by telling us what we want, as Sai did in *The Perefect Match*.
 
+- The lens used to look at each story are actually questions that apply to all stories:
 
-   - Some Lenses:
+  1. Human Outlier Analysis:  How are people outside of the "normal" for society treated? 
+  2. Narrative Analysis: How are stories told, and how does that effect  people?   
+  	 The Police State: How the government can try to completely control civil society?
+  3. Societal Control Analaysis: What are the mechanisms that society exerts control to constrain it's members?
+  4. False needs: How are people manipulated into acting based on a sense of what they need?   
+	  Surveillance capitalism: How does constant survelliance affect people in society?
 
-      - Panopticon (Michel Foucault)
-	  - Narrative Reconstruction (Jerom Bruner)
-	  - False Needs (Herbert Marcuse)
-	  - Socieites of Control (Gilles Deleuse)
+### *Notes from Underground*
 
-   -  "Notes From The Underground*: 
-      - Feelings/complexity are suppressed by dominance of simple rationalism. 
-      - Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
-      - Who controls what thoughts are "acceptable" controls the perceived reality.
+- Feelings/complexity are suppressed by dominance of simple rationalism. 
+- Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
+- Who controls what thoughts are "acceptable" controls the perceived reality.
 
-Week 2, Nov. 9: *1984*
+## Week 2, Nov. 9: *1984*
 
   - Connection to *Notes from the Underground*
-     - We, Brave New World
+     - *We*, *Brave New World*
 
-  - 1984:
+  - *1984*:
      - Independent thoughts and feelings are disallowed under totalitarianism. 
      - This is enforced by surveillance and control of language and media.
      - Who controls the narrative controls the perceived reality.
 
-Week 3, Nov. 16: *The Matrix* 
+## Week 3, Nov. 16: *The Matrix* 
 
-  - The nature of reality itself is replaced by a computer simulation.
-  - People cannot even perceive that their reality is constructed.
+  - People are living inside a computer simulation.
+  - They cannot perceive that their reality is constructed and controlled by the architects of the digital world.
   - Who controls information we receive controls the perceived reality.
 
-Week 4, Nov. 23: *The Perfect Match* 
+## Week 4, Nov. 23: *The Perfect Match* 
 
   - Independent thoughts and feeling are not possible because algorithm and bots constantly "nudge" people what to think and feel.
-  - We are lured by comfort of a constructed, false-but-pleasant narrative.
-  - Who provides the most comfort controls the perceived reality. \
+  - People are lured by comfort of a constructed, false-but-pleasant narrative.
+  - Who provides the most comfort controls the perceived reality. 
 
-Week 5, Nov. 30: Final Warp-up
+## Week 5, Nov. 30: Final Warp-up
 
 - Pulling it all together and looking forward.
 
@@ -110,12 +129,15 @@ Week 5, Nov. 30: Final Warp-up
 
 
 
-:::: {.section-block .light-blue}
+:::: {.section-block .white}
 #  Course Materials 
 
+The core of the course consists of four stories, which can be accessed by the links below.
 Note: Each Link below opens in a new browser tab.
 
-  - ["Notes From The Undeground", one man show starring Larry Cedar, free on youtube](https://www.youtube.com/watch?v=asp5tqDql0g)
+Additional/optional materials will be provided on the class website and in email.
+
+  - ["Notes From The Undeground", one man show starring Larry Cedar](https://www.youtube.com/watch?v=asp5tqDql0g), free on YouTube 1:32:06
 
 ::: {.video-card data-external="1"} 
 [![Larry Cedar - Notes from Underground](https://img.youtube.com/vi/asp5tqDql0g/hqdefault.jpg)](https://www.youtube.com/watch?v=asp5tqDql0g){data-external="1"}
@@ -125,7 +147,7 @@ Note: Each Link below opens in a new browser tab.
 ::: 
 
 
-  - ["1984" movie directed by Michael Radford,  free on tubitv](https://tubitv.com/movies/300443/1984?resume_time=1)
+  - ["1984" movie directed by Michael Radford](https://tubitv.com/movies/300443/1984?resume_time=1), ,  free on tubitv 1:50:33
 
 ::: {.video-card}
 [![1984 Movie Directed by Michael Radford](images/1984-poster.jpg)](https://tubitv.com/movies/300443/1984?resume_time=1)
@@ -136,9 +158,9 @@ Note: Each Link below opens in a new browser tab.
 
 
   - *The Matrix* movie, written and directed by the Wachowskis
-    - [$3.99 to rent on YouTube](https://www.youtube.com/watch?v=GuE0Mtr-w6g)  
+    - [$3.99 to rent on YouTube](https://www.youtube.com/watch?v=GuE0Mtr-w6g), 2:16:21
 	   * need to create a free YouTube login to do this
-    - [$3.99 to rent, $14.99 to buy on Amazon Prime Video](https://www.amazon.com/gp/video/detail/B0B6DB8G7C/ref=atv_dp_amz_c_yxuuUK_1_1)
+    - [$3.99 to rent, $14.99 to buy on Amazon Prime Video](https://www.amazon.com/gp/video/detail/B0B6DB8G7C/ref=atv_dp_amz_c_yxuuUK_1_1), 2:16:15
 	   * need an Amazon Prime account to do this
 
 <!-- Image from: https://facts.net/wp-content/uploads/2023/06/47-facts-about-the-movie-the-matrix-1687246419.jpg -->
@@ -152,7 +174,7 @@ Note: Each Link below opens in a new browser tab.
   - ["The Perfect Match", free on lightspeed magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/)
 
 
->   - [PDF of "The Perfect Match" extracted from above website](texts/the_perfect_match.pdf)
+>   - [PDF of "The Perfect Match" extracted from above website](texts/the_perfect_match.pdf), 30 pages
 
   <!-- Image from: https://ecdn.teacherspayteachers.com/thumbitem/-The-Perfect-Match-Short-Story-by-Ken-Liu-2-Day-Lesson-Digital-Print--9912050-1693253669/original-9912050-1.jpg -->
   
@@ -160,12 +182,7 @@ Note: Each Link below opens in a new browser tab.
 
    
 
-- Additional/optional materials will be provided on the class website or by email links.
 
-
-##  Additional Supplementary Materials Will Appear on the weekly web pages:
-
-### [Week1 Supplementary Matrials](week1.html#supplementary)
 
 
 ::::
@@ -180,13 +197,6 @@ Note: Each Link below opens in a new browser tab.
 -->
 
 <!-- ::: -->
-
-::: {.section-block .white}
-# Objectives
-
-Students should develop skills for analyzing and discussing various methods of societally imposed mind control. We study strategies for reacting to mental influences. Students should come away with a better sense of how their strategies are adapted to their personality type. 
-
-:::
 
 ::: {.section-block .light-blue}
 # SGL Biography

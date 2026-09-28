@@ -58,110 +58,31 @@
              white-space: nowrap;
              overflow: hidden;
            ">
-        <option value="" disabled hidden>Page ...</option>
-        <option value="syllabus.html"> Syllabus </option>  <!-- selected ?? -->
-        <option value="DMC_preface.html">Preface</option>
-        <option value="week1.html">Week 1: Introduction, *Notes from Undeground*</option>
-        <option value="week2.html">Week 2: *1984* </option>
-        <option value="week3.html">Week 3: *The Matrix* </option>
-        <option value="week4.html">Week 4: *The Perfect Match*</option>
-        <option value="week5.html">Week 5: *Final Wrap-up*</option>
-        <option value="references.html"> References</option>
+           <option value="" disabled hidden>Page ...</option>
+           <option value="DMC_syllabus.html"> Syllabus </option>  <!-- selected ?? -->
+           <option value="DMC_preface.html">Preface</option>
+           <option value="DMC_week1.html">Week 1: Introduction, *Notes from Undeground*</option>
+           <option value="DMC_week2.html">Week 2: *1984* </option>
+           <option value="DMC_week3.html">Week 3: *The Matrix* </option>
+           <option value="DMC_week4.html">Week 4: *The Perfect Match*</option>
+           <option value="DMC_week5.html">Week 5: *Final Wrap-up*</option>
+           <!-- <option value="references.html"> References</option> -->
+         </select>
 
-      </select>
-
-
-<!-- 
- <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const select = document.getElementById('page-select');
-    const iframe = document.getElementById('main-content');
-
-    if (!select || !iframe) {
-      console.warn("Could not find #page-select or #main-content elements.");
-      return;
-    }
-
-    // 1. Restore previous selection on initial load
-    const savedPage = localStorage.getItem('selectedCoursePage') || 'syllabus.html';
-    select.value = savedPage;
-    iframe.src = savedPage;
-
-    // 2. Listen for user dropdown changes
-    select.addEventListener('change', function(e) {
-      const selectedValue = e.target.value;
-      console.log("Selected:", selectedValue);
-
-      if (selectedValue) {
-        iframe.src = selectedValue;
-        localStorage.setItem('selectedCoursePage', selectedValue);
-      }
-    });
-  });
-</script>     
-
--->
-
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const select = document.getElementById('page-select');
-    const iframe = document.getElementById('main-content');
-    const fallbackPage = 'under-construction.html';
-
-    if (!select || !iframe) {
-      console.warn("Could not find #page-select or #main-content elements.");
-      return;
-    }
-
-    function loadPage(url) {
-      if (!url) return;
-
-      // Check if target file exists before pointing the iframe to it
-      fetch(url, { method: 'HEAD' })
-        .then(response => {
-          if (response.ok) {
-            iframe.src = url;
-            localStorage.setItem('selectedCoursePage', url);
-          } else {
-            iframe.src = fallbackPage;
-          }
-        })
-        .catch(() => {
-          // If fetch fails (file doesn't exist locally/on server)
-          console.warn("Select page doesn't exist, falling back to under-construction.html.");
-          iframe.src = fallbackPage;
-        });
-    }
-
-    // 1. Restore previous selection on initial load
-    const savedPage = localStorage.getItem('selectedCoursePage') || 'syllabus.html';
-    select.value = savedPage;
-    loadPage(savedPage);
-
-    // 2. Listen for dropdown changes
-    select.addEventListener('change', function(e) {
-      const selectedValue = e.target.value;
-      console.log("Selected:", selectedValue);
-      loadPage(selectedValue);
-    });
-  });
-</script>
-      
-
-          <!-- Brandeis logo and institute name as a single image asset -->
-          <img src="images/BOLLI_logo.svg" alt="Logo" style="height: 35px; width: auto; display: inline-block;">
-      </div>
+         <!-- Brandeis logo and institute name as a single image asset -->
+         <img src="images/BOLLI_logo.svg" alt="Logo" style="height: 35px; width: auto; display: inline-block;">
+        </div>
 
         <!-- GROUP 2: Course Title (Editable Text) -->
         <h1 style="
-          display: inline-block;   /* Fits the element tightly around the text */
-          text-align: center;      /* Centers the two lines relative to each other */
-          font-size: 1.0rem;        /* Slightly reduced font size so two lines fit gracefully */
-          line-height: 1.25;        /* Tightens line spacing between the two lines */
-          font-weight: 500;
-          font-family: serif;
-          margin: 0;
-        ">
+            display: inline-block;   /* Fits the element tightly around the text */
+            text-align: center;      /* Centers the two lines relative to each other */
+            font-size: 1.0rem;        /* Slightly reduced font size so two lines fit gracefully */
+            line-height: 1.25;        /* Tightens line spacing between the two lines */
+            font-weight: 500;
+            font-family: serif;
+            margin: 0;
+          ">
           Tales of Defiance to Mind Control in the Modern Age <!-- can put <br>'s here to force line breaks -->
         </h1>
 
