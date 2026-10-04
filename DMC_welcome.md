@@ -32,7 +32,7 @@ for example, this changes the link
 to  
  [\[DMC welcome letter\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html\)](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html). 
    
-A pdf version of a page can often be obtain by changing the trailing `.html` to `.pdf`. For example, here is a link for the
+A pdf version of a page can often be obtain by changing the trailing `.html` to `.pdf`. For example, here is a link for the  
  [\[DMC welcome letter, pdf version\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html\)](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.pdf)
 
 
