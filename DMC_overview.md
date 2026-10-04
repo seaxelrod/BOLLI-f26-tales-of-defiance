@@ -1,5 +1,5 @@
 ---
-title: "Preface for DMC Course"
+title: "Overview for DMC Course"
 ---
 
 <!-- *Transcribed and then edited from a handwritten entry dated Monday, August 24, 2026, starting at 12:00 p.m.* -->
