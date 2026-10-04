@@ -1,11 +1,8 @@
 ---
-title: "Notes on *Notes From Undeground[^notes_title]*"
+title: "Notes on *Notes from the Underground[^notes_title]*"
 ---
 
-[^notes_title]: The title "Notes from Underground" has also been translated as "Notes from the Undeground" and "Notes from a Mousehole".
-
-
-
+[^notes_title]: The title "Notes from the Underground" has also been translated as "Notes from Underground" and "Notes from a Mousehole".
 
 
 
@@ -17,6 +14,10 @@ Here, I recall what I wrote in the preface, give a few additional comment.
 
 
     - [Notes From Underground | Existentialist Philosophy & Literature](https://www.youtube.com/watch?v=KyH6SPtDOEE),  YouTube 1:01:12
+       - See [transcript of above](
+
+
+
     - [Notes From Underground | Intellectuals Inertia and Negativity | Core Concepts](https://www.youtube.com/watch?v=2dnSRPPxgKg),  YouTube 17:26
     - [Notes From Underground | Pleasure, Perversity, and Suffering | Core Concepts](https://www.youtube.com/watch?v=bV_gOH2jVVQ), YouTube 16:06
     - [Notes From Underground | Revenge, Anger, and Justice | Core Concepts](https://www.youtube.com/watch?v=CSYFdRlKUL0),  YouTube 19:41
@@ -39,13 +40,13 @@ echo ' Enlightenment, Laws of Nature, and The Will'; yt-dlp --get-duration https
 -->
 
 
-# [Comments in Preface](DMC_preface.html#tale-1-notes-from-underground) 
+# [Notes in Preface](DMC_preface.html#tale-1-notes-from-underground) 
 
 
 !include DMC_preface_notes_from_underground.md
 
 
-# Additional Comments
+# Additional Notes
 
 - author and his time
    - quick bio
@@ -65,7 +66,7 @@ echo ' Enlightenment, Laws of Nature, and The Will'; yt-dlp --get-duration https
       - This is direct precuroser to "Crime and Punishment", which has twisted rational egoist, who then get salvation through love, leading him to faith
       - cave of rational egoism is parallel to Plato's cave ("Through a Glass Darkly" footnote -- what does that say about religious mind control?)
    - outlier lens:
-	  - undeground man doesn't fit in -> madness separated from civilization
+	  - underground man doesn't fit in -> madness separated from civilization
 	  - he is wannaba intellectual
     
 

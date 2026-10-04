@@ -54,7 +54,7 @@ body {
 
   /* Ensure the background image covers the entire container without repeating */
   /* !! change 0.0 to 0.6 in the following lines to have 60% opacity */
-  background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255,  0.0)), url('images/stories_in_the_dystopian_arc.png');
+  background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255,  0.0)), url('images/stories_in_a_dystopian_arc.jpg');
   background-size: contain; /* cover; truncates */
   background-position: center;
   background-repeat: no-repeat;

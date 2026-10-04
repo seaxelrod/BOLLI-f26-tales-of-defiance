@@ -23,16 +23,19 @@ Those are great questions that I am, rhetorically, having you ask me. And yet I 
 ## 1. Genesis of the Course
 
 
-I do not think I am going out on a limb by thinking that everyone taking this course has been observing the American and world political scene for decades.
+I do not think I am going out on a limb in assuming that everyone taking this course has been observing the American and world political scene for decades. 
 A line that comes to mind is, “When I think of the road we’re traveling on, I wonder what’s gone wrong. I can’t help it. I wonder what’s gone wrong.”[^americantune]
 
 
 [^americantune]: Quoted lyric from "[[American Tune]{.underline}](https://genius.com/Paul-simon-american-tune-lyrics)" by Paul Simon.
 
-Granted, not all of you will be obsessed with the dark side. Some know that focusing on the positive is a better way of making a hopeful prophecy self-fulfilling. But for my purposes in trying to control you to be receptive to what I have to say, let us assume that all of you have, at least inchoately, been looking for some time at politics through the lens of mind control.
-Going more broadly than politics, some of you may view every act of communication, and even thought, thought of our communication with oneself, has an element of mind control.
+Granted, not all of you will be obsessed with the dark side. Some know that focusing on the positive is a better way of making a hopeful prophecy self-fulfilling. But for my purposes in trying to control you to be receptive to what I have to say, 
+let us assume that all of you have realized that, at some level, politics and other acts of communication have an element of mind control.
 
-So, we all have a collection of, perhaps contradictory,  senses of what mind control means. For purpose of this course, I am not so much interested in a single universal definition of mind control, but rather sorting through different aspects of mind control.
+Going more broadly than politics, some of you may view every act of communication—and even every thought, including our communication with ourselves—as having an element of mind control.
+
+So, we all have a collection of, perhaps contradictory,  senses of what mind control means. 
+For the purposes of this course, I am interested less in a single universal definition of mind control than in sorting through different aspects of mind control.
 To this end, let me start by distinguishing between constructive and destructive mind control, between individual and systemic mind control, and between threatening and enticing mind control.
 
 ### Constructive vs. Destructive Mind Control
@@ -50,7 +53,7 @@ Speaking of media, the proliferation of media today (social media, blogs, ..., a
 [^spin]:    See [[*Spin Dictators*]{.underline}](https://spindictators.com)  by Sergei Guriev & Daniel Treisman.
 [^stupid]:  See [[*Stupid Idiots*]{.underline}](https://press.uchicago.edu/ucp/books/book/distributed/S/bo266710060.html) by Lars Svendsen
              and [[*On Bullshit*]{.underline}](https://press.princeton.edu/books/hardcover/9780691276786/on-bullshit) by Harry G. Frankfurt.
-[^mcluhan]: See [[*The Medium is the Message*]{.underline}](https://en.wikipedia.org/wiki/The_medium_is_the_message)  by Marshall McLuhan.  Think about how media and culture have co-evolved to saturate us with infotainment, which trains us to need to be entertained when learning.  Participants may well wonder,  How much is this course affected by that?
+[^mcluhan]: See [[*The Medium is the Message*]{.underline}](https://en.wikipedia.org/wiki/The_medium_is_the_message)  by Marshall McLuhan.  Think about how media and culture have co-evolved to saturate us with infotainment, which trains us to need to be entertained when learning.  Participants may well wonder:  How much is this course affected by that?
 
 ### Individual vs.  Systemic Mind Control
 
@@ -62,9 +65,8 @@ Individual mind control is what friends, family, acquaintances, our boss, our pa
 [^studentapology]:  Apologies to my former students if I have afflicted you this way.
 [^selfapology]: Apologies to myself for the times I have obsessively not followed this strategy.
 
-Since I am all too often a glass-half-empty kind of guy, I have a mathematician’s obsession with looking for patterns, 
-and I have a penchant for theories of everything;
-the kind of mind control I have worried about for a long time is destructive and systemic. For purposes of our course, it is the default version of mind control that we will mostly focus on here.
+I am all too often a glass-half-empty kind of guy, have a mathematician’s obsession with looking for patterns, and have a penchant for theories of everything. 
+So, the kind of mind control I have worried about for a long time is destructive and systemic. For the purposes of our course, this is the default version of mind control on which we will mostly focus.
 
 In real life, the dichotomies between destructive and constructive, and between individual and systemic, may be useful but are actually quite fuzzy. I hope you will help me break out of my own controlled brain and explore these distinctions rather than use them rigidly.
 
@@ -89,7 +91,7 @@ For example, if a particular case of mind control works by threat, it is more li
 There are many other  features of the examples of mind control that we consider.
 
 For example, the **extremist vs balanced** feature gauges whether the controller is always pushing a swinging pendulum 
-towards the extreme  in one direction vs. nudging towards a balance equilibrium.
+towards the extreme  in one direction versus nudging towards a balance equilibrium.
 
 Another feature  measures whether a mind control instance is intended to make people **stop thought** or if it is meant to  **encourage thought**.
 Stopping thought is likely to be destructive. 
@@ -102,7 +104,7 @@ it encourage people to engage with complexity.  Different individuals are more p
 Sometimes simplicity is useful to cut through noise, whereas oversimplification can encourage jumping quickly to the wrong conclusion[^holmessimpicity].
 The tendency to stop thought is probably highly correlated with the tendency to oversimplify.
 
-[^holmessimpicity]: One of my favorite quote is by Oliver Wendell Holmes, Senior, the father of the supreme court justice: “For the simplicity on this side of complexity, I wouldn't give you a fig. But for the simplicity on the other side of complexity, for that I would give you anything I have.”
+[^holmessimpicity]: One of my favorite quotes is by Oliver Wendell Holmes, Senior, the father of the supreme court justice: “For the simplicity on this side of complexity, I wouldn't give you a fig. But for the simplicity on the other side of complexity, for that I would give you anything I have.”
 
 
 
@@ -118,18 +120,18 @@ to find the right questions to ask[^physicsfeatures].
                 "[[Rock and Roll (How the West Was Won) ]{.underline}](https://genius.com/Led-zeppelin-rock-and-roll-how-the-west-was-won-lyrics)" by Led Zeppelin.
 
 [^woodstock]:   “We are stardust, we are golden, and we’ve got to get ourselves back to the garden,” is a line in 
-                     "[[Woodstock]{.underline}](https://jonimitchell.com/music/song.cfm?id=75) by Joni Mitchell.
+                     [["Woodstock"]{.underline}](https://jonimitchell.com/music/song.cfm?id=75) by Joni Mitchell.
 
-[^physicsfeatures]: It is sometimes said that the hallmark of a great physicist is the ability to hone in on the relavant features (or variables) of a problem.  In some sense, physicists face an easier tasks than what people studying human behaviour face, becacuse result of experiments in physics are fairly repeatable, and
+[^physicsfeatures]: It is sometimes said that the hallmark of a great physicist is the ability to home in on the relevant features (or variables) of a problem.  In some sense, physicists face an easier task than what people studying human behavior face, because the results of experiments in physics are fairly repeatable, and
 often only a small number of variables are necessary to capture the essence of what is going on.   This brings up the **holistic  vs atomistic** feature.
 
 To encouraging the study group to question my biases, I will now admit something. 
-My thinking about mind control has been effected by intense interactions I have had with 
+My thinking about mind control has been affected by intense interactions I have had with 
 individuals, and by the particular slice of media I consume. 
 This experience leads me to focus on particular notions about mind control
 and to worry about how other people's minds are being over-controlled by certain myths.
 
-A course—not this course—that I have fantasized about putting together would be a kind of philosophical list of do's and dont’s for a mature thinker thinking about politics, religion, science, and life, with examples chosen and motivated by my personal experience.
+A course—not this course—that I have fantasized about putting together would be a kind of philosophical list of do's and don’ts for a mature thinker thinking about politics, religion, science, and life, with examples chosen and motivated by my personal experience.
 
 When I started to think of putting together a real course—this course for BOLLI—I realized I needed to get out of my own personal information bubble in order to gain a broader perspective and avoid having the course degenerate into narrow commentary on current politics and personal grievances.
 
@@ -139,7 +141,7 @@ So, I decided to step back—or you could call it a retreat—to the world of fi
 those presented in the story being focused on. 
 
 To make the course more accessible as a sort of introductory sampler, we will focus on three films and a short story.
-The heart of this course will be class discussion based on: the sequence of stories we will all be reading or watching, 
+The heart of this course will be class discussion based on the sequence of stories we will all be reading or watching, 
 discussion questions about the stories, and short quotes from the stories so that we are starting from the same place.
 
 
@@ -194,7 +196,7 @@ When we cover individual stories, I may adapt the questions to the specific circ
 The fifth and last class will be devoted to overviewing what we have gotten from arc as a whole.
 
 
-### Tale 1: *Notes from Underground*
+### Tale 1: *Notes from the Underground*
 
 
 !include DMC_preface_notes_from_underground.md
@@ -216,10 +218,11 @@ used to control outliers to the norms of society.
     - [Discipline & Punish (1975), Panopticism](https://files.libcom.org/files/michel-foucault-panopticism.pdf) by Michel Foucault, Vintage Books, 1995, pp. 195-228 translated from the French by Alan Sheridan, 1977.
        <!-- materials/michel-foucault-panopticism.pdf -->
 
-      > Bentham's Panopticon (late 1700's) was a prison model where inmates were constantly watched, so that they 
-	    internalize disciplined. In *Discipline and Punish*, Foucault upgrades this model to a metaphor for modern power, with
-        surveillance across schools, factories, hospitals, and society as a whole 
-        forces people to regulate themselves.
+      > Bentham’s Panopticon, designed in the late eighteenth century, was a prison model in which inmates could be watched 
+	    without knowing when they were under observation, encouraging them to internalize discipline.
+		In Discipline and Punish, Foucault develops this model into a metaphor for modern power:
+		  surveillance across schools, factories, hospitals, prisons, and society as a whole leads people to regulate themselves.
+
 
       <!--
       > Bentham's Panopticon (designed in 1787 and published in 1791) was a prison model where inmates internalize discipline because they may always be watched, while Foucault updated it in Discipline and Punish (1975) as a broader metaphor for modern power, where surveillance makes people regulate themselves across schools, factories, hospitals, and society.  <!-- ?? who wrote this text ?? --> 
@@ -233,7 +236,7 @@ Many of us feel the constant stress of narratives[^bruner_narrative_reconstructi
 being imposed upon us, often without our conscious knowledge.
 Like the fish who does not have a concept for water, we may be unaware of how our thoughts are constrained by the hiding of evidence
 --made concrete in *1984* as the  "memory hole" -- and by the limitations placed on our very ability to speak 
---made contrete as Orwell’s language of Newspeak.
+--made concrete as Orwell’s language of Newspeak.
 Orwell’s tale is so powerful because he has constructed a narrative, brilliantly written to focus on possibilities he sees with prophetic vision. 
 
 [^bruner_narrative_reconstruction]: On narrative analysis, see 
@@ -248,7 +251,7 @@ We will ask questions such as:
 
 -  *Mental control often attempts to flatten a person’s inner life. How does the narrative use the "intentional states" (private thoughts) of the characters to defy the external world?*
 - *In a "mentally controlled world," the system provides the "canonical script" (how one should think and act). How does the protagonist of our story create a "breach" in that script?*
-- *In propaganda-heavy worlds, "truth" is whatever the state says. How does a "tale of defiance" use "narrative truth"to expose the lies of "systemic truth"?*
+- *In propaganda-heavy worlds, "truth" is whatever the state says. How does a "tale of defiance" use "narrative truth" to expose the lies of "systemic truth"?*
 - *Why do we often use the "Dystopian" genre to talk about mental control? How does the genre itself help us understand what "defiance" looks like?*
 - *What helps or hurts the ability  of individual acts of defiance "accrue" into a movement?*
 
@@ -260,15 +263,15 @@ We will ask questions such as:
 In class three, we will focus on the 1999 movie *The Matrix*. The mind control here is total control of reality itself. Our hero, Neo, chooses to swallow the “red pill,” which lets him see that the entire world he has been living in is an elaborate computer simulation.
 
 The previous dystopian elements of controlling outliers via a kind of police state, and controlling the narrative through controlling language
-are relavant to this story.
+are relevant to this story.
 In addition, the movie is prophetic of the encroachment of virtual reality on our present-day world. 
 
 
 A tool here is to examine how society is being controlled[^marcuse].
 
-[^marcuse]: On socieities of control, see 
+[^marcuse]: On societies of control, see 
 
-    - [Postscript on the Societies of Control](https://deleuze.cla.purdue.edu/wp-content/uploads/2023/09/Deleuze_Gilles-Postscript-on-the-Societies-of-Control.pdf),  Gilles Deleuze, L'Autre journal, no. 1 (May, 1990).
+    - [Postscript on the Societies of Control](https://deleuze.cla.purdue.edu/wp-content/uploads/2023/09/Deleuze_Gilles-Postscript-on-the-Societies-of-Control.pdf),  Gilles Deleuze, L'Autre journal, no. 1, May 1990.
        <!-- also in materials/Deleuze_Gilles-Postscript-on-the-Societies-of-Control.pdf -->
     - [Disciplinary societies and Societies of control](https://narrative-environments.github.io/CourseCompendium/Disciplinary-Societies.html), CourseCompendium.
 	      <!-- matrials/Disciplinary societies and Societies of control.pdf -->
@@ -302,7 +305,7 @@ that seem personal but actually keep people dependent, distracted, and less free
     - [From 1984 to One-Dimensional Man: Critical Reflections on Orwell and Marcuse](../materials/kellner_from1984_to_marcuse_onedimensional.pdf), Douglas Kellner.
 
 
-Also relavant is  "surveillance capitalism"[^surveillance_capitalism], which is the 
+Also relevant is  "surveillance capitalism"[^surveillance_capitalism], which is the 
 idea that companies profit by collecting, analyzing, predicting, and influencing people’s behavior, turning personal data into a tool for influence and commercial gain.
 
 - *Can you relate to how the protagonist is controlled through false needs?*

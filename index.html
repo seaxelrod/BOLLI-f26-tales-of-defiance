@@ -45,9 +45,9 @@
         
         <!-- GROUP 1: Grouping the Dropdown and Brand Logo -->
         <div style="display: flex; align-items: center; gap: 1.5rem;">
-          <!-- Course Week Dropdown (Targeting iframe below) -->
 
-         <select id="page-select"
+          <!-- Course Week Dropdown (Targeting iframe below) -->
+         <select id="page-select" ...>
            style="
              padding: 0.4rem 0.5rem;
              font-size: 0.95rem;
@@ -58,16 +58,23 @@
              white-space: nowrap;
              overflow: hidden;
            ">
-           <option value="" disabled hidden>Page ...</option>
-           <option value="DMC_syllabus.html"> Syllabus </option>  <!-- selected ?? -->
-           <option value="DMC_preface.html">Preface</option>
-           <option value="DMC_week1.html">Week 1: Introduction, *Notes from Undeground*</option>
-           <option value="DMC_week2.html">Week 2: *1984* </option>
-           <option value="DMC_week3.html">Week 3: *The Matrix* </option>
-           <option value="DMC_week4.html">Week 4: *The Perfect Match*</option>
-           <option value="DMC_week5.html">Week 5: *Final Wrap-up*</option>
-           <!-- <option value="references.html"> References</option> -->
+           <optgroup label="Main Units">
+             <option value="DMC_syllabus.html">Syllabus</option>
+             <option value="DMC_preface.html">Preface</option>
+             <option value="DMC_week1.html">Week 1: Notes from Underground</option>
+             <option value="DMC_week2.html">Week 2: 1984</option>
+	     <option value="DMC_week3.html">Week 3: *The Matrix* </option>
+	     <option value="DMC_week4.html">Week 4: *The Perfect Match*</option>
+	     <option value="DMC_week5.html">Week 5: *Final Wrap-up*</option>
+             <!-- ... -->
+           </optgroup>
+           <optgroup label="Readings & Resources">
+             <option value="dostoevsky_bio.html">↳ Dostoevsky Biography</option>
+             <option value="crystal_palace.html">↳ The Crystal Palace Essay</option>
+	     <option value="DMC_notes_on_notes.html" >↳ Notes on Notes from Undeground </option> 
+           </optgroup>
          </select>
+
 
          <!-- Brandeis logo and institute name as a single image asset -->
          <img src="images/BOLLI_logo.svg" alt="Logo" style="height: 35px; width: auto; display: inline-block;">

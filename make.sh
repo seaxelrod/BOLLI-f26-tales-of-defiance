@@ -43,9 +43,11 @@ git_makehtml () {
 }
 
 git_makehtml_all () {
+  git_makehtml DMC_welcome;
   git_makehtml DMC_syllabus;
-  git_makehtml DMC_preface;
+  git_makehtml DMC_overview;
   git_makehtml DMC_week1;
+  git_makehtml mind_control_1/mind_control_1;
 }
 
 
@@ -73,16 +75,18 @@ git_makepdf () {
     fi
 }
 
-git_makelocal () {
+git_makepdf_all () {
+  git_makepdf DMC_welcome;
+  git_makepdf DMC_syllabus;
+  git_makepdf DMC_overview;
+  git_makepdf DMC_week1;
+}
+
+git_make_all() {
     # after this, should be able to view files locally at: file:///Users/axelrod/Library/CloudStorage/Dropbox/sync/writing/j26/2026f_BOLLI/2026f_mind_control/git/index.html
 
-    git_makehtml syllabus;
-    git_makehtml DMC_preface;
-    git_makepdf DMC_preface;
-    git_makehtml week1;
-    git_makehtml mind_control_1/mind_control_1;
-    git_makepdf  mind_control_1/mind_control_1;  
-
+    git_makehtml_all;
+    git_makepdf_all;
 }
     
 # test locally with

@@ -57,8 +57,14 @@
           });
       };
 
-      // Initial restore on first load
-      const savedPage = localStorage.getItem('selectedCoursePage') || 'DMC_syllabus.html';
+
+      // Check if a specific subpage was passed in the URL (e.g. index.html?page=DMC_week2.html)
+      const urlParams = new URLSearchParams(window.location.search);
+      const pageFromUrl = urlParams.get('page');
+
+      // Priority: 1. URL Parameter -> 2. LocalStorage -> 3. Default Syllabus
+      const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_syllabus.html';
+
       select.value = savedPage;
       window.navigateToCoursePage(savedPage);
 

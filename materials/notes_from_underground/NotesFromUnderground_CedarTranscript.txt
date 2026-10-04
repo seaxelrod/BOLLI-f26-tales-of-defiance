@@ -1,8 +1,18 @@
-[Transcript of Dostoevsky's NOTES FROM THE UNDERGROUND, starring Larry Cedar](https://www.youtube.com/watch?v=asp5tqDql0g)
+---
+title: "Transcript of [Dostoevsky's NOTES FROM THE UNDERGROUND, starring Larry Cedar](https://www.youtube.com/watch?v=asp5tqDql0g)"
+---
 
+<!--
 Remove timestamps:
 
 > perl -pe 's/(?:(?:\d+:)?\d+:)?\d+\s*(?:\d+\s*hours?,\s*)?(?:\d+\s*minutes?,\s*)?\d+\s*seconds?\s*//g'  Cedar_NotesFromTheUndegroundTranscript.txt > ~/trash/temp.text
+
+Then filter by:
+
+> sed -E 's/^([0-9]+:[0-9]{2}:[0-9]{2}|[0-9]+:[0-9]{2}) *[0-9]+ (hours?|minutes?|seconds?)(, *[0-9]+ (hours?|minutes?|seconds?))* */| \1 | /' 
+
+
+-->
 
 0:022 seconds[Music]
 0:2020 secondsyeah
