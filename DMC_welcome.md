@@ -18,7 +18,7 @@ The full web site is still under construction, but you can view all the followin
 - this [DMC welcome letter](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html),
 - the [DMC course syllabus](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_syllabus.html), 
 - a more detailed [DMC course overview](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_overview.html), and
-- the page for  [DMC week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_preface.html).
+- the page for  [DMC week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_week1.html).
 
 [^pdf_and_frame]: 
 This is our first footnote.  Footnotes are always optional.  This particular footnote is a rather technical point, which can definitely be ignored by everyone but web experts. 
