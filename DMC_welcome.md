@@ -21,6 +21,10 @@ The full web site is still under construction, but you can view all the followin
 - the page for  [DMC week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_preface.html).
 
 [^pdf_and_frame]: 
+This is our first footnote.  Footnotes are always optional.  This particular footnote is a rather technical point, which can definitely be ignored by everyone but web experts. 
+On the web, clicking on a footnote reference (a raised number) moves to the particular footnote at the bottom of the web page. 
+Clicking on the curvy arrow (↩) at the end of the footnote, goes back to the point where the footnote was referenced.  
+   
 When I send links to course page in email, I give a direct link to the page in isolation.
 For experts, one can see the same page below the frame by preceeding the last part of the html link with `index.html?page=`, 
 for example, this changes the link  
