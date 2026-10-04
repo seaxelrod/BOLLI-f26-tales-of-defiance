@@ -25,15 +25,15 @@ This is our first footnote.  Footnotes are always optional.  This particular foo
 On the web, clicking on a footnote reference (a raised number) moves to the particular footnote at the bottom of the web page. 
 Clicking on the curvy arrow (↩) at the end of the footnote, goes back to the point where the footnote was referenced.  
    
-When I send links to course page in email, I give a direct link to the page in isolation.
+When I send a link to a course page in email, I will give a direct link to the page in isolation.
 For experts, one can see the same page below the frame by preceeding the last part of the html link with `index.html?page=`, 
-for example, this changes the link  
- [\[DMC welcome letter\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html\)](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html)
-to  
- [\[DMC welcome letter\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html\)](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html). 
+for example, this changes the link  for the unframed welcome letter:  
+ [https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html),  
+to  the link for the frame welcome letter:  
+ [https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html). 
    
-A pdf version of a page can often be obtain by changing the trailing `.html` to `.pdf`. For example, here is a link for the  
- [\[DMC welcome letter, pdf version\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html\)](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.pdf)
+A pdf version of a page can often be obtain by changing the trailing `.html` to `.pdf`. For example, here is a link for the  pdf versions of the welcome letter:   
+ [https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.pdf](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.pdf)
 
 
 
