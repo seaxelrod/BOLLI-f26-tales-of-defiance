@@ -24,11 +24,10 @@ The full web site is still under construction, but you can view all the followin
 When I send links to course page in email, I give a direct link to the page in isolation.
 For experts, one can see the same page below the frame by preceeding the last part of the html link with `index.html?page=`, 
 for example, this changes the link  
- [\[DMC welcome letter\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html\)](DMC_welcome letter)
+ [\[DMC welcome letter\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html\)](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html)
 to  
- [\[DMC welcome letter\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html\)](DMC_welcome letter in course frame).
+ [\[DMC welcome letter\]\(https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html\)](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html).
 
-index.html?page=DMC_week1.html
 
 
 
