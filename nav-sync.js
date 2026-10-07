@@ -78,15 +78,39 @@
   // -------------------------------------------------------------
   // 2. RUNNING INSIDE THE IFRAME (Sub-pages: DMC_syllabus.html, etc.)
   // -------------------------------------------------------------
+
   else {
-    document.addEventListener('DOMContentLoaded', function () {
-      document.querySelectorAll('a').forEach(link => {
-        // External links -> open in new tab
-        if (link.target === '_blank' || (link.hostname && link.hostname !== window.location.hostname)) {
-          link.setAttribute('target', '_blank');
-          link.setAttribute('rel', 'noopener');
-        }
+      document.addEventListener('DOMContentLoaded', function() {
+	  // Replace with your actual live site root URL:
+	  const liveSiteBase = 'https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/'
+	  
+	  document.querySelectorAll('a').forEach(link => {
+	      const rawHref = link.getAttribute('href');
+	      
+	      /*
+                ** Uncomment (and remove standalone next line)  to point to live site even if viewing as file or on local website.
+                ** Since we don't wan't file and html to point to live site, we leave this comment.
+                **
+	        // If viewing locally from disk, rewrite to the live website
+  	        if (window.location.protocol === 'file:' && rawHref && !rawHref.startsWith('http') && !rawHref.startsWith('mailto:')) {
+		    link.setAttribute('href', new URL(rawHref, liveSiteBase).href);
+	        } 
+	        // Otherwise, use the active domain URL
+	        else if (link.href) {
+		    link.setAttribute('href', link.href);
+	        }
+
+               */
+	      if(link.href) {link.setAttribute('href', link.href);}
+	      
+	      // Open external links in a new tab
+	      if (link.hostname && link.hostname !== window.location.hostname) {
+		  link.setAttribute('target', '_blank');
+		  link.setAttribute('rel', 'noopener');
+	      }
+	  });
       });
-    });
   }
 })();
+
+

@@ -13,30 +13,12 @@ You can view the course website at the following link: [November 2026: DMC cours
 Note that I use the acronym "DMC" as shorthand for the name of the course.
 The header of the course web site has a dropdown box in the upper left that allows one to select the page to appear in the frame below the header.
 
-The full web site is still under construction, but you can view all the following now[^pdf_and_frame]:
+The full web site is still under construction, but you can view all the following now: <!-- [^pdf_and_frame]: -->
 
 - this [DMC welcome letter](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html),
 - the [DMC course syllabus](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_syllabus.html), 
-- a more detailed [DMC course overview](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_overview.html), and
+- a more detailed [DMC Preface ](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_overview.html), and
 - the page for  [DMC week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_week1.html).
-
-[^pdf_and_frame]: 
-This is our first footnote.  Footnotes are always optional.  This particular footnote is a rather technical point, which can definitely be ignored by everyone but web experts. 
-On the web, clicking on a footnote reference (a raised number) moves to the particular footnote at the bottom of the web page. 
-Clicking on the curvy arrow (↩) at the end of the footnote, goes back to the point where the footnote was referenced.  
-   
-When I send a link to a course page in email, I will give a direct link to the page in isolation.
-For experts, one can see the same page below the frame by preceeding the last part of the html link with `index.html?page=`, 
-for example, this changes the link  for the unframed welcome letter:  
- [https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html),  
-to  the link for the frame welcome letter:  
- [https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/index.html?page=DMC_welcome.html). 
-   
-A pdf version of a page can often be obtain by changing the trailing `.html` to `.pdf`. For example, here is a link for the  pdf versions of the welcome letter:   
- [https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.pdf](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.pdf)
-
-
-
 
 
 

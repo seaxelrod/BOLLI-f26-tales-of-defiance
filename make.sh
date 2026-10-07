@@ -59,7 +59,7 @@ git_makepdf () {
     local out="$1.pdf"
     
     # Recompile if output doesn't exist OR input is newer than output
-    if [ ! -f "$out" ] || [ "$src" -nt "$out" ]; then
+    if [ ! -f "$out" ] || [ "$src" -nt "$out" ] || [ "header.tex" -nt "$out" ] || [ "prefix-links.lua"  -nt "$out" ] ; then
         echo "Compiling $src -> $out..."
 	dir=$(dirname "$filebase");
 	src_file=$(basename "$src");
@@ -67,7 +67,9 @@ git_makepdf () {
 	(cd $dir;
          echo -n "compile dir: "; pwd
 	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
+         --include-in-header=header.tex \
          --filter /Users/axelrod/.local/bin/pandoc-include  \
+	 --lua-filter=prefix-links.lua \
          --math-method=mathjax  -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
         )
     else
