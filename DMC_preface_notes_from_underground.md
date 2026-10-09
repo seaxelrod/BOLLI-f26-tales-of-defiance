@@ -25,7 +25,7 @@ One tool we will introduce could be called human outlier analysis[^madness_and_c
 
 We will ask questions about the Underground Man that could well be asked of ourselves and those around us:
 
-- *How is the protagonist unusual in the society they live, and how are they trying to influence society? *  
+- *How is the protagonist unusual in the society in which they live, and how are they trying to influence that society? *  
 - *Do you sympathize with the protagonist and his plight? What about the other characters?*  
 - *Can we usefully separate out the dysfunction from the creative insight?*  
 - *What does the protagonist see about society that those around him do not see?*

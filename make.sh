@@ -118,9 +118,12 @@ git_makepdf () {
 git_makepdf_all () {
   git_makepdf DMC_welcome DMC_week1_homework;
   git_makepdf DMC_syllabus;
-  git_makepdf DMC_preface DMC_preface_notes_from_underground;
+  git_makepdf DMC_preface DMC_preface_notes_from_underground DMC_preface_1984 DMC_preface_thematrix DMC_preface_perfectmatch
   git_makepdf DMC_week1 DMC_week1_homework;
   git_makepdf DMC_notes_on_notes DMC_preface_notes_from_underground;
+  git_makepdf DMC_notes_on_1984 DMC_preface_1984;
+  git_makepdf DMC_notes_on_thematrix DMC_preface_thematrix;
+  git_makepdf DMC_notes_on_perectmatch DMC_preface_perfectmatch;
   git_makepdf mind_control_1/mind_control_1;
   git_makepdf materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript;
   

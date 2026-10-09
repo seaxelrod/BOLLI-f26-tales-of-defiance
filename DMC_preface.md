@@ -4,7 +4,7 @@ title: "Preface to DMC Course"
 
 
 
-## 1. Genesis of the Course :  Getting Perspective on Mind Control
+## 1. Genesis of the Course:  Getting Perspective on Mind Control
 
 
 I do not think I am going out on a limb in assuming that everyone taking this course has been observing the American and world political scene for decades. 
@@ -65,7 +65,10 @@ In real life, the dichotomies between destructive and constructive, and between 
 
 #### Threatening vs.  Enticing Mind Control
 
-Mind control based on threats, or implicit threats, manipulates people based on when negative emotions like fear and hatred.  You could call this mind control of a stick. The systemic and usually destructive version of this often takes the form of a “fear dictator” who rules by threats and punishment.  He can also take the form of a more modern “spin dictator”, rules by controlling information flow.
+Mind control based on threats, or implicit threats, manipulates people based on when negative emotions like fear and hatred. 
+You could call this mind control with  a stick.
+The systemic and usually destructive version of this often takes the form of a “fear dictator” who rules by threats and punishment.
+It can also take the form of a more modern “spin dictator”, rules by controlling information flow.
 
 On the other hand, enticing, mind, control  controls people, the allure of comfort or riches.  The systemic and destructive version of this mind control with a carrot, can take the form of mowing a population into complacency by not only providing for their needs, but by creating a dependency on “false needs”.
 
@@ -193,120 +196,16 @@ The fifth and last class will be devoted to overviewing what we have gotten from
 
 ### Tale 2: *1984* 
 
-**Lenses: The Police State (Foucault -- Panopticon),  Narrative Analysis  (Bruner)**
 
-Our next story is *1984* by George Orwell, published in 1949, as society was struggling  after WWII  with how to 
-face weapons of mass destruction: physical nuclear weapons, global technological warfare, and propaganda used for totalitarian control of minds.
-
-We are all familiar with many references to how aspects of our current society are “Orwellian,” with its police state[^foucault_panopticon],
-
-used to control outliers to the norms of society.
-
-[^foucault_panopticon]: On the police state, see:
-
-    - [Discipline & Punish (1975), Panopticism](https://files.libcom.org/files/michel-foucault-panopticism.pdf) by Michel Foucault, Vintage Books, 1995, pp. 195-228 translated from the French by Alan Sheridan, 1977.
-       <!-- materials/michel-foucault-panopticism.pdf -->
-
-      > Bentham’s Panopticon, designed in the late eighteenth century, was a prison model in which inmates could be watched 
-	    without knowing when they were under observation, encouraging them to internalize discipline.
-		In Discipline and Punish, Foucault develops this model into a metaphor for modern power:
-		  surveillance across schools, factories, hospitals, prisons, and society as a whole leads people to regulate themselves.
-
-
-      <!--
-      > Bentham's Panopticon (designed in 1787 and published in 1791) was a prison model where inmates internalize discipline because they may always be watched, while Foucault updated it in Discipline and Punish (1975) as a broader metaphor for modern power, where surveillance makes people regulate themselves across schools, factories, hospitals, and society.  <!-- ?? who wrote this text ?? --> 
-       
-     <!-- 
-      > "The Panopticon is a marvellous machine which, whatever use one may wish to put it to, produces homogeneous effects of power."  
-      > "[T]he Panopticon was also a laboratory; it could be used as a machine to carry out experiments, to alter behaviour, to train or correct individuals"
-     -->
-
-Many of us feel the constant stress of narratives[^bruner_narrative_reconstruction].
-being imposed upon us, often without our conscious knowledge.
-Like the fish who does not have a concept for water, we may be unaware of how our thoughts are constrained by the hiding of evidence
---made concrete in *1984* as the  "memory hole" -- and by the limitations placed on our very ability to speak 
---made concrete as Orwell’s language of Newspeak.
-Orwell’s tale is so powerful because he has constructed a narrative, brilliantly written to focus on possibilities he sees with prophetic vision. 
-
-[^bruner_narrative_reconstruction]: On narrative analysis, see 
-
-    - ["The Narrative Construction of Reality"](https://www.academia.edu/9503047/The_Narrative_Construction_of_Reality), Jerome Bruner, Critical Inquiry, Vol. 18, No. 1, Autumn 1991.
-     <!-- materials/Bruner_1991_The Narrative Construction of Reality.pdf -->
-    - ["Bruner's Narrative Theory for DMC Course"](materials/DMC_bruner_narrative_theory.pdf).
-
-
-
-We will ask questions such as:
-
--  *Mental control often attempts to flatten a person’s inner life. How does the narrative use the "intentional states" (private thoughts) of the characters to defy the external world?*
-- *In a "mentally controlled world," the system provides the "canonical script" (how one should think and act). How does the protagonist of our story create a "breach" in that script?*
-- *In propaganda-heavy worlds, "truth" is whatever the state says. How does a "tale of defiance" use "narrative truth" to expose the lies of "systemic truth"?*
-- *Why do we often use the "Dystopian" genre to talk about mental control? How does the genre itself help us understand what "defiance" looks like?*
-- *What helps or hurts the ability  of individual acts of defiance "accrue" into a movement?*
+!include DMC_preface_1984.md
 
 
 ### Tale 3: *The Matrix*
 
-**Lens:  Analysis of Societal Control (Deleuze - Societies of Control)**
+!include DMC_preface_thematrix.md
 
-In class three, we will focus on the 1999 movie *The Matrix*. The mind control here is total control of reality itself. Our hero, Neo, chooses to swallow the “red pill,” which lets him see that the entire world he has been living in is an elaborate computer simulation.
-
-The previous dystopian elements of controlling outliers via a kind of police state, and controlling the narrative through controlling language
-are relevant to this story.
-In addition, the movie is prophetic of the encroachment of virtual reality on our present-day world. 
-
-
-A tool here is to examine how society is being controlled[^marcuse].
-
-[^marcuse]: On societies of control, see 
-
-    - [Postscript on the Societies of Control](https://deleuze.cla.purdue.edu/wp-content/uploads/2023/09/Deleuze_Gilles-Postscript-on-the-Societies-of-Control.pdf),  Gilles Deleuze, L'Autre journal, no. 1, May 1990.
-       <!-- also in materials/Deleuze_Gilles-Postscript-on-the-Societies-of-Control.pdf -->
-    - [Disciplinary societies and Societies of control](https://narrative-environments.github.io/CourseCompendium/Disciplinary-Societies.html), CourseCompendium.
-	      <!-- matrials/Disciplinary societies and Societies of control.pdf -->
-
-      > "The disciplinary societies, as defined by Foucault, are in the process of becoming societies of control, as defined by Deleuze, Chantal Mouffe (2012: 23) contends. This transition, which does not necessarily imply a complete replacement or displacement, is marked by the emergence of a new paradigm of power. In the disciplinary societies, command is exercised through the articulation of a network of apparatuses (dispositifs) that produce, and regulate customs, habits and practices of production, the major disciplinary institutions being the family, school, factories, asylums and hospitals. In societies of control, however, command is immanent to the social field, distributed to the minds and bodies of the citizens."
-
-We will ask questions such as:
-
-- *Who or what is controlling society?*
-- *How is it being controlled?*
-
-	
 
 ### Tale 4: *The Perfect Match*
 
-**Lenses: False Needs  (Marcuse), Surveillance Capitalism (Zuboff)**
-
-In the short story "The Perfect Match",  the protagonist, Sai, confronts the fact that his desires and preferences are
-not his own, but being fed to him through chatbots. This presents a modern look at the disappearing line 
-between free will and the “suggestions” of corporate-controlled AI.
-
-One issue this story raises is that of "false needs"[^false_needs], that is 
-desires created by capitalist consumer society 
--- such as the urge to buy certain products or have certain relationships  --
-that seem personal but actually keep people dependent, distracted, and less free.
-
-[^false_needs]:  On false needs,  see:  
-
-    - *One-Dimensional Man: Studies in the Ideology of Advanced Industrial Society*, Herbert Marcuse, Beacon Press, 1964.  
-    - [Herbert Marcuse's False Needs Theory  -- YouTube](https://www.youtube.com/watch?v=d4EfUTkjZ50).  
-    - [From 1984 to One-Dimensional Man: Critical Reflections on Orwell and Marcuse](../materials/kellner_from1984_to_marcuse_onedimensional.pdf), Douglas Kellner.
-
-
-Also relevant is  "surveillance capitalism"[^surveillance_capitalism], which is the 
-idea that companies profit by collecting, analyzing, predicting, and influencing people’s behavior, turning personal data into a tool for influence and commercial gain.
-
-- *Can you relate to how the protagonist is controlled through false needs?*
-- *Can you relate to how our independence is limited because corporations are always observing us and trying to influence us?*
-- *How important is privacy to the main character, and to you?*
-
-[^surveillance_capitalism]: On surveillance capitalism,  see:  
-
-    - *[The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power](https://shoshanazuboff.com/book/about/)*, Shoshana Zuboff, Profile Books, 2019.
-
-      > "The titanic power struggles of the twentieth century were between industrial capital and labor, but the twenty-first century finds surveillance capital pitted against the entirety of our societies in a bloodless battle for power and profit as violent as any the world has seen."
-
-    - [The Age of Surveillance Capitalism -- Wikipedia](https://en.wikipedia.org/wiki/The_Age_of_Surveillance_Capitalism).
-    - [Shoshana Zuboff's The Age of Surveillance Capitalism: A Guide to Fighting Back -- YouTube](https://www.youtube.com/watch?v=KKv2ZDbMyb4).
+!include DMC_preface_perfectmatch.md
 

@@ -88,12 +88,12 @@ Students should leave the course with a better understanding of how to adapt the
 
 - The lenses used to look at each story are actually questions that apply to all stories:
 
-  1. Human Outlier Analysis:  How are people outside of the "normal" for society treated? 
-  2. Narrative Analysis: How are stories told, and how does that effect  people?   
-  	 The Police State:  Is the government completely controlling civil society?
-  3. Societal Control Analysis: What are the mechanisms by which society exerts control to constrain its members?
-  4. False needs: How are people manipulated into acting based on a sense of what they need?   
-	  Surveillance capitalism: How does constant surveillance affect people in society?
+  1. Human Outlier Perspective:  How are people outside of the "normal" for society treated? 
+  2. Narrative Perspective: How are stories told, and how does that affect  people?   
+  	  Police State Perspective:  To what extent does the government control civil society?
+  3. Societal Control Perspective: What are the mechanisms by which society exerts control to constrain its members?
+  4. False Needs Perspective: How are people manipulated into acting based on a sense of what they need?   
+	  Surveillance Capitalism Perspective: How does constant surveillance affect people in society?
 
 ### *Notes from the Underground*
 
@@ -114,11 +114,11 @@ Students should leave the course with a better understanding of how to adapt the
 
   - People are living inside a computer simulation.
   - They cannot perceive that their reality is constructed and controlled by the architects of the digital world.
-  - Those who control information we receive control the perceived reality.
+  - Those who control the information people receive control the perceived reality.
 
 ## Week 4, Nov. 23: *The Perfect Match* 
 
-  - Independent thoughts and feeling are not possible because algorithm and bots constantly "nudge" people what to think and feel.
+  - Independent thoughts and feelings are not possible because algorithms and bots steer how people think and feel.
   - People are lured by comfort of a constructed, false-but-pleasant narrative.
   - Who provides the most comfort controls the perceived reality. 
 
@@ -160,7 +160,7 @@ Additional/optional materials will be provided on the class website and in email
 ![ ](images/matrix_image.jpg){width=50%} <!-- Image from: https://facts.net/wp-content/uploads/2023/06/47-facts-about-the-movie-the-matrix-1687246419.jpg -->
 
 
-## ["The Perfect Match," free on lightspeed magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/)
+## ["The Perfect Match," free on Lightspeed Magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/)
 
 ![ ](images/perfect_match.jpg){width=50%} <!-- Image from: https://ecdn.teacherspayteachers.com/thumbitem/-The-Perfect-Match-Short-Story-by-Ken-Liu-2-Day-Lesson-Digital-Print--9912050-1693253669/original-9912050-1.jpg -->
 
@@ -170,5 +170,5 @@ Additional/optional materials will be provided on the class website and in email
 ::: {.section-block .light-blue}
 # SGL Biography
 
-In his career as a mathematical physicist, Scott Axelrod studied geometrical quantum field theories as an assistant professor of mathematics at MIT, before working on nuclear magnetic resonance, natural language processing, and finance in industry. On the humanistic side, Scott has self-published books "Off the Deep End: Diary of a Mathematician", "Infinite Regress", and "After-Time". Much of the latter book consists of essays for the BOLLI Writers Guild. He has several other works in progress. Scott is looking forward to his first-time teaching experience at BOLLI.
+In his career as a mathematical physicist, Scott Axelrod studied geometrical quantum field theories as an assistant professor of mathematics at MIT before working on nuclear magnetic resonance, natural language processing, and finance in industry. On the humanistic side, Scott has self-published the books "Off the Deep End: Diary of a Mathematician", "Infinite Regress", and "After-Time". Much of the latter book consists of essays for the BOLLI Writers Guild. He has several other works in progress. Scott is looking forward to his first teaching experience at BOLLI.
 :::
