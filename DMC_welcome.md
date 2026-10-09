@@ -5,48 +5,56 @@ title: "DMC welcome letter"
 
 Dear participants,
 
-Welcome to "Tale of Defiance to Mind Control in the Modern Age".  I am looking forward to our learning together.
+Welcome to "Tales of Defiance to Mind Control in the Modern Age", or "DMC" for short.
+I am looking forward to our learning together.
+I welcome your arguments, alternatives, and even complaints.
 
 We meet on Monday, Period 2 (11:10 am to 12:35 pm), in person at 51 Sawyer Road, Room ?.  Classes meet on November 2, 9, 16, 23, and 30.
 
-You can view the course website at the following link: [November 2026: DMC course web site](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/).
-Note that I use the acronym "DMC" as shorthand for the name of the course.
-The header of the course web site has a dropdown box in the upper left that allows one to select the page to appear in the frame below the header.
-
-The full web site is still under construction, but you can view all the following now: <!-- [^pdf_and_frame]: -->
-
-- this [DMC welcome letter](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html),
-- the [DMC course syllabus](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_syllabus.html), 
-- a more detailed [DMC Preface ](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_overview.html), and
-- the page for  [DMC week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_week1.html).
+Please feel free to  contact me at [axelrod@alumni.princeton.edu](mailto:axelrod@alumni.princeton.edu) with comments, questions, requests for clarification or help, or 
+to let me know if you will be late or absent for a class.
 
 
+So that I can verify that all email addresses work and we can start getting to know one another, 
+please reply to this note with a brief email that includes your name, the town where you live, what sparked your interest in taking this class,
+and any background information you would like to share. 
+If you are comfortable doing so, please include a picture of yourself to help me connect faces with names. 
+Please also indicate which information from your response you authorize me to share with the class. 
+I will combine the authorized information into a single email, which I plan to send to the class on November 1.
 
-
-So that I can verify that all email address work, and so that I can begin learning about you,
-please respond to this note with a brief email with your name, what town you live in, your background, what sparked your interest in taking this class, 
-and anything else that you think is relevant.
-It's not at all essential, but I wouldn't mind a picture so that I can start the process of connecting your faces and names, which I apologize in advance for
-being a little slow at.
-Please also let me know what information in your response email that you authorize me to share with the class.
-I will combine that information into a single email, which I plan to send to the class on November 1.
-
-With the exception of personal information about students, such in the last paragraph, all class materials will be accessible from the website.
-I also plan to send out everything through email as well.
-For example, I am attaching 
+For each of the first four weeks, we will focus on a different "Tales of Defiance to Mind Control".
+The final week will be devoted to discussion of the arc of all four stories as a whole.
 
 
 
-
-This email will be an exception to 
-
-(Note: I will not put any information about  class participants on the web site, unless I feel the need to give someone attribution and I have permission to do so.)
+## Website
 
 
+Here is a link to:  [the course website](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance).
+Parts of the website are under construction, but all the materials needed to prepare for Week 1 are available now. 
+With the exception of personal information about students, such as the information in the “single email” mentioned above, all class materials will be accessible from the website. 
+I will also send all essential material by email. 
+The website has a header and a page that appears in a frame below the header. 
+The header has a dropdown box in the upper left that allows one to select the page that appears in the frame below the header. 
+When I email links to course website pages, I will send links to the standalone pages, without the course header.
 
 
-To give us a chance to learn about each other, it would be great if 
+##  An Arc of Stories and Lenses
 
-I'd also like to learn about you, so please say a bit about your background and what sparked your interest in taking the class.  Then I'll reply back personally to you.   
-After I receive a group of responses, I will put your responses together on the Home page of the web site, so that we can learn about each other.
+Each of the four stories we will explore could be the basis of one or more full courses. 
+Combining them means we won’t be able to cover the individual stories in great depth, 
+but it will allow us to see an example of what I call *an* arc of dystopian stories. 
+For each story, I will suggest a tool or “lens” we can use to examine it. 
+These lenses are intended to foster thinking and discussion, not to create a barrier of abstraction.
 
+
+## Week 1 Homework
+
+The homework to prepare for our first class is the following, which is copied from the [Week1 page](DMC_week1.html). I have
+attached PDF version of the Week1, Syllabus, Preface, and Notes on *Notes from Underground*  pages.
+
+!include DMC_week1_homework.md 
+
+
+I look forward to hearing from you and seeing you in class,   
+ Scott Axelrod

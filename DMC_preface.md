@@ -2,43 +2,35 @@
 title: "Preface to DMC Course"
 ---
 
-<!-- *Transcribed and then edited from a handwritten entry dated Monday, August 24, 2026, starting at 12:00 p.m.* -->
-
-<!--
-
-## Introduction
-
-This preface is written to those of you who have chosen to embark on this course. I gather that many of you have chosen to give this a try even though the course may have left you wondering: What the heck is this course actually about? What is expected of me? What can I expect from the teacher and my fellow students? Is this mostly about kicking back, watching some films, and having freewheeling discussions of them? Or am I in for some relentless, hardcore taxonomy of mind-control techniques, leading naturally into discussion of current politics?
-
-Those are great questions that I am, rhetorically, having you ask me. And yet I cannot really answer them precisely, because this course will become what we together, as a study group, make it. What I can do, however, is write this preface explaining the following:
-
-1. The genesis of this course in my mind.
-2. How I am trying to shape the container.
-3. What I am interested in exploring.
-4. Comments on each of the "Tales" we will consider in the course.
-
--->
 
 
-## 1. Genesis of the Course
+## 1. Genesis of the Course :  Getting Perspective on Mind Control
 
 
 I do not think I am going out on a limb in assuming that everyone taking this course has been observing the American and world political scene for decades. 
 A line that comes to mind is, “When I think of the road we’re traveling on, I wonder what’s gone wrong. I can’t help it. I wonder what’s gone wrong.”[^americantune]
-
+Granted, not all of you will be obsessed with the dark side. Some know that focusing on the positive is a better way of making a hopeful prophecy self-fulfilling. 
+Think, for example, of the line "The arc of the moral universe is long, but it bends toward justice.[^moralarc]"
 
 [^americantune]: Quoted lyric from "[[American Tune]{.underline}](https://genius.com/Paul-simon-american-tune-lyrics)" by Paul Simon.
 
-Granted, not all of you will be obsessed with the dark side. Some know that focusing on the positive is a better way of making a hopeful prophecy self-fulfilling. But for my purposes in trying to control you to be receptive to what I have to say, 
-let us assume that all of you have realized that, at some level, politics and other acts of communication have an element of mind control.
+[^moralarc]: 
+MLK said this in his ["How Long, Not Long" speech](https://en.wikipedia.org/wiki/How_Long,_Not_Long).
+[The line has evolved from sermons of Theodore Parker since before  the American Civil War](https://quoteinvestigator.com/2012/11/15/arc-of-universe/).
 
-Going more broadly than politics, some of you may view every act of communication—and even every thought, including our communication with ourselves—as having an element of mind control.
+Whether we dwell on what has gone wrong or place our faith in progress, both perspectives reflect the power of ideas to shape how we see the world. 
+For my purposes in trying to control you to be receptive to what I have to say, 
+let us agree that not only does every political act involve an element of mind control,
+but so does every act of communication —including thought, which is an act of communication with ourselves.
 
-So, we all have a collection of, perhaps contradictory,  senses of what mind control means. 
+### Aspects of Mind Control
+
+
+We all have a collection of, perhaps contradictory,  senses of what mind control means. 
 For the purposes of this course, I am interested less in a single universal definition of mind control than in sorting through different aspects of mind control.
 To this end, let me start by distinguishing between constructive and destructive mind control, between individual and systemic mind control, and between threatening and enticing mind control.
 
-### Constructive vs. Destructive Mind Control
+#### Constructive vs. Destructive Mind Control
 
 Constructive mind control offers options to improve how we think and feel. Think of an inspiring teacher whose goal is not to bedazzle students, but to get them to think for themselves.
 
@@ -55,7 +47,7 @@ Speaking of media, the proliferation of media today (social media, blogs, ..., a
              and [[*On Bullshit*]{.underline}](https://press.princeton.edu/books/hardcover/9780691276786/on-bullshit) by Harry G. Frankfurt.
 [^mcluhan]: See [[*The Medium is the Message*]{.underline}](https://en.wikipedia.org/wiki/The_medium_is_the_message)  by Marshall McLuhan.  Think about how media and culture have co-evolved to saturate us with infotainment, which trains us to need to be entertained when learning.  Participants may well wonder:  How much is this course affected by that?
 
-### Individual vs.  Systemic Mind Control
+#### Individual vs.  Systemic Mind Control
 
 Systemic, or system-wide, mind control is what is imposed upon us—either for good or bad—by society. It is structural. It is the water we swim in that we cannot always even see. Think, for example, of [[the phrase “under God” being inserted into the Pledge of Allegiance in 1954]{.underline}]( https://www.history.com/articles/pledge-allegiance-under-god-schools) as part of the Cold War against atheist communists.
 
@@ -71,14 +63,14 @@ So, the kind of mind control I have worried about for a long time is destructive
 In real life, the dichotomies between destructive and constructive, and between individual and systemic, may be useful but are actually quite fuzzy. I hope you will help me break out of my own controlled brain and explore these distinctions rather than use them rigidly.
 
 
-### Threatening vs.  Enticing Mind Control
+#### Threatening vs.  Enticing Mind Control
 
 Mind control based on threats, or implicit threats, manipulates people based on when negative emotions like fear and hatred.  You could call this mind control of a stick. The systemic and usually destructive version of this often takes the form of a “fear dictator” who rules by threats and punishment.  He can also take the form of a more modern “spin dictator”, rules by controlling information flow.
 
 On the other hand, enticing, mind, control  controls people, the allure of comfort or riches.  The systemic and destructive version of this mind control with a carrot, can take the form of mowing a population into complacency by not only providing for their needs, but by creating a dependency on “false needs”.
 
 
-### More Features of Mind Control Instances
+#### More Features of Mind Control Instances
 
 Any particular example of  mind control will have one of the possible values of each of the above features, or perhaps have a weighted combination
 of the different possibilities.
@@ -113,7 +105,7 @@ The tendency to stop thought is probably highly correlated with the tendency to 
 I have spent a long, lonely time[^longtime] 
 striving to understand magic formulas to overcome systemic destructive mind control and “get back to the garden.”[^woodstock]
 As you can see from the kind of data analysis approach of the previous section, I am backing down from trying to find solutions to simply trying
-to find the right questions to ask[^physicsfeatures].
+to find relevant questions to ask[^physicsfeatures].
 
 
 [^longtime]: “It’s been a long time, been a long lonely, lonely, lonely time,” is a  line in
@@ -123,7 +115,7 @@ to find the right questions to ask[^physicsfeatures].
                      [["Woodstock"]{.underline}](https://jonimitchell.com/music/song.cfm?id=75) by Joni Mitchell.
 
 [^physicsfeatures]: It is sometimes said that the hallmark of a great physicist is the ability to home in on the relevant features (or variables) of a problem.  In some sense, physicists face an easier task than what people studying human behavior face, because the results of experiments in physics are fairly repeatable, and
-often only a small number of variables are necessary to capture the essence of what is going on.   This brings up the **holistic  vs atomistic** feature.
+often only a small number of variables are necessary to capture the essence of what is going on.   <!-- This brings up the **holistic  vs atomistic** feature. -->
 
 To encouraging the study group to question my biases, I will now admit something. 
 My thinking about mind control has been affected by intense interactions I have had with 
@@ -148,9 +140,10 @@ discussion questions about the stories, and short quotes from the stories so tha
 For each story, I will suggest a tool or "lens" we can use to look at the story.
 These lenses are just suggestions to foster thinking and discussion; they are not meant to be a barrier of abstractions.
 The primary goal will be to encounter the stories in their own terms.
+A consistent discussion point about all the stories:
 
+- *How is the story relevant to the issues today, and to each of us on a personal level?*
 
-I look forward to hearing your arguments, alternatives, and even complaints.
 
 ## 3. What We Will Be Exploring
 
@@ -178,22 +171,18 @@ perspective by putting together an arc of stories that speak to you from literat
 As the techniques of dystopian mind control evolve, the tools we use to look at them co-evolve.
 You could think of them  as "*an* arc of lenses", giving a sample of evolving ways to look at stories.
 
+Below we give an introduction to each of the four stories we will look at.
+<!-- , and the interpretive arc that I see through dark glasses[^glassdarkly].
+[^glassdarkly]:  King James, 1 Corinthians 13:12: "For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known."
+-->
+As I describe the stories, I will also introduce some lenses we will use to consider them, and questions that arise from those lenses.
+I will state the questions in this preface in a generic manner, which can be applied to any of the stories.
+When we cover individual stories, we will adapt the questions to the specific circumstances of the story.
+The fifth and last class will be devoted to overviewing what we have gotten from arc as a whole.
+
 
 ## 4. An Arc of Stories and Lenses
 
-Here is my introduction to the four stories we will look at, and the interpretive arc that I see through dark glasses[^glassdarkly].
-
-[^glassdarkly]:  King James, 1 Corinthians 13:12: "For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known."
-    <!-- - [[*Through a Glass Darkly*]{.underline}](https://en.wikipedia.org/wiki/Through_a_Glass_Darkly_(film)), a  film by Ingmar Bergman. -->
-
-As I describe the stories, I will also introduce some lenses we will use to consider them, and questions that arise from those lenses.
-I will state the questions in this preface in a generic manner, which can be applied to any of the stories.
-
-
-I plan to have each of the first four classes mainly focus on one of the stories, with some time
-in each class connecting to other stories in the arc.
-When we cover individual stories, I may adapt the questions to the specific circumstances of the story.
-The fifth and last class will be devoted to overviewing what we have gotten from arc as a whole.
 
 
 ### Tale 1: *Notes from the Underground*

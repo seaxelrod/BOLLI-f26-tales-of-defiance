@@ -3,6 +3,33 @@
 
 # convert .md pages to .html
 
+# isnewer_than_all target  file1 file2 ...
+# Returns 0 (true) if $target is newer than all subsequent files passed to it.
+# Returns 1 (false) if target is older, equal, missing, or any dependency is newer.
+is_newer_than_all() {
+  local target="$1"
+  shift
+
+  # Target must exist
+  if [[ ! -e "$target" ]]; then
+    return 1
+  fi
+
+  for dep in "$@"; do
+    # Fail if dependency does not exist
+    if [[ ! -e "$dep" ]]; then
+      return 1
+    fi
+
+    # If target is NOT newer than dep, it fails
+    if [[ ! "$target" -nt "$dep" ]]; then
+      return 1
+    fi
+  done
+
+  return 0
+}
+
 git_makehtml_noTOC () {
     filebase=$1;
     # pandoc used to have:
@@ -21,33 +48,40 @@ git_makehtml_force () {
     local src="$1.md"
     local out="$1.html"
     echo "Compiling $src -> $out..."
+    thisDir=`pwd`;
     pandoc $src -s \
        --filter /Users/axelrod/.local/bin/pandoc-include  \
-       -H header.html \
-       -c styles.css \
+       -H ${thisDir}/header.html \
+       -c ${thisDir}/styles.css \
        -o $out \
        --toc --toc-depth=2
 }
 
 git_makehtml () {
+    # need -nt $2 , -nt $3, -nt $4, ...  : use  find command
     local filebase=$1;
     local src="$1.md"
     local out="$1.html"
-    
-    # Recompile if output doesn't exist OR input, header, or styles  is newer than output
-    if [ ! -f "$out" ] || [ "$src" -nt "$out" ] || [ "header.html" -nt "$out" ] || [ "styles.css" -nt "$out" ]; then
-	git_makehtml_force $filebase
-    else
+    shift;
+    local deps=("${@/%/.md}");
+    echo dependencies="${deps[@]}"; 
+
+    # Recompile if output doesn't exist OR input, header,  styles , or other dependencies are newer than output
+    if is_newer_than_all $out $src "header.html" "styles.css" "${deps[@]}"; then  
         echo "$out is up to date."
+    else
+	git_makehtml_force $filebase
     fi
 }
 
 git_makehtml_all () {
-  git_makehtml DMC_welcome;
+  git_makehtml DMC_welcome DMC_week1_homework;
   git_makehtml DMC_syllabus;
-  git_makehtml DMC_overview;
-  git_makehtml DMC_week1;
+  git_makehtml DMC_preface DMC_preface_notes_from_underground;
+  git_makehtml DMC_week1 DMC_week1_homework;
+  git_makehtml DMC_notes_on_notes DMC_preface_notes_from_underground;
   git_makehtml mind_control_1/mind_control_1;
+  git_makehtml materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript;
 }
 
 
@@ -57,31 +91,39 @@ git_makepdf () {
     local filebase=$1;
     local src="$1.md"
     local out="$1.pdf"
+    shift;
+    local deps=("${@/%/.md}");
+    echo dependencies="${deps[@]}"; 
     
-    # Recompile if output doesn't exist OR input is newer than output
-    if [ ! -f "$out" ] || [ "$src" -nt "$out" ] || [ "header.tex" -nt "$out" ] || [ "prefix-links.lua"  -nt "$out" ] ; then
+    # Recompile if output doesn't exist OR input, header,  prefix, or other dependencies are newer than output
+    if is_newer_than_all $out $src "header.tex" "prefix-links.lua" "${deps[@]}"; then  
+        echo "$out is up to date."
+    else
         echo "Compiling $src -> $out..."
 	dir=$(dirname "$filebase");
 	src_file=$(basename "$src");
 	out_file=$(basename "$out");
+	thisDir=`pwd`;
 	(cd $dir;
          echo -n "compile dir: "; pwd
 	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
-         --include-in-header=header.tex \
+         --include-in-header=${thisDir}/header.tex \
          --filter /Users/axelrod/.local/bin/pandoc-include  \
-	 --lua-filter=prefix-links.lua \
+	 --lua-filter=${thisDir}/prefix-links.lua \
          --math-method=mathjax  -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
         )
-    else
-        echo "$out is up to date."
     fi
 }
 
 git_makepdf_all () {
-  git_makepdf DMC_welcome;
+  git_makepdf DMC_welcome DMC_week1_homework;
   git_makepdf DMC_syllabus;
-  git_makepdf DMC_overview;
-  git_makepdf DMC_week1;
+  git_makepdf DMC_preface DMC_preface_notes_from_underground;
+  git_makepdf DMC_week1 DMC_week1_homework;
+  git_makepdf DMC_notes_on_notes DMC_preface_notes_from_underground;
+  git_makepdf mind_control_1/mind_control_1;
+  git_makepdf materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript;
+  
 }
 
 git_make_all() {
