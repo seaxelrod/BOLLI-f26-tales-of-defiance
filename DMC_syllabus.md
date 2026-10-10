@@ -13,7 +13,7 @@ title: |
 **Title Abbreviation:** DMC  
 **Study Group Leader:** Scott Axelrod  
 **Meeting Times/Dates:** Mondays, Period 2 (11:10 am - 12:35 pm), November 2-30  
-**Location:** 51 Sawyer Road, Room ?  
+**Location:** 51 Sawyer Road, second floor.  
 **Contact:** axelrod@alumni.princeton.edu  
 **Course Number:** HG19-LIT-5b-Mon2-F26  
 **Preparation time:**  2-3 hours per week, which includes time to
