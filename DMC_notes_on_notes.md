@@ -83,7 +83,7 @@ In the novella, the symbol of what he is complaining about is the
 "The Crystal Palace" in contemporary writer
 Nikolai Chernyshevsky's novel [*What Is to Be Done?*](https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F_(novel)).
 
-<!— The lightning summary of the distopian arc we look at in  this course consists of  impose the result of 2+2 as mind control. —>
+<!-- The lightning summary of the distopian arc we look at in  this course consists of  impose the result of 2+2 as mind control. -->
 In *Notes from the Underground*,  the Underground Man is trying to rebel against rationalism imposing 2+2=4 logic on him.
 Here is a relavant quote, from p. 8-9 of [the Garnett translation](materials/notes_from_underground/NotesFromUnderground_Garnett.pdf#page=8):
 
@@ -101,10 +101,10 @@ consequently all her conclusions. A wall, you see, is a wall. . .and so
 on, and so on.”*
 
 In the production starring Larry Cedar,  they had to edit out a lof material, including the "twice to" lines.
-They keep one of the more viceral expressions of the same, which is the Undeground Man is defiant to men being treated like "piano keys"
-This is captured in the followng hand edit transcript of 
+They keep the  more viceral expression of the same concept, which is that the Undeground Man is defiant to men being treated like "piano keys".
+This is captured in the followng hand-edited transcript of 
 [the Cedar video,  starting at 14:57](https://www.youtube.com/watch?v=asp5tqDql0g&t=897s).
-Paragraph breaks added for readability, actual performance is a continual stream.
+I have added paragraph breaks for readability, although the actual performance does not have so many pauses.
 The full, unedited transcript can be viewed on YouTube, or at the following link: [YouTube trancript of the Cedar video](materials/notes_from_underground/NotesFromUnderground_CedarTranscript.html).
 
 > *...
@@ -168,28 +168,28 @@ The full, unedited transcript can be viewed on YouTube, or at the following link
    
 
 
-The Undeground Man's plight  is a prototype for that of many character in Dostoyevsky's later works.
-that of character's trapped in an intellectualized cage, what I call the "cave of rational egoism".
+The Undeground Man's plight  is a prototype for that of many character in Dostoyevsky's later works, namely
+that of characters trapped in an intellectualized cage, what I call the "cave of rational egoism".
 Doesteyevsky's mock execution and imprisonment in Siberia help him to come to the solution for him, namely that love and faith are the way out of the cave.
 In [Crime and Punishment](https://en.wikipedia.org/wiki/Crime_and_Punishment), written just after *Notes from the Undeground*, and published in serialized form starting in 1866 
 (the same year *Notes* was published), the main character, Rodion Raskolnikov, 
 responds the delimna of being powerless by killing an old women for money that he believe will help him do great things.
 Like Doestoyevsky himself, Raskolnikov is exiled to Siberia.   There, he escapes from his cave of rational egoism through love and faith.
 
-Raskolnikov an the underground man both react to the frustration of being outsider, unwilling to stay in the cave the society requires them to stay in,
-Raskolnikov escapes his cave.  The second part of (the show and the novella of) *Notes from the Underground* consists of flashbacks to stories of human interaction that
-the Undeground Man had in the past.  Because his ego prevents hin from accepting comraderie of love, the Undeground Man stays trapped in his cave.
-Or does he?
+Raskolnikov and the Underground Man both react to the frustration of being an outsider unwilling to stay in the cave the society requires them to stay in,
+Raskolnikov escapes his cave, whereas the Underground Man stays trapped in his.
+This is made clear in the second part of (the show and the novella of) *Notes from the Underground*, which consists of flashbacks to stories of human interaction that
+the Undeground Man had in the past.  He stays trapped because his ego prevents him from accepting comraderie or love.
 
 The book [Christian Fiction and Religious Realism in the Novels of Dostoevsky](https://www.cambridge.org/core/books/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/0134E0CD796954966BA4B8501AD0BB90) presents  evidence that Doestoevsky did intend to put an element of saving grace into the character of the Undeground Man.
-As a pointer to where Doestoevsky was headed in his later "great works", I will end with [a summary of Chapter 3: Christian Themes in Crime and Punishment](
-https://www.cambridge.org/core/books/abs/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/christian-themes-in-crime-and-punishment/837CA9085FAC1D80ACCC78B98D40FF88),  the authors claim that:
+I will end with [a summary of Chapter 3: Christian Themes in Crime and Punishment](
+https://www.cambridge.org/core/books/abs/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/christian-themes-in-crime-and-punishment/837CA9085FAC1D80ACCC78B98D40FF88),  which gives a pointer to where Doestoevsky was headed in his later "great works". 
 
-
-   > *Only very gradually do religious themes start to play a role in Dostoevsky's literary work after his Siberian period. In spite of the fact that his detention in the Siberian penal colony greatly contributes to Dostoevsky's re-assessment of Christianity, Christian themes play no part in two of the first three works from the beginning of the 1860s, The* Insulted and Injured *and* 
-     Notes from the Underground. *Only at the end of the 60s do Christian themes and motifs become clearly defined in the psychological, ethical and ideological conflicts in the novels, 
-	 finally culminating in the predominately religious novel,* The Brothers Karamazov.
-
+   > *Only very gradually do religious themes start to play a role in Dostoevsky's literary work after his Siberian period. 
+        In spite of the fact that his detention in the Siberian penal colony greatly contributes to Dostoevsky's re-assessment of Christianity,
+		Christian themes play no part in two of the first three works from the beginning of the 1860s, The* Insulted and Injured *and* 
+        Notes from the Underground. *Only at the end of the 60s do Christian themes and motifs become clearly defined in the psychological, 
+	ethical and ideological conflicts in the novels, finally culminating in the predominately religious novel,* The Brothers Karamazov.
 
    > *In* Notes from the Underground, *Dostoevsky did try to include a religious theme but, to his astonishment, the censor eliminated it. In a letter of March 26th, 1864 to his brother, Mikhail, Dostoevsky speaks with bitterness of the censor's activities in Chapter 10 of the first part: ‘The censor pigs have passed everything where I scoffed at everything and, on the face of it, was sometimes even blasphemous, but have forbidden the parts where I demonstrated the need for belief in Christ from all this’ (XVIII, 2, 73). This philosophical-psychological masterpiece has thus remained secular and Dostoevsky did not keep the missing part.*
 
