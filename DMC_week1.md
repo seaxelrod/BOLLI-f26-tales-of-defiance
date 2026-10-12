@@ -4,7 +4,7 @@ title: "DMC course: Week 1"
 
 :::: {.section-block .white}
 
-## Homework
+# Homework
 
 !include DMC_week1_homework.md 
 
