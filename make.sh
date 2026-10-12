@@ -36,7 +36,7 @@ git_makehtml_noTOC () {
     # 	   --css="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap" \
     # 	   --embed-resources \
     pandoc $filebase.md -s \
-           --filter pandoc-include  \
+           --filter pandoc-include.py  \
 	   -H header.html \
 	   -c styles.css \
 	   -o $filebase.html 
@@ -49,10 +49,10 @@ git_makehtml_force () {
     local out="$1.html"
     echo "Compiling $src -> $out..."
     thisDir=`pwd`;
-    pandoc $src -s \
-       --filter /Users/axelrod/.local/bin/pandoc-include  \
-       -H ${thisDir}/header.html \
-       -c ${thisDir}/styles.css \
+    pandoc $src -s --embed-resources \
+       --filter=/Users/axelrod/.local/bin/pandoc-include.py  \
+       -H "${thisDir}/header.html" \
+       --css="${thisDir}/styles.css" \
        -o $out \
        --toc --toc-depth=2
 }
@@ -115,7 +115,7 @@ git_makepdf () {
          echo -n "compile dir: "; pwd
 	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
          --include-in-header=${thisDir}/header.tex \
-         --filter /Users/axelrod/.local/bin/pandoc-include  \
+         --filter /Users/axelrod/.local/bin/pandoc-include.py  \
 	 --lua-filter=${thisDir}/prefix-links.lua \
          --math-method=mathjax  -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
         )

@@ -22,9 +22,9 @@ author: "Scott Axelrod"
 
 \newpage
 
-# Stories in The Dystopian Arc 
+# Stories in a Dystopian Arc 
 
-![](stories_in_the_dystopian_arc.png){width=90%}
+![](stories_in_a_dystopian_arc.jpg){width=90%}
 
 - Dostoyevsky's Undeground Man, isolated and being crushed by 2+2=4 reason .
 - Winston from "1984" being pounded by Big Brother to truly believe 2+2=5.

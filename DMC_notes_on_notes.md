@@ -162,7 +162,8 @@ The full, unedited transcript can be viewed on YouTube, or at the following link
 <!-- | 19:25 | --> short, how do you know that such a reformation will be a benefit? 
 ...*
 
-\~\~\~
+   
+
 
 The Undeground Man's plight  is a prototype for that of many character in Dostoyevsky's later works.
 that of character's trapped in an intellectualized cage, what I call the "cave of rational egoism".

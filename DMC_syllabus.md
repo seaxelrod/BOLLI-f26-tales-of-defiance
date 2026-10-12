@@ -4,8 +4,12 @@ title: |
   | Syllabus
 ---
 
+<!--
 ::: {.section-block .hero-title}
 :::
+-->
+
+![](images/stories_in_a_dystopian_arc.jpg){width=90%}
 
 
 ::: {.meta-info}
@@ -30,6 +34,7 @@ watch the movies and read some additional materials.
 
 ::::
 -->
+
 
 
 
@@ -58,6 +63,7 @@ They trace an arc of defiance against worlds with increasingly sophisticated, mu
 :::
 
 
+<!-- 
 ::: {.section-block .white}
 # Objectives
 
@@ -67,9 +73,10 @@ We will discuss strategies for recognizing and responding to such influences.
 Students should leave the course with a better understanding of how to adapt these strategies to their own personalities.
 
 :::
+-->
 
 
-::: {.section-block .light-blue}
+::: {.section-block .white}
 # Course Topics by Week
 
 ## Week 1, Nov. 2:  Introduction, *Notes from the Underground*
@@ -130,7 +137,8 @@ Students should leave the course with a better understanding of how to adapt the
 
 
 
-:::: {.section-block .white}
+
+::: {.section-block .light-blue}
 
 #  Course Materials 
 
@@ -167,7 +175,7 @@ Additional/optional materials will be provided on the class website and in email
 ::::
 
 
-::: {.section-block .light-blue}
+::: {.section-block .white}
 # SGL Biography
 
 In his career as a mathematical physicist, Scott Axelrod studied geometrical quantum field theories as an assistant professor of mathematics at MIT before working on nuclear magnetic resonance, natural language processing, and finance in industry. On the humanistic side, Scott has self-published the books "Off the Deep End: Diary of a Mathematician", "Infinite Regress", and "After-Time". Much of the latter book consists of essays for the BOLLI Writers Guild. He has several other works in progress. Scott is looking forward to his first teaching experience at BOLLI.
