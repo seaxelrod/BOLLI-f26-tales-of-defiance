@@ -9,8 +9,8 @@ Welcome to "Tales of Defiance to Mind Control in the Modern Age," or "DMC" for s
 I am looking forward to our learning together.
 I welcome your arguments, alternatives, and even complaints.
 
-We meet in person on Mondays during Period 2 (11:10 a.m. to 12:35 p.m.) at 51 Sawyer Road, Room ?. 
-Classes meet on November 2, 9, 16, 23, and 30.
+We meet in person on Mondays during Period 2 (11:10 a.m. to 12:35 p.m.) at 51 Sawyer Road, second floor. 
+Our class meets on November 2, 9, 16, 23, and 30.
 
 Please feel free to  contact me at [axelrod@alumni.princeton.edu](mailto:axelrod@alumni.princeton.edu) with comments, questions, requests for clarification or help, or 
 to let me know if you will be late or absent for a class.

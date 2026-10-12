@@ -6,7 +6,7 @@ title: "Notes on *Notes from the Underground[^notes_title]*"
 
 
 A  tremendous  amount of work has been devoted to examing Dostoeyeveky's life, philosophy, and writing, and in particular to *Notes from Underground*[^sadler_youtubes].
-Here, I recall what I wrote in the preface and then give a few additional comments and questions.
+Here, I recall what I wrote in the preface about Tale 1,  and then give some additional material.
 
 [^sadler_youtubes]:  
 Here are links to series of lectures on the philosophy of *Notes from Undergound*, by [Gregory B. Sadler, "That Philosophy Guy"](https://www.youtube.com/@GregoryBSadler):
@@ -25,7 +25,7 @@ Here are links to series of lectures on the philosophy of *Notes from Undergound
 <!-- Times above optained by: yt-dlp --get-duration 'video_url' -->
 
 
-# [Notes in Preface](DMC_preface.html#tale-1-notes-from-underground) 
+# [Notes in Preface regarding Tale 1](DMC_preface.html#tale-1-notes-from-underground) 
 
 
 !include DMC_preface_notes_from_underground.md
@@ -37,8 +37,10 @@ In 1849,  at the age of 28, Fyodor Doestoevsky had already published works that
 established his future as a great writer.
 He was  arrested as a subversive for his active enagement in a discussion circle that talked of utopian ideas and was critical of the serfdom that was widespread in Russia.
 He was held without trial for months, before being subject to a mock execution,
-after which he was in exile from Russia for ten years, the first being imprisoned in Sibera 
+after which he was in exile from Russia for ten years. For
+the first four years, he was imprisoned in Siberia 
 at hard labor under the supervision of guards who were frequently sadists.
+After that, he had six years of compulsory military service.
 He used these years to think deeply about society and human psychology.
 He came away from this experience with a deep spirituality, disdain for materialism,
 and appreciation of freedom, honesty, and integrity.[^exile]
@@ -48,21 +50,23 @@ See [Dostoevski Is Exiled to Siberia](materials/notes_from_underground/Dostoevsk
 [This is downloaded from [here](https://www.ebsco.com/research-starters/history/dostoevski-exiled-siberia).]  
 
 His novella *Notes from the Undeground*, published in 1864, 
-"is considered one of the first works of existentialist literature.[^fdwiki]
+"is considered one of the first works of existentialist literature”.[^fdwiki]
 [Existentialism](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky) is 
 "a family of philosophical views and inquiry that explore the human individual's struggle to lead an authentic life despite the apparent absurdity or incomprehensibility of existence."
 
 [^fdwiki]:  Quoted from the Wikipedia page on [Fyodor Dostoevsky](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky).
 
-The novella
+The novella[^andtheshow]
 [*Notes from the Undeground*](https://en.wikipedia.org/wiki/Notes_from_Underground) 
 is essentially a long monologue
-by the protaganist and narrator, the "Underground Man"[^andtheshow]
+by the protaganist and narrator, the "Underground Man".
 He is an intellectual who failed to thrive in society,
-and has lived sparsely for many years in an apartment he refers to as a mousehole.
+and has lived sparsely for many years.
+He calls himself a “mouse” and says he retreats to his “mouse-hole”.
 He oscillates between bitterness at a society in which shallow people inferior to him thrive
 and loathing of himself for leading a pathetic existence.
-[^andtheshow]
+
+[^andtheshow]:
 For the course we won't be reading the novella, but rather watching 
 [one man show based on it, starring Larry Cedar](https://www.youtube.com/watch?v=asp5tqDql0g).
 The [lines in the show](materials/notes_from_underground/NotesFromUnderground_CedarTranscript.html)
@@ -70,17 +74,16 @@ are a subset of the [translation of *Notes from the Undeground* by
 Constance Garnett](materials/notes_from_underground/NotesFromUnderground_Garnett.pdf ).
 
 Contained in the Undeground Man's abstract intellectualized rambling in the first part of the story
-are deep criticism of the selfish philosophy of ["Rational egoism"](https://en.wikipedia.org/wiki/Rational_egoism) (enlightened self-interest),
-coming out of Enlightenment thinking.
-He argues that this will never to utopian harmony: 
+are deep criticism of the selfish philosophy of ["Rational egoism"](https://en.wikipedia.org/wiki/Rational_egoism) (enlightened self-interest), which came out of Enlightenment thinking.
+He argues that this will never lead to utopian harmony.
 Although rationalism can provide many advantages, some people will always rebel
 at being denied "the most advantagious avantage", 
 which is to have complete freedom to not be rational.
 In the novella, the symbol of what he is complaining about is the
-"The Crystal Palace", the utopia in contemporary writer
-Nikolai Chernyshevsky's work "What Is to Be Done?".
+"The Crystal Palace" in contemporary writer
+Nikolai Chernyshevsky's novel [*What Is to Be Done?*](https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F_(novel)).
 
-The lightning summary of the distopian arc we look at in  this course consist of how the stories impose the result of 2+2 as mind control.
+<!— The lightning summary of the distopian arc we look at in  this course consists of  impose the result of 2+2 as mind control. —>
 In *Notes from the Underground*,  the Underground Man is trying to rebel against rationalism imposing 2+2=4 logic on him.
 Here is a relavant quote, from p. 8-9 of [the Garnett translation](materials/notes_from_underground/NotesFromUnderground_Garnett.pdf#page=8):
 

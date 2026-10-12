@@ -34,9 +34,9 @@ git_makehtml_noTOC () {
     filebase=$1;
     # pandoc used to have:
     # 	   --css="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Open+Sans:ital,wght@0,400;0,600;1,600&display=swap" \
-    # 	   --embed-resources \
     pandoc $filebase.md -s \
-           --filter pandoc-include.py  \
+           --filter pandoc-include  \
+     	   --embed-resources \
 	   -H header.html \
 	   -c styles.css \
 	   -o $filebase.html 
@@ -49,8 +49,12 @@ git_makehtml_force () {
     local out="$1.html"
     echo "Compiling $src -> $out..."
     thisDir=`pwd`;
+    if [[ ! `basename $thisDir`  == "git" ]]; then
+	echo "Error: git_makehtml_force $1 must run from git directory" ;
+	return 1;
+    fi
     pandoc $src -s --embed-resources \
-       --filter=/Users/axelrod/.local/bin/pandoc-include.py  \
+       --filter=/Users/axelrod/.local/bin/pandoc-include  \
        -H "${thisDir}/header.html" \
        --css="${thisDir}/styles.css" \
        -o $out \
@@ -70,30 +74,37 @@ git_makehtml () {
     if is_newer_than_all $out $src "header.html" "styles.css" "${deps[@]}"; then  
         echo "$out is up to date."
     else
-	git_makehtml_force $filebase
+	git_makehtml_force $filebase || return 1
     fi
 }
 
 git_makehtml_all () {
-  git_makehtml DMC_welcome DMC_week1_homework;
-  git_makehtml DMC_syllabus;
+  git_makehtml DMC_welcome DMC_week1_homework  || return 1
+  git_makehtml DMC_syllabus  || return 1
   git_makehtml DMC_preface DMC_preface_notes_from_underground DMC_preface_1984 DMC_preface_thematrix DMC_preface_perfectmatch
   git_makehtml DMC_week1 DMC_week1_homework
-  git_makehtml DMC_week2 DMC_week2_homework;
-  git_makehtml DMC_week3 DMC_week3_homework;
-  git_makehtml DMC_week4 DMC_week4_homework;
-  git_makehtml DMC_week5 DMC_week5_homework;
-  git_makehtml DMC_notes_on_notes DMC_preface_notes_from_underground;
-  git_makehtml DMC_notes_on_1984 DMC_preface_1984;
-  git_makehtml DMC_notes_on_thematrix DMC_preface_thematrix;
-  git_makehtml DMC_notes_on_perfectmatch DMC_preface_perfectmatch;
-  git_makehtml mind_control_1/mind_control_1;
-  git_makehtml materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript;
+  git_makehtml DMC_week2 DMC_week2_homework  || return 1
+  git_makehtml DMC_week3 DMC_week3_homework  || return 1
+  git_makehtml DMC_week4 DMC_week4_homework  || return 1
+  git_makehtml DMC_week5 DMC_week5_homework  || return 1
+  git_makehtml DMC_notes_on_notes DMC_preface_notes_from_underground  || return 1
+  git_makehtml DMC_notes_on_1984 DMC_preface_1984  || return 1
+  git_makehtml DMC_notes_on_thematrix DMC_preface_thematrix  || return 1
+  git_makehtml DMC_notes_on_perfectmatch DMC_preface_perfectmatch  || return 1
+  git_makehtml mind_control_1/mind_control_1  || return 1
+  git_makehtml materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  || return 1
 }
 
 
 git_makepdf () {
     # file links don't work with this, use mdtohtmlpdf
+
+    
+    thisDir=`pwd`;
+    if [[ ! `basename $thisDir`  == "git" ]]; then
+	echo "Error: git_makepdf $1 must run from git directory" ;
+	return 1;
+    fi
     
     local filebase=$1;
     local src="$1.md"
@@ -110,12 +121,11 @@ git_makepdf () {
 	dir=$(dirname "$filebase");
 	src_file=$(basename "$src");
 	out_file=$(basename "$out");
-	thisDir=`pwd`;
 	(cd $dir;
          echo -n "compile dir: "; pwd
 	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
          --include-in-header=${thisDir}/header.tex \
-         --filter /Users/axelrod/.local/bin/pandoc-include.py  \
+         --filter /Users/axelrod/.local/bin/pandoc-include  \
 	 --lua-filter=${thisDir}/prefix-links.lua \
          --math-method=mathjax  -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
         )
@@ -123,28 +133,28 @@ git_makepdf () {
 }
 
 git_makepdf_all () {
-  git_makepdf DMC_welcome DMC_week1_homework;
-  git_makepdf DMC_syllabus;
+  git_makepdf DMC_welcome DMC_week1_homework  || return 1
+  git_makepdf DMC_syllabus  || return 1
   git_makepdf DMC_preface DMC_preface_notes_from_underground DMC_preface_1984 DMC_preface_thematrix DMC_preface_perfectmatch
   git_makepdf DMC_week1 DMC_week1_homework
-  git_makepdf DMC_week2 DMC_week2_homework;
-  git_makepdf DMC_week3 DMC_week3_homework;
-  git_makepdf DMC_week4 DMC_week4_homework;
-  git_makepdf DMC_week5 DMC_week5_homework;
-  git_makepdf DMC_notes_on_notes DMC_preface_notes_from_underground;
-  git_makepdf DMC_notes_on_1984 DMC_preface_1984;
-  git_makepdf DMC_notes_on_thematrix DMC_preface_thematrix;
-  git_makepdf DMC_notes_on_perfectmatch DMC_preface_perfectmatch;
-  git_makepdf mind_control_1/mind_control_1;
-  git_makepdf materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript;
+  git_makepdf DMC_week2 DMC_week2_homework  || return 1
+  git_makepdf DMC_week3 DMC_week3_homework  || return 1
+  git_makepdf DMC_week4 DMC_week4_homework  || return 1
+  git_makepdf DMC_week5 DMC_week5_homework  || return 1
+  git_makepdf DMC_notes_on_notes DMC_preface_notes_from_underground  || return 1
+  git_makepdf DMC_notes_on_1984 DMC_preface_1984  || return 1
+  git_makepdf DMC_notes_on_thematrix DMC_preface_thematrix  || return 1
+  git_makepdf DMC_notes_on_perfectmatch DMC_preface_perfectmatch  || return 1
+  git_makepdf mind_control_1/mind_control_1  || return 1
+  git_makepdf materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  || return 1
   
 }
 
 git_make_all() {
     # after this, should be able to view files locally at: file:///Users/axelrod/Library/CloudStorage/Dropbox/sync/writing/j26/2026f_BOLLI/2026f_mind_control/git/index.html
 
-    git_makehtml_all;
-    git_makepdf_all;
+    git_makehtml_all || return 1;
+    git_makepdf_all  || return 1;
 }
     
 # test locally with
