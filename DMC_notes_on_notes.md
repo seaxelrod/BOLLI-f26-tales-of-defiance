@@ -5,7 +5,7 @@ title: "Notes on *Notes from the Underground[^notes_title]*"
 [^notes_title]: The title "Notes from the Underground" has also been translated as "Notes from Underground" and "Notes from a Mousehole".
 
 
-A  tremendous  amount of work has been devoted to examing Dostoeyeveky's life, philosophy, and writing, and in particular to *Notes from Underground*[^sadler_youtubes].
+A  tremendous  amount of work has been devoted to examining Dostoeyeveky's life, philosophy, and writing, and in particular to *Notes from Underground*[^sadler_youtubes].
 Here, I recall what I wrote in the preface about Tale 1,  and then give some additional material.
 
 [^sadler_youtubes]:  
@@ -33,9 +33,9 @@ Here are links to series of lectures on the philosophy of *Notes from Undergound
 
 # Additional Notes
 
-In 1849,  at the age of 28, Fyodor Doestoevsky had already published works that 
+In 1849,  at the age of 28, Fyodor Dostoevsky had already published works that 
 established his future as a great writer.
-He was  arrested as a subversive for his active enagement in a discussion circle that talked of utopian ideas and was critical of the serfdom that was widespread in Russia.
+He was  arrested as a subversive for his active engagement in a discussion circle that talked of utopian ideas and was critical of the serfdom that was widespread in Russia.
 He was held without trial for months, before being subject to a mock execution,
 after which he was in exile from Russia for ten years. For
 the first four years, he was imprisoned in Siberia 
@@ -49,7 +49,7 @@ and appreciation of freedom, honesty, and integrity.[^exile]
 See [Dostoevski Is Exiled to Siberia](materials/notes_from_underground/DostoevskiIsExiledToSiberia.pdf).
 [This is downloaded from [here](https://www.ebsco.com/research-starters/history/dostoevski-exiled-siberia).]  
 
-His novella *Notes from the Undeground*, published in 1864, 
+His novella *Notes from the Underground*, published in 1864, 
 "is considered one of the first works of existentialist literature”.[^fdwiki]
 [Existentialism](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky) is 
 "a family of philosophical views and inquiry that explore the human individual's struggle to lead an authentic life despite the apparent absurdity or incomprehensibility of existence."
@@ -57,7 +57,7 @@ His novella *Notes from the Undeground*, published in 1864,
 [^fdwiki]:  Quoted from the Wikipedia page on [Fyodor Dostoevsky](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky).
 
 The novella[^andtheshow]
-[*Notes from the Undeground*](https://en.wikipedia.org/wiki/Notes_from_Underground) 
+[*Notes from the Underground*](https://en.wikipedia.org/wiki/Notes_from_Underground) 
 is essentially a long monologue
 by the protaganist and narrator, the "Underground Man".
 He is an intellectual who failed to thrive in society,
@@ -70,10 +70,10 @@ and loathing of himself for leading a pathetic existence.
 For the course we won't be reading the novella, but rather watching 
 [one man show based on it, starring Larry Cedar](https://www.youtube.com/watch?v=asp5tqDql0g).
 The [lines in the show](materials/notes_from_underground/NotesFromUnderground_CedarTranscript.html)
-are a subset of the [translation of *Notes from the Undeground* by
+are a subset of the [translation of *Notes from the Underground* by
 Constance Garnett](materials/notes_from_underground/NotesFromUnderground_Garnett.pdf ).
 
-Contained in the Undeground Man's abstract intellectualized rambling in the first part of the story
+Contained in the Underground Man's abstract intellectualized rambling in the first part of the story
 are deep criticism of the selfish philosophy of ["Rational egoism"](https://en.wikipedia.org/wiki/Rational_egoism) (enlightened self-interest), which came out of Enlightenment thinking.
 He argues that this will never lead to utopian harmony.
 Although rationalism can provide many advantages, some people will always rebel
@@ -101,7 +101,7 @@ consequently all her conclusions. A wall, you see, is a wall. . .and so
 on, and so on.”*
 
 In the production starring Larry Cedar,  they had to edit out a lof material, including the "twice to" lines.
-They keep the  more viceral expression of the same concept, which is that the Undeground Man is defiant to men being treated like "piano keys".
+They keep the  more viceral expression of the same concept, which is that the Underground Man is defiant to men being treated like "piano keys".
 This is captured in the followng hand-edited transcript of 
 [the Cedar video,  starting at 14:57](https://www.youtube.com/watch?v=asp5tqDql0g&t=897s).
 I have added paragraph breaks for readability, although the actual performance does not have so many pauses.
@@ -168,10 +168,10 @@ The full, unedited transcript can be viewed on YouTube, or at the following link
    
 
 
-The Undeground Man's plight  is a prototype for that of many character in Dostoyevsky's later works, namely
+The Underground Man's plight  is a prototype for that of many character in Dostoyevsky's later works, namely
 that of characters trapped in an intellectualized cage, what I call the "cave of rational egoism".
 Doesteyevsky's mock execution and imprisonment in Siberia help him to come to the solution for him, namely that love and faith are the way out of the cave.
-In [Crime and Punishment](https://en.wikipedia.org/wiki/Crime_and_Punishment), written just after *Notes from the Undeground*, and published in serialized form starting in 1866 
+In [Crime and Punishment](https://en.wikipedia.org/wiki/Crime_and_Punishment), written just after *Notes from the Underground*, and published in serialized form starting in 1866 
 (the same year *Notes* was published), the main character, Rodion Raskolnikov, 
 responds the delimna of being powerless by killing an old women for money that he believe will help him do great things.
 Like Doestoyevsky himself, Raskolnikov is exiled to Siberia.   There, he escapes from his cave of rational egoism through love and faith.
@@ -179,9 +179,9 @@ Like Doestoyevsky himself, Raskolnikov is exiled to Siberia.   There, he escapes
 Raskolnikov and the Underground Man both react to the frustration of being an outsider unwilling to stay in the cave the society requires them to stay in,
 Raskolnikov escapes his cave, whereas the Underground Man stays trapped in his.
 This is made clear in the second part of (the show and the novella of) *Notes from the Underground*, which consists of flashbacks to stories of human interaction that
-the Undeground Man had in the past.  He stays trapped because his ego prevents him from accepting comraderie or love.
+the Underground Man had in the past.  He stays trapped because his ego prevents him from accepting comraderie or love.
 
-The book [Christian Fiction and Religious Realism in the Novels of Dostoevsky](https://www.cambridge.org/core/books/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/0134E0CD796954966BA4B8501AD0BB90) presents  evidence that Doestoevsky did intend to put an element of saving grace into the character of the Undeground Man.
+The book [Christian Fiction and Religious Realism in the Novels of Dostoevsky](https://www.cambridge.org/core/books/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/0134E0CD796954966BA4B8501AD0BB90) presents  evidence that Doestoevsky did intend to put an element of saving grace into the character of the Underground Man.
 I will end with [a summary of Chapter 3: Christian Themes in Crime and Punishment](
 https://www.cambridge.org/core/books/abs/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/christian-themes-in-crime-and-punishment/837CA9085FAC1D80ACCC78B98D40FF88),  which gives a pointer to where Doestoevsky was headed in his later "great works". 
 
