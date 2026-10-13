@@ -61,7 +61,7 @@ You wouldn't, and that's the design. A boot on your face you'd resist. But Tilly
 
 ##  The Controllers 
 
-## The Governors of the Crystal Palace, as the Undeground Man imagines them
+### The Governors of the Crystal Palace, as the Undeground Man imagines them
 
 
 **Q: "Who decides which thoughts are 'crazy,' and is dispersing that power to platforms better or worse?"**
