@@ -1,2 +1,0 @@
-[WARNING] Deprecated: --mathjax. Use --math-method=mathjax[:URL] instead.
-[WARNING] Deprecated: --highlight-style. Use --syntax-highlighting instead.

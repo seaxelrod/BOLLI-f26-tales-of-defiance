@@ -26,7 +26,7 @@ author: "Scott Axelrod"
 
 ![](stories_in_a_dystopian_arc.jpg){width=90%}
 
-- Dostoyevsky's Undeground Man, isolated and being crushed by 2+2=4 reason .
+- Dostoyevsky's Underground Man, isolated and being crushed by 2+2=4 reason .
 - Winston from "1984" being pounded by Big Brother to truly believe 2+2=5.
 - Neo from "The Matrix" perceiving that his entire world is a computer simulation, seeing the simulation of 2+2=4 in binary.
 - Sai from "The Perfect Match" being nudged by the AI agent Tilly to tell him that he prefers the beautiful girl in the "2+2=4" T-shirt.

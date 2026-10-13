@@ -5,7 +5,7 @@ title: "Transcript of [Dostoevsky's NOTES FROM THE UNDERGROUND, starring Larry C
 <!--
 Remove timestamps:
 
-> perl -pe 's/(?:(?:\d+:)?\d+:)?\d+\s*(?:\d+\s*hours?,\s*)?(?:\d+\s*minutes?,\s*)?\d+\s*seconds?\s*//g'  Cedar_NotesFromTheUndegroundTranscript.txt > ~/trash/temp.text
+> perl -pe 's/(?:(?:\d+:)?\d+:)?\d+\s*(?:\d+\s*hours?,\s*)?(?:\d+\s*minutes?,\s*)?\d+\s*seconds?\s*//g'  Cedar_NotesFromTheUndergroundTranscript.txt > ~/trash/temp.text
 
 Then filter by:
 
