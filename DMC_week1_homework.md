@@ -1,6 +1,6 @@
 
 - Read the [Course Syllabus](DMC_syllabus.html)
-   - Check that you will have access to the three films and story in the Course Materials section.
+   - Check that you will have access to the three films in the Course Materials section.
 - Read the [Preface to the Course](DMC_preface.html), which consists of sections:
    1. Genesis of the Course:  Getting Perspective on Mind Control
    2. Shaping the Container
