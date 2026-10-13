@@ -2,8 +2,8 @@
 title: "DMC welcome letter"
 ---
 
+Hello everybody,
 
-Dear participants,
 
 Welcome to "Tales of Defiance to Mind Control in the Modern Age," or "DMC" for short.
 I am looking forward to our learning together.
@@ -33,11 +33,21 @@ The final week will be devoted to discussion of the arc of all four stories as a
 
 Here is a link to the course website:  [course website](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance).
 Parts of the website are under construction, but all the materials needed to prepare for Week 1 are available now. 
-With the exception of personal information about students, such as the information in the “single email” mentioned above, all class materials will be accessible from the website. 
-I will also send all essential material by email. 
+With the exception of personal information about students, such as the information in the “single email” mentioned above,
+all class materials will be accessible from the website. 
+
 The website has a header and a page that appears in a frame below the header. 
 The header has a dropdown box in the upper left that allows one to select the page that appears in the frame below the header. 
+
+## Email
+
 When I email links to course website pages, I will send links to the standalone pages, without the course header.
+
+I will send all essential materials (other than the films to watch) by email. 
+For example, this email is cut and paste from the [Welcome Letter](DMC_welcome.html) on the website.
+The [course syllabus](DMC_syllabus), the [course preface](DMC_preface), 
+and my  [Notes on *Notes from the Underground*](DMC_notes_on_notes.html),  which are all assigned for week 1, are attached as pdf files.
+
 
 
 ##  An Arc of Stories and Lenses

@@ -63,25 +63,18 @@ So, the kind of mind control I have worried about for a long time is destructive
 In real life, the dichotomies between destructive and constructive, and between individual and systemic, may be useful but are actually quite fuzzy. I hope you will help me break out of my own controlled brain and explore these distinctions rather than use them rigidly.
 
 
-#### Threatening vs.  Enticing Mind Control
+#### Threatening vs.  Enticing Mind Control 
 
-Mind control based on threats, or implicit threats, manipulates people based on when negative emotions like fear and hatred. 
-You could call this mind control with  a stick.
-The systemic and usually destructive version of this often takes the form of a “fear dictator” who rules by threats and punishment.
-It can also take the form of a more modern “spin dictator”, rules by controlling information flow.
+Threatening mind control  relies on provoking negative emotions.
+A systemic and destructive form of this is a dictatorship that keeps power through actual or implied punishment. 
 
-On the other hand, enticing, mind, control  controls people, the allure of comfort or riches.  The systemic and destructive version of this mind control with a carrot, can take the form of mowing a population into complacency by not only providing for their needs, but by creating a dependency on “false needs”.
+Enticing mind control -- mind control with a carrot --   uses the allure of comfort or riches.
+A systemic and destructive version of this may take the form of lulling people into complacency by not only providing for their needs, 
+but by creating a dependency on “false needs”.
 
 
 #### More Features of Mind Control Instances
 
-Any particular example of  mind control will have one of the possible values of each of the above features, or perhaps have a weighted combination
-of the different possibilities.
-
-There are many other features that can be used to characterize the nature of instances of mind control.
-The features are correlated, i.e. having one value of a particular feature says something about the likelihood for the value of another feature.
-
-For example, if a particular case of mind control works by threat, it is more likely to be destructive as well.
 
 There are many other  features of the examples of mind control that we consider.
 
@@ -94,12 +87,24 @@ That is not to say that all forms of encouraging thought are constructive.
 For example, encouraging bad thought, encouraging people to stew in their own mind, and encouraging dissent 
 can all be destructive.
 
-The **simplicity vs complexity** feature gauges whether a mind control instance pushes toward black-and-white simplicity or whether 
-it encourage people to engage with complexity.  Different individuals are more prone to being influenced to think one way or another.
-Sometimes simplicity is useful to cut through noise, whereas oversimplification can encourage jumping quickly to the wrong conclusion[^holmessimpicity].
-The tendency to stop thought is probably highly correlated with the tendency to oversimplify.
+The **simplicity vs complexity** feature gauges whether an instance of  mind control pushes people toward black-and-white simplicity or 
+encourages people to engage with complexity.  Individuals vary  in their susceptibility to pressure to think one way or another.
+Simplicity can be useful for cutting through noise, but oversimplification can lead people to jump quickly to the wrong conclusion[^holmessimpicity].
+The tendency to stop thinking is probably highly correlated with the tendency to oversimplify.
 
 [^holmessimpicity]: One of my favorite quotes is by Oliver Wendell Holmes, Senior, the father of the supreme court justice: “For the simplicity on this side of complexity, I wouldn't give you a fig. But for the simplicity on the other side of complexity, for that I would give you anything I have.”
+
+
+Real-life examples of mind-control don't always fit neatly into the simplified binary choices  above.
+Often, they have a weighted combination of the different possibilities.
+For example,  a spin dictator[^spin] may rely on partial truths to get people to partially think, 
+so that they can't properly assess who is offering carrots and who is offering sticks.
+
+There are many other features that can be used to characterize the nature of instances of mind control.
+The features are correlated, i.e. having one value of a particular feature says something about the likelihood for the value of another feature.
+For example, if a particular case of mind control works by threat, it is more likely to be destructive as well.
+
+
 
 
 
