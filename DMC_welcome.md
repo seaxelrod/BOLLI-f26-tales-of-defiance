@@ -61,8 +61,8 @@ These lenses are intended to foster thinking and discussion, not to create a bar
 
 ## Week 1 Homework
 
-The homework to prepare for our first class is the following, which is copied from the [Week1 page](DMC_week1.html). I have
-attached PDF versions of the Week1, Syllabus, Preface, and Notes on *Notes from the Underground*  pages.
+Here is the homework to prepare for our first class.  The three reading can be viewed by clicking on the links or by opening the attached pdf files.
+
 
 !include DMC_week1_homework.md 
 
