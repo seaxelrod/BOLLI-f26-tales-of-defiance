@@ -2,17 +2,17 @@
 title: "Notes on *Notes from the Underground[^notes_title]*"
 ---
 
-[^notes_title]: The title "Notes from the Underground" has also been translated as "Notes from Underground" and "Notes from a Mousehole".
+[^notes_title]: The title "Notes from the Underground" has also been translated as "Notes from Underground" and "Notes from a Mouse Hole".
 
 
-A  tremendous  amount of work has been devoted to examining Dostoeyeveky's life, philosophy, and writing, and in particular to *Notes from Underground*[^sadler_youtubes].
+A  tremendous  amount of work has been devoted to examining Dostoevsky's life, philosophy, and writing, and in particular to *Notes from Underground*[^sadler_youtubes].
 Here, I recall what I wrote in the preface about Tale 1,  and then give some additional material.
 
 [^sadler_youtubes]:  
-Here are links to series of lectures on the philosophy of *Notes from Undergound*, by [Gregory B. Sadler, "That Philosophy Guy"](https://www.youtube.com/@GregoryBSadler):
+Here are links to series of lectures on the philosophy of *Notes from Underground*, by [Gregory B. Sadler, "That Philosophy Guy"](https://www.youtube.com/@GregoryBSadler):
 
     - [Notes From Underground | Existentialist Philosophy & Literature](https://www.youtube.com/watch?v=KyH6SPtDOEE),  YouTube 1:01:12
-       - Here is a [(computer generated) transcript of above,divided into sections](materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript.html).
+       - Here is a [(computer generated) transcript of the above, divided into sections](materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript.html).
     - [Notes From Underground | Intellectuals Inertia and Negativity | Core Concepts](https://www.youtube.com/watch?v=2dnSRPPxgKg),  YouTube 17:26
     - [Notes From Underground | Pleasure, Perversity, and Suffering | Core Concepts](https://www.youtube.com/watch?v=bV_gOH2jVVQ), YouTube 16:06
     - [Notes From Underground | Revenge, Anger, and Justice | Core Concepts](https://www.youtube.com/watch?v=CSYFdRlKUL0),  YouTube 19:41
@@ -25,7 +25,7 @@ Here are links to series of lectures on the philosophy of *Notes from Undergound
 <!-- Times above optained by: yt-dlp --get-duration 'video_url' -->
 
 
-# [Notes in Preface regarding Tale 1](DMC_preface.html#tale-1-notes-from-underground) 
+# [Notes in Preface regarding Tale 1](DMC_preface.html#tale-1-notes-from-the-underground) 
 
 
 !include DMC_preface_notes_from_underground.md
@@ -51,15 +51,16 @@ See [Dostoevski Is Exiled to Siberia](materials/notes_from_underground/Dostoevsk
 
 His novella *Notes from the Underground*, published in 1864, 
 "is considered one of the first works of existentialist literature”.[^fdwiki]
-[Existentialism](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky) is 
-"a family of philosophical views and inquiry that explore the human individual's struggle to lead an authentic life despite the apparent absurdity or incomprehensibility of existence."
+[Existentialism](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky)
+is
+"a family of philosophical views and inquiry that explore the human individual's struggle to lead an authentic life despite the apparent absurdity or incomprehensibility of existence.”
 
 [^fdwiki]:  Quoted from the Wikipedia page on [Fyodor Dostoevsky](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky).
 
 The novella[^andtheshow]
 [*Notes from the Underground*](https://en.wikipedia.org/wiki/Notes_from_Underground) 
 is essentially a long monologue
-by the protaganist and narrator, the "Underground Man".
+by the protagonist and narrator, the "Underground Man".
 He is an intellectual who failed to thrive in society,
 and has lived sparsely for many years.
 He calls himself a “mouse” and says he retreats to his “mouse-hole”.
@@ -77,7 +78,7 @@ Contained in the Underground Man's abstract intellectualized rambling in the fir
 are deep criticism of the selfish philosophy of ["Rational egoism"](https://en.wikipedia.org/wiki/Rational_egoism) (enlightened self-interest), which came out of Enlightenment thinking.
 He argues that this will never lead to utopian harmony.
 Although rationalism can provide many advantages, some people will always rebel
-at being denied "the most advantagious avantage", 
+at being denied "the most advantageous advantage", 
 which is to have complete freedom to not be rational.
 In the novella, the symbol of what he is complaining about is the
 "The Crystal Palace" in contemporary writer
@@ -85,7 +86,7 @@ Nikolai Chernyshevsky's novel [*What Is to Be Done?*](https://en.wikipedia.org/w
 
 <!-- The lightning summary of the distopian arc we look at in  this course consists of  impose the result of 2+2 as mind control. -->
 In *Notes from the Underground*,  the Underground Man is trying to rebel against rationalism imposing 2+2=4 logic on him.
-Here is a relavant quote, from p. 8-9 of [the Garnett translation](materials/notes_from_underground/NotesFromUnderground_Garnett.pdf#page=8):
+Here is a relevant quote, from p. 8-9 of [the Garnett translation](materials/notes_from_underground/NotesFromUnderground_Garnett.pdf#page=8):
 
    > *When they prove to you that in reality one drop of your
 own fat must be dearer to you than a hundred thousand of your fellow creatures, 
@@ -100,12 +101,12 @@ her laws or dislike them, you are bound to accept her as she is, and
 consequently all her conclusions. A wall, you see, is a wall. . .and so
 on, and so on.”*
 
-In the production starring Larry Cedar,  they had to edit out a lof material, including the "twice to" lines.
-They keep the  more viceral expression of the same concept, which is that the Underground Man is defiant to men being treated like "piano keys".
-This is captured in the followng hand-edited transcript of 
+In the production starring Larry Cedar,  they had to edit out a lot of material, including the "twice to" lines.
+They keep the  more visceral expression of the same concept, which is that the Underground Man is defiant to men being treated like "piano keys".
+This is captured in the following hand-edited transcript of 
 [the Cedar video,  starting at 14:57](https://www.youtube.com/watch?v=asp5tqDql0g&t=897s).
 I have added paragraph breaks for readability, although the actual performance does not have so many pauses.
-The full, unedited transcript can be viewed on YouTube, or at the following link: [YouTube trancript of the Cedar video](materials/notes_from_underground/NotesFromUnderground_CedarTranscript.html).
+The full, unedited transcript can be viewed on YouTube, or at the following link: [YouTube transcript of the Cedar video](materials/notes_from_underground/NotesFromUnderground_CedarTranscript.html).
 
 > *...
 <!-- | 14:57 | --> almost in the darkness, man everywhere at all times, whoever he may be, has preferred to act as he chose and not in
@@ -170,20 +171,20 @@ The full, unedited transcript can be viewed on YouTube, or at the following link
 
 The Underground Man's plight  is a prototype for that of many character in Dostoyevsky's later works, namely
 that of characters trapped in an intellectualized cage, what I call the "cave of rational egoism".
-Doesteyevsky's mock execution and imprisonment in Siberia help him to come to the solution for him, namely that love and faith are the way out of the cave.
+Dostoevsky's mock execution and imprisonment in Siberia help him to come to the solution for him, namely that love and faith are the way out of the cave.
 In [Crime and Punishment](https://en.wikipedia.org/wiki/Crime_and_Punishment), written just after *Notes from the Underground*, and published in serialized form starting in 1866 
 (the same year *Notes* was published), the main character, Rodion Raskolnikov, 
-responds the delimna of being powerless by killing an old women for money that he believe will help him do great things.
-Like Doestoyevsky himself, Raskolnikov is exiled to Siberia.   There, he escapes from his cave of rational egoism through love and faith.
+responds to the dilemna of being powerless by killing an old women for money that he believe will help him do great things.
+Like Dostoevsky himself, Raskolnikov is exiled to Siberia.   There, he escapes from his cave of rational egoism through love and faith.
 
 Raskolnikov and the Underground Man both react to the frustration of being an outsider unwilling to stay in the cave the society requires them to stay in,
 Raskolnikov escapes his cave, whereas the Underground Man stays trapped in his.
 This is made clear in the second part of (the show and the novella of) *Notes from the Underground*, which consists of flashbacks to stories of human interaction that
-the Underground Man had in the past.  He stays trapped because his ego prevents him from accepting comraderie or love.
+the Underground Man had in the past.  He stays trapped because his ego prevents him from accepting comradery or love.
 
-The book [Christian Fiction and Religious Realism in the Novels of Dostoevsky](https://www.cambridge.org/core/books/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/0134E0CD796954966BA4B8501AD0BB90) presents  evidence that Doestoevsky did intend to put an element of saving grace into the character of the Underground Man.
+The book [Christian Fiction and Religious Realism in the Novels of Dostoevsky](https://www.cambridge.org/core/books/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/0134E0CD796954966BA4B8501AD0BB90) presents  evidence that Dostoevsky did intend to put an element of saving grace into the character of the Underground Man.
 I will end with [a summary of Chapter 3: Christian Themes in Crime and Punishment](
-https://www.cambridge.org/core/books/abs/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/christian-themes-in-crime-and-punishment/837CA9085FAC1D80ACCC78B98D40FF88),  which gives a pointer to where Doestoevsky was headed in his later "great works". 
+https://www.cambridge.org/core/books/abs/christian-fiction-and-religious-realism-in-the-novels-of-dostoevsky/christian-themes-in-crime-and-punishment/837CA9085FAC1D80ACCC78B98D40FF88),  which gives a pointer to where Dostoevsky was headed in his later "great works". 
 
    > *Only very gradually do religious themes start to play a role in Dostoevsky's literary work after his Siberian period. 
         In spite of the fact that his detention in the Siberian penal colony greatly contributes to Dostoevsky's re-assessment of Christianity,

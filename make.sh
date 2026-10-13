@@ -53,7 +53,8 @@ git_makehtml_force () {
 	echo "Error: git_makehtml_force $1 must run from git directory" ;
 	return 1;
     fi
-    pandoc $src -s --embed-resources \
+    # To avoid smart quotes, add flag:  -f markdown-smart 
+    pandoc  "$src" -s --embed-resources \
        --filter=/Users/axelrod/.local/bin/pandoc-include  \
        -H "${thisDir}/header.html" \
        --css="${thisDir}/styles.css" \
@@ -127,8 +128,9 @@ git_makepdf () {
          --include-in-header=${thisDir}/header.tex \
          --filter /Users/axelrod/.local/bin/pandoc-include  \
 	 --lua-filter=${thisDir}/prefix-links.lua \
-         --math-method=mathjax  -V colorlinks -V linkcolor=blue -V urlcolor=NavyBlue -o $out_file 
+         --math-method=mathjax  -V colorlinks=true -V linkcolor=blue -V urlcolor=blue -V toccolor=blue -o $out_file 
         )
+	# url color used to be NavyBlue
     fi
 }
 
