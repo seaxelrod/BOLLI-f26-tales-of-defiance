@@ -61,7 +61,7 @@ These lenses are intended to foster thinking and discussion, not to create a bar
 
 ## Week 1 Homework
 
-Here is the homework to prepare for our first class.  The three reading can be viewed by clicking on the links or by opening the attached pdf files.
+Here is the homework to prepare for our first class.  The three readings can be viewed by clicking on the links or by opening the attached pdf files.
 
 
 !include DMC_week1_homework.md 
