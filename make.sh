@@ -97,6 +97,7 @@ git_makehtml_all () {
   git_makehtml mind_control_extras/TheTriadChapter1 || return 1
   git_makehtml mind_control_extras/DMC_protagonists_react_to_manifesto || return 1
   git_makehtml mind_control_extras/DMC_question_responses_by_characters_and_students || return 1
+  git_makehtml mind_control_extras/UndergroundBarbie || return 1
 }
 
 
@@ -155,6 +156,7 @@ git_makepdf_all () {
   git_makepdf mind_control_extras/TheTriadChapter1 || return 1
   git_makepdf mind_control_extras/DMC_protagonists_react_to_manifesto || return 1
   git_makepdf mind_control_extras/DMC_question_responses_by_characters_and_students || return 1
+  git_makepdf mind_control_extras/UndergroundBarbie || return 1
 }
 
 git_make_all() {
