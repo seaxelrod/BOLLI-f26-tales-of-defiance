@@ -1,5 +1,5 @@
 ---
-title: "Responses to Question by Story Characters and Fictional Students"
+title: "Responses to Questions by Story Characters and Fictional Students"
 author: "Scott Axelrod with Claude"
 ---
 
