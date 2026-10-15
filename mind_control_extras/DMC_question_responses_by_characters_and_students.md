@@ -107,7 +107,7 @@ each aware a new reality is approaching, and each relating to tales of defiance 
 
 They are all strugglling to "lead an authentic life despite the apparent absurdity or incomprehensibility of existence[^existwiki]."
 They try try to attain wisdom  to know the difference between what they can change and what they must accept[^serenity_prayer].
-They each  begin to notice that  the other students' voices lives inside them too,
+They each  begin to notice that  the other students' voices live inside them too,
 
 Dorothy's gratitude can be wisdom or the comfort-trap from "The Perfect Match" wearing a kind face. 
 Marvin's doubts can be skepticism or realism.
