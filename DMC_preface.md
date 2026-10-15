@@ -49,7 +49,7 @@ Speaking of media, the proliferation of media today (social media, blogs, ..., a
 
 #### Individual vs.  Systemic Mind Control
 
-Systemic, or system-wide, mind control is what is imposed upon us—either for good or bad—by society. It is structural. It is the water we swim in that we cannot always even see. Think, for example, of [[the phrase “under God” being inserted into the Pledge of Allegiance in 1954]{.underline}]( https://www.history.com/articles/pledge-allegiance-under-god-schools) as part of the Cold War against atheist communists.
+Systemic, or system-wide, mind control is what is imposed upon us—either for good or bad—by society. It is structural. It is the water we swim in that we cannot always even see. Think, for example, of [[the phrase “under God” being inserted into the Pledge of Allegiance in 1954]{.underline}]( https://www.history.com/articles/pledge-allegiance-under-god-schools) as part of the Cold War against "atheist communists".
 
 Individual mind control is what friends, family, acquaintances, our boss, our pastor, our therapist, or our teachers do to try to influence us. At the most personal level, it is what we ourselves do to try to control our own minds. This ranges from impulsively eating chocolate to perk ourselves up, to hours of silent meditation to calm the demons within. In modern parlance, it is the “executive function” decision not to be overwhelmed by anxiety caused by that bad math teacher[^studentapology] and instead to spend a fixed amount of time each day doing our best to learn before taking a break for a healthy diversion[^selfapology].
 
