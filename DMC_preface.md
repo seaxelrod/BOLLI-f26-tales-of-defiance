@@ -60,7 +60,7 @@ Individual mind control is what friends, family, acquaintances, our boss, our pa
 I am all too often a glass-half-empty kind of guy, have a mathematician’s obsession with looking for patterns, and have a penchant for theories of everything. 
 So, the kind of mind control I have worried about for a long time is destructive and systemic. For the purposes of our course, this is the default version of mind control on which we will mostly focus.
 
-In real life, the dichotomies between destructive and constructive, and between individual and systemic, may be useful but are actually quite fuzzy. I hope you will help me break out of my own controlled brain and explore these distinctions rather than use them rigidly.
+In real life, the dichotomies between destructive vs. constructive, and between individual vs systemic may be useful but are actually quite fuzzy. I hope you will help me break out of my own controlled brain and explore these distinctions rather than use them rigidly.
 
 
 #### Threatening vs.  Enticing Mind Control 
