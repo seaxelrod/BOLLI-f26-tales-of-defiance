@@ -94,6 +94,7 @@ git_makehtml_all () {
   git_makehtml DMC_notes_on_perfectmatch DMC_preface_perfectmatch  || return 1
   git_makehtml mind_control_1/mind_control_1  || return 1
   git_makehtml materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  || return 1
+  git_makehtml mind_control_extras/DMC_notesfrumundergrund_context || return 1
   git_makehtml mind_control_extras/TheTriadChapter1 || return 1
   git_makehtml mind_control_extras/DMC_protagonists_react_to_manifesto || return 1
   git_makehtml mind_control_extras/DMC_question_responses_by_characters_and_students || return 1
@@ -153,6 +154,7 @@ git_makepdf_all () {
   git_makepdf DMC_notes_on_perfectmatch DMC_preface_perfectmatch  || return 1
   git_makepdf mind_control_1/mind_control_1  || return 1
   git_makepdf materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  || return 1
+  git_makepdf mind_control_extras/DMC_notesfrumundergrund_context || return 1
   git_makepdf mind_control_extras/TheTriadChapter1 || return 1
   git_makepdf mind_control_extras/DMC_protagonists_react_to_manifesto || return 1
   git_makepdf mind_control_extras/DMC_question_responses_by_characters_and_students || return 1
