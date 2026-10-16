@@ -159,7 +159,7 @@ He stood up. He was not tall, and his coat made him look like a heap of laundry 
 
 "You did say that," Marvin said, checking his notes.
 
-"I *know* I said it. I said it *about myself*. That was the joke. That was always the joke." He swept an arm around the room: the folding tables, the Danish, the whiteboard, the ten retired people in cardigans and fleece. "Look where we are. A room with four walls. A warm urn of coffee. A few souls who refuse to let the machine do their thinking. This is Julian's basement! You are all Julian! *I* am Julian! I have been Julian for a hundred and sixty years! I just used to be very rude about it!"
+"I *know* I said it. I said it *about myself*. That was the joke. That was always the joke." He swept an arm around the room: the folding tables, the Danish, the whiteboard, the eight retired people in cardigans and fleece. "Look where we are. A room with four walls. A warm urn of coffee. A few souls who refuse to let the machine do their thinking. This is Julian's basement! You are all Julian! *I* am Julian! I have been Julian for a hundred and sixty years! I just used to be very rude about it!"
 
 "I am not Julian," Arthur said, and his ears had gone red. "I *go out*. I *do things*."
 
