@@ -27,7 +27,7 @@ but is conventially referred to as the Underground Man.
 - What about his personality might have cause him difficulty?
 
 
-###  Subjective Questions in Preface Relating to Human Outlier Analysis
+###  Subjective Questions in [Preface Section on *Notes from the Underground* and Human Outlier Analysis](DMC_preface.html#tale-1-notes-from-the-underground)
 
 
 - How is the protagonist unusual in the society in which they live, and how are they trying to influence that society? 
