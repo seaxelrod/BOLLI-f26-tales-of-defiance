@@ -15,15 +15,35 @@
 
 ## Questions
 
-
 Here are some questions that may help guide your reflection.
+They are all about the protagonist in *Notes from the Underground*, who is not given a name in the story,
+but is conventially referred to as the Underground Man.
+
+###  Factual Questions about the Undeground Man
+
+- What is his situation?
+- How did he get into it?
+- What  was his delimma?
+- What about his personality might have cause him difficulty?
 
 
+###  Subjective Questions in Preface Relating to Human Outlier Analysis
 
-<!-- Many adapted from Claude [Play for Talkes of Defiance to Mind Control -> Discussion questions for defiance and mind control course] -->
+
+- How is the protagonist unusual in the society in which they live, and how are they trying to influence that society? 
+- Do you sympathize with the protagonist and his plight? What about the other characters?
+- Can we usefully separate out the dysfunction from the creative insight?
+- What does the protagonist see about society that those around him do not see?
+
+
+<!--
+
+## More questions
+
+Many adapted from Claude [Play for Talkes of Defiance to Mind Control -> Discussion questions for defiance and mind control course] 
+
 
 ### Relating to the [Course Preface](DMC_preface.html)
-
 
 
 - What do we mean by "mind control"? Where's the line between influence, persuasion, socialization, and control?
@@ -31,13 +51,6 @@ Here are some questions that may help guide your reflection.
 - Why might fiction be a better tool than a lecture or essay for helping us *feel* what mind control is like from the inside?
 - As we move across these four works, control shifts from external force to something we welcome. Does control become more effective as it becomes more comfortable?
 - What personality traits make someone more or less susceptible to each kind of control? Where would you place yourself?
-
-###  Relating to human outlier analysis
-
-- How is the protagonist unusual in the society in which they live, and how are they trying to influence that society? 
-- Do you sympathize with the protagonist and his plight? What about the other characters?
-- Can we usefully separate out the dysfunction from the creative insight?
-- What does the protagonist see about society that those around him do not see?
 
 ### Specific to [Notes from the Underground](DMC_notes_on_notes.html)
 
@@ -65,4 +78,6 @@ Here are some questions that may help guide your reflection.
 
 - Is my style of presentation constructive, or even coherent, for you?
 - What questions would you like to see discussed in class?
+
+-->
 
