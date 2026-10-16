@@ -1,5 +1,5 @@
 ---
-title: "DMC protagonist react to manifesto"
+title: "DMC Protagonist React to Manifesto"
 author: Scott Axelrod with Gemini 3.6 Flash
 ---
 

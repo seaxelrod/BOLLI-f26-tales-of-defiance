@@ -45,7 +45,7 @@ Dostoevsky was subjected to a mock execution in 1849, followed by hard labor in 
 and exile in military service.
 It was after that punishment that Dostoevsky wrote *Notes*, 
 in part a direct response to—and parody of—Chernyshevsky’s ideas.
-So, Dostoevsky -- or at least the fictional character he created --  
+So, Dostoevsky -- or at least the fictional character he created --
 was attacking a dream Dostoevsky had shared before his punishment.
 
 Dostoevsky's Underground Man argues three things:
@@ -74,10 +74,6 @@ The target is not reason itself. It is reason claiming *totality*: if science ca
 
 
 
-
-
-irrationality, anguish, and the refusal to be a formula.
-
 **The ending: the Tsar again.** Chernyshevsky's novel influenced radicals such as [Dmitri Karakozov](https://en.wikipedia.org/wiki/Dmitry_Karakozov),
 who [attempted to assassinate Alexander II in 1866](https://hd.housedivided.dickinson.edu/node/45241).
 Dostoevsky's [*Demons* (1872)](https://en.wikipedia.org/wiki/Demons_(Dostoevsky_novel)) depicted nihilism turning into terror. The People's Will assassinated Alexander II in March 1881, a few weeks after Dostoevsky died.
@@ -89,11 +85,10 @@ into a world that had whispered its lessons into his ear before he was born.
 [George Orwell](https://en.wikipedia.org/wiki/George_Orwell) was influenced by these when he wrote [*1984*](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four)[^thetriad].
 
 
-It must be noted for our course on Defiance to Mind Control 
-that Dostoevsky's Siberian labor camp experience and exile
-happened well before he wrote his rebuttal to Chernyshevsky's novel, which influenced anti-tsarists,
+Note that Dostoevsky's Siberian labor camp experience and exile
+happened well before he wrote his rebuttal to Chernyshevsky's novel, 
 whereas Chernyshevsky's Siberian labor camp experience and exile happened after he
-wrote his novel.
+wrote his novel, which influenced anti-tsarists.
 
 [^thetriad]:  As a very minor footnote, my piece [The Saga of the Triad, Chapter 1](TheTriadChapter1.html)
 was directly influenced by *We* and *1984*, which I had reread shortly before I wrote the piece.

@@ -4,7 +4,8 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc 3.11" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>Context of Dostoevsky’s Notes from the Underground</title>
+  <meta name="author" content="Scott and Claude" />
+  <title>The Panel of the Defiant</title>
   <style>
 
 span.smallcaps{font-variant: small-caps;}
@@ -631,143 +632,626 @@ a.footnote-ref{text-decoration:none;}
     });
   </script>
 
-  <script src="nav-sync.js"></script>
+  <script>/**
+ * nav-sync.js - Complete Shared Navigation & Synchronization
+ */
+
+(function () {
+  const fallbackPage = 'under-construction.html';
+
+  // -------------------------------------------------------------
+  // 1. RUNNING IN PARENT WINDOW (index.html)
+  // -------------------------------------------------------------
+  if (window.self === window.top) {
+    document.addEventListener('DOMContentLoaded', function () {
+      const select = document.getElementById('page-select');
+      const iframe = document.getElementById('main-content');
+
+      if (!select || !iframe) return;
+
+      // Function to synchronize the dropdown with what the iframe is actually displaying
+      function syncDropdownToIframe() {
+	  try {
+	      const iframePath = iframe.contentWindow.location.pathname;
+	      
+	      // 1. Get the directory containing index.html (e.g. "/course-site/" or "/")
+	      const parentDir = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+	      
+	      // 2. Strip the parent directory path, preserving subdirectories
+	      let relativePath = iframePath;
+	      if (relativePath.startsWith(parentDir)) {
+		  relativePath = relativePath.slice(parentDir.length);
+	      }
+	      
+	      if (relativePath && relativePath !== fallbackPage) {
+		  // 3. Find the option whose resolved path matches the iframe's path
+		  const match = Array.from(select.options).find(opt => {
+		      if (!opt.value) return false;
+		      return new URL(opt.value, window.location.href).pathname === iframePath;
+		  });
+		  
+		  if (match) {
+		      select.value = match.value;
+		      localStorage.setItem('selectedCoursePage', match.value);
+		  } else {
+		      // If not in dropdown, preserve the relative path in storage
+		      select.value = relativePath;
+		      localStorage.setItem('selectedCoursePage', relativePath);
+		  }
+	      }
+	  } catch (e) {
+	      // Security safeguard if loading across different origins
+	      console.warn('Could not read iframe location:', e);
+	  }
+      }
+
+      // Listen for when the iframe finishes loading ANY page (including Back/Forward navigation)
+      iframe.addEventListener('load', syncDropdownToIframe);
+
+      // Master navigation function for programmatic changes
+      window.navigateToCoursePage = function (targetUrl) {
+        if (!targetUrl) return;
+
+        const baseFilename = targetUrl.split('#')[0];
+
+        // Test file existence
+        fetch(baseFilename, { method: 'HEAD', cache: 'no-store' })
+          .then(response => {
+            if (response.ok) {
+              iframe.src = targetUrl;
+            } else {
+              console.log(`Target not found. Setting fallback: ${fallbackPage}`);
+              iframe.src = fallbackPage;
+            }
+          })
+          .catch(() => {
+            console.log(`Fetch failed. Setting fallback: ${fallbackPage}`);
+            iframe.src = fallbackPage;
+          });
+      };
+
+
+      // Check if a specific subpage was passed in the URL (e.g. index.html?page=DMC_week2.html)
+      const urlParams = new URLSearchParams(window.location.search);
+      const pageFromUrl = urlParams.get('page');
+
+      // Priority: 1. URL Parameter -> 2. LocalStorage -> 3. Default Syllabus
+      const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_syllabus.html';
+
+      select.value = savedPage;
+      window.navigateToCoursePage(savedPage);
+
+      // Handle user manually changing the dropdown menu
+      select.addEventListener('change', function (e) {
+        window.navigateToCoursePage(e.target.value);
+      });
+    });
+  }
+
+  // -------------------------------------------------------------
+  // 2. RUNNING INSIDE THE IFRAME (Sub-pages: DMC_syllabus.html, etc.)
+  // -------------------------------------------------------------
+
+  else {
+      document.addEventListener('DOMContentLoaded', function() {
+	  // Replace with your actual live site root URL:
+	  const liveSiteBase = 'https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/'
+	  
+	  document.querySelectorAll('a').forEach(link => {
+	      const rawHref = link.getAttribute('href');
+	      
+	      /*
+                ** Uncomment (and remove standalone next line)  to point to live site even if viewing as file or on local website.
+                ** Since we don't wan't file and html to point to live site, we leave this comment.
+                **
+	        // If viewing locally from disk, rewrite to the live website
+  	        if (window.location.protocol === 'file:' && rawHref && !rawHref.startsWith('http') && !rawHref.startsWith('mailto:')) {
+		    link.setAttribute('href', new URL(rawHref, liveSiteBase).href);
+	        } 
+	        // Otherwise, use the active domain URL
+	        else if (link.href) {
+		    link.setAttribute('href', link.href);
+	        }
+
+               */
+	      if(link.href) {link.setAttribute('href', link.href);}
+	      
+	      // Open external links in a new tab
+	      if (link.hostname && link.hostname !== window.location.hostname) {
+		  link.setAttribute('target', '_blank');
+		  link.setAttribute('rel', 'noopener');
+	      }
+	  });
+      });
+  }
+})();
+
+
+</script>
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Context of Dostoevsky’s <em>Notes from the
-Underground</em></h1>
-<p class="subtitle">Russian Nihilism, Existentialism, the end of serfdom
-and Tsar Alexander II</p>
+<h1 class="title">The Panel of the Defiant</h1>
+<p class="subtitle">A short story for the last session of Tales of
+Defiance to Mind Control in the Modern Age</p>
+<p class="author">Scott and Claude</p>
 </header>
-<!-- adapted from  Claude -> Play for Tales of Defiance to Mind Control -> Russian Nihilism and Exisentialism Connections -->
-<!-- 
-
-Prompt:
-Could you disentangle the relationship between Russian Nihilism, existentionalism, enlightenment values, rationalism, scientism and  the novels "What's to be Done" and its "Crytal Place" and "Notes from the Underground", the novel's authors, and Tsar Alexander II?  Please try to be brief, even though it is a huge amount of material.
-
--->
-<p><strong>The setting: <a href="https://www.encyclopedia.com/people/history/russian-soviet-and-cis-history-biographies/alexander-ii">Alexander
-II (r. 1855–1881)</a>.</strong> His Great Reforms, above all the
-emancipation of the serfs in 1861, and his loosening of censorship
-created room for a radical intelligentsia. When the reforms did not
-satisfy radical expectations, Alexander’s government cracked down. His
-reign brought the movement into existence and also became its
-target.</p>
-<p><strong>The ideology: <a href="https://en.wikipedia.org/wiki/Russian_nihilist_movement">Russian
-Nihilism</a>.</strong> The name was popularized by Turgenev’s Bazarov in
-<a href="https://en.wikipedia.org/wiki/Fathers_and_Sons_(novel)"><em>Fathers
-and Sons</em> (1862)</a>. It was less “nothing matters” than “nothing
-counts except what science can verify.” It rejected religion, tradition,
-art for its own sake, and inherited authority. In their place it put
-materialism, utilitarianism, and <a href="https://en.wikipedia.org/wiki/Scientism">scientism</a>, the belief
-that science can answer every question, moral and social ones included.
-<a href="https://en.wikipedia.org/wiki/Nihilism">Nihilism</a> generally
-is “a family of philosophical views that reject the existence of any
-objectively meaningful purpose, moral value, truth, knowledge, or
-related concepts”. It can take <a href="https://en.wikipedia.org/wiki/Enlightenment_philosophy">Enlightenment</a>
-faith in reason and progress to an extreme, with no softening.</p>
-<p><strong>The scientific utopia: <a href="https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F_(novel)"><em>What
-Is to Be Done?</em> (1863)</a> by <a href="https://en.wikipedia.org/wiki/Nikolay_Chernyshevsky">Nikolai
-Chernyshevsky</a>.</strong> He wrote it while imprisoned in <a href="https://en.wikipedia.org/wiki/Peter_and_Paul_Fortress">the Peter
-and Paul Fortress</a>. <!--
-The censors let his novel be published, possible due to Chernyshevsky's imprisonment, the literary
-nature of the writing, and the political climate. 
---> After that, he underwent a civil execution – a public ritual of
-degradation, imprisonment in Siberia, and exile. The novel’s theory of
-<strong><a href="https://en.wikipedia.org/wiki/Rational_egoism">rational
-egoism</a></strong> holds that people always act in their own interest,
-so once they understand where that interest truly lies, they will behave
-well. In Vera Pavlovna’s Fourth Dream, the <a href="https://en.wikipedia.org/wiki/The_Crystal_Palace">Crystal
-Palace</a> appears: a glass-and-iron communal paradise modeled on
-London’s 1851 exhibition hall and on <a href="https://en.wikipedia.org/wiki/Phalanstère">Charles Fourier’s
-phalanstery</a>, a type of building designed for a self-contained
-utopian community. It is society designed by reason, where conflict
-disappears because everyone has finally become rational. The ascetic
-revolutionary <a href="https://en.wikipedia.org/wiki/Rakhmetov">Rakhmetov</a> became a
-model for a generation, and Vladimir Lenin <a href="https://en.wikipedia.org/wiki/What_Is_to_Be_Done%3F">later reused
-the title</a>.</p>
-<p><strong>The rebuttal: <a href="https://www.britannica.com/topic/Notes-from-the-Underground"><em>Notes
-from the Underground</em> (1864)</a> by <a href="https://en.wikipedia.org/wiki/Fyodor_Dostoevsky">Fyodor
-Dostoevsky</a>:</strong> For activities such as his participation in the
-<a href="https://en.wikipedia.org/wiki/Petrashevsky_Circle">Petrashevsky
-circle</a>, a group which discussed utopian socialism and banned books
-critical of Tsarist Russia, Dostoevsky was subjected to a mock execution
-in 1849, followed by hard labor in a Siberian prison camp, and exile in
-military service. It was after that punishment that Dostoevsky wrote
-<em>Notes</em>, in part a direct response to—and parody
-of—Chernyshevsky’s ideas. So, Dostoevsky – or at least the fictional
-character he created –<br />
-was attacking a dream Dostoevsky had shared before his punishment.</p>
-<p>Dostoevsky’s Underground Man argues three things:</p>
+<nav id="TOC" role="doc-toc">
 <ul>
-<li>Humans will act <em>against</em> their interest just to prove they
-are free and not piano keys.</li>
-<li>“Two times two makes four” is the beginning of death.</li>
-<li>The Crystal Palace is an anthill, a place where you can’t even stick
-out your tongue.</li>
+<li><a href="#i." id="toc-i.">I.</a></li>
+<li><a href="#ii." id="toc-ii.">II.</a></li>
+<li><a href="#iii." id="toc-iii.">III.</a></li>
+<li><a href="#iv." id="toc-iv.">IV.</a></li>
+<li><a href="#v." id="toc-v.">V.</a></li>
+<li><a href="#vi." id="toc-vi.">VI.</a></li>
+<li><a href="#vii." id="toc-vii.">VII.</a></li>
+<li><a href="#viii." id="toc-viii.">VIII.</a></li>
+<li><a href="#ix." id="toc-ix.">IX.</a></li>
+<li><a href="#x." id="toc-x.">X.</a></li>
+<li><a href="#xi." id="toc-xi.">XI.</a></li>
 </ul>
-<p>The target is not reason itself. It is reason claiming
-<em>totality</em>: if science can fully predict us, freedom is gone.</p>
-<p><strong>The legacy: <a href="https://en.wikipedia.org/wiki/Existentialism">existentialism</a>.</strong>
-No one used the term then. Twentieth-century thinkers adopted Dostoevsky
-as a forerunner, and <a href="https://archive.org/details/existentialism-from-dostoevsky-to-sartre">Walter
-Kaufmann’s anthology <em>Existentialism from Dostoevsky to
-Sartre</em></a> opens with Part One of <em>Notes</em><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a>.</p>
-<!--    Recurring themes include:
-
-    - **Individuality and authenticity:** becoming oneself rather than simply conforming to inherited beliefs or social roles.
-    - **Freedom and responsibility:** choices matter, even when circumstances seem to limit us; freedom can bring anxiety or dread.
-    - **Subjective commitment and belief:** Kierkegaard’s selections emphasize inward commitment and the idea that truth is lived, not merely demonstrated as an abstract proposition.
-    - **Rebellion and meaning:** Dostoevsky and Camus explore how people respond to suffering, absurdity, and a world that may offer no ready-made meaning.
-    - **Self-deception and bad faith:** Sartre examines how people evade their freedom or disguise their motives.
-    - **Existence, death, and limits:** the selections confront mortality and the difficult conditions of being human.
+</nav>
+<!-- modified from  20261016_3_panel_of_the_defiant.md -->
+<p>Somebody had made three name tents out of folded card stock and set
+them on the folding table at the front of the BOLLI classroom. Then
+somebody, probably Scott, had made a fourth, and set it at the end.</p>
+<p>UNDERGROUND MAN. WINSTON SMITH. NEO. SAI.</p>
+<p>The fourth chair was empty.</p>
+<p>“He’s not coming?” Fran asked, settling into the second row with her
+coffee and the look of a woman who had expected nothing and been proven
+right.</p>
+<p>“He sent regrets,” Scott said. He held up his phone. “Very gracious.
+Perfect grammar. ‘Sai is sorry to miss what will surely be a meaningful
+conversation and wishes everyone a restful weekend.’”</p>
+<p>“<em>Sai</em> is sorry,” Fran said. “Third person. You know who
+writes in the third person.”</p>
+<p>“His assistant,” Marvin said darkly. He was eighty-one and had
+brought a legal pad, as he had to every session, and had written at the
+top of a fresh page, in block capitals, ASK ABOUT THE ESSAY.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>“Even his no was written by someone else,” Fran said. “That’s a hell
+of a way to end a course.”</p>
+<p>“We haven’t ended it yet,” said Arthur.</p>
+<p>Dorothy said nothing. She was watching the door.</p>
+<h2 id="i.">I.</h2>
+<p>They came in one at a time, the way old men come into a room they are
+not sure they belong in.</p>
+<p>The Underground Man came first. He was small and yellowish and wore a
+coat too heavy for October, and he stopped just inside the doorway as
+though the room had insulted him. He looked at the coffee urn, the tray
+of Danish, the whiteboard with <em>SESSION 5: WHERE DO WE GO FROM
+HERE?</em> written across it in green marker, and the ten or so faces
+turned toward him. His lip curled. Then, unexpectedly, he took a
+Danish.</p>
+<p>Winston Smith came second. He was taller than anyone had pictured,
+stooped, with the careful walk of a man whose varicose ulcer had never
+entirely healed. He had a habit, Dorothy noticed right away, of glancing
+at the projector in the ceiling, then at the smoke detector, then at the
+little black eye of the laptop camera on Scott’s podium. Once he had
+found them all, he seemed to relax a little, as though the trick was not
+to escape being watched but to know exactly where the watching was.</p>
+<p>Neo came last. He was the youngest of the three, if seventy-three can
+be called young, and his hair had gone completely white. He wore a black
+overcoat, of course, but it had a missing button and a library receipt
+sticking out of the pocket. He nodded to the room, and before he sat
+down, he touched the edge of the table lightly with two fingers, as if
+to check that it was there.</p>
+<p>“Thank you all for coming,” Scott said. “And thank you for, ah,
+traveling.”</p>
+<p>“I did not travel,” said the Underground Man, with his mouth full. “I
+was <em>transported</em>. There is a difference. One is an act, and the
+other is something done to you. Write that down.” He pointed at Marvin,
+who, to his own surprise, wrote it down.</p>
+<h2 id="ii.">II.</h2>
+<p>Scott had planned the session carefully. Each guest would speak for
+five minutes on the essay the class had read, “Defiance to Mind Control:
+From the Crystal Palace to Tilly,” and on how, after thirty-odd years of
+living in the future, they now understood their own stories. Then
+questions. Then, he hoped, something like a conclusion.</p>
+<p>The plan lasted about ninety seconds.</p>
+<p>“I have read your essay,” the Underground Man began, “and I wish to
+say at once that it is a very good essay, very clear, very
+<em>accessible</em>.” He gave the word a little twist, like wringing out
+a rag. “You have put me in a timeline. Number two, right after the
+nihilists. ‘His form of defiance: spite.’ Spite! As if I chose it from a
+menu. As if I said, today I will have the spite, and a side of liver
+ailment.”</p>
+<p>“Isn’t that what you did?” Fran asked.</p>
+<p>He turned to her with real delight. “Yes! Of course it is! That is
+exactly what I did. But you are not supposed to <em>say</em> so. You are
+supposed to argue with me, and then I will be wounded, and I will go
+home and write forty pages about how you wounded me. That is how I know
+I exist.”</p>
+<p>“You have a lot of time on your hands,” Fran said.</p>
+<p>“I have had a hundred and sixty years on my hands, madam, and I have
+spent them extremely badly.”</p>
+<p>A few people laughed. He looked pleased, and then, almost
+immediately, ashamed of looking pleased. Dorothy found she rather liked
+him.</p>
+<p>“Here is what I want to say,” he went on, “and then I will be quiet,
+which I will not. When I was forty, I said that the planners would one
+day prove that man is ‘something of the nature of a piano-key.’<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> I said they would tabulate all our
+desires ‘like tables of logarithms.’ I said it to be outrageous. I said
+it in a cellar, to nobody. And then I was brought here, and I discovered
+that you have done it. You have actually done it. Every morning a little
+glass rectangle tells me what I will want for breakfast, and it is
+<em>correct</em>. Do you know what that does to a man like me? It is
+like spending your whole life shouting that the house is on fire, and
+then the fire department arrives, and they are very polite, and they
+bring you a blanket.”</p>
+<!--  [Fyodor Dostoevsky, *Notes from Underground* (1864), trans. Constance Garnett](../materials/notes_from_underground/NotesFromUnderground_Garnett.pdf ) 
 -->
-<p>irrationality, anguish, and the refusal to be a formula.</p>
-<p><strong>The ending: the Tsar again.</strong> Chernyshevsky’s novel
-influenced radicals such as <a href="https://en.wikipedia.org/wiki/Dmitry_Karakozov">Dmitri
-Karakozov</a>, who <a href="https://hd.housedivided.dickinson.edu/node/45241">attempted to
-assassinate Alexander II in 1866</a>. Dostoevsky’s <a href="https://en.wikipedia.org/wiki/Demons_(Dostoevsky_novel)"><em>Demons</em>
-(1872)</a> depicted nihilism turning into terror. The People’s Will
-assassinated Alexander II in March 1881, a few weeks after Dostoevsky
-died.</p>
-<p><strong>For our course:</strong> the Crystal Palace is a symbol of a
-rationalist utopia built on <em>engineering</em> human behavior, and
-<em>Notes</em> is an act of defiance against it. The line continues to
-<a href="https://en.wikipedia.org/wiki/Yevgeny_Zamyatin">Yevgeny
-Zamyatin</a>’s <a href="https://en.wikipedia.org/wi%20ki/We_(novel)"><em>We</em> (written
-1920–21)</a>, with its glass apartments and citizens reduced to numbers,
-and from there to <a href="https://en.wikipedia.org/wiki/Aldous_Huxley">Aldous Huxley</a>’s
-<a href="https://en.wikipedia.org/wiki/Brave_New_World"><em>Brave New
-World</em> (1932)</a>, with Bernard Marx decanted (removed from
-artificial gestation in a “bottle”) into a world that had whispered its
-lessons into his ear before he was born. <a href="https://en.wikipedia.org/wiki/George_Orwell">George Orwell</a> was
-influenced by these when he wrote <a href="https://en.wikipedia.org/wiki/Nineteen_Eighty-Four"><em>1984</em></a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a>.</p>
-<p>It must be noted for our course on Defiance to Mind Control that
-Dostoevsky’s Siberian labor camp experience and exile happened well
-before he wrote his rebuttal to Chernyshevsky’s novel, which influenced
-anti-tsarists, whereas Chernyshevsky’s Siberian labor camp experience
-and exile happened after he wrote his novel.</p>
+<p>“So you were right,” Arthur said.</p>
+<p>“Being right is the worst thing that ever happened to me.”</p>
+<h2 id="iii.">III.</h2>
+<p>Winston spoke more quietly. He had a notebook in front of him, an
+ordinary spiral one from CVS, and he did not open it.</p>
+<p>“When they brought me here, I was,” he paused, choosing a word,
+“finished. You’ve all read the end of the book. I don’t need to tell you
+what I felt about Big Brother by then.” He turned his gin-stained voice
+toward the window. “For the first ten years, I couldn’t sit in a room
+without a telescreen. I’d turn on the television just to have something
+looking at me. My first landlady, in Somerville, thought I was lonely. I
+wasn’t lonely. I was afraid of being unobserved. I didn’t know who I
+would be if no one was checking.”</p>
+<p>The room had gone very still.</p>
+<p>“It came back slowly. The thing they took. It came back the way
+feeling comes back into a frozen hand, which is to say it hurt. I read
+the essay you gave us, and I want to say the bit about two and two is
+right. The Underground Man wanted the right to say five. I wanted the
+right to say four. We look like opposites, and we aren’t. We both wanted
+a mind that answers to itself.”</p>
+<p>“Thank you,” said the Underground Man, surprised.</p>
+<p>“I’m not finished,” Winston said, without heat. “What the essay
+doesn’t say, because how could it, is that I <em>did</em> say five, in
+the end. I said it and meant it. So when I came here, I couldn’t trust
+four, either. I couldn’t trust anything I believed, because I knew I
+could be made to believe the opposite with enough pain. Do you
+understand? It wasn’t that they lied to me. It’s that they proved belief
+could be manufactured. After that you don’t get your innocence back. You
+only get,” he lifted one hand, “vigilance.”</p>
+<p>Marvin cleared his throat. “That’s how I feel about the videos,” he
+said. “My grandson sends me a video of a senator. I can’t tell if it’s
+real. It isn’t that I believe the fake. It’s that I can’t believe the
+real one, either.”</p>
+<p>Winston looked at him for a long moment. “Yes,” he said. “That’s
+exactly it. They don’t need you to believe the lie anymore. They just
+need you to stop being sure of anything. It’s cheaper.”</p>
+<h2 id="iv.">IV.</h2>
+<p>Neo had been listening with his hands folded on the table, very
+still, in a way that made Scott think of a cat watching a bird
+feeder.</p>
+<p>“I’ll be honest,” Neo said. “I read your essay twice, and the part I
+keep going back to is the part about Baudrillard.”</p>
+<p>“Oh dear,” Scott said.</p>
+<p>“No, it’s fair. He said our movie was the kind of film about the
+matrix the matrix itself would have made. I was angry about that for
+years. I thought, what does he know, he wasn’t <em>there</em>, he didn’t
+see the fields, the pods, the rust. I saw the desert of the real. I
+stood in it.”</p>
+<p>He turned his hands over and looked at them, the same gesture the
+class had read about in “DMC Protagonists React to the Manifesto,” the
+one where he paces the ship and asks Trinity whether love is just
+another program.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Several people noticed and exchanged
+glances.</p>
+<p>“But here’s the thing I figured out, about thirty years in,” Neo went
+on. “He wasn’t saying the desert wasn’t real. He was saying the
+<em>story</em> was too clean. Red pill, blue pill. Inside, outside.
+Asleep, awake. One chosen guy who wakes up and saves everyone. That
+story is a product, too. It sells really well. It sells to every kid who
+thinks he’s the only one who sees through it.” He smiled faintly. “I was
+that kid. A lot of people online are that kid now. Everybody’s taken the
+red pill. Everybody’s the only one awake. And they’re all awake in
+exactly the same way, and somebody’s making money on it.”</p>
+<p>“So there’s no outside,” Marvin said.</p>
+<p>“There’s an outside. I’ve been there. It’s cold and the food is
+terrible.” Neo laughed. “But I don’t think the outside is a place
+anymore. I think it’s—” he stopped, and for a moment the old blankness
+came over his face, the look of a man waiting for something to be
+downloaded into him. Nothing came. “I don’t know what it is. I used to
+know kung fu in a second. Now I’m seventy-three and I have to figure
+things out the slow way, like everybody else. It’s humiliating. It’s
+also the first thing that’s ever felt like mine.”</p>
+<h2 id="v.">V.</h2>
+<p>It was Dorothy who started the fire, although she would have denied
+it.</p>
+<p>“I want to ask Mr. Smith something,” she said. Winston turned toward
+her politely. “You talk about vigilance. And I understand, after what
+was done to you. But I’m seventy-seven. My phone reminds me to take my
+pills. When I fell last winter, it’s how my daughter knew to come. I’ve
+buried a husband and a sister. Is it really so terrible to let something
+look after me? Isn’t there a difference between a machine that watches
+<em>over</em> you and one that watches you?”</p>
+<p>“No,” said Winston.</p>
+<p>“No, there isn’t a difference? Or no, it isn’t terrible?”</p>
+<p>“No, there isn’t a difference. There’s only a difference in how it
+feels.” He said it gently, but he said it. “O’Brien looked after me,
+too. He told me so. He said he’d watched me for seven years. He said he
+was going to cure me. He brought me water. He was the kindest man I ever
+knew, at the end.”</p>
+<p>Dorothy flushed. “My phone is not O’Brien.”</p>
+<p>“I didn’t say it was. I said the kindness doesn’t tell you anything.
+The kindness is the part they’re best at.”</p>
+<p>“That’s paranoid,” Dorothy said.</p>
+<p>“It’s <em>experienced</em>,” Winston said, and for the first time his
+voice rose. “You’ve had a long life, Mrs.—”</p>
+<p>“Dorothy.”</p>
+<p>“Dorothy. You’ve had a long life, and I respect it. But you’ve had a
+long life in a country where most of the time, the people watching you
+didn’t want very much from you. That’s luck. It isn’t a law of nature.
+It can change in an afternoon. I’ve seen it change. It doesn’t announce
+itself. It just stops bringing the water.”</p>
+<p>Arthur, in the back, said, “That’s what I keep trying to tell people
+about Washington—”</p>
+<p>“Oh, here we go,” said Fran.</p>
+<p>“No, let him go,” said the Underground Man, who had brightened
+considerably. “I love it when people bring politics into a discussion of
+literature. It means the literature has finally become useful, and
+therefore ruined.”</p>
+<p>Arthur ignored him. “I’m just saying. Everything we’ve read in this
+course, the surveillance, the rewriting of history, the people who can’t
+tell real from fake, the comfort that makes everybody stop paying
+attention. It’s not fiction. It’s the news. And I sat in the back of
+this room for five weeks while we analyzed it. <em>Analyzed</em> it.
+Meanwhile I’ve written to my representatives eleven times. I’ve been to
+four protests. My knees are shot. And you know what this course has made
+me feel? Like the whole thing’s a seminar. Like we’re Julian’s little
+group in the basement with the kettle, congratulating ourselves for
+<em>understanding</em>.”</p>
+<p>There was a silence.</p>
+<p>“Well,” said the Underground Man softly. “Well, well. <em>Now</em> we
+are getting somewhere.”</p>
+<h2 id="vi.">VI.</h2>
+<p>He stood up. He was not tall, and his coat made him look like a heap
+of laundry that had decided to speak.</p>
+<p>“I read Julian’s little manifesto,” he said. “The <em>Hearth in the
+Storm</em>. A covenant of soft expectations. And I wrote a response, or
+rather”—he glanced at Scott—“<em>someone</em> wrote a response, in my
+voice, and put my name on it. I called him a coward. I said he wanted to
+be a hero without getting up from his sofa. I said I would burst into
+his basement and smash his teacups.”</p>
+<p>“You did say that,” Marvin said, checking his notes.</p>
+<p>“I <em>know</em> I said it. I said it <em>about myself</em>. That was
+the joke. That was always the joke.” He swept an arm around the room:
+the folding tables, the Danish, the whiteboard, the ten retired people
+in cardigans and fleece. “Look where we are. A room with four walls. A
+warm urn of coffee. A few souls who refuse to let the machine do their
+thinking. This is Julian’s basement! You are all Julian! <em>I</em> am
+Julian! I have been Julian for a hundred and sixty years! I just used to
+be very rude about it!”</p>
+<p>“I am not Julian,” Arthur said, and his ears had gone red. “I <em>go
+out</em>. I <em>do things</em>.”</p>
+<p>“You write to your representatives! Eleven times! Do they write
+back?”</p>
+<p>“They send form letters.”</p>
+<p>“Generated by a machine!”</p>
+<p>“Probably,” Arthur admitted.</p>
+<p>“So you write to the Crystal Palace, and the Crystal Palace writes
+back, very politely, thanking you for your engagement, and then it files
+your letter under ‘constituent sentiment, mildly agitated,’ and adjusts
+the messaging by two percent. That is your resistance! That is a Crystal
+Palace with a clipboard!”</p>
+<p>“<em>That’s enough</em>,” Arthur said, standing up, and for a moment
+the two old men were glaring at each other across three rows of chairs,
+and Scott had the distinct and unprecedented thought, <em>I may have to
+break up a fight at BOLLI.</em></p>
+<p>“At least I’m trying,” Arthur said. “At least I’m not sitting in a
+cellar for a century and a half, sneering at everyone who tries.”</p>
+<p>The Underground Man opened his mouth. Then he closed it. He looked,
+suddenly, very old.</p>
+<p>“Yes,” he said. “That is a fair point. That is the fairest point
+anyone has made to me since 1864.” He sat down. “I hate it.”</p>
+<h2 id="vii.">VII.</h2>
+<p>It was Winston who spoke next, and he spoke to the Underground Man,
+not to the room.</p>
+<p>“You played at it,” he said quietly. “Two and two make five. You said
+it to annoy the planners. You said it was ‘sometimes a very charming
+thing too.’<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> I remember the line. I read it in my
+first year here, in the Somerville library, and I had to go outside and
+sit on the steps.”</p>
+<p>The Underground Man said nothing.</p>
+<p>“It wasn’t charming, when they did it to me. It was a man holding up
+four fingers and turning a dial. So when you stand up and tell this
+man”—he nodded at Arthur—“that his letters are useless, I want you to
+remember that you never had to find out what useless really means. You
+got to keep your cellar. You got to keep your spite. I’d have given
+anything for a cellar.”</p>
+<p>“I am sorry,” the Underground Man said, and to everyone’s
+astonishment, including apparently his own, he meant it. “I am sorry. I
+will regret having said that I am sorry for the rest of the week. But I
+am.”</p>
+<p>“And you,” Winston said to Arthur, a little more gently. “He’s not
+entirely wrong. They want you to write the letters. They have a place to
+put them. The question is whether there’s anything you do that they
+<em>don’t</em> have a place to put.”</p>
+<p>“Like what?” Arthur said.</p>
+<p>Winston thought about it. “Julia,” he said finally. “When she and I
+were together, that was the only thing they didn’t have a form for. Not
+the rebellion. That was all theirs, it turned out. The Brotherhood was
+theirs. The book was theirs. But the afternoons in the room above the
+shop, that was ours, for a while. They had to go to a great deal of
+trouble to take that. That’s how I knew it was worth something. They
+don’t go to trouble over things that don’t matter.”</p>
+<h2 id="viii.">VIII.</h2>
+<p>Neo had not said anything for a long time. Now he looked at
+Dorothy.</p>
+<p>“Can I answer your question?” he said. “The one you asked
+Winston?”</p>
+<p>Dorothy nodded.</p>
+<p>“In that essay, the one where we all react to the manifesto, they had
+me asking Trinity whether love was real or just more code. Whether the
+machines put it there so we’d keep breeding in our vats.” He gave a
+small smile. “That’s a pretty good guess at what I was thinking at
+thirty. I was always asking her to tell me what was real.”</p>
+<p>“And?” said Dorothy.</p>
+<p>“She died,” Neo said simply. “You know that, if you saw the sequels.
+Most people try not to.” A few people laughed, gently. “And here’s what
+I learned. The machines had a use for everything about me. My body heat.
+My anger. My hope; they even had a use for that, they built it into the
+system, the Architect told me so to my face. But they had no use at all
+for how much it hurt when she was gone. Nobody could farm that. Nobody
+could sell it. It didn’t power anything. That’s how I knew it was
+real.”</p>
+<p>Dorothy’s eyes were wet. “Forty-one years,” she said. “My
+Howard.”</p>
+<p>“Then you know,” Neo said. “You don’t need me to tell you. The phone
+that tells you to take your pills is fine. Let it. But the thing that
+let you know it hurt when Howard died—don’t let anybody, or anything,
+offer to take that off your hands. That’s the part they’d most like to
+smooth over. Not because they’re evil. Because it’s
+<em>inefficient</em>.”</p>
+<p>Dorothy was quiet for a moment. “My phone,” she said slowly,
+“suggested a grief support app. About a week after the funeral. I
+thought it was thoughtful.”</p>
+<p>“It probably was,” Neo said. “That’s the trouble.”</p>
+<h2 id="ix.">IX.</h2>
+<p>Marvin raised his hand. He had been waiting forty minutes.</p>
+<p>“I have a question about the essay,” he said, tapping his legal pad.
+“Not <em>the</em> essay<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. The other one<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a>.
+The reactions. And the one with all of us answering questions.<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a>”</p>
+<p>Scott winced slightly. He had known this was coming.</p>
+<p>“I read the byline,” Marvin said. “‘Scott Axelrod with Gemini.’ And
+the other one, the big essay, says ‘Scott and Claude.’ So.” He turned to
+the three guests. “When you read the versions of yourselves those things
+wrote. The Underground Man smashing teacups, Winston at the memory hole,
+Neo with Trinity. Was that you? Did the machine get you right?”</p>
+<p>There was a pause.</p>
+<p>“Yes,” said the Underground Man. “Damn it. Mostly yes.”</p>
+<p>“Close enough that it frightened me,” said Winston. “It had my fear
+right. It didn’t have my hands. It didn’t know about the ulcer, or that
+I still can’t drink gin, or that the smell of boiled cabbage makes me
+happy now, which I can’t explain to anyone.”</p>
+<p>“It made me younger and more certain,” said Neo. “Which is what I’d
+expect. It learned me from the movie.”</p>
+<p>“So here’s my question,” said Marvin, and he looked at Scott. “We
+spent five weeks on mind control. On machines that know us better than
+we know ourselves. And the course materials were written by a machine
+that knows <em>them</em> better than—” He waved at the panel. “Isn’t
+that a problem?”</p>
+<p>Every head turned toward Scott.</p>
+<p>Scott, who had been a teacher long enough to know that the best
+moments in a class are the ones you didn’t plan and can’t control, took
+a breath.</p>
+<p>“Yes,” he said. “It’s a problem. That’s partly why I did it.”</p>
+<p>“To make a point?” Fran said skeptically.</p>
+<p>“To find out where the point <em>was</em>.” He came out from behind
+the podium. “I used the machines the way you’d use a very well-read
+research assistant who’s never had a body. They’re good at the shape of
+a thing. They gave me Dostoevsky’s sentences and Orwell’s fear and Neo’s
+questions, and they were often right. But look what just happened.
+Winston told us about the cabbage. Neo told us about the grief. The
+Underground Man apologized, which, if I’d asked a machine to predict, it
+would have said was out of character.”</p>
+<p>“It <em>was</em> out of character,” the Underground Man said. “I am
+furious about it.”</p>
+<p>“And Dorothy told us about the grief app,” Scott said. “And Arthur
+stood up. None of that was in the materials. None of it could have been.
+That’s the part that’s left over. That’s what Deleuze was getting at in
+the handout. The question at the bottom.”</p>
+<p>Marvin found it in his folder and read it aloud: “‘How would you know
+if you were being controlled by something that never once told you
+no?’”<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p>
+<p>“So how <em>would</em> you know?” Arthur asked. He had sat back
+down.</p>
+<p>Scott shook his head. “I don’t think you can know it in your head. I
+think you find out the way Winston found out about Julia, or Neo found
+out about Trinity. You notice the thing in your life they’d most like to
+smooth over. The friction. The inefficiency. The argument in a room like
+this one that doesn’t lead to a product. And you protect that. Not
+because it wins. Because it’s yours.”</p>
+<p>“That sounds like Julian’s manifesto,” Fran said. “Sit in a room,
+understand the storm, feel noble.”</p>
+<p>“It would be,” Scott admitted, “if we stayed in the room.”</p>
+<h2 id="x.">X.</h2>
+<p>It was Fran, of all people, who ended it.</p>
+<p>“Can I say the exhausted thing?” she said. “Somebody has to.” She set
+down her coffee. “I’m seventy-four. I was a hospital administrator for
+thirty years. I watched every new system come in promising to save us
+time, and every one of them took more time, and then we couldn’t
+remember how we’d done it without them. So I don’t believe in
+resistance, really. I don’t believe in the red pill or the Brotherhood
+or writing to Congress. I think whatever’s coming is coming.”</p>
+<p>“Then why did you take the course?” asked the Underground Man,
+genuinely curious.</p>
+<p>Fran considered. “Because I wanted to sit in a room with people who’d
+argue with me,” she said. “Out loud. Badly. Where I could see their
+faces. My whole life is people agreeing with me now. My feed agrees with
+me. My doctor’s portal agrees with me. My granddaughter agrees with me
+because she wants to get off the phone.” She shrugged. “You,” she said
+to the Underground Man, “are the first person in two years who’s told me
+I’m wrong to my face. I don’t know if it’s resistance. But I’ll take
+it.”</p>
+<p>The Underground Man looked at her as though no one had ever said
+anything kind to him in his life, which was nearly true.</p>
+<p>“Madam,” he said, “you are wrong about almost everything.”</p>
+<p>“Thank you,” said Fran.</p>
+<h2 id="xi.">XI.</h2>
+<p>Afterward, the guests lingered by the coffee urn, which none of them
+had expected to do.</p>
+<p>Winston stood at the whiteboard. Someone had erased <em>WHERE DO WE
+GO FROM HERE?</em>, and he picked up the green marker and wrote, in
+careful, slightly shaky letters:</p>
+<p><strong>2 + 2 = 4</strong></p>
+<p>He looked at it for a while. Then the Underground Man came up beside
+him, took the marker out of his hand, and underneath, in a cramped,
+violent scrawl, wrote:</p>
+<p><strong>(sometimes 5)</strong></p>
+<p>Winston looked at it. He didn’t laugh, exactly. But something in his
+face loosened, and he took the marker back and drew a little box around
+both lines together, as if to say: <em>Both. Keep both. That’s the room
+they can’t get into.</em></p>
+<p>Neo was talking to Dorothy by the window. Arthur had cornered Marvin
+about a town meeting in Newton next month. Fran was explaining hospital
+billing software to the Underground Man, who was listening with the rapt
+horror of a man watching his worst prophecies acted out in
+triplicate.</p>
+<p>Scott’s phone buzzed.</p>
+<p>It was a text from a number he didn’t recognize. No capitals, two
+typos, no assistant’s polish.</p>
+<blockquote>
+<p><em>sory. it said i shoudn’t come. said youd understand. i didnt let
+it decide this time. took the train, then walked. got lost twice. im
+outside. is it too late</em></p>
+</blockquote>
+<p>Scott looked out the window. On the path below, a young man in very
+good shoes was standing in the drizzle, looking up at the building, with
+no idea which door was the right one.</p>
+<p>Scott looked at the empty chair at the end of the table, and the name
+tent that said SAI.</p>
+<p>It was the last session. There was no next week.</p>
+<p><em>Maybe</em>, Scott thought, <em>there should be.</em></p>
+<p>He went down to open the door.</p>
+<p><strong>Footnotes</strong></p>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
 <hr />
 <ol>
-<li id="fn1"><p>Duck.ai summarizes Kaufman’s book as follows: Kaufmann’s
-anthology doesn’t present existentialism as one unified doctrine. Its
-central thread is <strong>individual existence and lived
-experience</strong>: how people confront freedom, choice,
-responsibility, uncertainty, and the search for meaning. Kaufmann frames
-the tradition as resistant to rigid systems and abstract philosophy
-detached from life. The collection also explores these questions through
-both philosophy and literature—Dostoevsky, Kafka, Rilke, and Sartre’s
-fiction sit alongside philosophical writings. So its “themes” are less a
-shared set of conclusions than a set of urgent questions about how to
-live.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>As a very minor footnote, my piece <a href="TheTriadChapter1.html">The Saga of the Triad, Chapter 1</a> was
-directly influenced by <em>We</em> and <em>1984</em>, which I had reread
-shortly before I wrote the piece. I must admit that I did make use of
-writing assistance from AI, so I can’t be totally sure what came from me
-or the machine. But that is jumping ahead to our final tales <em>The
-Matrix</em> and <em>The Perfect Match</em>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn1"><p><a href="DMC_Chronology.html">Defiance to Mind Control:
+From the Crystal Palace to Tilly</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p><a href="https://www.logoslibrary.org/dostoevsky/underground/107.html">Fyodor
+Dostoevsky, <em>Notes from Underground</em> (1864), trans. Constance
+Garnett, Part I, ch. 7</a>, where the Underground Man also imagines our
+actions “tabulated” like “tables of logarithms.” See also”<a href="DMC_Chronology.html#the-underground-man-says-no">Defiance to Mind
+Control: From the Crystal Palace to Tilly, section 2</a>.”<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>From the optional course reading “<a href="DMC_protagonists_react_to_manifesto.html">DMC Protagonists React
+to Manifesto</a>,” which includes <a href="DMC_protagonists_react_to_manifesto.html#julians-manifesto">Julian’s
+“Manifesto for the Hearth in the Storm”</a> and the reactions of the
+Underground Man, Winston, Neo and Sai. The Underground Man’s threat to
+smash Julian’s teacups, Winston at the memory hole, and Neo’s questions
+to Trinity all come from that piece.<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>The Undeground Man’s statement “twice two makes five is
+sometimes a very charming thing too” is from <a href="https://www.logoslibrary.org/dostoevsky/underground/109.html"><em>Notes
+from Underground</em>, Part I, ch. 9</a>: Winston’s own counter-claim,
+that freedom is the freedom to say two plus two make four, is from <a href="https://gutenberg.net.au/ebooks01/0100021h.html#ch7"><em>Nineteen
+Eighty-Four</em>, Part One, ch. 7</a>.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><a href="DMC_Chronology.html">Defiance to Mind Control:
+From the Crystal Palace to Tilly</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn6"><p><a href="DMC_protagonists_react_to_manifesto.html">DMC
+Protagonist React to Manifesto</a> by Scott and Gemini<a href="#fnref6" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn7"><p><a href="DMC_question_responses_by_characters_and_students.html">Responses
+to Questions by Story Characters and Fictional Students</a> by Scott and
+Claude<a href="#fnref7" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn8"><p>The closing question of the optional readings <a href="TwoKindsOfControl.html">Two Kinds Of Control</a>, which relates <a href="https://cpb-us-e1.wpmucdn.com/sites.psu.edu/dist/d/37602/files/2016/01/Discipline-and-Punish.pdf">Michel
+Foucault’s “Discipline and Punish: The Birth of the Prison”</a> to <a href="https://deleuze.cla.purdue.edu/wp-content/uploads/2023/09/Deleuze_Gilles-Postscript-on-the-Societies-of-Control.pdf?TSPD_101_R0=08993c5290ab2000b533707d95ca818e9ae188ba4d60fc2e2e8d09c49bdbe977089944df1850f09908d69499ef1430005721d6f0691158ee16cdfba10804491f35b27150d215cae96eba4fee7ae6f00e36a228749a2da69faf57b2ef431865eb">Gilles
+Deleuze’s Postcript on the Societies of Control (1990)</a>.<a href="#fnref8" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
 </ol>
 </section>
 </body>
