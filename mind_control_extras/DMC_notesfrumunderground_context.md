@@ -46,7 +46,7 @@ and exile in military service.
 It was after that punishment that Dostoevsky wrote *Notes*, 
 in part a direct response to—and parody of—Chernyshevsky’s ideas.
 So, Dostoevsky -- or at least the fictional character he created --
-was attacking a dream Dostoevsky had shared before his punishment.
+was attacking a dream Dostoevsky had at least partially shared before his punishment.
 
 Dostoevsky's Underground Man argues three things:
 

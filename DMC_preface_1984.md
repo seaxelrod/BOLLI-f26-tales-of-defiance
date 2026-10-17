@@ -4,9 +4,7 @@
 Our next story is *1984* by George Orwell, published in 1949, as society was struggling  after WWII  with how to 
 face weapons of mass destruction: physical nuclear weapons, global technological warfare, and propaganda used for totalitarian control of minds.
 
-We are all familiar with many references to how aspects of our current society are “Orwellian,” with its police state[^foucault_panopticon],
-
-used to control outliers to the norms of society.
+We are all familiar with many references to how aspects of our current society are “Orwellian,” with its police state[^foucault_panopticon] used to control outliers to the norms of society.
 
 [^foucault_panopticon]: On the police state, see:
 
@@ -27,11 +25,11 @@ used to control outliers to the norms of society.
       > "[T]he Panopticon was also a laboratory; it could be used as a machine to carry out experiments, to alter behaviour, to train or correct individuals"
      -->
 
-Many of us feel the constant stress of narratives[^bruner_narrative_reconstruction].
+Many of us feel the constant stress of narratives[^bruner_narrative_reconstruction] 
 being imposed upon us, often without our conscious knowledge.
-Like the fish who does not have a concept for water, we may be unaware of how our thoughts are constrained by the hiding of evidence
---made concrete in *1984* as the  "memory hole" -- and by the limitations placed on our very ability to speak 
---made concrete as Orwell’s language of Newspeak.
+Like the fish who does not have a concept for water, we may be unaware of how our thoughts are constrained by the hiding of evidence, which is made concrete in *1984* as the  "memory hole".
+Or we may not notice how language can place limitations on our ability to think,
+as the language Newspeak is meant to do.
 Orwell’s tale is so powerful because he has constructed a narrative, brilliantly written to focus on possibilities he sees with prophetic vision. 
 
 [^bruner_narrative_reconstruction]: On narrative analysis, see 

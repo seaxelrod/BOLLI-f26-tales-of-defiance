@@ -21,23 +21,23 @@ MLK said this in his ["How Long, Not Long" speech](https://en.wikipedia.org/wiki
 Whether we dwell on what has gone wrong or place our faith in progress, both perspectives reflect the power of ideas to shape how we see the world. 
 For my purposes in trying to control you to be receptive to what I have to say, 
 let us agree that not only does every political act involve an element of mind control,
-but so does every act of communication —including thought, which is an act of communication with ourselves.
+but so does every act of communication — including thought, which is an act of communication with ourselves.
 
 ### Aspects of Mind Control
 
 
-We all have a collection of, perhaps contradictory,  senses of what mind control means. 
+We all have a collection of perhaps contradictory senses of what mind control means. 
 For the purposes of this course, I am interested less in a single universal definition of mind control than in sorting through different aspects of mind control.
 To this end, let me start by distinguishing between constructive and destructive mind control, between individual and systemic mind control, and between threatening and enticing mind control.
 
 #### Constructive vs. Destructive Mind Control
 
-Constructive mind control offers options to improve how we think and feel. Think of an inspiring teacher whose goal is not to bedazzle students, but to get them to think for themselves.
+Constructive mind control offers options to improve how we think and feel. Think of an inspiring teacher whose goal is not to dazzle students, but to get them to think for themselves.
 
 Destructive mind control, on the other hand, manipulates people into thinking within a rigid framework that harms its recipients in the long run. 
 Think about cults[^hassan], brainwashing prisoners of war[^lemov], or dictators who rule by fear or spin[^spin].
 Or think about people who crowd out all reason by mindlessly repeating clichés and slogans, filling our minds and media with bullshit[^stupid].
-Speaking of media, the proliferation of media today (social media, blogs, ..., and now AI) exerts tremendous control on the kind of messages we communicate[^mcluhan].
+Speaking of media, the proliferation of media today (social media, blogs, podcasts, and now AI) exerts tremendous control on the kind of messages we communicate[^mcluhan].
 
 
 [^hassan]: See [[Steven Hassan’s books on cults]{.underline}](https://stevenhassan.freedomofmind.com/?utm_campaign=profile_chips).
@@ -49,18 +49,19 @@ Speaking of media, the proliferation of media today (social media, blogs, ..., a
 
 #### Individual vs.  Systemic Mind Control
 
-Systemic, or system-wide, mind control is what is imposed upon us—either for good or bad—by society. It is structural. It is the water we swim in that we cannot always even see. Think, for example, of [[the phrase “under God” being inserted into the Pledge of Allegiance in 1954]{.underline}]( https://www.history.com/articles/pledge-allegiance-under-god-schools) as part of the Cold War against "atheist communists".
+Systemic, or system-wide, mind control is what is imposed upon us—either for good or bad—by society. It is structural. It is the water we swim in that we cannot always even see. Think, for example, of [[the phrase “under God” being inserted into the Pledge of Allegiance in 1954]{.underline}]( https://www.history.com/articles/pledge-allegiance-under-god-schools) as part of the Cold War against "atheist communists."
 
-Individual mind control is what friends, family, acquaintances, our boss, our pastor, our therapist, or our teachers do to try to influence us. At the most personal level, it is what we ourselves do to try to control our own minds. This ranges from impulsively eating chocolate to perk ourselves up, to hours of silent meditation to calm the demons within. In modern parlance, it is the “executive function” decision not to be overwhelmed by anxiety caused by that bad math teacher[^studentapology] and instead to spend a fixed amount of time each day doing our best to learn before taking a break for a healthy diversion[^selfapology].
+Individual mind control is what friends, family, acquaintances, our bosses, our religious leaders, our therapists, or our teachers do to try to influence us. At the most personal level, it is what we ourselves do to try to control our own minds. This ranges from impulsively eating chocolate to perk ourselves up, to hours of silent meditation to calm the demons within. In modern parlance, it is the “executive function” decision not to be overwhelmed by anxiety caused by that bad math teacher[^studentapology] and instead to spend a fixed amount of time each day doing our best to learn before taking a break for a healthy diversion[^selfapology].
 
 
 [^studentapology]:  Apologies to my former students if I have afflicted you this way.
 [^selfapology]: Apologies to myself for the times I have obsessively not followed this strategy.
 
-I am all too often a glass-half-empty kind of guy, have a mathematician’s obsession with looking for patterns, and have a penchant for theories of everything. 
-So, the kind of mind control I have worried about for a long time is destructive and systemic. For the purposes of our course, this is the default version of mind control on which we will mostly focus.
+I am all too often a glass-half-empty kind of guy. Plus, I have a mathematician’s obsession with looking for patterns, and have a penchant for theories of everything. 
+So, the kind of mind control I have worried about for a long time is destructive and systemic. For the purposes of our course, this is the 
+form of mind control on which we will focus most.
 
-In real life, the dichotomies between destructive vs. constructive, and between individual vs systemic may be useful but are actually quite fuzzy. I hope you will help me break out of my own controlled brain and explore these distinctions rather than use them rigidly.
+In real life, the dichotomies above may be useful but can also be quite fuzzy. I hope you will help me break out of my own controlled brain and explore these distinctions rather than use them rigidly.
 
 
 #### Threatening vs.  Enticing Mind Control 
@@ -68,7 +69,7 @@ In real life, the dichotomies between destructive vs. constructive, and between 
 Threatening mind control  relies on provoking negative emotions.
 A systemic and destructive form of this is a dictatorship that keeps power through actual or implied punishment. 
 
-Enticing mind control -- mind control with a carrot --   uses the allure of comfort or riches.
+Enticing mind control - mind control with a carrot -   uses the allure of comfort or riches.
 A systemic and destructive version of this may take the form of lulling people into complacency by not only providing for their needs, 
 but by creating a dependency on “false needs”.
 
@@ -76,32 +77,36 @@ but by creating a dependency on “false needs”.
 #### More Features of Mind Control Instances
 
 
-There are many other  features of the examples of mind control that we consider.
+There are many other  features  of mind control.
 
-For example, the **extremist vs balanced** feature gauges whether the controller is always pushing a swinging pendulum 
-towards the extreme  in one direction versus nudging towards a balance equilibrium.
+For example, the **conceptual vs affective** feature measures whether control is acting more directly on  reasoning  or on emotion.
+Sometimes we can be tricked into thinking we are being reasonable, when actually an emotional pull or push is acting on us.
 
-Another feature  measures whether a mind control instance is intended to make people **stop thought** or if it is meant to  **encourage thought**.
+The **extremist vs balanced** feature gauges whether the controller is always pushing a swinging pendulum 
+toward one extreme  versus nudging toward equilibrium.
+
+Another feature  measures whether a mind control instance is intended to make people **stop thinking** or if it is meant to  **encourage thought**.
 Stopping thought is likely to be destructive. 
 That is not to say that all forms of encouraging thought are constructive. 
-For example, encouraging bad thought, encouraging people to stew in their own mind, and encouraging dissent 
-can all be destructive.
+For example, encouraging harmful thinking, 
+encouraging people to stew in their own thoughts, and encouraging 
+violent dissent can all be destructive.
 
 The **simplicity vs complexity** feature gauges whether an instance of  mind control pushes people toward black-and-white simplicity or 
 encourages people to engage with complexity.  Individuals vary  in their susceptibility to pressure to think one way or another.
-Simplicity can be useful for cutting through noise, but oversimplification can lead people to jump quickly to the wrong conclusion[^holmessimpicity].
+Simplicity can be useful for cutting through noise, but oversimplification can lead people to jump quickly to wrong conclusions[^holmessimpicity].
 The tendency to stop thinking is probably highly correlated with the tendency to oversimplify.
 
 [^holmessimpicity]: One of my favorite quotes is by Oliver Wendell Holmes, Senior, the father of the supreme court justice: “For the simplicity on this side of complexity, I wouldn't give you a fig. But for the simplicity on the other side of complexity, for that I would give you anything I have.”
 
 
-Real-life examples of mind-control don't always fit neatly into the simplified binary choices  above.
-Often, they have a weighted combination of the different possibilities.
-For example,  a spin dictator[^spin] may rely on partial truths to get people to partially think, 
-so that they can't properly assess who is offering carrots and who is offering sticks.
+Real-life examples of mind control don't always fit neatly into the simplified binary choices  above.
+Often, they have some combination of the different possibilities.
+For example,  a spin dictator[^spin] may rely on partial truths to encourage only limited thinking, 
+so that people can't properly assess who is offering carrots and who is offering sticks.
 
 There are many other features that can be used to characterize the nature of instances of mind control.
-The features are correlated, i.e. having one value of a particular feature says something about the likelihood for the value of another feature.
+The features are correlated; that is,  having one value of a particular feature says something about the likelihood of another feature's value.
 For example, if a particular case of mind control works by threat, it is more likely to be destructive as well.
 
 
@@ -125,7 +130,7 @@ to find relevant questions to ask[^physicsfeatures].
 [^physicsfeatures]: It is sometimes said that the hallmark of a great physicist is the ability to home in on the relevant features (or variables) of a problem.  In some sense, physicists face an easier task than what people studying human behavior face, because the results of experiments in physics are fairly repeatable, and
 often only a small number of variables are necessary to capture the essence of what is going on.   <!-- This brings up the **holistic  vs atomistic** feature. -->
 
-To encouraging the study group to question my biases, I will now admit something. 
+To encourage the study group to question my biases, I will now admit something. 
 My thinking about mind control has been affected by intense interactions I have had with 
 individuals, and by the particular slice of media I consume. 
 This experience leads me to focus on particular notions about mind control
@@ -160,7 +165,7 @@ The protagonists in these stories represent hero figures struggling to see the l
 The stories tell **tales of** attempted **defiance**.
 
 
-The stories are dystopian in that each involve a kind of destructive mind control pervasively imposed by the world in which the protagonist lives.
+The stories are dystopian in that each involves a kind of destructive mind control pervasively imposed by the world in which the protagonist lives.
 I will sometimes refer to the protagonists as "heroes", in the sense that most readers will be rooting for them in their attempts to resist mind control, 
 not in the sense of foreshadowing that they will succeed.
 
@@ -179,14 +184,14 @@ perspective by putting together an arc of stories that speak to you from literat
 As the techniques of dystopian mind control evolve, the tools we use to look at them co-evolve.
 You could think of them  as "*an* arc of lenses", giving a sample of evolving ways to look at stories.
 
-Below we give an introduction to each of the four stories we will look at.
+Below, I introduce each of the four stories we will look at.
 <!-- , and the interpretive arc that I see through dark glasses[^glassdarkly].
 [^glassdarkly]:  King James, 1 Corinthians 13:12: "For now we see through a glass, darkly; but then face to face: now I know in part; but then shall I know even as also I am known."
 -->
 As I describe the stories, I will also introduce some lenses we will use to consider them, and questions that arise from those lenses.
 I will state the questions in this preface in a generic manner, which can be applied to any of the stories.
 When we cover individual stories, we will adapt the questions to the specific circumstances of the story.
-The fifth and last class will be devoted to overviewing what we have gotten from arc as a whole.
+The fifth and last class will be devoted to overviewing what we have gotten from the arc as a whole.
 
 
 ## 4. An Arc of Stories and Lenses

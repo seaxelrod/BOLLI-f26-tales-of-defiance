@@ -1,7 +1,7 @@
 
 **Lenses: False Needs  (Marcuse), Surveillance Capitalism (Zuboff)**
 
-In the short story "The Perfect Match",  the protagonist, Sai, confronts the fact that his desires and preferences are
+In the short story "The Perfect Match,"  the protagonist, Sai, confronts the fact that his desires and preferences are
 not his own, but being fed to him through chatbots. This presents a modern look at the disappearing line 
 between free will and the “suggestions” of corporate-controlled AI.
 

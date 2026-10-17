@@ -94,10 +94,11 @@ own fat must be dearer to you than a hundred thousand of your fellow creatures,
 and that this conclusion is the final solution of all so-called virtues and duties 
 and all such prejudices and fancies, then
 you have just to accept it, there is no help for it, for twice two is a law
-of mathematics. Just try refuting it.   
- “Upon my word, they will shout at you, **it is no use protesting: it
+of mathematics. Just try refuting it.*  
+
+> *“Upon my word," they will shout at you, "***it is no use protesting: it
 is a case of twice two makes four! Nature does not ask your permission**
-she has nothing to do with your wishes, and whether you like
+*she has nothing to do with your wishes, and whether you like
 her laws or dislike them, you are bound to accept her as she is, and
 consequently all her conclusions. A wall, you see, is a wall. . .and so
 on, and so on.”*

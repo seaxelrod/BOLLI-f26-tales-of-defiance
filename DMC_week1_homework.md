@@ -19,15 +19,15 @@ Here are some questions that may help guide your reflection.
 They are all about the protagonist in *Notes from the Underground*, who is not given a name in the story,
 but is conventially referred to as the Underground Man.
 
-###  Factual Questions about the Undeground Man
+###  Concrete Questions about the Undeground Man
 
 - What is his situation?
 - How did he get into it?
-- What  was his delimma?
+- What  was his dilemma?
 - What about his personality might have cause him difficulty?
 
 
-###  Subjective Questions in [Preface Section on *Notes from the Underground* and Human Outlier Analysis](DMC_preface.html#tale-1-notes-from-the-underground)
+###  More Abstract/Subjective Questions in [Preface Section on *Notes from the Underground* and Human Outlier Analysis](DMC_preface.html#tale-1-notes-from-the-underground)
 
 
 - How is the protagonist unusual in the society in which they live, and how are they trying to influence that society? 
