@@ -16,11 +16,11 @@ title: |
 **Title:** Tales of Defiance to Mind Control in the Modern Age  
 **Title Abbreviation:** DMC  
 **Study Group Leader:** Scott Axelrod  
-**Meeting Times/Dates:** Mondays, Period 2 (11:10 am - 12:35 pm), November 2-30  
+**Meeting Times/Dates:** Mondays, Period 2 (11:10 am -- 12:35 pm), November 2-30  
 **Location:** 51 Sawyer Road, second floor.  
 **Contact:** axelrod@alumni.princeton.edu  
 **Course Number:** HG19-LIT-5b-Mon2-F26  
-**Preparation time:**  2-3 hours per week, which includes time to
+**Preparation Time:**  2--3 hours per week, which includes time to
 watch the movies and read some additional materials.
 
 :::
@@ -44,7 +44,7 @@ watch the movies and read some additional materials.
 
 Are you concerned about the increasingly sophisticated ways social forces are attempting to control your mind?  In this course we examine four different mind control scenarios as depicted in four seminal works of fiction.  In each case, the lead character seeks to defiantly challenge a specific threat to mental autonomy.   Taken together, these works of fiction (three films and a short story) trace an arc of defiance against increasingly sophisticated and multi-layered methods of thought control.  
 
-We begin with a filmed one-man play version of Fyodor Dostoevsky's *Notes from the Underground* -- a visceral scream against a world that imposes rationalism as the highest ideal. Next, in a film adaptation of George Orwell's *1984*, "Big Brother" uses totalitarianism and a vocabulary of submission to colonize the inner self.     From there we enter the digital age with *The Matrix* (the Wachowskis' 1999 film), exploring an engineered reality that replaces the physical world entirely.    Finally, Ken Liu's short story *The Perfect Match* (2012) confronts invisible control through the "corporate nudge" of algorithms and big data.
+We begin with a filmed one-man play version of Fyodor Dostoevsky's *Notes from the Underground* -- a visceral scream against a world that imposes rationalism as the highest ideal. Next, in a film adaptation of George Orwell's *1984*, "Big Brother" uses totalitarianism and a vocabulary of submission to colonize the inner self.     From there we enter the digital age with *The Matrix* (the Wachowskis' 1999 film), exploring an engineered reality that replaces the physical world entirely.    Finally, Ken Liu's short story "The Perfect Match" (2012) confronts invisible control through the "corporate nudge" of algorithms and big data.
 
 Applying literary analysis, philosophy, and social theory,  we examine how power and psychology shape what we call "real."  In discussing these narratives, we aim to build the intellectual muscles that each of us needs to navigate a world fractured by algorithms, social media, and the onslaught of  AI, all the while resisting the persistent pull of old-fashioned ideological brainwashing. 
 
@@ -84,14 +84,14 @@ Students should leave the course with a better understanding of how to adapt the
 ### Course Overview:  
 
 - In each of the first four weeks, we will focus on a tale of societally imposed mind control and (at least one) tool, or lens, to examine the story.
-- This gives an increasingly sophisticated, multi-layered  arc of stories and lenses.
+- Together, these works form an increasingly sophisticated, multi-layered  arc of stories and lenses.
 - Even while new forms of control emerge, the old ones are still present today.   
    People are still rebelling ...
 
   1.  against The Enlightenment, as the Underground Man did in *Notes from the Underground*;
   2.  against state control of truth, as Winston Smith did in *1984*;
   3.  against a virtual fake reality, as Neo did in *The Matrix*; and
-  4.  against companies controlling us by telling us what we want, as Sai did in *The Perfect Match*.
+  4.  against companies controlling us by telling us what we want, as Sai did in "The Perfect Match."
 
 - The lenses used to look at each story are actually questions that apply to all stories:
 
@@ -104,8 +104,8 @@ Students should leave the course with a better understanding of how to adapt the
 
 ### *Notes from the Underground*
 
-- Feelings/complexity are suppressed by dominance of simple rationalism. 
-- Early enlightenment models of deeply surveilled prisons and mental hospitals used to isolate and outcast people with "crazy" thoughts.
+- Feelings/complexity are suppressed by the dominance of simple rationalism. 
+- Early Enlightenment models of deeply surveilled prisons and mental hospitals are used to isolate and outcast people with "crazy" thoughts.
 - Those who control what thoughts are "acceptable" control the perceived reality.
 
 ## Week 2, Nov. 9: *1984*
@@ -123,11 +123,11 @@ Students should leave the course with a better understanding of how to adapt the
   - They cannot perceive that their reality is constructed and controlled by the architects of the digital world.
   - Those who control the information people receive control the perceived reality.
 
-## Week 4, Nov. 23: *The Perfect Match* 
+## Week 4, Nov. 23: "The Perfect Match"
 
   - Independent thoughts and feelings are not possible because algorithms and bots steer how people think and feel.
-  - People are lured by comfort of a constructed, false-but-pleasant narrative.
-  - Who provides the most comfort controls the perceived reality. 
+  - People are lured by the comfort of a constructed, false-but-pleasant narrative.
+  - Those who provides the most comfort controls perceived reality. 
 
 ## Week 5, Nov. 30: Final Wrap-up
 
@@ -142,25 +142,25 @@ Students should leave the course with a better understanding of how to adapt the
 
 #  Course Materials 
 
-The core of the course consists of four stories, which can be accessed by the links below.
+The core of the course consists of four works, which can be accessed by the links below.
 
-Note: When this file is viewed as a web page, each Link below opens in a new browser tab.
+Note: When this file is viewed as a web page, each link below opens in a new browser tab.
 
 Additional/optional materials will be provided on the class website and in email.
 
 
-## ["Notes from the Underground," one-man show starring Larry Cedar](https://www.youtube.com/watch?v=asp5tqDql0g),  1:32:06, free on YouTube
+## ["Notes from the Underground," one-man show starring Larry Cedar](https://www.youtube.com/watch?v=asp5tqDql0g),  1h32m, free on YouTube
 
 ![ ](images/notes_from_underground_cedar.jpg){width=50%}  <!-- image from https://img.youtube.com/vi/asp5tqDql0g/hqdefault.jpg -->
 
 
-## ["1984" movie directed by Michael Radford](https://tubitv.com/movies/300443/1984?resume_time=1),  1:50:33, free on Tubi TV
+## ["1984" movie directed by Michael Radford](https://tubitv.com/movies/300443/1984?resume_time=1),  1h51m, free on Tubi TV
 
 
 ![ ](images/1984-poster.jpg){width=50%}
 
 
-##  *The Matrix* movie, written and directed by the Wachowskis, 2:16:20
+##  *The Matrix* movie, written and directed by the Wachowskis, 2h16m
 
 - [$3.99 to rent on YouTube.  Need to create a free YouTube login.](https://www.youtube.com/watch?v=GuE0Mtr-w6g)
 - [$3.99 to rent, $14.99 to buy on Amazon Prime Video.  Need an Amazon Prime account.](https://www.amazon.com/gp/video/detail/B0B6DB8G7C/ref=atv_dp_amz_c_yxuuUK_1_1)
