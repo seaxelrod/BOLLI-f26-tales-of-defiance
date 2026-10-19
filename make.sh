@@ -181,11 +181,22 @@ git_makepdf_all () {
   git_makepdf mind_control_extras/PanelOfTheDefiant || return 1
 }
 
+git_make_dev() {
+    if is_newer_than_all index_dev.html index.html; then  
+        echo "index_dev.html is up to date."
+    else
+	echo "Creating: index_dev.html"
+	fgrep -v '@@DEV@@' index.html > index_dev.html
+    fi
+}
+
 git_make_all() {
     # after this, should be able to view files locally at: file:///Users/axelrod/Library/CloudStorage/Dropbox/sync/writing/j26/2026f_BOLLI/2026f_mind_control/git/index.html
 
     git_makehtml_all || return 1;
     git_makepdf_all  || return 1;
+
+    git_make_dev || return 1;
 }
     
 # test locally with
