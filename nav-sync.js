@@ -82,7 +82,7 @@
       const pageFromUrl = urlParams.get('page');
 
       // Priority: 1. URL Parameter -> 2. LocalStorage -> 3. Default Welcome 
-      const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_welecome.html';
+      const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_welcome.html';
 
       select.value = savedPage;
       window.navigateToCoursePage(savedPage);

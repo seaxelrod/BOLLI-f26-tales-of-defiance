@@ -72,7 +72,7 @@ git_makehtml () {
     echo dependencies="${deps[@]}"; 
 
     # Recompile if output doesn't exist OR input, header,  styles , or other dependencies are newer than output
-    if is_newer_than_all $out $src "header.html" "styles.css" "nav-sync.js" "${deps[@]}"; then  
+    if is_newer_than_all $out $src "header.html" "styles.css" "${deps[@]}"; then  
         echo "$out is up to date."
     else
 	git_makehtml_force $filebase || return 1
