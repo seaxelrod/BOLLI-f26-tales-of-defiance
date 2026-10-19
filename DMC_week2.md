@@ -2,6 +2,13 @@
 title: "DMC course: Week 2"
 ---
 
+:::{.section-block .yellow}
+
+
+# THIS PAGE UNDER CONTRUCTION
+
+:::
+
 :::: {.section-block .white}
 
 ## Homework

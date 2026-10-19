@@ -48,6 +48,17 @@ git_makehtml_force () {
     local src="$1.md"
     local out="$1.html"
     TIMESTAMP=`timestring`; # $(date +%s)
+
+    # 1. Strip away all characters EXCEPT slashes
+    # Example: "week1/tuesday/lesson" becomes "//"
+    local slashes="${filebase//[^\/]/}"
+    
+    # 2. Replace every remaining slash with "../"
+    # Example: "//" becomes "../../"
+    local REL_PREFIX="${slashes//\//../}"
+    # echo slashes="$slashes"
+    # echo REL_PREFIX="$CSS_PREFIX"
+    
     echo "Compiling $src -> $out..."
     thisDir=`pwd`;
     if [[ ! `basename $thisDir`  == "git" ]]; then
@@ -59,7 +70,8 @@ git_makehtml_force () {
     pandoc  "$src" -s \
        --filter=/Users/axelrod/.local/bin/pandoc-include  \
        -H "${thisDir}/header.html" \
-       --css="${thisDir}/styles.css?v=$TIMESTAMP" \
+       --variable header-includes="<script src=\"${REL_PREFIX}nav-sync.js?v=$TIMESTAMP\"></script>" \
+       --css="${REL_PREFIX}styles.css?v=$TIMESTAMP" \
        -o $out \
        --toc --toc-depth=2
 }
@@ -74,7 +86,8 @@ git_makehtml () {
     echo dependencies="${deps[@]}"; 
 
     # Recompile if output doesn't exist OR input, header,  styles , or other dependencies are newer than output
-    if is_newer_than_all $out $src "header.html" "styles.css" "${deps[@]}"; then  
+    # don't depend on "styles.css" anymore since we load it dynamically
+    if is_newer_than_all $out $src "header.html" "${deps[@]}"; then  
         echo "$out is up to date."
     else
 	git_makehtml_force $filebase || return 1
