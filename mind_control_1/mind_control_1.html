@@ -651,19 +651,38 @@ a.footnote-ref{text-decoration:none;}
 
       // Function to synchronize the dropdown with what the iframe is actually displaying
       function syncDropdownToIframe() {
-        try {
-          // Get the actual file name currently inside the iframe
-          const currentPath = iframe.contentWindow.location.pathname;
-          const currentFilename = currentPath.substring(currentPath.lastIndexOf('/') + 1);
-
-          if (currentFilename && currentFilename !== fallbackPage) {
-            select.value = currentFilename;
-            localStorage.setItem('selectedCoursePage', currentFilename);
-          }
-        } catch (e) {
-          // Security safeguard if loading across different origins
-          console.warn('Could not read iframe location:', e);
-        }
+	  try {
+	      const iframePath = iframe.contentWindow.location.pathname;
+	      
+	      // 1. Get the directory containing index.html (e.g. "/course-site/" or "/")
+	      const parentDir = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+	      
+	      // 2. Strip the parent directory path, preserving subdirectories
+	      let relativePath = iframePath;
+	      if (relativePath.startsWith(parentDir)) {
+		  relativePath = relativePath.slice(parentDir.length);
+	      }
+	      
+	      if (relativePath && relativePath !== fallbackPage) {
+		  // 3. Find the option whose resolved path matches the iframe's path
+		  const match = Array.from(select.options).find(opt => {
+		      if (!opt.value) return false;
+		      return new URL(opt.value, window.location.href).pathname === iframePath;
+		  });
+		  
+		  if (match) {
+		      select.value = match.value;
+		      localStorage.setItem('selectedCoursePage', match.value);
+		  } else {
+		      // If not in dropdown, preserve the relative path in storage
+		      select.value = relativePath;
+		      localStorage.setItem('selectedCoursePage', relativePath);
+		  }
+	      }
+	  } catch (e) {
+	      // Security safeguard if loading across different origins
+	      console.warn('Could not read iframe location:', e);
+	  }
       }
 
       // Listen for when the iframe finishes loading ANY page (including Back/Forward navigation)
@@ -696,8 +715,8 @@ a.footnote-ref{text-decoration:none;}
       const urlParams = new URLSearchParams(window.location.search);
       const pageFromUrl = urlParams.get('page');
 
-      // Priority: 1. URL Parameter -> 2. LocalStorage -> 3. Default Syllabus
-      const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_syllabus.html';
+      // Priority: 1. URL Parameter -> 2. LocalStorage -> 3. Default Welcome 
+      const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_welecome.html';
 
       select.value = savedPage;
       window.navigateToCoursePage(savedPage);

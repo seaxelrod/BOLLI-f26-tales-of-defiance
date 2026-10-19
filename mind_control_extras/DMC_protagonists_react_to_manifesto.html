@@ -715,8 +715,8 @@ a.footnote-ref{text-decoration:none;}
       const urlParams = new URLSearchParams(window.location.search);
       const pageFromUrl = urlParams.get('page');
 
-      // Priority: 1. URL Parameter -> 2. LocalStorage -> 3. Default Syllabus
-      const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_syllabus.html';
+      // Priority: 1. URL Parameter -> 2. LocalStorage -> 3. Default Welcome 
+      const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_welecome.html';
 
       select.value = savedPage;
       window.navigateToCoursePage(savedPage);
