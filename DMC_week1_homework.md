@@ -9,7 +9,7 @@
 	   -  You may delay reading the parts on the tales for weeks 2, 3, and 4, which will be repeated as part of the notes on the tale of the week.
 - Read the [Notes on *Notes from the Underground*](DMC_notes_on_notes.html).
     - This contains a section titled "Tale 1: Notes from the Underground", which exactly repeats the subsection by that name in section 4 of the preface.
-- Watch ["Notes from the Underground", one man show starring Larry Cedar, free on YouTube](https://www.youtube.com/watch?v=asp5tqDql0g). 
+- Watch ["Notes from the Underground", one-man show starring Larry Cedar, free on YouTube](https://www.youtube.com/watch?v=asp5tqDql0g). 
     ![ ](images/notes_from_underground_cedar.jpg){width=50%}  <!-- image from https://img.youtube.com/vi/asp5tqDql0g/hqdefault.jpg -->
 
 
@@ -17,14 +17,14 @@
 
 Here are some questions that may help guide your reflection.
 They are all about the protagonist in *Notes from the Underground*, who is not given a name in the story,
-but is conventially referred to as the Underground Man.
+but is conventionally referred to as the Underground Man.
 
-###  Concrete Questions about the Undeground Man
+###  Concrete Questions about the Underground Man
 
 - What is his situation?
 - How did he get into it?
 - What  was his dilemma?
-- What about his personality might have cause him difficulty?
+- What about his personality might have caused him difficulty?
 
 
 ###  More Abstract/Subjective Questions in [Preface Section on *Notes from the Underground* and Human Outlier Analysis](DMC_preface.html#tale-1-notes-from-the-underground)
