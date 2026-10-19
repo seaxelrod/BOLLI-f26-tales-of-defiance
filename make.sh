@@ -47,7 +47,7 @@ git_makehtml_force () {
     local filebase=$1;
     local src="$1.md"
     local out="$1.html"
-    TIMESTAMP=$(date +%s)
+    TIMESTAMP=`timestring`; # $(date +%s)
     echo "Compiling $src -> $out..."
     thisDir=`pwd`;
     if [[ ! `basename $thisDir`  == "git" ]]; then
