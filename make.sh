@@ -47,6 +47,7 @@ git_makehtml_force () {
     local filebase=$1;
     local src="$1.md"
     local out="$1.html"
+    TIMESTAMP=$(date +%s)
     echo "Compiling $src -> $out..."
     thisDir=`pwd`;
     if [[ ! `basename $thisDir`  == "git" ]]; then
@@ -54,10 +55,11 @@ git_makehtml_force () {
 	return 1;
     fi
     # To avoid smart quotes, add flag:  -f markdown-smart 
-    pandoc  "$src" -s --embed-resources \
+    #    old pandoc flags:  --embed-resources  --css="${thisDir}/styles.css" \
+    pandoc  "$src" -s \
        --filter=/Users/axelrod/.local/bin/pandoc-include  \
        -H "${thisDir}/header.html" \
-       --css="${thisDir}/styles.css" \
+       --css="${thisDir}/styles.css?v=$TIMESTAMP" \
        -o $out \
        --toc --toc-depth=2
 }

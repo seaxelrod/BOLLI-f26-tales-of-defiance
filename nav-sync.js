@@ -2,6 +2,21 @@
  * nav-sync.js - Complete Shared Navigation & Synchronization
  */
 
+// 1. Set your current course version (Update this number when you push mid-course changes)
+const COURSE_VERSION = "v1"; 
+
+// 2. Check if the student's browser has an older version saved
+if (localStorage.getItem("course_version") !== COURSE_VERSION) {
+    
+    // 3. If it is old (or their first visit), wipe all saved local storage for this site
+    localStorage.clear(); 
+    
+    // 4. Save the new version number so it doesn't wipe again until you change it to "v3"
+    localStorage.setItem("course_version", COURSE_VERSION);
+}
+
+
+
 (function () {
   const fallbackPage = 'under-construction.html';
 
