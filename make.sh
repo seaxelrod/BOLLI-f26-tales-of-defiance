@@ -6,6 +6,10 @@
 # isnewer_than_all target  file1 file2 ...
 # Returns 0 (true) if $target is newer than all subsequent files passed to it.
 # Returns 1 (false) if target is older, equal, missing, or any dependency is newer.
+
+export TOCFLAGS_standard="--toc --toc-depth=2"
+export TOCFLAGS="$TOCFLAGS_standard"
+
 is_newer_than_all() {
   local target="$1"
   shift
@@ -117,6 +121,7 @@ git_makehtml_all () {
   git_makehtml mind_control_extras/DMC_Chronology    || return 1
   git_makehtml mind_control_extras/PanelOfTheDefiant || return 1
   git_makehtml mind_control_extras/TwoKindsOfControl || return 1
+  git_makehtml mind_control_extras/Foucault_timeline || return 1
 }
 
 
@@ -147,9 +152,10 @@ git_makepdf () {
 	out_file=$(basename "$out");
 	(cd $dir;
          echo -n "compile dir: "; pwd
-	 pandoc --toc --toc-depth=2 -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
+	 pandoc $TOCFLAGS -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
          --include-in-header=${thisDir}/header.tex \
          --filter /Users/axelrod/.local/bin/pandoc-include  \
+         --lua-filter /Users/axelrod/.local/bin/toc-if-headings.lua  \
 	 --lua-filter=${thisDir}/prefix-links.lua \
          --math-method=mathjax  -V colorlinks=true -V linkcolor=blue -V urlcolor=blue -V toccolor=blue -o $out_file 
         )
@@ -179,6 +185,8 @@ git_makepdf_all () {
   git_makepdf mind_control_extras/UndergroundBarbie || return 1
   git_makepdf mind_control_extras/DMC_Chronology    || return 1
   git_makepdf mind_control_extras/PanelOfTheDefiant || return 1
+  git_makepdf mind_control_extras/TwoKindsOfControl || return 1
+  git_makepdf mind_control_extras/Foucault_timeline || return 1
 }
 
 git_make_dev() {

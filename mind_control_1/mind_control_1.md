@@ -5,20 +5,26 @@ author: "Scott Axelrod"
 ---
 
 
+<!--
 \newpage
+-->
+
 
 
 # Course Overview:
 
 \
 
-![](mad_scientists_with_narrative_lenses_of_dystopian_arc_nocaption.png){width=90%}<!--  =250x) -->
+![](mind_control_arc_lab.svg){width=90%}<!--  =250x) -->
 
-<!-- <img src="mad_scientists_with_narrative_lenses_of_dystopian_arc_nocaption.png" alt="Course Overview" width=" 90%"> <!-- % width="250px" or "width=50%" -->
+<!-- <img src="mad_scientists_with_narrative_lenses_of_dystopian_arc_nocaption.png" alt="Course Overview" width=" 90%"> -->  <!-- % width="250px" or "width=50%" -->
+<!--- <img src="mind_control_arc_lab.svg" alt="Course Overview" width=" 90%"> --> <!-- % width="250px" or "width=50%" --> 
+
 
 - Look at modern age stories where societies impose/offer mind control.
 - Consider characters who are rebelling.
 - Ask questions through various lenses.
+
 
 \newpage
 
@@ -38,17 +44,19 @@ author: "Scott Axelrod"
 ![](lenses.png){width=90%}
 
 - **Michel Foucault:** 
-   - The panopticon (prison) of thought. 
-   - The surveillance state.
-   - Postmodernism. 
    - Civilization constraining madness.
+   - The panopticon (prison) of thought. 
+   - Disciplinary surveillance.
+   - Postmodernism. 
 - **Jerome Bruner:**  Narrative Analysis
-- **Herbert Marcuse:** Control through false needs.
 - **Gilles Deluze:** 
   - Foucault’s "enclosures" (prisons, schools, hospitals) are breaking down.
   - We are no longer "individuals" in a room; we are "dividuals"—data points, bank codes, and digital footprints that are tracked in an open, continuous loop of control.
   - It’s not about being locked in a cage; it’s about being part of a network where the "control" is fluid and constant.
+- **Herbert Marcuse:** Control through false needs.
+- **Soshanna Zuboff:** Surveillance Capitalism
 
+<!--
 
 \newpage
 
@@ -80,3 +88,4 @@ author: "Scott Axelrod"
    - one looking out: "hey, I can see me house from here"
    
    
+-->

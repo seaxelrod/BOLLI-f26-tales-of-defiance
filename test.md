@@ -5,6 +5,8 @@ format:
     incremental: true
 ---
 
+<!-- make test.pptx with `pandoc test.md -o test.pptx` -->
+
 
 # First header
 
@@ -20,16 +22,15 @@ And here is a list:
 
 :::
 
+\newpage
 
 ## a subheader
 
 A picture :
 
-<!--
-![](images/stories_in_a_dystopian_arc.jpg){width=90%}
--->
+![Stories in the Dystopian Architecture](images/stories_in_a_dystopian_arc.jpg){width=90%}
 
-## another subheaee
+# another subheader
 
 With a 
 
