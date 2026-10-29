@@ -1,6 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!------- Favicion Production --->
+    <!-- Default production favicon -->
+    <link id="dynamic-favicon" rel="icon" type="image/x-icon" href="favicon.ico" />
+  
+    <script>
+      (function () {
+        const isLocal = 
+          window.location.hostname === 'localhost' ||
+          window.location.hostname === '127.0.0.1' ||
+          window.location.protocol === 'file:';
+    
+        if (isLocal) {
+          const link = document.getElementById('dynamic-favicon');
+          if (link) {
+            link.href = 'favicon_local.ico';
+          }
+        }
+      })();
+    </script>
+    <!------- End Favicion Production --->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tales of Defiance to Mind Control in the Modern Age</title>

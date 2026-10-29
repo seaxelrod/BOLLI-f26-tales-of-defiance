@@ -18,5 +18,18 @@ title: "course web site instructions"
    - [Syllabus](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_syllabus.html)
    - [Preface](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_preface.html)
    - [Week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_week1.html)
+- Examples of bringing up a particular page, without the header: 
+   - [DMC website](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html)
+   - [Welcome Letter](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html)
+   - [Syllabus](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_syllabus.html)
+   - [Preface](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_preface.html)
+   - [Week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_week1.html)
+- Examples of bringing up a particular page as pdf:
+   - [DMC website](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.pdf)
+   - [Welcome Letter](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.pdf)
+   - [Syllabus](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_syllabus.pdf)
+   - [Preface](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_preface.pdf)
+   - [Week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_week1.pdf)
+
 
 

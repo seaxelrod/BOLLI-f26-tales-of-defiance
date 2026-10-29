@@ -198,13 +198,13 @@ git_make_dev() {
     fi
 }
 
-git_make_favicon() {
-    if is_newer_than_all favicon.ico  images/stories_in_a_dystopian_arc.jpg; then  
-        echo "favicon.ico is up to date."
-    else
-        magick images/stories_in_a_dystopian_arc.jpg  -background none -define icon:auto-resize=64,48,32,16 favicon.ico
-    fi
-}
+#git_make_favicon() {
+#    if is_newer_than_all favicon.ico  images/stories_in_a_dystopian_arc.jpg; then  
+#        echo "favicon.ico is up to date."
+#    else
+#        magick images/stories_in_a_dystopian_arc.jpg  -background none -define icon:auto-resize=64,48,32,16 favicon.ico
+#    fi
+#}
 
 git_make_all() {
     # after this, should be able to view files locally at: file:///Users/axelrod/Library/CloudStorage/Dropbox/sync/writing/j26/2026f_BOLLI/2026f_mind_control/git/index.html
@@ -213,7 +213,6 @@ git_make_all() {
     git_makepdf_all  || return 1;
 
     git_make_dev     || return 1;
-    git_make_favicon || return 1;
 }
     
 # test locally with
