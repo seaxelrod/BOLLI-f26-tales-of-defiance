@@ -43,18 +43,18 @@ author: "Scott Axelrod"
 
 ![](lenses.png){width=90%}
 
-- **Michel Foucault:** 
-   - Civilization constraining madness.
-   - The panopticon (prison) of thought. 
-   - Disciplinary surveillance.
-   - Postmodernism. 
-- **Jerome Bruner:**  Narrative Analysis
-- **Gilles Deluze:** 
+- **Human Outlier Analysis** (Michel Foucault):
+   - Madness and Confinement
+   - Knowledge and Limits of Thought
+   - Panopticism and Disciplinary surveillance
+   <!-- - Postmodernism label applied to him.  -->
+- **Narrative Analysis** (Jerome Bruner ):
+- **Societal Control** (Gilles Deluze):
   - Foucault’s "enclosures" (prisons, schools, hospitals) are breaking down.
   - We are no longer "individuals" in a room; we are "dividuals"—data points, bank codes, and digital footprints that are tracked in an open, continuous loop of control.
   - It’s not about being locked in a cage; it’s about being part of a network where the "control" is fluid and constant.
-- **Herbert Marcuse:** Control through false needs.
-- **Soshanna Zuboff:** Surveillance Capitalism
+- **False Needs** (Herbert Marcuse)
+- **Surveillance Capitalism** (Soshanna Zuboff:)
 
 <!--
 
