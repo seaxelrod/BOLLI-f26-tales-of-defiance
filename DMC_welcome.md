@@ -32,7 +32,7 @@ The final week will be devoted to discussion of the arc of all four stories as a
 ## Website
 
 
-Here is a link to the course website:  [course website](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance).
+Here is a link to the course website:  [course website](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?v=DMC_welcome.html).
 Parts of the website are under construction, but all the materials needed to prepare for Week 1 are available now. 
 
 With the exception of personal information about students, such as the information in the “single email” mentioned above,

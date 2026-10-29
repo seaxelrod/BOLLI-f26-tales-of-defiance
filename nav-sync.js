@@ -3,7 +3,7 @@
  */
 
 // 1. Set your current course version (Update this number when you push mid-course changes)
-const COURSE_VERSION = "v1"; 
+const COURSE_VERSION = "v2"; 
 
 // 2. Check if the student's browser has an older version saved
 if (localStorage.getItem("course_version") !== COURSE_VERSION) {
@@ -100,7 +100,7 @@ if (localStorage.getItem("course_version") !== COURSE_VERSION) {
       const savedPage = pageFromUrl || localStorage.getItem('selectedCoursePage') || 'DMC_welcome.html';
 
       select.value = savedPage;
-      window.navigateToCoursePage(savedPage);
+      window.navigateToCoursePage(savedPage) || urlParams.get('page-select');
 
       // Handle user manually changing the dropdown menu
       select.addEventListener('change', function (e) {
@@ -113,38 +113,65 @@ if (localStorage.getItem("course_version") !== COURSE_VERSION) {
   // 2. RUNNING INSIDE THE IFRAME (Sub-pages: DMC_syllabus.html, etc.)
   // -------------------------------------------------------------
 
-  else {
-      document.addEventListener('DOMContentLoaded', function() {
-	  // Replace with your actual live site root URL:
-	  const liveSiteBase = 'https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/'
-	  
-	  document.querySelectorAll('a').forEach(link => {
-	      const rawHref = link.getAttribute('href');
-	      
-	      /*
-                ** Uncomment (and remove standalone next line)  to point to live site even if viewing as file or on local website.
-                ** Since we don't wan't file and html to point to live site, we leave this comment.
-                **
-	        // If viewing locally from disk, rewrite to the live website
-  	        if (window.location.protocol === 'file:' && rawHref && !rawHref.startsWith('http') && !rawHref.startsWith('mailto:')) {
-		    link.setAttribute('href', new URL(rawHref, liveSiteBase).href);
-	        } 
-	        // Otherwise, use the active domain URL
-	        else if (link.href) {
-		    link.setAttribute('href', link.href);
-	        }
+else {
+    document.addEventListener('DOMContentLoaded', function () {
+      // 1. Frame-busting guard: if index.html is loaded inside the iframe, break out immediately
+      if (document.getElementById('main-content')) {
+        window.top.location.href = window.location.href;
+        return;
+      }
 
-               */
-	      if(link.href) {link.setAttribute('href', link.href);}
-	      
-	      // Open external links in a new tab
-	      if (link.hostname && link.hostname !== window.location.hostname) {
-		  link.setAttribute('target', '_blank');
-		  link.setAttribute('rel', 'noopener');
-	      }
-	  });
+      // 2. Dynamically determine the base directory where index.html lives on THIS server
+      let baseDir = '/';
+      try {
+        const parentPath = window.top.location.pathname;
+        baseDir = parentPath.substring(0, parentPath.lastIndexOf('/') + 1);
+      } catch (e) {
+        baseDir = window.location.pathname.substring(0, window.location.pathname.lastIndexOf('/') + 1);
+      }
+
+      const cleanBaseDir = baseDir.replace(/\/$/, '');
+      const indexPath = baseDir + 'index.html';
+
+      document.querySelectorAll('a').forEach(link => {
+        if (link.href) {
+          link.setAttribute('href', link.href);
+        }
+
+        // External links -> open in new tab
+        if (link.hostname && link.hostname !== window.location.hostname) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener');
+          return;
+        }
+
+        // Same-origin links: check if pointing to the site root, folder, or index.html
+        const url = new URL(link.href);
+        const linkPath = url.pathname.replace(/\/$/, '');
+        const isBaseSite = (url.pathname === baseDir) ||
+                           (cleanBaseDir !== '' && linkPath === cleanBaseDir) ||
+                           (url.pathname === indexPath);
+
+        if (isBaseSite) {
+          link.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            // Support either parameter name, falling back to DMC_welcome.html
+            const target = url.searchParams.get('page') ||
+                           url.searchParams.get('page-select') ||
+                           'DMC_welcome.html';
+
+            if (window.parent && typeof window.parent.navigateToCoursePage === 'function') {
+              window.parent.navigateToCoursePage(target);
+            } else {
+              window.location.href = target;
+            }
+          });
+        }
       });
+    });
   }
+    
 })();
 
 

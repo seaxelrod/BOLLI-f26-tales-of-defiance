@@ -12,6 +12,11 @@ title: "course web site instructions"
 - Internal links open in the same tab, with the selection in the navigation dropdown changed.
   - In most browswers, this can be overriden  by right-clicking on the link and selecting "open link in new tab".  
     - This bring up the page without the navigation header.
-
+- Examples of bringing up a particular page, with the header: 
+   - [DMC website](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_welcome.html)
+   - [Welcome Letter](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_welcome.html)
+   - [Syllabus](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_syllabus.html)
+   - [Preface](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_preface.html)
+   - [Week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_week1.html)
 
 
