@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!------- Favicion Production --->
+    <!------- Favicon Production --->
     <!-- Default production favicon -->
     <link id="dynamic-favicon" rel="icon" type="image/x-icon" href="favicon.ico" />
   
@@ -20,7 +20,7 @@
         }
       })();
     </script>
-    <!------- End Favicion Production --->
+    <!------- End Favicon Production --->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tales of Defiance to Mind Control in the Modern Age</title>
@@ -53,28 +53,26 @@
 
     <!-- Top Navigation Header with Custom Logo and Title -->
   <header style="
-    background-color: #DCE8F5; /* very light blue */ /* #003478; (Official Brandeis Dark Blue / PMS 294 */ /* #0070FF; brandeis blue*/  /* #f1f6fa; Solid light blue background */
-    padding: 0.1 rem 0.1rem; /* 0.4rem 1rem; */
-    border-top: 2px solid black; /* dashed #a7bacb; Top border matching image */
-    border-bottom: 2px solid black; /* dashed #a7bacb; Bottom border matching image */
+    background-color: #DCE8F5; /* very light blue */
+    padding: 0.1rem 0.1rem;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     color: #003061; /* Dark blue text color from logo */
   ">
-
-
       <div style="display: flex; justify-content: flex-start; align-items: center; max-width: 1200px; margin: 0 auto; gap: 2rem;">
         
         <!-- GROUP 1: Grouping the Dropdown and Brand Logo -->
         <div style="display: flex; align-items: center; gap: 1.5rem;">
 
           <!-- Course Week Dropdown (Targeting iframe below) -->
-         <select id="page-select" ...>
-           style="
+         <select id="page-select" style="
              padding: 0.4rem 0.5rem;
              font-size: 0.95rem;
              cursor: pointer;
-             width: 105px;             /* Fixed width to display short labels cleanly */
-             max-width: 105px;
-             text-overflow: ellipsis;  /* Truncates extra text in the closed box */
+	     width: auto;               /* Allows the box to expand to fit the text */
+	     min-width: 180px;          /* Prevents it from collapsing too small on short titles */
+             max-width: 260px;          /* Prevents long titles from crowding the BOLLI logo */
+             text-overflow: ellipsis;   /* Gracefully truncates only exceptionally long items */
              white-space: nowrap;
              overflow: hidden;
            ">
@@ -85,36 +83,37 @@
              <option value="DMC_preface.html"> Course Preface </option>
              <option value="DMC_week1.html">Week 1: Notes from Underground</option>
              <option value="DMC_week2.html">Week 2: 1984</option>
-	     <option value="DMC_week3.html">Week 3: The Matrix </option>
-	     <option value="DMC_week4.html">Week 4: The Perfect Match</option>
-	     <option value="DMC_week5.html">Week 5: Final Wrap-up</option>
-             <!-- ... -->
+             <option value="DMC_week3.html">Week 3: The Matrix </option>
+             <option value="DMC_week4.html">Week 4: The Perfect Match</option>
+             <option value="DMC_week5.html">Week 5: Final Wrap-up</option>
            </optgroup>
 
            <optgroup label="Assigned Readings & Resources">
-	     <option value="DMC_notes_on_notes.html" > Notes on "Notes from Underground" </option> 
-	     <option value="DMC_notes_on_1984.html" > Notes on "1984" </option> 
-	     <option value="DMC_notes_on_thematrix.html" > Notes on "The Matrix"</option> 
-	     <option value="DMC_notes_on_perfectmatch.html" > Notes on "The Perfect Match"</option> 
+             <option value="DMC_notes_on_notes.html" > Notes on "Notes from Underground" </option> 
+             <option value="DMC_notes_on_1984.html" > Notes on "1984" </option> 
+             <option value="DMC_notes_on_thematrix.html" > Notes on "The Matrix"</option> 
+             <option value="DMC_notes_on_perfectmatch.html" > Notes on "The Perfect Match"</option> 
            </optgroup>
 
            <optgroup label="Extra: Non-fiction">
+             <option value="materials/DMC_references_and_summaries.html"> References and Summaries </option>
              <option value="mind_control_extras/DMC_notesfrumunderground_context.html"> Context of "Notes from the Underground" </option>
              <option value="mind_control_extras/DMC_Chronology.html"> DMC from the Crystal Palace to Tilly </option>
              <option value="mind_control_extras/TwoKindsOfControl.html"> Two Kinds of Control </option>
+           </optgroup>
 
            <optgroup label="Extra: Fiction">
-	     <option value="mind_control_extras/UndergroundBarbie.html" > Underground Barbie </option> 
-	     <option value="mind_control_extras/DMC_question_responses_by_characters_and_students.html" > Fictional Responses to Questions </option> 
-	     <option value="mind_control_extras/DMC_protagonists_react_to_manifesto.html" > Reactions to Manifesto</option> 
-	     <option value="mind_control_extras/PanelOfTheDefiant.html" > The Panel of the Defiant </option> 
-	     <option value="mind_control_extras/TheTriadChapter1.html" > The Triad, Ch. 1</option> 
+             <option value="mind_control_extras/UndergroundBarbie.html" > Underground Barbie </option> 
+             <option value="mind_control_extras/DMC_question_responses_by_characters_and_students.html" > Fictional Responses to Questions </option> 
+             <option value="mind_control_extras/DMC_protagonists_react_to_manifesto.html" > Reactions to Manifesto</option> 
+             <option value="mind_control_extras/PanelOfTheDefiant.html" > The Panel of the Defiant </option> 
+             <option value="mind_control_extras/TheTriadChapter1.html" > The Triad, Ch. 1</option> 
+           </optgroup>
 
            <optgroup label="Developing">
 	     <option value="mind_control_1/mind_control_1.html" > Mind Control 1 </option> 
 	       
          </select>
-
 
          <!-- Brandeis logo and institute name as a single image asset -->
          <img src="images/BOLLI_logo.svg" alt="Logo" style="height: 35px; width: auto; display: inline-block;">

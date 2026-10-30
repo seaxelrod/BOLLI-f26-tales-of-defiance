@@ -10,6 +10,40 @@
 export TOCFLAGS_standard="--toc --toc-depth=2"
 export TOCFLAGS="$TOCFLAGS_standard"
 
+export filesToMake=(
+  # in index.html
+  DMC_welcome 
+  DMC_syllabus  
+  DMC_preface 
+  DMC_week1 
+  DMC_week2 
+  DMC_week3 
+  DMC_week4 
+  DMC_week5 
+  DMC_notes_on_notes 
+  DMC_notes_on_1984 
+  DMC_notes_on_thematrix
+  DMC_notes_on_perfectmatch
+  mind_control_1/mind_control_1  
+  materials/DMC_references_and_summaries
+  materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  
+  mind_control_extras/DMC_notesfrumunderground_context 
+  mind_control_extras/TheTriadChapter1 
+  mind_control_extras/DMC_protagonists_react_to_manifesto 
+  mind_control_extras/DMC_question_responses_by_characters_and_students 
+  mind_control_extras/UndergroundBarbie 
+  mind_control_extras/DMC_Chronology    
+  mind_control_extras/PanelOfTheDefiant 
+  mind_control_extras/TwoKindsOfControl 
+  mind_control_extras/Foucault_timeline 
+
+  # not in index.html
+  materials/DMC_bruner_narrative_theory 
+  materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript 
+  materials/notes_from_underground/NotesFromUnderground_CedarTranscript  
+  materials/notes_from_underground/NotesFromUnderground_CedarViewingGuide
+)
+
 is_newer_than_all() {
   local target="$1"
   shift
@@ -98,30 +132,12 @@ git_makehtml () {
     fi
 }
 
+
 git_makehtml_all () {
-  git_makehtml DMC_welcome DMC_week1_homework  || return 1
-  git_makehtml DMC_syllabus  || return 1
-  git_makehtml DMC_preface DMC_preface_notes_from_underground DMC_preface_1984 DMC_preface_thematrix DMC_preface_perfectmatch
-  git_makehtml DMC_week1 DMC_week1_homework
-  git_makehtml DMC_week2 DMC_week2_homework  || return 1
-  git_makehtml DMC_week3 DMC_week3_homework  || return 1
-  git_makehtml DMC_week4 DMC_week4_homework  || return 1
-  git_makehtml DMC_week5 DMC_week5_homework  || return 1
-  git_makehtml DMC_notes_on_notes DMC_preface_notes_from_underground  || return 1
-  git_makehtml DMC_notes_on_1984 DMC_preface_1984  || return 1
-  git_makehtml DMC_notes_on_thematrix DMC_preface_thematrix  || return 1
-  git_makehtml DMC_notes_on_perfectmatch DMC_preface_perfectmatch  || return 1
-  git_makehtml mind_control_1/mind_control_1  || return 1
-  git_makehtml materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  || return 1
-  git_makehtml mind_control_extras/DMC_notesfrumunderground_context || return 1
-  git_makehtml mind_control_extras/TheTriadChapter1 || return 1
-  git_makehtml mind_control_extras/DMC_protagonists_react_to_manifesto || return 1
-  git_makehtml mind_control_extras/DMC_question_responses_by_characters_and_students || return 1
-  git_makehtml mind_control_extras/UndergroundBarbie || return 1
-  git_makehtml mind_control_extras/DMC_Chronology    || return 1
-  git_makehtml mind_control_extras/PanelOfTheDefiant || return 1
-  git_makehtml mind_control_extras/TwoKindsOfControl || return 1
-  git_makehtml mind_control_extras/Foucault_timeline || return 1
+    for filepath in "${filesToMake[@]}"
+    do
+	git_makehtml $filepath || return 1
+    done
 }
 
 
@@ -164,29 +180,31 @@ git_makepdf () {
 }
 
 git_makepdf_all () {
-  git_makepdf DMC_welcome DMC_week1_homework  || return 1
-  git_makepdf DMC_syllabus  || return 1
-  git_makepdf DMC_preface DMC_preface_notes_from_underground DMC_preface_1984 DMC_preface_thematrix DMC_preface_perfectmatch
-  git_makepdf DMC_week1 DMC_week1_homework
-  git_makepdf DMC_week2 DMC_week2_homework  || return 1
-  git_makepdf DMC_week3 DMC_week3_homework  || return 1
-  git_makepdf DMC_week4 DMC_week4_homework  || return 1
-  git_makepdf DMC_week5 DMC_week5_homework  || return 1
-  git_makepdf DMC_notes_on_notes DMC_preface_notes_from_underground  || return 1
-  git_makepdf DMC_notes_on_1984 DMC_preface_1984  || return 1
-  git_makepdf DMC_notes_on_thematrix DMC_preface_thematrix  || return 1
-  git_makepdf DMC_notes_on_perfectmatch DMC_preface_perfectmatch  || return 1
-  git_makepdf mind_control_1/mind_control_1  || return 1
-  git_makepdf materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  || return 1
-  git_makepdf mind_control_extras/DMC_notesfrumunderground_context || return 1
-  git_makepdf mind_control_extras/TheTriadChapter1 || return 1
-  git_makepdf mind_control_extras/DMC_protagonists_react_to_manifesto || return 1
-  git_makepdf mind_control_extras/DMC_question_responses_by_characters_and_students || return 1
-  git_makepdf mind_control_extras/UndergroundBarbie || return 1
-  git_makepdf mind_control_extras/DMC_Chronology    || return 1
-  git_makepdf mind_control_extras/PanelOfTheDefiant || return 1
-  git_makepdf mind_control_extras/TwoKindsOfControl || return 1
-  git_makepdf mind_control_extras/Foucault_timeline || return 1
+    for filepath in "${filesToMake[@]}"
+    do
+	git_makepdf $filepath || return 1
+    done
+}
+
+git_clean_html () {
+    for filepath in "${filesToMake[@]}"; do
+	if [ ! -f ${filepath}.md ]; then
+	   echo "${filepath}.md not found, not removing .html file"
+	   return 1
+	fi
+	echo "removing ${filepath}.html"
+	/bin/rm  ${filepath}.html
+    done
+}
+git_clean_pdf () {
+    for filepath in "${filesToMake[@]}"; do
+	if [ ! -f ${filepath}.md ]; then
+	   echo "${filepath}.md not found, not removing .pdf fie"
+	   return 1
+	fi
+	echo "removing ${filepath}.md"
+	/bin/rm  ${filepath}.md.
+    done
 }
 
 git_make_dev() {
@@ -223,13 +241,17 @@ git_testlocal_allowcache  () {
     python3 -m http.server 8000
 }
 
-git_testlocal  () {
+git_testlocal_old  () {
 python3 -c "import http.server, socketserver;
 class NoCacheHandler(http.server.SimpleHTTPRequestHandler):
     def end_headers(self):
         self.send_header('Cache-Control', 'no-store, no-cache, must-revalidate')
         super().end_headers()
 socketserver.TCPServer(('', 8000), NoCacheHandler).serve_forever()"
+}
+
+git_testlocal () {
+python3 serve.py
 }
 
 
