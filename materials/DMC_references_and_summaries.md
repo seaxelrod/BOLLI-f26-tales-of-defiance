@@ -10,7 +10,7 @@ title: "DMC References and Summaries"
 
 
 - [Cedar Video Transcript](notes_from_underground/NotesFromUnderground_CedarTranscript.html)
-   - [Cedar Video Guide](notes_from_underground/NotesFromUnderground_CedarViewingGuide.html)
+- [Cedar Video Guide](notes_from_underground/NotesFromUnderground_CedarViewingGuide.html)
 - [Garnett Translation pdf](notes_from_underground/NotesFromUnderground_Garnett.pdf)
    - [Garnett Translation txt](notes_from_underground/NotesFromUnderground_Garnett.txt)
 
@@ -18,5 +18,13 @@ title: "DMC References and Summaries"
   - in video: `simply in order to prove to  themselves that men are still men and not the keys of a piano`
   - in book: `simply in order to prove to himself, as though that were so necessary, men still are men and not the keys of a pian`
 
-- [Philosphy Guy Notes from Undeground Existentialism](notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript.html)
-   - [Philosphy Guy Notes from Undeground Existentialism](notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript.pdf)
+- [ Existentialism and Notes from Undeground  -- Philosphy Guy Transcript](notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript.html)
+
+- [Existentialism from Dotoevsky to Sartra, by Walter Kaufman](notes_from_underground/ExistentialismFromDostoevskyToSartre_WalterKaufmann.pdf)
+
+- [Doestoevski's Exile to Siberia](notes_from_underground/DostoevskiIsExiledToSiberia.pdf), Shuman, R. Baird Published in: 2023 2 of 4Published in:2023
+   - [version on EBSCO site](https://www.ebsco.com/research-starters/history/dostoevski-exiled-siberia)
+   
+   
+
+
