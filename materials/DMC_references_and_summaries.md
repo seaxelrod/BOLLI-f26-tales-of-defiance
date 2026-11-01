@@ -7,8 +7,8 @@ title: "DMC References and Summaries"
 - The main change is that sections will be added/polished as we go on.
 
 # Course Overall
-
-- [Course Web Site Instructions](course_web_site_instructions.html)
+	
+- [Course Web Site Instructions](../course_web_site_instructions.html
 
 ## Scott non-fiction
 
