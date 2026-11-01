@@ -21,7 +21,7 @@ title: "DMC References and Summaries"
 - [DMC: Foucualt  Timeline](../mind_control_extras/Foucault_timeline.hml)
 - [Two Kinds Of Control: From Foucault’s Discipline to Deleuze’s Societies of Control](../mind_control_extras/TwoKindsOfControl.html)
 
-# Scott fiction
+## Scott fiction
 
 - [DMC Protagonists React to Manifesto](DMC_protagonists_react_to_manifesto.html)
 - [Responses to Questions by Story Characters and Fictional Students](DMC_question_responses_by_characters_and_students.html)
