@@ -169,6 +169,7 @@ git_makepdf () {
 	(cd $dir;
          echo -n "compile dir: "; pwd
 	 pandoc $TOCFLAGS -V geometry:margin=1in --pdf-engine=xelatex -s $src_file --standalone \
+         -M doc_dir="$dir" \
          --include-in-header=${thisDir}/header.tex \
          --filter /Users/axelrod/.local/bin/pandoc-include  \
          --lua-filter /Users/axelrod/.local/bin/toc-if-headings.lua  \

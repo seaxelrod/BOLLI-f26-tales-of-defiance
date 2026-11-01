@@ -56,13 +56,19 @@ author: "Scott Axelrod"
 - **False Needs** (Herbert Marcuse)
 - **Surveillance Capitalism** (Soshanna Zuboff:)
 
-<!--
+
+\newpage
+
+# Mad Scientist with Lenses on Dystopian Arc 
+ 
+
+![](mad_scientists_with_narrative_lenses_of_dystopian_arc.png){width=90%}
+
+- This is original version of Course Overview picture above.
 
 \newpage
 
 # Course Parody:
-
-\
 
 ![](scientist_pushes_dystopian_realities_down_the_throat.png){width=90%}
 
@@ -73,19 +79,10 @@ author: "Scott Axelrod"
 
 # Course Goals:
 
-\
-
 ![](course_goals.png){width=90%}
 
 
 - You should ask questions.
-- Thought-opening not thought-stopping.
+- Thought-opening not thought-limiting.
 - So you can fly away in your own individual way.
 - Even if it means rejecting my framing.
-- gary larson:
-   - two prisoners handing by rests, just cloth on privates, dirty, beards
-   - little window with bars
-   - one looking out: "hey, I can see me house from here"
-   
-   
--->
