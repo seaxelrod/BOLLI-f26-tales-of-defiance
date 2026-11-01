@@ -78,7 +78,7 @@ title: "DMC References and Summaries"
 	 - The Dream of a Ridiculout Man
 	 - Selections from The House of The Dead
      - An afterward giving much information about Dostoevsky and his writing.  
-	    - Here is: [MacAndrew description of Notes from Undeground](materias/notes_from_undeground/macandrew_description_of_notes.
+	    - Here is: MacAndrew's description of Notes from Undeground:
 
            > In Notes from Underground, Dostoyevsky attacks the
 Crystal Palace, i.e., man-made, socialist utopia, on the
