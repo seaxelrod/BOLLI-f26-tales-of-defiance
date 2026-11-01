@@ -26,6 +26,7 @@ export filesToMake=(
   DMC_notes_on_thematrix
   DMC_notes_on_perfectmatch
   mind_control_1/DMC_cartoons
+  mind_control_1/not_the_keys_of_a_piano_dialog
   materials/DMC_references_and_summaries
   materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  
   mind_control_extras/DMC_notesfrumunderground_context 
@@ -122,12 +123,13 @@ git_makehtml () {
     local out="$1.html"
     shift;
     local deps=("${@/%/.md}");
-    echo dependencies="${deps[@]}"; 
+    # echo dependencies="${deps[@]}"; 
 
     # Recompile if output doesn't exist OR input, header,  styles , or other dependencies are newer than output
     # don't depend on "styles.css" anymore since we load it dynamically
     if is_newer_than_all $out $src "header.html" "${deps[@]}"; then  
-        echo "$out is up to date."
+	:
+        # echo "$out is up to date."
     else
 	git_makehtml_force $filebase || return 1
     fi
@@ -157,11 +159,12 @@ git_makepdf () {
     local out="$1.pdf"
     shift;
     local deps=("${@/%/.md}");
-    echo dependencies="${deps[@]}"; 
+    # echo dependencies="${deps[@]}"; 
     
     # Recompile if output doesn't exist OR input, header,  prefix, or other dependencies are newer than output
     if is_newer_than_all $out $src "header.tex" "prefix-links.lua" "${deps[@]}"; then  
-        echo "$out is up to date."
+	:
+        # echo "$out is up to date."
     else
         echo "Compiling $src -> $out..."
 	dir=$(dirname "$filebase");
@@ -211,7 +214,8 @@ git_clean_pdf () {
 
 git_make_dev() {
     if is_newer_than_all index_dev.html index.html; then  
-        echo "index_dev.html is up to date."
+	:
+        # echo "index_dev.html is up to date."
     else
 	echo "Creating: index_dev.html"
 	fgrep -v '@@DEV@@' index.html > index_dev.html

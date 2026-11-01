@@ -113,7 +113,7 @@ references which have an overriding general import
 - [Week1: Notes from  Undeground](../DMC_week1.html)
   - [Notes on *Notes from the Undeground*](..DMC_notes_on_notes.html) -assigned reading for Week 1.
 - [DMC: Notes from Underground Context](../mind_control_extras/DMC_notesfrumunderground_context.html)
-- [Not the Keys of a Piano dialog, with links to clips](../mind_control_extras/not_the_keys_of_a_piano_3m_dialog.html)
+- [Not the Keys of a Piano dialog, with links to clips](../mind_control_1/not_the_keys_of_a_piano_dialog.html)
 
 - [Powerpoint for Week1](../mind_control_1/DMC_Week1_NotesFromUnderground.pptx)
    - Created with three references above in mind.
