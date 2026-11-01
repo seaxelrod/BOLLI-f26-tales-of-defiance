@@ -12,6 +12,7 @@ export TOCFLAGS="$TOCFLAGS_standard"
 
 export filesToMake=(
   # in index.html
+  course_web_site_instructions
   DMC_welcome 
   DMC_syllabus  
   DMC_preface 
