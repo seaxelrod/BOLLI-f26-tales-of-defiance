@@ -51,7 +51,7 @@ title: "DMC References and Summaries"
 
 # Notes From the Underground
 
-## novella and production
+## Translations and Performances
 
 - [Cedar Video Transcript](notes_from_underground/NotesFromUnderground_CedarTranscript.html)
 - [Cedar Video Guide](notes_from_underground/NotesFromUnderground_CedarViewingGuide.html)
