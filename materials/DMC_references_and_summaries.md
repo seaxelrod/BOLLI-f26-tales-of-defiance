@@ -8,24 +8,26 @@ title: "DMC References and Summaries"
 
 # Course Overall
 
-- Scott non-fiction:
-  - [DMC: Syllabus](../DMC_syllabus.md) - assigned for week 1
-  - [DMC: Preface](../DMC_preface.md)  - assigned for week 1
-  - [DMC: mind_control_1](../mind_control_1/mind_control_1.html) 
-     - cartoons, which can be printed on clothes and mugs:
-        - Course Overview
-	    - Stories in a Dystopian Arc
-        - An Arc of Stories and Lenses
-  - [DMC: Chronology](../mind_control_extras/DMC_Chronology.html)
-  - [DMC: Foucualt  Timeline](../mind_control_extras/Foucault_timeline.hml)
-  - [Two Kinds Of Control: From Foucault’s Discipline to Deleuze’s Societies of Control](../mind_control_extras/TwoKindsOfControl.html)
+## Scott non-fiction:
 
-- Scott fiction
-  - [DMC Protagonists React to Manifesto](DMC_protagonists_react_to_manifesto.html)
-  - [Responses to Questions by Story Characters and Fictional Students](DMC_question_responses_by_characters_and_students.html)
-  - [The Panel of the Defiant: A short story for the last session of Tales of Defiance to Mind Control in the Modern Age](../mind_control_extras/PanelOfTheDefiant.html)
-  - [The Triad, Chapter 1](../mind_control_extras/TheTriadChapter1.html)
-  - [Undergound  Barbie](../mind_control_extras/UndergroundBarbie.html)o
+- [DMC: Syllabus](../DMC_syllabus.md) - assigned for week 1
+- [DMC: Preface](../DMC_preface.md)  - assigned for week 1
+- [DMC: mind_control_1](../mind_control_1/mind_control_1.html) 
+   - cartoons, which can be printed on clothes and mugs:
+      - Course Overview
+	  - Stories in a Dystopian Arc
+      - An Arc of Stories and Lenses
+- [DMC: Chronology](../mind_control_extras/DMC_Chronology.html)
+- [DMC: Foucualt  Timeline](../mind_control_extras/Foucault_timeline.hml)
+- [Two Kinds Of Control: From Foucault’s Discipline to Deleuze’s Societies of Control](../mind_control_extras/TwoKindsOfControl.html)
+
+# Scott fiction
+
+- [DMC Protagonists React to Manifesto](DMC_protagonists_react_to_manifesto.html)
+- [Responses to Questions by Story Characters and Fictional Students](DMC_question_responses_by_characters_and_students.html)
+- [The Panel of the Defiant: A short story for the last session of Tales of Defiance to Mind Control in the Modern Age](../mind_control_extras/PanelOfTheDefiant.html)
+- [The Triad, Chapter 1](../mind_control_extras/TheTriadChapter1.html)
+- [Undergound  Barbie](../mind_control_extras/UndergroundBarbie.html)o
 
 
 
