@@ -8,7 +8,7 @@ title: "DMC References and Summaries"
 
 # Course Overall
 	
-- [Course Web Site Instructions](../course_web_site_instructions.html
+- [Course Web Site Instructions](../course_web_site_instructions.html)
 
 ## Scott non-fiction
 
