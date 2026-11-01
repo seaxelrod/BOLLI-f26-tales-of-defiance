@@ -108,7 +108,7 @@ but these appear only as incidental allusions in double
 references which have an overriding general import
 
 
-## Scott writing for course
+## Scott writing related to *Notes from Underground*
    
 - [Week1: Notes from  Undeground](../DMC_week1.html)
   - [Notes on *Notes from the Undeground*](..DMC_notes_on_notes.html) -assigned reading for Week 1.
