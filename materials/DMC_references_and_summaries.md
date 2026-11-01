@@ -14,12 +14,12 @@ title: "DMC References and Summaries"
 
 - [DMC: Syllabus](../DMC_syllabus.html) - assigned for week 1
 - [DMC: Preface](../DMC_preface.html)  - assigned for week 1
-- [DMC: mind_control_1](../mind_control_1/mind_control_1.html)  
-   - cartoons, which can be printed on clothes and mugs:
+- [DMC: Cartoons](../mind_control_1/DMC_cartoons.html)  
+   - cartoons summarizing course, which can be printed on clothes and mugs:
       - Course Overview
 	  - Stories in a Dystopian Arc
       - An Arc of Stories and Lenses
-      - Mad scienties series, needs touching up:
+      - Mad scientist series, needs touching up:
         - Mad Scientist with Lenses on Dystopian Arc 
         - Course Parody
         - Course Goals
@@ -117,7 +117,7 @@ references which have an overriding general import
 
 - [Powerpoint for Week1](../mind_control_1/DMC_Week1_NotesFromUnderground.pptx)
    - Created with three references above in mind.
-   - Ends with cartoons in: [DMC: mind_control_1](../mind_control_1/mind_control_1.html).
+   - Ends with first three cartoons in: [DMC: Cartoons](../mind_control_1/DMC_cartoons.html) 
  
 ## external references 
 

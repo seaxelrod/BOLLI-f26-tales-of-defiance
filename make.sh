@@ -25,7 +25,7 @@ export filesToMake=(
   DMC_notes_on_1984 
   DMC_notes_on_thematrix
   DMC_notes_on_perfectmatch
-  mind_control_1/mind_control_1  
+  mind_control_1/DMC_cartoons
   materials/DMC_references_and_summaries
   materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  
   mind_control_extras/DMC_notesfrumunderground_context 

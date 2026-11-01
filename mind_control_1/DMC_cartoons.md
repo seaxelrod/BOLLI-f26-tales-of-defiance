@@ -1,13 +1,8 @@
 ---
-title: "Session 1 Presentation"
+title: "Course Summary Cartoons"
 subtitle: "for Tales of Defiance to Mind Control in the Modern Age"
 author: "Scott Axelrod"
 ---
-
-
-<!--
-\newpage
--->
 
 
 
