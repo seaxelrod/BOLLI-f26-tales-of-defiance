@@ -1,0 +1,188 @@
+/* CORRECT: Loads upright AND italic styles */
+@import url('fonts/google-fonts.css');
+/* to fetch remotely : @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap'); */
+
+/*
+html, body {
+  margin: 25px;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+*/
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Open Sans', Arial, sans-serif;
+  color: #1a1a1a;
+  line-height: 1.6;
+
+  /* Provides the slight margin around the text */
+  margin: 0;
+
+  /* Add comfortable padding around all edges (Top, Right, Bottom, Left) */
+  /* Increase the second value (e.g., 24px) for more room on the right */
+  padding: 20px 24px 20px 20px;
+
+  /* Let the width calculate automatically within box-sizing */
+  box-sizing: border-box;
+  width: auto;
+
+
+  /* Ensures unbreakable long strings wrap cleanly */
+  overflow-wrap: break-word;
+}
+
+
+.hero-title {
+  /* Set a minimum height so it fills the screen or hero area */
+  width: 100%;
+  min-height: 80vh; /* Takes up 80% of the viewport height (adjust to 100vh if you want full screen) */
+  
+  /* Flexbox settings to keep text vertically and horizontally centered */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Ensure the background image covers the entire container without repeating */
+  /* !! change 0.0 to 0.6 in the following lines to have 60% opacity */
+  background-image: linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255,  0.0)), url('images/stories_in_a_dystopian_arc.jpg');
+  background-size: contain; /* cover; truncates */
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  /* Reset margins/paddings if needed */
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.hero-title h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2.8rem;
+    color: #105293;
+    margin: 0;
+}
+
+
+/* Base style for all content blocks (padding was 30px 10%) */
+
+.section-block {
+    padding: 0px 0%
+}
+
+/* Headings */
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.8rem;
+    margin-top: 0;
+    margin-bottom: 12px;
+    letter-spacing: 0.5px;
+    color: #105293;
+}
+
+/* Meta Information Block */
+.meta-info {
+    background-color: #ffffff;
+    padding: 30px 10%;
+    font-style: italic;
+    font-weight: 600;
+    color: #1a425a;
+    font-size: 1.05rem;
+    line-height: 1.8;
+}
+
+/* Theme Classes */
+.light-blue {
+    background-color: #dce8f5;
+}
+
+.white {
+    background-color: #ffffff;
+}
+
+.dark-blue {
+    background-color: #105293;
+    color: #ffffff;
+}
+
+.yellow, .yellow *  {
+    background-color: #FFFF00 !important;
+    color: #000000   !important;
+}
+/* Specifically style the list bullet / number */
+.yellow::marker,
+li.yellow::marker {
+    color: #000000 !important;
+}
+
+.dark-blue h2 {
+    color: #ffffff;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    list-style-type: square;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+  height: 0;
+  margin: 1.5rem 0;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.video-card {
+  max-width: 560px;
+  margin: 1.5rem 0;
+  position: relative;
+  display: block;
+}
+
+.video-card img {
+  width: 100%;
+  border-radius: 8px;
+  display: block;
+}
+
+.video-play-btn {
+  position: absolute;
+  top: 93%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.75);
+  color: #ffffff !important;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.video-play-btn:hover {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+a.footnote-ref{text-decoration:none;}

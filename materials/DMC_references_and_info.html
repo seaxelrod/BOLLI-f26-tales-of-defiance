@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>DMC References and Info</title>
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../styles.css?v=2611032123" />
+  <script src="../nav-sync.js?v=2611032123"></script>
+  
+  <!--
+    The Better Approach: Target External Links Automatically
+     Instead of a global rule that overrides your iframe, you can drop a tiny JavaScript snippet into your Pandoc header or template.
+     This script scans your page on load and applies target="_blank" rel="noopener" only to links that point outside your site:
+  -->
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      document.querySelectorAll('a').forEach(link => {
+        // If the link goes to an external website (has a different hostname)
+        if (link.hostname && link.hostname !== window.location.hostname) {
+          link.setAttribute('target', '_blank');
+          link.setAttribute('rel', 'noopener');
+        }
+      });
+    });
+  </script>
+
+</head>
+<body>
+<header id="title-block-header">
+<h1 class="title">DMC References and Info</h1>
+</header>
+<ul>
+<li><p>This page is still in progress</p>
+<ul>
+<li>The main change is that sections will be added/polished as we go
+on.</li>
+</ul></li>
+<li><p><a href="../course_web_site_instructions.html">Course Web Site
+Instructions</a></p></li>
+<li><p><a
+href="DMC_references_and_info_for_course_overall.html">References and
+Info for Course Overall</a></p></li>
+<li><p><a
+href="notes_from_underground/notes_from_underground_references_and_info.html">References
+and Info for Week 1: Notes From the Underground</a></p></li>
+<li><p><a href="1984/1984_references_and_info.html">References and Info
+for Week 2: 1984</a></p></li>
+</ul>
+</body>
+</html>
