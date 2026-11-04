@@ -171,6 +171,7 @@ Fromm wrote this afterword in 1961 for the Signet edition, and his main argument
 **The shared question.** All three books ask whether human nature can be changed so completely that people forget their longing for freedom, dignity, love, and truth. Fromm notes that none of the authors treats human nature as a blank slate. The extreme methods each one needs to crush it (lobotomy in *We*, eugenics and drugs in Huxley, torture and brainwashing in Orwell) actually show how strong those human strivings are. Still, all three conclude that dehumanization is possible with techniques already known.
 
 **What Orwell specifically contributes:**
+
 - **Permanent war.** Ongoing arms production props up the economy, and a society that is always preparing for annihilation cannot stay democratic. Fromm turns this directly against Cold War deterrence: the arms race would destroy freedom even if the bombs never fell.
 - **The abolition of objective truth.** The Party holds that reality exists only in the mind, so controlling minds means controlling truth. Fromm compares O'Brien's interrogation of Winston to Dostoevsky's Grand Inquisitor, with one difference: the Party doesn't even claim to want people's happiness. It wants power for its own sake. He links this to Alan Harrington's idea of corporate "mobile truth," where a product is "the best" for as long as you work for the company that makes it. In such a system, a minority of one has to conclude that he is insane.
 - **Doublethink is already here.** Fromm's examples are Western. The "free world" includes dictatorships such as Franco's and Salazar's. Herman Kahn's nuclear strategy calmly expects tens of millions of deaths followed by "normal and happy lives," and that reasoning is called "sober." Christian nations plan mass killing with few qualms.
@@ -219,12 +220,13 @@ Interesting Literature, Dr Oliver Tearle (Loughborough University),
 
 - [local copy as PDF](meaning_of_war_is_peace_freedom_is_slavery_ignorance_is_strength.pdf)
 
-### AI summary:
+### AI summary of "The Meaning of ..."
 
 In Nineteen Eighty-Four, the slogans “War Is Peace,” “Freedom Is Slavery,”
 and “Ignorance Is Strength” manipulate meaning. Goldstein’s text explains
 that perpetual internal war preserves hierarchy, making war and peace
 interchangeable.
+
 
 
 
@@ -278,21 +280,20 @@ interchangeable.
 - [1984 George Orwell Full Book Summary (Full Book in JUST 3 Minutes) - YouTube](https://www.youtube.com/watch?v=2PArP8h1qSw), 3:36 (after advertisement)
    - animated audio, calmer and more detailed then above
 
-- [Orwell 1984 - O'Briend about Power](https://www.youtube.com/watch?v=g1WI8BUe9Eg), 4:07
-  - clips
-  - O'Brian: How Does one Man Inflict Power
+- [Orwell 1984 - O'Brien about Power](https://www.youtube.com/watch?v=g1WI8BUe9Eg), 4:07
+  - O'Brien: How Does one Man Inflict Power
     - Power is tearing minds apart and putting them back together ...
     - Past is forbidden ... cut many from his family and other men ...
 	- No love but love of Big Brother
     - Boot stamping on human face forever.
      - ... I'm old, but only a cell in a bigger organism.
  - Winston: You'll fail, Hatred and Fear have no life ... life will defeat you.
- - O'Brian: We control life at  all levels
+ - O'Brien: We control life at  all levels
     - Proletarian ... are helpless animals
  - Winston: In end they will beat you. ... Goldstein's book.
- - O'Brian: I collaborated in writing it.
+ - O'Brien: I collaborated in writing it.
  - Winston: Some spirit you will never overcome.  ... Spirit o mean.
- - O'Brian: Your kind is extinct. You are outside history ... You Unexist.
+ - O'Brien: Your kind is extinct. You are outside history ... You Unexist.
  
 	
 

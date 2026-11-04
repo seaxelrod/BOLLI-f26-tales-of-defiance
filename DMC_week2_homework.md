@@ -21,9 +21,8 @@
 - Double Extra Credit:   Browse the link to our website [References and Info for Week 2: 1984](materials/1984/1984_references_and_info.html).
    The link to this (at the end of the last sentence) can be found on the page of our website obtained by clicking on the dropdown [References and Info](materials/DMC_references_and_info.html).
 
-For convenience, I have attached PDF versions of the course preface, Erich Fromm's afterword, and ClaudeAI's Summary of Fromm's Afterword.
 
-## Question to Guide Reflection
+## Questions to Guide Reflection
 
 ### Questions in [Preface Section on *1984*,  Disciplinary Surveillance,  and Narrative Analysis](DMC_preface.html#tale-2-1984)
 
@@ -38,7 +37,7 @@ For convenience, I have attached PDF versions of the course preface, Erich Fromm
 ### Questions following up on Fromm's Afterword
 
 - *Can the longing for freedom be extinguished, or does human nature push back, as a defiance to mind control?*  
-   In other words, that is in the words of O'Brien turned into a question: 
+   In words that turn [O'Briens statement of power](https://archive.org/details/1984-1984_202511?start=5453) into a question:
 
    > *Can a boot stamp on a human face forever?*
 
