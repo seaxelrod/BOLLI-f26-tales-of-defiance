@@ -162,7 +162,7 @@ In the novel, the diary entries are all at the beginning of the novel.  The dire
 
 
 
-### Claude AI Summary of Fromm's Afterward
+### Claude AI Summary of Fromm's Afterword
 
 Fromm wrote this afterword in 1961 for the Signet edition, and his main argument is that *1984* is both a mood and a warning. The mood is near-despair about humanity's future. The warning is that people may become soulless automatons without ever noticing it has happened.
 
@@ -178,7 +178,7 @@ Fromm wrote this afterword in 1961 for the Signet edition, and his main argument
 
 **Conclusion.** Fromm doubts that a fully dehumanized society could even survive, because it would be a world of madmen, hinted at in the "mad gleam" in the Party leader's eye. He reads Orwell as a warner, not a prophet of doom. The real danger is managerial industrialism itself, which "builds machines which act like men and develops men who act like machines," and it applies under any ideology. Orwell's hope is a desperate one, and it depends on readers recognizing that the book is about *us*, not only about Stalinism.
 
-### A paragraph from Afterward that Connects Doublethink of Corporatism and Rejection of Outliers
+### A paragraph from Afterword that Connects Doublethink of Corporatism and Rejection of Outliers
 
 If I work for a big
 corporation which claims that its product is better than that of all competitors, the question whether this
