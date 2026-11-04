@@ -2,7 +2,7 @@
  * nav-sync.js - Complete Shared Navigation & Synchronization
  */
 
-const COURSE_VERSION = "v3"; 
+const COURSE_VERSION = "v4"; 
 
 if (localStorage.getItem("course_version") !== COURSE_VERSION) {
     localStorage.clear(); 
@@ -119,7 +119,7 @@ if (localStorage.getItem("course_version") !== COURSE_VERSION) {
 
         const url = new URL(link.href, window.location.href);
 
-        // Same-page anchor jump (#section) -> allow default behavior
+        // In-page jump within the CURRENT page (#section) -> keep normal iframe jump
         if (url.pathname === window.location.pathname && url.search === window.location.search) {
           return;
         }
@@ -131,8 +131,8 @@ if (localStorage.getItem("course_version") !== COURSE_VERSION) {
             return new URL(opt.value, parentBaseUrl).pathname === url.pathname;
           });
 
-          if (matchingOption) {
-            // Target is an official course unit: route through parent nav
+          // Route inside the frame ONLY if matching AND no specific anchor hash
+          if (matchingOption && !url.hash) {
             link.addEventListener('click', function (e) {
               e.preventDefault();
               if (typeof window.parent.navigateToCoursePage === 'function') {
@@ -145,7 +145,7 @@ if (localStorage.getItem("course_version") !== COURSE_VERSION) {
           }
         }
 
-        // Links not in dropdown: open normally in a new tab without frame interception
+        // Non-dropdown links OR dropdown links with an anchor -> open in new tab
         link.setAttribute('target', '_blank');
         link.setAttribute('rel', 'noopener');
       });
