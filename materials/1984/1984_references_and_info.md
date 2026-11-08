@@ -36,7 +36,7 @@ th, td {
 
 - [1984 movie, directed by Michael Radford](https://tubitv.com/movies/300443/1984), free on TubiTV,  1:50:33
    - [transcript of movie](1984_radford_transcript.html)
-   - [clips to quotes in the movie](1984_scenes.html) 
+   - [clips to quotes in the movie](../../mind_control_2/1984_scenes.html) 
       - Note: To be copyright safe, we haven't uploaded movie to public server, so clips won't play.
 	  - For class, they will play on the server on my laptop.
 
@@ -153,7 +153,7 @@ In the novel, the diary entries are all at the beginning of the novel.  The dire
     The film “1984” preserves the plot but omits Orwell’s essays on Newspeak and doublethink. Michael Radford’s adaptation lacks the novel’s conceptual depth, yet Winston Smith’s surrender to INGSOC and Big Brother remains.
 
 
-# V: Commentary on 1984
+# V: Commentary, Summaries, Information related to 1984
 
 
 ## [Afterword to the 1961 Signet edition of *1984*, by Eric Fromm](https://five.sh/files/pdf/Literature/Erich%20Fromm%20-%20AFTERWORD%20to%20George%20Orwells%201984.pdf),
@@ -228,11 +228,13 @@ that perpetual internal war preserves hierarchy, making war and peace
 interchangeable.
 
 
+##  [Aldous Huxley to George Orwell: My Hellish Vision of the Future is Better Than Yours (1949)](https://www.openculture.com/2025/10/aldous-huxley-to-george-orwell-my-hellish-vision-of-the-future-is-better-than-yours-1949.html#google_vignette)
 
+## [1984 and We](https://orwellinstitute.com/1984-we.html)
 
 <!--
 
-# 20261022 [search for "1984" in YouTube](https://www.youtube.com/results?search_query=1984)
+### [search for "1984" in YouTube](https://www.youtube.com/results?search_query=1984)
 
 - I selected items and made tabs for eaach one, which I put in a tabgroup `20261022_1984_youtubes`
    - Added a few items afterwords from YouTube Autoplay algorithm

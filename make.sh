@@ -47,6 +47,9 @@ export filesToMake=(
   materials/notes_from_underground/notes_from_underground_references_and_info
   materials/1984/1984_references_and_info
   materials/1984/1984_radford_transcript
+  materials/thematrix/thematrix_references_and_info
+  materials/thematrix/TheMatrix_screenplay
+  mind_control_2/matrix_baudrillard_deleuze_essay
 )
 
 is_newer_than_all() {

@@ -10,5 +10,6 @@ title: "DMC References and Info"
 - [References and Info for Course Overall](DMC_references_and_info_for_course_overall.html)
 - [References and Info for Week 1: Notes From the Underground](notes_from_underground/notes_from_underground_references_and_info.html )
 - [References and Info for Week 2: 1984](1984/1984_references_and_info.html)
+- [References and Info for Week 3: The Matrix](thematrix/thematrix_references_and_info.html)
 
 

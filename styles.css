@@ -186,3 +186,18 @@ li {
 }
 
 a.footnote-ref{text-decoration:none;}
+
+section.footnotes > hr {
+  display: none;
+}
+section.footnotes {
+  border-top: 1px solid #ccc;
+  margin-top: 2em;
+  padding-top: 1em;
+}
+section.footnotes::before {
+  content: "Footnotes";
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em;
+}
