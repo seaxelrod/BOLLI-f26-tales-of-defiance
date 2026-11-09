@@ -1,8 +1,8 @@
 ---
-title: "Class 2 of  *Tales of Defiance to Mind Control in the Modern Age*: Notes from Underground to 1984"
+title: "Notes from Underground to 1984"
 subtitle: "by way of We and Brave New World — the outlier ignored → diagnosed → removed → hunted, broken, and rebuilt"
 date: "Nov 9, 2026"
-author: Scott with Claude's help
+author: "Class 2 of  *Tales of Defiance to Mind Control in the Modern Age*"
 ---
 
 
