@@ -34,7 +34,9 @@ th, td {
 
 
 
-- [1984 movie, directed by Michael Radford](https://tubitv.com/movies/300443/1984), free on TubiTV,  1:50:33
+- ["1984" movie, directed by Michael Radford, TubiTV](https://tubitv.com/movies/300443/1984), free with commericals,  closed captioning available, 1:50:33
+- ["1984" movie directed by Michael Radford on archive.org](https://archive.org/details/1984-1984_202511), 1:49:55
+  ![ ](../../images/1984-poster.jpg){width=10% style="vertical-align: middle;"}
    - [transcript of movie](1984_radford_transcript.html)
    - [clips to quotes in the movie](../../mind_control_2/1984_scenes.html) 
       - Note: To be copyright safe, we haven't uploaded movie to public server, so clips won't play.
@@ -70,6 +72,7 @@ contradictory beliefs in one's mind simultaneously, and accepting both of them. 
 conscious, or it would not be carried out with sufficient precision. But it also has to be unconscious, or it
 would bring with it a feeling of falsity and hence of guilt."*
 
+### [Glossary of Terms in 1984](https://hhsenglish.com/courses/english-10/1984-2/glossary/)
 
 
 # II: [Quotes from 1984 at Goodreads](https://www.goodreads.com/work/quotes/153313-1984)
