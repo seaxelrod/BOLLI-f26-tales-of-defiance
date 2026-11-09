@@ -50,6 +50,7 @@ export filesToMake=(
   materials/thematrix/thematrix_references_and_info
   materials/thematrix/TheMatrix_screenplay
   mind_control_2/matrix_baudrillard_deleuze_essay
+  mind_control_2/Class2_Outlier_to_1984_md
 )
 
 is_newer_than_all() {

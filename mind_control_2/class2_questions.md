@@ -3,43 +3,50 @@ title: "class2 questions"
 ---
 
 # Homework: Questions in [Preface Section on *1984*,  Disciplinary Surveillance,  and Narrative Analysis](DMC_preface.html#tale-2-1984)
-
+   splied with Slide: Bruner's Terms, Applied to Winston
 
 -  *Mental control often attempts to flatten a person’s inner life. How does the narrative use the "intentional states" (private thoughts) of the characters to defy the external world?*
+   - **Intentional states:** his private thoughts — the one place the telescreen can't see, until Room 101
+
 - *In a "mentally controlled world," the system provides the "canonical script" (how one should think and act). How does the protagonist of our story create a "breach" in that script?*
+   - **Canonical script:** the Party's version of how to think, act, and remember
+   - **Breach:** the first word Winston writes in the diary
+
 - *In propaganda-heavy worlds, "truth" is whatever the state says. How does a "tale of defiance" use "narrative truth" to expose the lies of "systemic truth"?*
+   - **Narrative vs. systemic truth:** Winston's memory against the Ministry of Truth and the memory hole
+
 - *Why do we often use the "Dystopian" genre to talk about mental control? How does the genre itself help us understand what "defiance" looks like?*
+
 - *What helps or hurts the ability  of individual acts of defiance "accrue" into a movement?*
+    - **Accrual:** can private defiance add up to a movement? Julia, the Brotherhood, Goldstein's book — and why none of it accrues
 
 
-# Homework Questions following up on Fromm's Afterword
+# Homework Questions following up on Fromm's Afterword, spliced with Slide: on Fromm's afterward
 
 1. *Can the longing for freedom be extinguished, or does human nature push back, as a defiance to mind control?*  
    In words that turn [O'Briens statement of power](https://archive.org/details/1984-1984_202511?start=5453) into a question:
 
-   > *Can a boot stamp on a human face forever?*
+   > *Can a boot stamp on a human face forever?* (slide title)
+
+   - Slide: Central question: Can human nature be changed so we forget our longing for freedom, dignity, and love?
 
 2. *Does the severity of the methods used by the state prove the strength of what they suppress?*  
    *Do severe methods actually increase the stength of the defiant?*  
 
+   - Slide:  Severity proves strength: A brain operation (We), drugs and breeding (BNW), unlimited torture (1984) --  the cure shows how strong the striving is
+
 3. [Is history really written by the victors?](https://historylearning.com/blog/is-history-really-written-by-the-victors/)  
    *Is truth written by those in power?*
 
-## powerpoint question/comments on Fromm
+   - Slide: The minority of one: When truth is whatever the Party says, a minority of one must believe he is insane --  the outlier lens returns
+   - Slide: Doublethink is not just "them": Fromm insists 1984 "means us, too"
 
-### Can a boot stamp on a human face forever?
-
-
-- Like F1: Central question: Can human nature be changed so we forget our longing for freedom, dignity, and love?
-- Like F2: Severity proves strength: A brain operation (We), drugs and breeding (BNW), unlimited torture (1984) --  the cure shows how strong the striving is
-- The minority of one: When truth is whatever the Party says, a minority of one must believe he is insane --  the outlier lens returns
-- Doublethink is not just "them": Fromm insists 1984 "means us, too"
-- Fromm's hope: A fully dehumanized world would be a world of madmen --  not a viable one
+Also on Fromm slide: A fully dehumanized world would be a world of madmen --  not a viable one
 
 # powerpoint:  Questions for the Room
 
 1. The Underground Man was ignored; Winston is watched every minute. Which is lonelier?
 2. Is secret writing to an unknown reader a kind of freedom? What happens when the words are taken away?
-3. Can a society force 2 + 2 to equal 4, or 5 -- or make it not matter at all? 
+3.  Can a society force 2 + 2 to equal 4, or 5 -- or make it not matter at all? 
 4. Are you an outlier? Would you rather be ignored, diagnosed, removed, or hunted, broken, and rebuilt?
-5. From Fromm: do severe methods prove the strength of what they suppress  -- or make the defiant stronger?
+5. and 6. in fromm question 2 and 3.
