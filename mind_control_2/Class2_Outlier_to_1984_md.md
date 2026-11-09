@@ -113,6 +113,27 @@ Fromm calls *We*, *Brave New World*, and *1984* a trilogy of "negative Utopias."
 - **Doublethink is not just "them":** Fromm insists *1984* "means us, too"
 - **Fromm's hope:** a fully dehumanized world would be a world of madmen — not a viable one
 
+Above quote from ending of Fromm's Afterward:
+
+  > I am sure that neither Orwell nor Huxley or Zamyatin wanted to insist that this world of
+insanity is bound to come. On the contrary, it was quite obviously their intention to sound a warning by
+showing where we are headed for unless we succeed in a renaissance of the spirit of humanism and dignity
+which is at the very roots of Occidental culture. Orwell, as well as the two other authors, is simply implying
+that the new form of managerial industrialism, in which man builds machines which act like men and
+develops men who act like machines, is conducive to an era of dehumanization and complete alienation, in
+which men are transformed into things and become appendices to the process of production and
+consumption . All three authors imply that this danger exists not only in Communism of the Russian or
+Chinese versions, but that it is a danger inherent in the modem mode of production and organization, and
+relatively independent of the various ideologies. Orwell, like the authors of the other negative Utopias, is not
+a prophet of disaster. He wants to warn and to awaken us. He still hopes -- but in contrast to the writers of
+the Utopias in the earlier phases of Western society, his hope is a desperate one. The hope can be
+realized only by recognizing, so 1984 teaches us, the danger with which all men are confronted today, the
+danger of a society of automatons who will have lost every trace of individuality, of love, of critical
+thought, and yet who will not be aware of it because of "doublethink".
+Books like Orwell's are powerful warnings, and it would be most unfortunate if the reader smugly interpreted 1984 as another description of
+Stalinist barbarism, and if he does not see that it means us, too.
+
+
 **Clips:** [1:29:32 — O'Brien on power](https://archive.org/details/1984-1984_202511?start=5372) · [1:30:53 — Boot on the face](https://archive.org/details/1984-1984_202511?start=5453) · [1:37:19 — Room 101](https://archive.org/details/1984-1984_202511?start=5839)
 
 ## The Through-Line: Control Dressed as Care
