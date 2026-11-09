@@ -2,8 +2,8 @@
 title: "class2 questions"
 ---
 
-# Homework: Questions in [Preface Section on *1984*,  Disciplinary Surveillance,  and Narrative Analysis](DMC_preface.html#tale-2-1984)
-   splied with Slide: Bruner's Terms, Applied to Winston
+**Homework: Questions in [Preface Section on *1984*,  Disciplinary Surveillance,  and Narrative Analysis](DMC_preface.html#tale-2-1984)
+   splied with Slide: Bruner's Terms, Applied to Winston**
 
 -  *Mental control often attempts to flatten a person’s inner life. How does the narrative use the "intentional states" (private thoughts) of the characters to defy the external world?*
    - **Intentional states:** his private thoughts — the one place the telescreen can't see, until Room 101
@@ -21,7 +21,7 @@ title: "class2 questions"
     - **Accrual:** can private defiance add up to a movement? Julia, the Brotherhood, Goldstein's book — and why none of it accrues
 
 
-# Homework Questions following up on Fromm's Afterword, spliced with Slide: on Fromm's afterward
+**Homework Questions following up on Fromm's Afterword, spliced with Slide: on Fromm's afterward**
 
 1. *Can the longing for freedom be extinguished, or does human nature push back, as a defiance to mind control?*  
    In words that turn [O'Briens statement of power](https://archive.org/details/1984-1984_202511?start=5453) into a question:
@@ -43,7 +43,7 @@ title: "class2 questions"
 
 Also on Fromm slide: A fully dehumanized world would be a world of madmen --  not a viable one
 
-# powerpoint:  Questions for the Room
+**Powerpoint:  Questions for the Room**
 
 1. The Underground Man was ignored; Winston is watched every minute. Which is lonelier?
 2. Is secret writing to an unknown reader a kind of freedom? What happens when the words are taken away?
