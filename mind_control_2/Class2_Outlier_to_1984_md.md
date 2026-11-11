@@ -5,6 +5,16 @@ date: "Nov 9, 2026"
 author: "Class 2 of  *Tales of Defiance to Mind Control in the Modern Age*"
 ---
 
+<style>
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 6px 10px;
+}
+</style>
 
 
 ## Road Map
@@ -162,7 +172,7 @@ Stalinist barbarism, and if he does not see that it means us, too.
 
 [^1]: Dates are when each book was written. Publication: 1864; 1924 (in English; 1927 in Russian); 1932; 1949.
 
-[^2]: Check the "acute consciousness" passage against the Larry Cedar performance transcript.
+[^2]: The term "acute consciousness" occur in both the Garnett translation of Notes From Undeground and in the Larry Cedar performance.
 
 [^3]: Erich Fromm, Afterword to the 1961 Signet edition of *1984*. Huxley himself used the term "negative utopia."
 
@@ -170,6 +180,6 @@ Stalinist barbarism, and if he does not see that it means us, too.
 
 [^5]: Foucault, *Discipline and Punish* (1975), "Panopticism" — the lens named in the course Preface for *1984*.
 
-[^6]: Check that the 2 × 2 = 4 passage is in the Cedar transcript; if not, use the inversion as a facilitator's aside.
+[^6]: The 2 × 2 = 4 passage appears only in the novella, not in the Ceder show.
 
 [^7]: Jerome Bruner, "The Narrative Construction of Reality," *Critical Inquiry* 18:1 (1991).

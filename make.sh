@@ -49,13 +49,16 @@ export filesToMake=(
   materials/1984/1984_radford_transcript
   materials/thematrix/thematrix_references_and_info
   materials/thematrix/TheMatrix_screenplay
-  mind_control_2/matrix_baudrillard_deleuze_essay
   mind_control_2/Class2_Outlier_to_1984_md
+  mind_control_3/the_matrix_and_the_philosophers
+  mind_control_3/the_matrix_and_the_rest_of_us
 )
 
 is_newer_than_all() {
   local target="$1"
   shift
+
+  
 
   # Target must exist
   if [[ ! -e "$target" ]]; then
@@ -65,6 +68,7 @@ is_newer_than_all() {
   for dep in "$@"; do
     # Fail if dependency does not exist
     if [[ ! -e "$dep" ]]; then
+      echo "Warning:  $dep does not exist"
       return 1
     fi
 
@@ -134,6 +138,7 @@ git_makehtml () {
 
     # Recompile if output doesn't exist OR input, header,  styles , or other dependencies are newer than output
     # don't depend on "styles.css" anymore since we load it dynamically
+
     if is_newer_than_all $out $src "header.html" "${deps[@]}"; then  
 	:
         # echo "$out is up to date."
