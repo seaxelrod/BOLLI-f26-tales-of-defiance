@@ -1,2 +1,50 @@
 
-!! This page is not finished.
+
+#### 1.  Watch *The Matrix* movie, written and directed by the Wachowskis, 2h16m
+
+- [$3.99 to rent on YouTube.  Need to create a free YouTube login.](https://www.youtube.com/watch?v=GuE0Mtr-w6g)
+- [$3.99 to rent, $14.99 to buy on Amazon Prime Video.  Need an Amazon Prime account.](https://www.amazon.com/gp/video/detail/B0B6DB8G7C/ref=atv_dp_amz_c_yxuuUK_1_1)
+
+![ ](images/matrix_image.jpg){width=50%} <!-- Image from: https://facts.net/wp-content/uploads/2023/06/47-facts-about-the-movie-the-matrix-1687246419.jpg -->
+
+#### 2. Read the essay [The Comfortable Prison: The Matrix and the Philosophers](mind_control_3/the_matrix_and_the_philosophers.html)
+
+#### 3. Read the essay [No One Is Coming: The Matrix and the Rest of Us](mind_control_3/the_matrix_and_the_rest_of_us.html)
+
+
+## Questions to Guide Reflection
+
+
+### Questions in [Preface Section on *The Matrix* , Analysis of Societal Control](DMC_preface.html#tale-2-the-matrix))
+
+
+- *Who or what is controlling society?*
+- *How is it being controlled?*
+
+
+### Questions in [The Comfortable Prison: The Matrix and the Philosophers](mind_control_3/the_matrix_and_the_philosophers.html)
+
+
+- Where does the film fit in our arc?
+- Who or what is controlling society, and how?
+- What does defiance look like when control no longer feels like control?
+- Am I contributing to, or being swept up in, our collectively "checking out"? 
+- Do those who would give up essential Freedom, to purchase a little temporary Comfort, deserve either Freedom or Comfort?
+- If there is no red pill, what are the rest of us supposed to do? 
+- Baudrillard says there is no "real world" to wake up into. Is he right, or is there still something real underneath the simulation?
+- The film keeps Plato's structure of a real world behind the illusion. Is that a flaw, as Baudrillard thought, or a strength?
+- Is Deleuze's picture of control, modulation without walls, a better description of our world than Orwell's Big Brother? Or do we live with both?
+
+
+
+
+### Questions in [No One Is Coming: The Matrix and the Rest of Us](mind_control_3/the_matrix_and_the_rest_of_us.html)
+
+- If there is no red pill, what are the rest of us supposed to do? 
+
+- In all of these stories, isn't the essence of the struggle maintaining, or finding, one's own humanity? 
+- **Fear or desire?** Which controls you more these days: the news that frightens you, or the screens that please you? Can you tell them apart?
+- **Your own Cypher moments.** When have you chosen the comfortable version of things, knowing it wasn't quite real? Was that always a bad choice?
+- **What keeps you human?** What do you do, or refuse to do, that a system built to predict and please you would have trouble absorbing?
+- **Waiting for a savior.** Do you find yourself hoping for a leader, a technology, or an event that will fix things? What would it mean to give up that hope without giving up?
+- **Circuit breakers.** What are yours? A walk without your phone, a conversation with someone who disagrees with you, a book nobody recommended?

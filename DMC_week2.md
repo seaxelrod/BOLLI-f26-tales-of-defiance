@@ -6,7 +6,7 @@ title: "DMC course: Week 2"
 
 ## Homework
 
-!include DMC_week2_homework.md 
+!include DMC_week3_homework.md 
 
 ::::
 

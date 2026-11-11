@@ -3,16 +3,9 @@ title: "DMC course: Week 3"
 ---
 
 
-:::{.section-block .yellow}
-
-
-# THIS PAGE UNDER CONTRUCTION
-
-:::
-
 :::: {.section-block .white}
 
-## Homework
+# Homework
 
 !include DMC_week3_homework.md 
 
@@ -20,7 +13,7 @@ title: "DMC course: Week 3"
 
 :::: {.section-block .white}
 
-##  Week3 Class Presentation 
+#  Week3 Class Presentation 
 
 - links will be provide after class is held 
 
