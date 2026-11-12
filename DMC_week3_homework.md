@@ -14,7 +14,7 @@
 #### 4. [optional] Read the essay ["Elon Musk Brings Simulation Theory to Joe Rogan"](mind_control_3/simulation_rogan_musk.html)
 
 If you're going to pick just one of the two optional essays above to look at, 
-I'd suggest the secod one. It follows a 2018 conversation between Joe Rogan and Elon Musk about whether we might be living in a computer simulation, and it looks at how that idea has made its way out of the philosophy seminar and into everyday culture. It's built around quotes from the show, with links to the moments in the video, so it reads more like a conversation than a philosophy lesson.
+I'd suggest the second one. It follows a 2018 conversation between Joe Rogan and Elon Musk about whether we might be living in a computer simulation, and it looks at how that idea has made its way out of the philosophy seminar and into everyday culture. It's built around quotes from the show, with links to the moments in the video, so it reads more like a conversation than a philosophy lesson.
 
 
 ## Questions to Guide Reflection
