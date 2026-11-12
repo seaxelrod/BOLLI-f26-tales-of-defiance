@@ -27,7 +27,7 @@ I'd suggest the secod one. It follows a 2018 conversation between Joe Rogan and 
 2. How is it being controlled?
 
 
-### Questions in [The Comfortable Prison: The Matrix and the Philosophers](mind_control_3/the_matrix_and_the_philosophers.html)
+### Questions in ["The Comfortable Prison: The Matrix and the Philosophers"](mind_control_3/the_matrix_and_the_philosophers.html)
 
 
 1. Where does the film fit in our arc?
@@ -43,7 +43,7 @@ I'd suggest the secod one. It follows a 2018 conversation between Joe Rogan and 
 
 
 
-### Questions in [No One Is Coming: The Matrix and the Rest of Us](mind_control_3/the_matrix_and_the_rest_of_us.html)
+### Questions in ["No One Is Coming: The Matrix and the Rest of Us"](mind_control_3/the_matrix_and_the_rest_of_us.html)
 
 1. If there is no red pill, what are the rest of us supposed to do? 
 2. In all of these stories, isn't the essence of the struggle maintaining, or finding, one's own humanity? 
@@ -60,3 +60,4 @@ I'd suggest the secod one. It follows a 2018 conversation between Joe Rogan and 
 2. Rogan reads mason jars and raw wood as people "clinging" to reality. Do you see that longing in your own life or your children's and grandchildren's? Is the craft-and-vintage world a resistance to the virtual, or just another product of it?
 3. In *The Matrix*, the real world is harsh but worth choosing. In Musk's telling, it is merely boring. Which picture is more dangerous to believe?
 4. Does believing we might be in a simulation make a person more passive, or less? What would Dostoevsky's Underground Man say to Musk?
+
