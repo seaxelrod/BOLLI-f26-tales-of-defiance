@@ -52,6 +52,7 @@ export filesToMake=(
   mind_control_2/Class2_Outlier_to_1984_md
   mind_control_3/the_matrix_and_the_philosophers
   mind_control_3/the_matrix_and_the_rest_of_us
+  mind_control_3/simulation_rogan_musk
 )
 
 is_newer_than_all() {

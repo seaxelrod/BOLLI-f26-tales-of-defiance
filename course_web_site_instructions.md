@@ -20,7 +20,7 @@ title: "Course Web Site Instructions"
    - [Syllabus](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_syllabus.html)
    - [Preface](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_preface.html)
    - [Week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_week1.html)
-   - [Week 1](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_week1.html)
+   - [Week 2](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=DMC_week2.html)
    - [References and Summaries](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance?page-select=materials/DMC_references_and_summaries.html)
 - Examples of bringing up a particular page, without the header: 
    - [DMC website](https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/DMC_welcome.html)

@@ -7,9 +7,14 @@
 
 ![ ](images/matrix_image.jpg){width=50%} <!-- Image from: https://facts.net/wp-content/uploads/2023/06/47-facts-about-the-movie-the-matrix-1687246419.jpg -->
 
-#### 2. Read the essay [The Comfortable Prison: The Matrix and the Philosophers](mind_control_3/the_matrix_and_the_philosophers.html)
+#### 2. Read the essay ["The Comfortable Prison: The Matrix and the Philosophers"](mind_control_3/the_matrix_and_the_philosophers.html)
 
-#### 3. Read the essay [No One Is Coming: The Matrix and the Rest of Us](mind_control_3/the_matrix_and_the_rest_of_us.html)
+#### 3. [optional] Read the essay ["No One Is Coming: The Matrix and the Rest of Us"](mind_control_3/the_matrix_and_the_rest_of_us.html)
+
+#### 4. [optional] Read the essay ["Elon Musk Brings Simulation Theory to Joe Rogan"](mind_control_3/simulation_rogan_musk.html)
+
+If you're going to pick just one of the two optional essays above to look at, 
+I'd suggest the secod one. It follows a 2018 conversation between Joe Rogan and Elon Musk about whether we might be living in a computer simulation, and it looks at how that idea has made its way out of the philosophy seminar and into everyday culture. It's built around quotes from the show, with links to the moments in the video, so it reads more like a conversation than a philosophy lesson.
 
 
 ## Questions to Guide Reflection
@@ -47,3 +52,11 @@
 5. **What keeps you human?** What do you do, or refuse to do, that a system built to predict and please you would have trouble absorbing?
 6. **Waiting for a savior.** Do you find yourself hoping for a leader, a technology, or an event that will fix things? What would it mean to give up that hope without giving up?
 7. **Circuit breakers.** What are yours? A walk without your phone, a conversation with someone who disagrees with you, a book nobody recommended?
+
+### Questions in  ["Elon Musk Brings Simulation Theory to Joe Rogan"](mind_control_3/simulation_rogan_musk.html)
+
+
+1. Rogan pushes back once ("we're on our way to [a simulation]") and Musk concedes immediately. Why do you think the concession didn't stick — in the conversation or in the culture?
+2. Rogan reads mason jars and raw wood as people "clinging" to reality. Do you see that longing in your own life or your children's and grandchildren's? Is the craft-and-vintage world a resistance to the virtual, or just another product of it?
+3. In *The Matrix*, the real world is harsh but worth choosing. In Musk's telling, it is merely boring. Which picture is more dangerous to believe?
+4. Does believing we might be in a simulation make a person more passive, or less? What would Dostoevsky's Underground Man say to Musk?
