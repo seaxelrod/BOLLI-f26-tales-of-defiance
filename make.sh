@@ -1,7 +1,11 @@
 #/bin/bash
-# source this file in shell to define function for each step in making
 
-# convert .md pages to .html
+# custom make script for "Tales of Defiance Course"
+#  Main function is to  convert .md pages to .html and .pdf
+# source this file in shell to define function for each step in making
+#
+# Possible changes:
+#  Add pandoc flag "-f markdown-blank_before_list" so that I don't need a newline before starting a list.
 
 # isnewer_than_all target  file1 file2 ...
 # Returns 0 (true) if $target is newer than all subsequent files passed to it.
@@ -51,8 +55,13 @@ export filesToMake=(
   materials/thematrix/TheMatrix_screenplay
   mind_control_2/Class2_Outlier_to_1984_md
   mind_control_3/the_matrix_and_the_philosophers
+  mind_control_3/the_matrix_and_the_philosophers_AI_summaries
   mind_control_3/the_matrix_and_the_rest_of_us
+  mind_control_3/the_matrix_and_the_rest_of_us_AI_summaries
   mind_control_3/simulation_rogan_musk
+  mind_control_3/simulation_rogan_musk_AI_summaries
+  materials/perfect_match/perfect_match_references_and_info
+  materials/wrapup/wrapup_references_and_info
 )
 
 is_newer_than_all() {
