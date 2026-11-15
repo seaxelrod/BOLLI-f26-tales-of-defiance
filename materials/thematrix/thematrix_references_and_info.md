@@ -88,7 +88,10 @@ Buadrillard ? and Deleuze societies of control
 
      **To discuss:** Baudrillard wrote this before the internet, smartphones or VR. Does it describe your world today better than it described 1981?
 
-- [, Too, Was Living a Double Life: Why Trans Fans Connect to `The Matrix' | KQED NPR](https://www.kqed.org/arts/13907504/trans-fans-the-matrix-lilly-lana-wachowski)
+- [I, Too, Was Living a Double Life: Why Trans Fans Connect to `The Matrix' | KQED NPR](https://www.kqed.org/arts/13907504/trans-fans-the-matrix-lilly-lana-wachowski)
+   - [local pdf](ITooWasLivingTransConnectsToMatrix.pdf)
+   - Safari AI summary: The article discusses the enduring popularity of The Matrix among trans fans. The Matrix, written and directed by Lana and Lilly Wachowski, two trans women, resonates with trans individuals due to its portrayal of self-actualization and the struggle against a dominant system. The movie's universal themes of identity and transformation make it a valuable shorthand for discussing trans experiences.
+   
 
  
 

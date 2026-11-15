@@ -86,17 +86,28 @@ How do you see the arc of stories and lenses so far?
 - Fiction: Characters discovering "the truth"
 
 
-## [\colorbox{white}{"The Matrix" Creator Explains What The Red Pill Really Is}](../materials/thematrix/MatrixCreatorExplainsWhatRedPillReallyIs.pdf)
+## [\color{white}{I, Too, Was Living a Double Life:\newline Why Trans Fans Connect to `The Matrix'}](https://www.kqed.org/arts/13907504/trans-fans-the-matrix-lilly-lana-wachowski)
 
+:::notes
+- [pdf of "I, Too, Was ...](../materials/thematrix/ITooWasLivingTransConnectsToMatrix.pdf)
+::::
 
+- The Matrix was written and directed by Lana and Lilly Wachowski, two trans women. 
+- It resonates with trans individuals due to its portrayal of self-actualization and the struggle against a dominant system. 
+- The movie's universal themes of identity and transformation make it a valuable shorthand for discussing human experiences.
+
+## [\colorbox{white}{"The Matrix" Creator Explains What The Red Pill Really Is}](https://www.newsweek.com/matrix-creator-red-pill-trans-allegory-mens-rights-activists-1523669)
+
+:::notes
+
+- [pdf of "The Matrix" Creator Explains What The Red Pill Really Is}](../materials/thematrix/MatrixCreatorExplainsWhatRedPillReallyIs.pdf)
+
+::::
 
 - *[T]he "red pill" has taken on a vastly different meaning online, especially in terms of men's rights activists. 
     The term was originally used to describe people who were aware of the "unpleasant truths" of the world, 
     but it has widely been used by conspiracy theorists and subsequently, the men's rights movement.*
 
----
-
-## The Co-opting of the Red Pill
 
 - *The red pill has also been taken on by the alt-right, as well as conspiracy
      theorists and white supremacists ... . 
@@ -122,51 +133,59 @@ How do you see the arc of stories and lenses so far?
 
 # More Question
 
----
+## Reality and Control
 
 - [How do you define 'real'?](https://www.youtube.com/watch?v=lWJxTXLKXUk) 
 
+- How much is it defined by those controlling society?
+
+
+
 :::notes
-
 - "How do you define real?" is in [TheMatrix_screeplay.html](../materials/thematrix/TheMatrix_screenplay.html) in block at 0:37:55.
-
+- Which controls you more these days: the news that frightens you, or the screens that please you? 
+- Do those who would build realities lack empathy for the current one?
+- What does defiance look like when we are uncertain what is real?
+- Do we need to be saved?
+   Can we collectively **accrue** the ability to save ourselves?  
+- Compare Deleuze's picture of control, modulation without walls with Orwell's Big Brother? 
+- How do you escape reality control?  
+   What are your "circuit breakers"?
 :::
 
+## Staying Asleep
 
-- Who is controlling society, and how?  
-   Which controls you more these days: the news that frightens you, or the screens that please you? 
-- Those who would build realities often lack (or transcend?) empathy for the current one.  
-   How do you view them?
-- What does defiance look like when control no longer feels like control?
+- [Is a Comfortable Ignorance Bliss?](https://www.youtube.com/watch?v=OLv6ycYcpGI)
 
----
 
-## The Cypher Moment
+::::notes
 
-- Would you take the "red pill"  to see  "base reality" or the "blue pill" to stay comfortable?
-   - **Your own Cypher moments.** When is it OK to choose the comfortable version of things?
-- Is there a "real world" to wake up into?
-   - Baudrillard: No, the map becomes the reality.
-   - The film:   There is a real world behind the Plato's Cave illusion.
+- "Ignorance is bliss?" is in [TheMatrix_screeplay.html](../materials/thematrix/TheMatrix_screenplay.html)  in block at 01:01:09
+- Does believing we might be in a simulation make a person more passive, or less?  
+- Is the real world too boring? 
 
----
+::::
+
 
 ## Awakening
 
-- Is Deleuze's picture of control, modulation without walls, a better description of our world than Orwell's Big Brother?   
-    Or do we live with both?
-- Do we need to be saved?
-   Can we collectively **accrue** the ability to save ourselves?  
-- How do you escape reality control?  
-   What are your "circuit breakers"?
+- [Is there a "real world" to wake up into?](https://www.youtube.com/watch?v=XO0pcWxcROI)
 
----
+   - Baudrillard: No, the map becomes the reality.
+   - The film:   There is a real world behind the Plato's Cave illusion.
 
-## Dostoevsky Meets The Matrix
+:::notes
 
-- Does believing we might be in a simulation make a person more passive, or less?  
-   Is the real world too boring?  
-   **What would Dostoevsky's Underground Man say to Musk?**
+- "It is not the spoon that bends, it is only ourself." is in [TheMatrix_screeplay.html](../materials/thematrix/TheMatrix_screenplay.html)  
+      in block at 01:08:52
+:::
+
+
+
+## [\colorbox{white}{Dostoevsky's Underground Man Responds to Elon Musk}](../materials/thematrix/underground_man_responds_to_musk)
+
+
+- What would Dostoevsky's Underground Man say to Musk?
 
 
 
@@ -177,6 +196,7 @@ How do you see the arc of stories and lenses so far?
 - How do you resist systems built to predict and please you?
 - How did you absorb the "The Perfect Match"?
 - How would you add it to the context table?
+- What does defiance look like when control no longer feels like control?
 
 
 # Extra Slides
