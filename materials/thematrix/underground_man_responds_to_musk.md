@@ -1,5 +1,7 @@
 ---
 title: "Dostoevsky's Underground Man Responds to Elon Musk"
+date: "Nov 15, 2026"
+author: "Scott, assisted by Gemini Googleson"
 ---
 
 
