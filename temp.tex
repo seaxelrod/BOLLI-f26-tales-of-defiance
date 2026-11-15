@@ -1,0 +1,32 @@
+% TABLE PLAY
+
+\usepackage{etoolbox}
+\usepackage{xstring}
+\usepackage{calc}
+
+% 1. Fix the vertical padding (approximates your 6px HTML padding)
+\renewcommand{\arraystretch}{1.5}
+% Fix horizontal padding (approximates your 10px HTML padding)
+\setlength{\tabcolsep}{10pt}      
+
+% 2. Remove the gaps that booktabs leaves around horizontal lines
+\setlength{\aboverulesep}{0pt}
+\setlength{\belowrulesep}{0pt}
+
+\makeatletter
+% 3. Intercept longtable's column definition to inject vertical lines (|)
+% NOTE: This specifically looks for Left-aligned (l), Center-aligned (c), 
+% and Right-aligned (r) columns and wraps them in vertical lines.
+\patchcmd{\LT@array}{\@mkpream{#2}}{%
+  \StrGobbleLeft{#2}{2}[\pream]%
+  \StrGobbleRight{\pream}{2}[\pream]%
+  \StrSubstitute{\pream}{l}{|l}[\pream]%
+  \StrSubstitute{\pream}{c}{|c}[\pream]%
+  \StrSubstitute{\pream}{r}{|r}[\pream]%
+  \@mkpream{@{}\pream|@{}}%
+}{}{}
+
+% 4. Force a standard horizontal line after every row
+\def\midrule{} % disable the default middle rule so it doesn't double up
+\apptocmd{\LT@tabularcr}{\hline}{}{} % append \hline to the end of every row
+\makeatother

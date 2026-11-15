@@ -87,11 +87,54 @@ Buadrillard ? and Deleuze societies of control
      - **No outside:** "The simulacrum is never what hides the truth — it is truth that hides the fact that there is none." That is why he thought *The Matrix* got him wrong: there is no red pill.
 
      **To discuss:** Baudrillard wrote this before the internet, smartphones or VR. Does it describe your world today better than it described 1981?
+
+- [, Too, Was Living a Double Life: Why Trans Fans Connect to `The Matrix' | KQED NPR](https://www.kqed.org/arts/13907504/trans-fans-the-matrix-lilly-lana-wachowski)
+
  
+
+- ["The Matrix" Creator Explains What The Red Pill Really Is and Mens Rights Activists Aren't Going to Be Happy - Newsweek](https://www.newsweek.com/matrix-creator-red-pill-trans-allegory-mens-rights-activists-1523669)
+  - [local copy of pdf](MatrixCreatorExplainsWhatRedPillReallyIs.pdf)
+  - SafariAI summary: *The article describes how the term "red pill" from the movie "The Matrix" has been appropriated by men's rights activists and conspiracy theorists. 
+	      The article also highlights that the film's creators, the Wachowskis, have denounced the use of the term "red pill" in this context.*
+  - Quotes from Article:
+    - *The Matrix co-creator Lilly Wachowski broke down why the landmark 1999 science fiction film is a trans allegory.*
+    - *Neo has dysphoria. The Matrix is the gender binary. The agents are transphobia.*
+     - *Neo [takes] on a new name and subsequently renounces his deadname. ... 
+         [T]he red pill/blue pill dichotomy serving as a metaphor for estrogen hormone therapy, which ... was literally a red pill in the 1990's.*
+     - *The term was originally used to describe people who were aware of the "unpleasant truths" of the world, 
+          but it has widely been used by conspiracy theorists and subsequently, the men's rights movement.*
+     - *The red pill has also been taken on by the alt-right, as well as conspiracy
+          theorists and white supremacists, according to New York Magazine. Each
+         group's version of taking the red pill serves as a metaphor for being indoctrinated into whatever beliefs they hold.*
+    - *When Tesla founder Elon Musk tweeted the phrase, "take the red pill," and Ivanka Trump quote-tweeted it with "Taken," Wachowski
+        responded, "F\*\*k both of you."*
+    - *The Matrix stuff was all about the desire for transformation, but it was all
+        coming from a closeted point of view. We had the character of Switch, who was
+        like a character who would be, y'know, a man in the real world and then a woman in the Matrix.*
+    - *"I don't know how present my trans-ness was in
+        the background of my brain, while we were writing it, but it all came from the
+        same sort of fire that I'm talking about, and because trans people exist in this-
+        especially for me and Lana-we were existing in this world where the words
+        didn't exist. So we were always living in a world of imagination. That's why I
+        gravitated towards science fiction and fantasy," [Lilly Wachowski] said.*
+
+
 
 - [Joe Rogan Experience #1169 - Elon Musk](https://www.youtube.com/watch?v=ycPr5-27vSI). 
    - [Full Transcript of Joe Rogan Experience #1160 - Elong Musk](https://sonix.ai/resources/full-transcript-joe-rogan-experience-elon-musk/)
       - [local pdf of transcript](JoeRoganExperience_1169_ElonMusk.pdf)
+
+   
+- [Musk Documentary](https://en.wikipedia.org/wiki/Musk_(film))
+  - Documentary theatrically released Oct 9, 2026, directed by Alex Gibney
+  - *It follows the billionaire businessman Elon Musk, and his enormous influence in contemporary right-wing politics.*
+
+- [Behind the "Musk" Documentary Elon Doesn't Want You to See with Alex Gibney & Justine Musk — On with Kara Swisher (YouTube)](https://www.youtube.com/watch?v=LUjirxMzFqQ)
+  - [Claude Summary  of Show Behind the Show](Behind_the_Musk_Documentary.html)
+
+- From DM: [Alex Gibney on the Myth of Elon Musk - YouTube](https://www.youtube.com/watch?v=XbQv0vO2Ymo)
+  - *This is an interesting interview  with Alex Gibney who made a documentary about Elon Musk. It’s an addendum to your addendum. Talk about reality and simulated reality!!!!*
+  - [YouTube summary](AlexGibneyOnMusk_summary.html)
 
 
 # IV: Scott Writing 

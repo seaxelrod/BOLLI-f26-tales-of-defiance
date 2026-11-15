@@ -1,6 +1,36 @@
 \usepackage[utf8]{inputenc} % we could add some more here to handle special character, but right now I use it to generate errors, so I can change to ascii by hand
 \usepackage{utfsym}
 \usepackage{newunicodechar} 
+\usepackage{colortbl}
 
 \newunicodechar{👉}{\usym{261E}} % used in  20231006_timeless_moment_edited.tex
 \newunicodechar{↩}{$\hookleftarrow$} % used in  20231006_timeless_moment_edited.tex
+\newunicodechar{ }{\quad}  
+\newunicodechar{’}{'}
+\newunicodechar{“}{``}
+\newunicodechar{”}{''}
+
+\tracinglostchars=3 % for debugging missing character warnning
+
+%%%%%%%%%%%
+% Patch to fix XeLaTeX color stack desynchronization
+% (prevents white text and broken colortbl backgrounds in dual-screen notes)
+\makeatletter
+\def\beamer@framenotesbegin{% at beginning of slide
+  \usebeamercolor[fg]{normal text}%
+  \gdef\beamer@noteitems{}%
+  \gdef\beamer@notes{}%
+}
+\makeatother
+%%%%%%%%%
+
+%%%%%%%%%%%%%%%
+% Colors
+\newcommand{\Cblue}[1]{\textcolor{blue}{#1}}
+\newcommand{\Cred}[1]{\textcolor{red}{#1}}
+\newcommand{\Cgreen}[1]{\textcolor{green!70!black}{#1}}
+\newcommand{\Corange}[1]{\textcolor{orange!85!black}{#1}}
+\newcommand{\Cbrown}[1]{\textcolor{brown!90!black}{#1}}
+\newcommand{\Cpurple}[1]{\textcolor{purple!90!black}{#1}}
+\newcommand{\Cteal}[1]{\textcolor{teal!90!black}{#1}} % Added a dark teal, which looks very professional on Beamer slides
+%%%%%%%%%%%%%%%

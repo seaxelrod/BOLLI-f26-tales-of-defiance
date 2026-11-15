@@ -201,3 +201,13 @@ section.footnotes::before {
   display: block;
   margin-bottom: 0.5em;
 }
+
+/* Table styling for course materials */
+table, th, td {
+  border: 1px solid #000;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 6px 10px;
+}
