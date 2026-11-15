@@ -14,10 +14,10 @@ date: November 16, 2026
 \colorbox{red!80!black}{\href{https://youtu.be/LZdlqTQ3PpY}{\textcolor{white}{\Large \textbf{Watch: The Woman in the Red Dress}}}}
 \egroup
 \end{center}
-\vspace{0.5cm}
+\vspace*{0.6in}
 
 
-- How does "The Matrix" compare to previous shows?
+- How does "The Matrix" compare to previous shows? \vspace*{0.3in}
 - What is your emotional or intellectual reaction?
 
 
@@ -25,11 +25,11 @@ date: November 16, 2026
 
 - \Cteal{Gemini AI and I write programs to build the world.}
 - \Cteal{The full repository is available for duplication.}
-- \Cteal{The world looked fine,  but underneath ...} \vspace{0.2in}
+- \Cteal{The world looked fine,  but underneath ...} \vspace*{0.2in}
 
 - \Cred{There were "missing character" warnings,   
              coming from "ghost" sub-process.}
-- \Cred{They secretly duplicated data into a hidden architectural layer}. \vspace{0.2in}
+- \Cred{They secretly duplicated data into a hidden architectural layer}. \vspace*{0.2in}
 
 - \Cgreen{Finally, the ghosts have stopped showing evidence of a glitch.}
 - \Cgreen{We can come out of the rabbit hole now.}
@@ -71,6 +71,8 @@ date: November 16, 2026
 \end{center}
 
 
+\vspace{0.4in}
+
 How do you see the arc of stories and lenses so far?
 
 
@@ -86,23 +88,23 @@ How do you see the arc of stories and lenses so far?
 - Fiction: Characters discovering "the truth"
 
 
-## [\color{white}{I, Too, Was Living a Double Life:\newline Why Trans Fans Connect to `The Matrix'}](https://www.kqed.org/arts/13907504/trans-fans-the-matrix-lilly-lana-wachowski)
+## [\colorbox{white}{I, Too, Was Living a Double Life}](https://www.kqed.org/arts/13907504/trans-fans-the-matrix-lilly-lana-wachowski)
+
+\Cred{Why Trans Fans Connect to `The Matrix'} \vspace*{0.4in}
 
 :::notes
 - [pdf of "I, Too, Was ...](../materials/thematrix/ITooWasLivingTransConnectsToMatrix.pdf)
-::::
+:::
 
-- The Matrix was written and directed by Lana and Lilly Wachowski, two trans women. 
-- It resonates with trans individuals due to its portrayal of self-actualization and the struggle against a dominant system. 
-- The movie's universal themes of identity and transformation make it a valuable shorthand for discussing human experiences.
+- The Matrix was written and directed by Lana and Lilly Wachowski, two trans women. \vspace*{0.15in}
+- It resonates due to its portrayal of self-actualization and the struggle against a dominant system. \vspace*{0.15in}
+- The themes of identity and transformation connect to human experiences.
 
 ## [\colorbox{white}{"The Matrix" Creator Explains What The Red Pill Really Is}](https://www.newsweek.com/matrix-creator-red-pill-trans-allegory-mens-rights-activists-1523669)
 
 :::notes
-
 - [pdf of "The Matrix" Creator Explains What The Red Pill Really Is}](../materials/thematrix/MatrixCreatorExplainsWhatRedPillReallyIs.pdf)
-
-::::
+:::
 
 - *[T]he "red pill" has taken on a vastly different meaning online, especially in terms of men's rights activists. 
     The term was originally used to describe people who were aware of the "unpleasant truths" of the world, 
@@ -131,7 +133,7 @@ How do you see the arc of stories and lenses so far?
 - *When you're in that virtual reality, which is only going to get better, where are you? Where are you really?... You aren't anywhere. You're in the computer.*
 
 
-# More Question
+# More Questions
 
 ## Reality and Control
 
@@ -158,13 +160,11 @@ How do you see the arc of stories and lenses so far?
 - [Is a Comfortable Ignorance Bliss?](https://www.youtube.com/watch?v=OLv6ycYcpGI)
 
 
-::::notes
-
+:::notes
 - "Ignorance is bliss?" is in [TheMatrix_screeplay.html](../materials/thematrix/TheMatrix_screenplay.html)  in block at 01:01:09
 - Does believing we might be in a simulation make a person more passive, or less?  
 - Is the real world too boring? 
-
-::::
+:::
 
 
 ## Awakening
@@ -175,7 +175,6 @@ How do you see the arc of stories and lenses so far?
    - The film:   There is a real world behind the Plato's Cave illusion.
 
 :::notes
-
 - "It is not the spoon that bends, it is only ourself." is in [TheMatrix_screeplay.html](../materials/thematrix/TheMatrix_screenplay.html)  
       in block at 01:08:52
 :::
@@ -191,12 +190,14 @@ How do you see the arc of stories and lenses so far?
 
 ## Next time: "The Perfect Match"
 
-- Are we being controlled by a false sense of what we need?
-- What keeps you human?  
-- How do you resist systems built to predict and please you?
-- How did you absorb the "The Perfect Match"?
-- How would you add it to the context table?
-- What does defiance look like when control no longer feels like control?
+- \Cteal{How did you absorb the "The Perfect Match"?}
+- \Cteal{Are we being controlled by a false sense of what we need?}
+- \Cteal{What does defiance look like when control no longer feels like control?}
+
+- \Cpurple{What keeps you human?} 
+- \Cpurple{How do you resist systems built to predict and please you?}
+
+- \Cbrown{How would you add the story to the context table?}
 
 
 # Extra Slides
@@ -215,12 +216,12 @@ How do you see the arc of stories and lenses so far?
 ## Grounding in the Surface World
 
 
-- \Cpurple{I'm here, interacting with you, in person.}  \vspace{0.4in}
+- \Cpurple{I'm here, interacting with you, in person.}  \vspace*{0.4in}
 
 - \Cgreen{But what would be different if we were on zoom?}
 - \Cgreen{What if an AI agent joined the class?}
 - \Cgreen{Lets call him Agent Smith,}
-- \Cgreen{Might as well give him a first name, Winston.} \vspace{0.4in}
+- \Cgreen{Might as well give him a first name, Winston.} \vspace*{0.4in}
 
 - What if you are viewing this alone?
 
@@ -240,7 +241,7 @@ How do you see the arc of stories and lenses so far?
 
 ## More on My Digital Rabbit Hole
 
-- DuckAI, Gemini, and I wanted to make tables. \vspace{0.3in}
+- DuckAI, Gemini, and I wanted to make tables. \vspace*{0.3in}
 - Using \Cred{Lua filters} to process \Cred{custom nodes in the AST tree}.
 - And a  \Cred{python script} to help \Cred{Pandoc} convert \Cred{markdown} to \Cred{PDF} and \Cred{HTML}.
 - 1 of many tricks: use the \Cred{Lua current file location variable} to allow me to 
