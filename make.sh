@@ -63,7 +63,7 @@ export filesToMake=(
   mind_control_3/simulation_rogan_musk_AI_summaries
   materials/thematrix/Behind_the_Musk_Documentary
   materials/thematrix/AlexGibneyOnMusk_summary
-  materials/thematrix/underground_man_responds_to_musk
+  mind_control_3/underground_man_responds_to_musk
   materials/perfect_match/perfect_match_references_and_info
   materials/wrapup/wrapup_references_and_info
   mind_control_4/transition_to_perfectmatch

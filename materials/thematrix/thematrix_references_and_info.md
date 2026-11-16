@@ -140,6 +140,10 @@ Buadrillard ? and Deleuze societies of control
   - [YouTube summary](AlexGibneyOnMusk_summary.html)
 
 
+- From MS: [I Saw the Future of Mind-Reading - New York Times Opinion,2026-01-12 ](https://www.nytimes.com/2026/11/12/opinion/mind-reading-ai.html?unlocked_article_code=1.QlE.hYAY.nxR0CJE2Dnjp) 
+  - [local copy of pdf: When Your Inner Thoughts Are No Longer Just Yours](FutureOfMindReading.pdf)
+  - Safari AI summary: *Artificial intelligence and fMRI research at Cornell, UC Berkeley, and other labs increasingly reconstruct thoughts and images from brain activity. Trevor Paglen’s scan revealed private associations, while Rafael Yuste and Pouya Bashivan warn of potential control. Corporate investments raise risks of commercial exploitation, prompting Neurorights Foundation efforts.*
+
 # IV: Scott Writing 
 
 
@@ -153,6 +157,7 @@ Buadrillard ? and Deleuze societies of control
    - Primary references is: [Joe Rogan Experience #1169 - Elon Musk](https://www.youtube.com/watch?v=ycPr5-27vSI). 
   - [AI summaries of "Base Reality Is Probably Boring"](../../mind_control_3/simulation_rogan_musk_AI_summaries.html)
 
+- [Dostoevsky's Underground Man Responds to Elon Musk](../../mind_control_3/underground_man_responds_to_musk.html)
 
 
 

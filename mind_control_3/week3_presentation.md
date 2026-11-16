@@ -181,7 +181,7 @@ How do you see the arc of stories and lenses so far?
 
 
 
-## [\colorbox{white}{Dostoevsky's Underground Man Responds to Elon Musk}](../materials/thematrix/underground_man_responds_to_musk)
+## [\colorbox{white}{Dostoevsky's Underground Man Responds to Elon Musk}](underground_man_responds_to_musk)
 
 
 - What would Dostoevsky's Underground Man say to Musk?
