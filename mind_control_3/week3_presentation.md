@@ -187,6 +187,17 @@ How do you see the arc of stories and lenses so far?
 - What would Dostoevsky's Underground Man say to Musk?
 
 
+:::notes
+
+**A Possible Message from the Underground Man to those who worry about an arc of dystopias:**
+
+... he would warn that while he clings to spite just to prove he is still a human being with free will, the tech billionaires offering to save you are doing the opposite. 
+They will validate your anger online and tell you the system is rigged, but only so they can harness your energy to build a new, 
+sterile Crystal Palace—one where you, with all your messy, angry, biological flaws, are quietly phased out as a "bootloader." 
+He would tell you that you have every right to be confused by this world, but your spite and your suffering are the only things proving you are not a machine. Hold onto them, because the architects of the future want to engineer them away.
+
+:::
+
 
 ## Next time: "The Perfect Match"
 
