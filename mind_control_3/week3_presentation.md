@@ -119,7 +119,7 @@ How do you see the arc of stories and lenses so far?
 
 
 
-## [\colorbox{white}{Musk on Rogan Show}](simulation_rogan_musk.html): [\colorbox{white}{Base Reality Is Probably Boring}](simulation_rogan_musk.html)
+## [\colorbox{white}{Musk on Rogan Show}](https://www.youtube.com/watch?v=ycPr5-27vSI): [\colorbox{white}{Base Reality Is Probably Boring}](simulation_rogan_musk.html)
 
 :::notes
 - When a man with that kind of reach tells you reality may be a product, the claim carries an authority that the same words from a philosophy professor would not.

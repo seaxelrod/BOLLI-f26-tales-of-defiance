@@ -13,7 +13,6 @@
 
 export TOCFLAGS_standard="--toc --toc-depth=2"
 export TOCFLAGS="$TOCFLAGS_standard"
-export TOCFLAGS_beamer="--toc"
 
 export filesToMake=(
   # in index.html
@@ -27,8 +26,7 @@ export filesToMake=(
   "DMC_week4 DMC_week4_homework"
   "DMC_week5 DMC_week5_homework"
   "DMC_notes_on_notes  DMC_preface_notes_from_underground"
-  "DMC_notes_on_thematrix DMC_preface_thematrix"
-  "DMC_notes_on_perfectmatch DMC_preface_perfectmatch"
+  "DMC_notes_on_1984   DMC_preface_1984"
   mind_control_1/DMC_cartoons
   mind_control_1/not_the_keys_of_a_piano_dialog
   materials/DMC_references_and_info
@@ -67,6 +65,7 @@ export filesToMake=(
   materials/perfect_match/perfect_match_references_and_info
   materials/wrapup/wrapup_references_and_info
   mind_control_4/transition_to_perfectmatch
+  mind_control_4/TillyHelpsScottPrepareForWeek4
 )
 
 export filesForBeamer=(
@@ -135,7 +134,10 @@ _git_build_html () {
 
         local mode_flags=""
         if [[ "$mode" == "toc" ]]; then
-            mode_flags="--toc --toc-depth=2"
+            # Add --toc UNLESS 'toc: false' or 'toc-html: false' is found in the file
+            if ! grep -Eq "^(toc|toc-html):\s*false" "$src"; then
+                mode_flags="--toc --toc-depth=2"
+            fi
         fi
 
         pandoc "$src" -s \
@@ -177,11 +179,11 @@ _git_build_latex () {
     
     # Set output filename based on mode
     if [[ "$mode" == "beamer" ]]; then
-        out="${filebase}_beamer.pdf"
+        out="${filebase}.pdf"
     elif [[ "$mode" == "beamer_withnotes" ]]; then
-        out="${filebase}_beamer_withnotes.pdf"
+        out="${filebase}_withnotes.pdf"
     elif [[ "$mode" == "beamer_onlynotes" ]]; then
-        out="${filebase}_beamer_onlynotes.pdf"
+        out="${filebase}_onlynotes.pdf"
     else
         out="${filebase}.pdf"
     fi
@@ -201,8 +203,8 @@ _git_build_latex () {
         local notes_flags=()
         
         if [[ "$mode" == *"beamer"* ]]; then
-            # Beamer handles its own margins and geometry
-            format_flags="-t beamer -V theme:metropolis $TOCFLAGS_beamer"
+            # Beamer handles its own margins, geometry, and TOC
+            format_flags="-t beamer -V theme:metropolis"
             
             # Dynamically inject note options for specific builds
             if [[ "$mode" == "beamer_withnotes" ]]; then
@@ -212,7 +214,11 @@ _git_build_latex () {
             fi
         else
             # Standard article geometry and TOC
-            format_flags="$TOCFLAGS -V geometry:margin=1in"
+            if ! grep -Eq "^(toc|toc-latex):\s*false" "$src"; then
+                format_flags="$TOCFLAGS -V geometry:margin=1in"
+            else
+                format_flags="-V geometry:margin=1in"
+            fi
         fi
 
         (cd "$dir"
@@ -270,9 +276,9 @@ git_makepdf_all () {
 git_makebeamer_all () {
     for fileArgs in "${filesForBeamer[@]}"
     do
-        git_makebeamer_withnotes $fileArgs || return 1
         git_makebeamer $fileArgs || return 1
         git_makebeamer_onlynotes $fileArgs || return 1
+        git_makebeamer_withnotes $fileArgs || return 1
     done
 }
 
@@ -323,9 +329,9 @@ git_clean_beamer () {
            continue
         fi
         echo "removing ${basefile} Beamer PDFs"
-        /bin/rm -f "${basefile}_beamer.pdf"
-        /bin/rm -f "${basefile}_beamer_withnotes.pdf"
-        /bin/rm -f "${basefile}_beamer_onlynotes.pdf"
+        /bin/rm -f "${basefile}.pdf"
+        /bin/rm -f "${basefile}_onlynotes.pdf"
+        /bin/rm -f "${basefile}_withnotes.pdf"
     done
 }
 
@@ -431,4 +437,8 @@ generate_debug () {
     echo 'Compiling to trap the exact line number:'
     xelatex -halt-on-error debug.tex >/dev/null
     echo
+}
+
+git_beamer_templace () {
+    pandoc -D beamer 
 }

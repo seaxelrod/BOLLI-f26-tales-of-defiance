@@ -159,6 +159,8 @@ Buadrillard ? and Deleuze societies of control
 
 - [Dostoevsky's Underground Man Responds to Elon Musk](../../mind_control_3/underground_man_responds_to_musk.html)
 
+- [Week 3 Class Presentation, pdf](../../mind_control_3/week3_presentation.pdf){target="_blank" rel="noopener"}
+
 
 
 

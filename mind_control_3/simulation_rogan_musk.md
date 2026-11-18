@@ -13,7 +13,7 @@ In 1928 the sociologist W. I. Thomas wrote what became known as the [Thomas theo
 
 ## From Instagram to the simulation
 
-The conversation doesn't begin with metaphysics. It begins with social media. Rogan has been talking about how Instagram lets people project "this sort of distorted version of who you really are," and he worries about what comes next ([42:03](https://www.youtube.com/watch?v=ycPr5-27vSI&t=2523s)):
+The conversation doesn't begin with metaphysics. It begins with social media. Rogan has been talking about how Instagram lets people project "this sort of distorted version of who you really are," and he worries about what comes next ([42:00](https://www.youtube.com/watch?v=ycPr5-27vSI&t=2520s)):
 
 > "Is it going to be augmented to some sort of a weird augmented or virtual sort of Instagram type situation where you're not going to want to live in this real world..."
 
@@ -41,7 +41,8 @@ First, the argument arrives without its author. It is a compressed version of Ox
 
 Second, the compression changes the logic. Bostrom's original is a three-way choice: civilizations die out before they can run such simulations, *or* they could but choose not to, *or* we are almost certainly simulated. Musk drops the middle option — that a civilization able to build a perfect simulation might have no interest in running one. With only two horns left, and "civilization will end" being the gloomier one, the simulation becomes the hopeful conclusion.
 
-Third, Rogan pushes back, and his objection is a good one ([44:42](https://www.youtube.com/watch?v=ycPr5-27vSI&t=2682s)): "Or we're on our way to one, right?" Indistinguishable games may be coming, but that doesn't mean they're already here. Musk concedes at once ([44:50](https://www.youtube.com/watch?v=ycPr5-27vSI&t=2690s)): "It could be in base reality." And then he falls back on the plainest answer there is, the same one the English writer Samuel Johnson gave in 1763 when told the material world might be only an idea: he [kicked a large stone](https://en.wikipedia.org/wiki/Appeal_to_the_stone). Musk's version ([45:24](https://www.youtube.com/watch?v=ycPr5-27vSI&t=2724s)): "This is real. You want to touch that wood? It feel very real."
+Third, Rogan pushes back, and his objection is a good one ([44:39](https://www.youtube.com/watch?v=ycPr5-27vSI&t=2679s)): "Or we're on our way to one, right?" Indistinguishable games may be coming, but that doesn't mean they're already here. Musk concedes at once ([44:50](https://www.youtube.com/watch?v=ycPr5-27vSI&t=2690s)): "It could be in base reality." And then he falls back on the plainest answer there is, the same one the English writer Samuel Johnson gave in 1763 when told the material world might be only an idea: he [kicked a large stone](https://en.wikipedia.org/wiki/Appeal_to_the_stone). When ([45:24](https://www.youtube.com/watch?v=ycPr5-27vSI&t=2724s)) Rogan says, "This is real. You want to touch that wood?",
+Musk replies, "It feel very real."
 
 ## Mason jars
 

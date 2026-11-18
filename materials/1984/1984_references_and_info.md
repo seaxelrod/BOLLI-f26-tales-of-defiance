@@ -360,3 +360,9 @@ I'll just give one out of many, many examples.
 ## plus a million other examples
 
 
+# IX: Scott writing related to 1984
+
+
+- [PowerPoint presentation for Class 2](mind_control_2/Class2_Outlier_to_1984.pptx)
+- [PDF export of Powerpoint](mind_control_2/Class2_Outlier_to_1984.pdf )
+- [non-graphical html version of presentation](mind_control_2/Class2_Outlier_to_1984_md.html )
