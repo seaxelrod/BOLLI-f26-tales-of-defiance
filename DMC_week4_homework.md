@@ -19,9 +19,9 @@ These are optional.  Use them only as they help you.
 ### Questions about the story
 
 - Why is the story called "The Perfect Match"?
-- How hard was it, in December 2012, to foresee a world so relavant to our lives now?
 - If Tilly only ever gave Sai what he wanted, how would he tell the difference between a need that was his and one that was given to him?
 - How did the system plan ahead for dealing with people who try to defy its form of mind control?
+- How hard was it, in December 2012, to foresee a world so relavant to our lives now?
 
 ### Questions relating to week 3 class discussion
 
@@ -42,11 +42,11 @@ These are optional.  Use them only as they help you.
 - What keeps you human?
 - How do you resist systems built to monitor, predict, and please you?
 - How would you add the story to the context table in the presentation?
-   - Or you could added it as a fourth point to the one-sentence summaries in "Telly Helps Prepare ..."
+   - Or you could add it as a fourth point to the one-sentence summaries in "Telly Helps Prepare ..."
      1.  Dostoyevsky's  Underground Man being ignored as he is spiteful against 2+2=4 rational egoism
      2.  Orwell's Winston Smith's being crushed as he merely tried to remember or even contemplate a world without Big Brother's disciplinary surveillance
-       and Orwell's Newspeak narrative controls, and
-     3.  the Wachowski's Neo who the AI agents try to erase before he can pull humanity out of a prison in a modern Plato's cave - a  society for control manufactured by AI.
+       and Orwell's Newspeak narrative controls
+     3.  the Wachowski's Neo who the AI agents try to erase before he can pull humanity out of a prison in a modern Plato's cave - a  society for control manufactured by AI
 
 
 ### Question in "Tilly Helps Prepare a Defiance to Mind Control Class on the "The Perfect Match"
