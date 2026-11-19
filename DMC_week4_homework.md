@@ -12,8 +12,9 @@
 - After class, I will send out the presentation, and also add it to the references page above.
 
 
-## [optional, use only if they help] Questions to Guide Reflection
+## Questions to Guide Reflection
 
+These are optional.  Use them only as they help you.
 
 ### Questions about the story
 
