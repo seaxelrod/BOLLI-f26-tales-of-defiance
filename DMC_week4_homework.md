@@ -12,11 +12,7 @@
 - After class, I will send out the presentation, and also add it to the references page above.
 
 
-## Questions to Guide Reflection
-
-- There are a lot of questions here.
-- They are purely for optional guidance.
-- Perhaps more interesting will be the questions you ask.
+## [optional, use only if they help] Questions to Guide Reflection
 
 
 ### Questions about the story
