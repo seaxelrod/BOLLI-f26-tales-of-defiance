@@ -46,6 +46,14 @@ git push -u origin main
 > rm BOLL_logo.png
 ```
 
+# 20261119 create python venv in the github repository
+
+This uses packages need for highlighting.
+
+-   Create once: `> python3 -m venv .venv`
+-   Install once: `.venv/bin/pip install pdfplumber pypdf`
+-  Run with:  `.venv/bin/python3 filters/highlight_pdf.py ...`
+
 
 
 	

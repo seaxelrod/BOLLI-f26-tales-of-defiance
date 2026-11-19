@@ -1,7 +1,7 @@
-#/bin/bash
+#!/bin/bash
 
 # custom make script for "Tales of Defiance Course"
-#  Main function is to  convert .md pages to .html and .pdf
+#  Main function is to convert .md pages to .html and .pdf
 # source this file in shell to define function for each step in making
 #
 # Possible changes:
@@ -17,35 +17,34 @@ export TOCFLAGS="$TOCFLAGS_standard"
 export filesToMake=(
   # in index.html
   course_web_site_instructions
-  "DMC_welcome  DMC_week1_homework"
-  DMC_syllabus  
-  "DMC_preface DMC_preface_notes_from_underground DMC_preface_1984 DMC_preface_thematrix DMC_preface_perfectmatch"
-  "DMC_week1 DMC_week1_homework"
-  "DMC_week2 DMC_week2_homework"
-  "DMC_week3 DMC_week3_homework"
-  "DMC_week4 DMC_week4_homework"
-  "DMC_week5 DMC_week5_homework"
-  "DMC_notes_on_notes  DMC_preface_notes_from_underground"
-  "DMC_notes_on_1984   DMC_preface_1984"
+  "DMC_welcome  DMC_week1_homework.md"
+  DMC_syllabus
+  "DMC_preface DMC_preface_notes_from_underground.md DMC_preface_1984.md DMC_preface_thematrix.md DMC_preface_perfectmatch.md"
+  "DMC_week1 DMC_week1_homework.md"
+  "DMC_week2 DMC_week2_homework.md"
+  "DMC_week3 DMC_week3_homework.md"
+  "DMC_week4 DMC_week4_homework.md"
+  "DMC_week5 DMC_week5_homework.md"
+  "DMC_notes_on_notes  DMC_preface_notes_from_underground.md"
+  "DMC_notes_on_1984   DMC_preface_1984.md"
   mind_control_1/DMC_cartoons
   mind_control_1/not_the_keys_of_a_piano_dialog
   materials/DMC_references_and_info
-  materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript  
-  mind_control_extras/DMC_notesfrumunderground_context 
-  mind_control_extras/TheTriadChapter1 
-  mind_control_extras/DMC_protagonists_react_to_manifesto 
-  mind_control_extras/DMC_question_responses_by_characters_and_students 
-  mind_control_extras/UndergroundBarbie 
-  mind_control_extras/DMC_Chronology   
-  mind_control_extras/PanelOfTheDefiant 
-  mind_control_extras/TwoKindsOfControl 
-  mind_control_extras/Foucault_timeline 
+  materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript
+  mind_control_extras/DMC_notesfrumunderground_context
+  mind_control_extras/TheTriadChapter1
+  mind_control_extras/DMC_protagonists_react_to_manifesto
+  mind_control_extras/DMC_question_responses_by_characters_and_students
+  mind_control_extras/UndergroundBarbie
+  mind_control_extras/DMC_Chronology
+  mind_control_extras/PanelOfTheDefiant
+  mind_control_extras/TwoKindsOfControl
+  mind_control_extras/Foucault_timeline
 
   # not in index.html
-  materials/DMC_bruner_narrative_theory 
+  materials/DMC_bruner_narrative_theory
   materials/DMC_references_and_info_for_course_overall
-  materials/notes_from_underground/notes_from_underground_existentialist_philosphy_literature_philosophy_guy_transcript 
-  materials/notes_from_underground/NotesFromUnderground_CedarTranscript  
+  materials/notes_from_underground/NotesFromUnderground_CedarTranscript
   materials/notes_from_underground/NotesFromUnderground_CedarViewingGuide
   materials/notes_from_underground/notes_from_underground_references_and_info
   materials/1984/1984_references_and_info
@@ -66,6 +65,8 @@ export filesToMake=(
   materials/wrapup/wrapup_references_and_info
   mind_control_4/transition_to_perfectmatch
   mind_control_4/TillyHelpsScottPrepareForWeek4
+  mind_control_4/Big_Babies_Having_Tantrums
+  "materials/perfect_match/ThePerfectMatch_Highlighted filters/highlight.lua filters/highlight_pdf.py"
 )
 
 export filesForBeamer=(
@@ -101,6 +102,20 @@ is_newer_than_all() {
   return 0
 }
 
+_lookup_deps() {
+    local target="$1"
+    local item
+    for item in "${filesToMake[@]}" "${filesForBeamer[@]}"; do
+        local entry=($item)
+        if [[ "${entry[0]}" == "$target" ]]; then
+            if [[ ${#entry[@]} -gt 1 ]]; then
+                echo "${entry[@]:1}"
+            fi
+            return 0
+        fi
+    done
+}
+
 # ==========================================
 #  Core Engine: Markdown to HTML
 # ==========================================
@@ -108,7 +123,11 @@ _git_build_html () {
     local mode=$1
     local filebase=$2
     shift 2
-    local deps=("${@/%/.md}")
+    local deps=("$@")
+
+    if [[ ${#deps[@]} -eq 0 ]]; then
+        deps=($(_lookup_deps "$filebase"))
+    fi
 
     thisDir=`pwd`
     if [[ ! `basename $thisDir` == "git" ]]; then
@@ -142,6 +161,7 @@ _git_build_html () {
 
         pandoc "$src" -s \
          --lua-filter="${filterDir}/pandoc-include.lua" \
+         --lua-filter="${filterDir}/highlight.lua" \
          --lua-filter="${filterDir}/table-pipe.lua" \
          -H "${thisDir}/header.html" \
          --variable header-includes="<script src=\"${REL_PREFIX}nav-sync.js?v=$TIMESTAMP\"></script>" \
@@ -166,7 +186,11 @@ _git_build_latex () {
     local mode=$1
     local filebase=$2
     shift 2  # shift off mode and filebase to leave only the dependencies
-    local deps=("${@/%/.md}")
+    local deps=("$@")
+
+    if [[ ${#deps[@]} -eq 0 ]]; then
+        deps=($(_lookup_deps "$filebase"))
+    fi
 
     thisDir=`pwd`
     if [[ ! `basename $thisDir` == "git" ]]; then
@@ -176,7 +200,7 @@ _git_build_latex () {
 
     local src="${filebase}.md"
     local out=""
-    
+
     # Set output filename based on mode
     if [[ "$mode" == "beamer" ]]; then
         out="${filebase}.pdf"
@@ -188,8 +212,17 @@ _git_build_latex () {
         out="${filebase}.pdf"
     fi
 
+    # Check if native PDF highlight post-processing is requested via dependencies
+    local use_hl_pdf=0
+    for dep in "${deps[@]}"; do
+        if [[ "$dep" == "filters/highlight_pdf.py" ]]; then
+            use_hl_pdf=1
+            break
+        fi
+    done
+
     # Recompile if output doesn't exist OR dependencies are newer
-    if is_newer_than_all "$out" "$src" "header.tex" "filters/prefix-links.lua" "filters/table-pipe.lua" "filters/pandoc_markdown_dual_tables.py" "${deps[@]}"; then
+    if is_newer_than_all "$out" "$src" "header.tex" "filters/pandoc-include.lua" "filters/prefix-links.lua" "filters/table-pipe.lua" "filters/pandoc_markdown_dual_tables.py" "${deps[@]}"; then
         : # echo "$out is up to date."
     else
         echo "Compiling $src -> $out ($mode)..."
@@ -201,11 +234,11 @@ _git_build_latex () {
         # Set flags based on mode
         local format_flags=""
         local notes_flags=()
-        
+
         if [[ "$mode" == *"beamer"* ]]; then
             # Beamer handles its own margins, geometry, and TOC
             format_flags="-t beamer -V theme:metropolis"
-            
+
             # Dynamically inject note options for specific builds
             if [[ "$mode" == "beamer_withnotes" ]]; then
                 notes_flags=(-V header-includes='\usepackage{pgfpages}' -V header-includes='\setbeameroption{show notes on second screen=right}')
@@ -221,19 +254,30 @@ _git_build_latex () {
             fi
         fi
 
+        local pandoc_env=()
+        if [[ "$use_hl_pdf" -eq 1 ]]; then
+            pandoc_env=(HL_PDF_PLAIN=1)
+        fi
+
         (cd "$dir"
-         pandoc $format_flags "${notes_flags[@]}" --pdf-engine=xelatex -s "$src_file" \
+         env "${pandoc_env[@]}" pandoc $format_flags "${notes_flags[@]}" --pdf-engine=xelatex -s "$src_file" \
          -V monofont="Courier New" \
          -M doc_dir="$dir" \
          --include-in-header="${thisDir}/header.tex" \
          --lua-filter="${filterDir}/pandoc-include.lua" \
+         --lua-filter="${filterDir}/highlight.lua" \
          --lua-filter="${filterDir}/toc-if-headings.lua" \
          --lua-filter="${filterDir}/table-pipe.lua" \
          --lua-filter="${filterDir}/prefix-links.lua" \
          --lua-filter="${filterDir}/straighten-quotes.lua" \
          --math-method=mathjax \
          -V colorlinks=true -V linkcolor=blue -V urlcolor=blue -V toccolor=blue \
-         -o "$out_file"
+         -o "$out_file" || exit 1
+
+         if [[ "$use_hl_pdf" -eq 1 ]]; then
+	     echo Running: "${thisDir}/.venv/bin/python3" "${filterDir}/highlight_pdf.py" "$src_file" "$out_file" 
+             "${thisDir}/.venv/bin/python3" "${filterDir}/highlight_pdf.py" "$src_file" "$out_file" || exit 1
+         fi
         )
     fi
 }
@@ -340,7 +384,7 @@ git_clean_beamer () {
 # ===========================
 
 git_testlocal_allowcache  () {
-    open http://localhost:8000/index.html   
+    open http://localhost:8000/index.html
     python3 -m http.server 8000
 }
 
@@ -387,7 +431,7 @@ git_pdfpc () {
 # =======================
 
 git_make_dev() {
-    if is_newer_than_all index_dev.html index.html; then  
+    if is_newer_than_all index_dev.html index.html; then
         :
     else
         echo "Creating: index_dev.html"
@@ -411,6 +455,7 @@ funny_quote_search () {
     echo
 }
 
+
 generate_debug () {
     pandoc DMC_preface.md -s \
       --lua-filter=filters/pandoc-include.lua \
@@ -420,9 +465,9 @@ generate_debug () {
     echo 'Checking for Pandoc passthrough macros:'
     grep -nE '\\(passthrough|lstinline).*?[“”‘’]' debug.tex
     echo
-    
+
     echo 'In fenced code block: '
-    cat debug.tex | awk '/\\begin\{(verbatim|Highlighting)\}/{f=1} /\\end\{(verbatim|Highlighting)\}/{f=0} f && /[“”‘’]/{print "Line " NR ": " $0}' 
+    cat debug.tex | awk '/\\begin\{(verbatim|Highlighting)\}/{f=1} /\\end\{(verbatim|Highlighting)\}/{f=0} f && /[“”‘’]/{print "Line " NR ": " $0}'
     echo
 
     echo 'In inline LaTeX macros: '
@@ -430,15 +475,15 @@ generate_debug () {
     echo
 
     echo 'Running xelatex and extracting warning from log:'
-    xelatex debug.tex >/dev/null 
+    xelatex debug.tex >/dev/null
     grep -C 5 "Missing character: There is no" debug.log
     echo
-    
+
     echo 'Compiling to trap the exact line number:'
     xelatex -halt-on-error debug.tex >/dev/null
     echo
 }
 
-git_beamer_templace () {
-    pandoc -D beamer 
+git_beamer_template () {
+    pandoc -D beamer
 }

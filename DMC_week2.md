@@ -4,7 +4,7 @@ title: "DMC course: Week 2"
 
 :::: {.section-block .white}
 
-## Homework
+# Homework
 
 !include DMC_week2_homework.md 
 
@@ -12,7 +12,7 @@ title: "DMC course: Week 2"
 
 :::: {.section-block .white}
 
-##  Week2 Class Presentation 
+#  Week2 Class Presentation 
 
 
 - [PowerPoint presentation for Class 2](mind_control_2/Class2_Outlier_to_1984.pptx)
@@ -28,9 +28,5 @@ PowerPoint presentation, because the movie needs to be reloaded  each time. It i
 Rather than clicking buttons, you can position the copy of the movie by hand. The indicated time is for
 [the version on archive.org of the movie *1984* released in 1984](https://archive.org/details/1984-1984_202511).
 This versions deletes the initial trademark Lion's raw.  Add 9 seconds to the inidcated time  for other versions.
-
-
-
-
 
 ::::

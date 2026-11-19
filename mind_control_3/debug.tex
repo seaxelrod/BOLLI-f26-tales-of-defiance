@@ -1,0 +1,565 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+\documentclass[
+  ignorenonframetext,
+]{beamer}
+\newif\ifbibliography
+\usepackage{pgfpages}
+\setbeamertemplate{caption}[numbered]
+\setbeamertemplate{caption label separator}{: }
+\setbeamercolor{caption name}{fg=normal text.fg}
+\beamertemplatenavigationsymbolsempty
+% remove section numbering
+\setbeamertemplate{part page}{
+  \centering
+  \begin{beamercolorbox}[sep=16pt,center]{part title}
+    \usebeamerfont{part title}\insertpart\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{section page}{
+  \centering
+  \begin{beamercolorbox}[sep=12pt,center]{section title}
+    \usebeamerfont{section title}\insertsection\par
+  \end{beamercolorbox}
+}
+\setbeamertemplate{subsection page}{
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center]{subsection title}
+    \usebeamerfont{subsection title}\insertsubsection\par
+  \end{beamercolorbox}
+}
+% Prevent slide breaks in the middle of a paragraph
+\widowpenalties 1 10000
+\raggedbottom
+\AtBeginPart{
+  \frame{\partpage}
+}
+\AtBeginSection{
+  \ifbibliography
+  \else
+    \frame{\sectionpage}
+  \fi
+}
+\AtBeginSubsection{
+  \frame{\subsectionpage}
+}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\usetheme[]{metropolis}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+  \setmonofont[]{Courier New}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[utf8]{inputenc} % we could add some more here to handle special character, but right now I use it to generate errors, so I can change to ascii by hand
+\usepackage{utfsym}
+\usepackage{newunicodechar} 
+\usepackage{colortbl}
+
+\newunicodechar{👉}{\usym{261E}} % used in  20231006_timeless_moment_edited.tex
+\newunicodechar{↩}{$\hookleftarrow$} % used in  20231006_timeless_moment_edited.tex
+\newunicodechar{ }{\quad}  
+\newunicodechar{’}{'}
+\newunicodechar{“}{``}
+\newunicodechar{”}{''}
+
+\tracinglostchars=3 % for debugging missing character warnning
+
+%%%%%%%%%%%
+% Patch to fix XeLaTeX color stack desynchronization
+% (prevents white text and broken colortbl backgrounds in dual-screen notes)
+\makeatletter
+\def\beamer@framenotesbegin{% at beginning of slide
+  \usebeamercolor[fg]{normal text}%
+  \gdef\beamer@noteitems{}%
+  \gdef\beamer@notes{}%
+}
+\makeatother
+%%%%%%%%%
+
+%%%%%%%%%%%%%%%
+% Colors
+\newcommand{\Cblue}[1]{\textcolor{blue}{#1}}
+\newcommand{\Cred}[1]{\textcolor{red}{#1}}
+\newcommand{\Cgreen}[1]{\textcolor{green!70!black}{#1}}
+\newcommand{\Corange}[1]{\textcolor{orange!85!black}{#1}}
+\newcommand{\Cbrown}[1]{\textcolor{brown!90!black}{#1}}
+\newcommand{\Cpurple}[1]{\textcolor{purple!90!black}{#1}}
+\newcommand{\Cteal}[1]{\textcolor{teal!90!black}{#1}} % Added a dark teal, which looks very professional on Beamer slides
+%%%%%%%%%%%%%%%
+
+
+% Setup for highlight.lua. 
+\usepackage{xcolor}
+\usepackage{soul}
+\definecolor{hlyellow}{HTML}{FFF176}
+\definecolor{hlorange}{HTML}{FFCC80}
+\definecolor{hlgreen}{HTML}{A5D6A7}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+% fallback for those not using the hyperref driver hyperxmp:
+\makeatletter
+\@ifundefined{xmpquote}{\newcommand{\xmpquote}[1]{#1}}{}
+\makeatother
+\hypersetup{
+  pdftitle={DMC Class 3: The Matrix.},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={blue},
+  pdfcreator={LaTeX via pandoc}}
+
+\title{\texorpdfstring{DMC Class 3: The
+Matrix.}{DMC Class 3: The Matrix.}}
+\subtitle{\texorpdfstring{Presentation}{Presentation}}
+\author{\texorpdfstring{}{}}
+\date{November 16, 2026}
+
+\begin{document}
+\frame{\titlepage}
+
+\begin{frame}
+\providecolor{hlyellow}{HTML}{FFF176}
+\providecolor{hlorange}{HTML}{FFCC80}
+\providecolor{hlgreen}{HTML}{A5D6A7}
+\providecommand{\HLw}[2]{\leavevmode{\setlength{\fboxsep}{0pt}\colorbox{#1}{\strut #2}}}
+\providecommand{\HLs}[1]{\leavevmode{\color{#1}\leaders\vrule height\ht\strutbox depth\dp\strutbox\hskip 0.333em plus 0.166em minus 0.111em}}
+\end{frame}
+
+\section{Prelude, Context, and
+Reactions}\label{prelude-context-and-reactions}
+
+\begin{frame}
+\begin{center}
+\bgroup
+\setlength{\fboxsep}{10pt}
+\colorbox{red!80!black}{\href{https://youtu.be/LZdlqTQ3PpY}{\textcolor{white}{\Large \textbf{Watch: The Woman in the Red Dress}}}}
+\egroup
+\end{center}
+\vspace*{0.6in}
+
+\begin{itemize}
+\tightlist
+\item
+  How does ``The Matrix'' compare to previous shows? \vspace*{0.3in}
+\item
+  What is your emotional or intellectual reaction?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Prelude: A Glitch in Our Course's Digital World}
+\protect\phantomsection\label{prelude-a-glitch-in-our-courses-digital-world}
+\begin{itemize}
+\item
+  \Cteal{Gemini AI and I write programs to build the world.}
+\item
+  \Cteal{The full repository is available for duplication.}
+\item
+  \Cteal{The world looked fine,  but underneath ...} \vspace*{0.2in}
+\item
+  \Cred{There were "missing character" warnings,   
+             coming from "ghost" sub-process.}
+\item
+  \Cred{They secretly duplicated data into a hidden architectural layer}.
+  \vspace*{0.2in}
+\item
+  \Cgreen{Finally, the ghosts have stopped showing evidence of a glitch.}
+\item
+  \Cgreen{We can come out of the rabbit hole now.}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Context for the Matrix }
+\protect\phantomsection\label{context-for-the-matrix}
+\begin{center}
+\makebox[\textwidth][c]{
+\resizebox{1.2\textwidth}{!}{
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|l|l|l|}
+\hline
+ & \cellcolor{gray!20}\textbf{Underground Man} & \cellcolor{gray!20}\textbf{Winston Smith} & \textbf{Neo} \\
+\hline
+\textbf{Mind Control} & 
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} 2+2=4 \\ Rational egoism \end{tabular} & 
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} 2+2=5 \\ Fear dictatorship \end{tabular} & 
+  \begin{tabular}{@{}l@{}} 10+10=100 \\ Reality hidden \end{tabular} \\
+\hline
+\textbf{Lenses} & 
+  \cellcolor{gray!20}Human outlier control & 
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Narrative control \\ Disciplinary surveillance \end{tabular} & 
+  \begin{tabular}{@{}l@{}} Individuals $\rightarrow$ Dividuals \\ Simulated reality \end{tabular} \\
+\hline
+\textbf{Defiance} & 
+  \cellcolor{gray!20}Spite & 
+  \cellcolor{gray!20}Remembers & 
+  \begin{tabular}{@{}l@{}} Take red pill to see \\ Reality=Wonderland \end{tabular} \\
+\hline
+\textbf{How Compromised?} & 
+  \cellcolor{gray!20}No love or faith & 
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Corrupt \\ Part of system \end{tabular} & 
+  \begin{tabular}{@{}l@{}} Wants love \\ Unsure of being "The One" \end{tabular} \\
+\hline
+\end{tabular}
+}
+}
+\end{center}
+
+\vspace{0.4in}
+
+How do you see the arc of stories and lenses so far?
+\end{frame}
+
+\section{\texorpdfstring{Base Reality, The Red Pill \newline and The
+Architect}{Base Reality, The Red Pill and The Architect}}\label{base-reality-the-red-pill-and-the-architect}
+
+\begin{frame}{What is Base Reality?}
+\protect\phantomsection\label{what-is-base-reality}
+\begin{itemize}
+\tightlist
+\item
+  Philosophy: Plato's cave, \emph{Simulacra and Simulation}, dividuals
+\item
+  Religion: The spirit world, heaven
+\item
+  Physics: Bendy, uncertain multiverse
+\item
+  Fiction: Characters discovering ``the truth''
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\href{https://www.kqed.org/arts/13907504/trans-fans-the-matrix-lilly-lana-wachowski}{\colorbox{white}{I, Too, Was Living a Double Life}}}
+\protect\phantomsection\label{section}
+\Cred{Why Trans Fans Connect to `The Matrix'} \vspace*{0.4in}
+
+\note{\begin{itemize}
+\tightlist
+\item
+  \href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/materials/thematrix/ITooWasLivingTransConnectsToMatrix.pdf}{pdf
+  of ``I, Too, Was \ldots{}}
+\end{itemize}}
+
+\begin{itemize}
+\tightlist
+\item
+  The Matrix was written and directed by Lana and Lilly Wachowski, two
+  trans women. \vspace*{0.15in}
+\item
+  It resonates due to its portrayal of self-actualization and the
+  struggle against a dominant system. \vspace*{0.15in}
+\item
+  The themes of identity and transformation connect to human
+  experiences.
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\href{https://www.newsweek.com/matrix-creator-red-pill-trans-allegory-mens-rights-activists-1523669}{\colorbox{white}{"The Matrix" Creator Explains What The Red Pill Really Is}}}
+\protect\phantomsection\label{section-1}
+\note{\begin{itemize}
+\tightlist
+\item
+  \href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/materials/thematrix/MatrixCreatorExplainsWhatRedPillReallyIs.pdf}{pdf
+  of ``The Matrix'' Creator Explains What The Red Pill Really Is\}}
+\end{itemize}}
+
+\begin{itemize}
+\item
+  \emph{{[}T{]}he ``red pill'' has taken on a vastly different meaning
+  online, especially in terms of men's rights activists. The term was
+  originally used to describe people who were aware of the ``unpleasant
+  truths'' of the world, but it has widely been used by conspiracy
+  theorists and subsequently, the men's rights movement.}
+\item
+  \emph{The red pill has also been taken on by the alt-right, as well as
+  conspiracy theorists and white supremacists \ldots{} . Each group's
+  version of taking the red pill serves as a metaphor for seeing the
+  truth of whatever beliefs they hold.}
+\item
+  \emph{When Tesla founder Elon Musk tweeted the phrase, ``take the red
+  pill,'' and Ivanka Trump quote-tweeted it with ``Taken,'' Wachowski
+  responded, ``F**k both of you.''}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{\href{https://www.youtube.com/watch?v=ycPr5-27vSI}{\colorbox{white}{Musk on Rogan Show}}:
+\href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/mind_control_3/simulation_rogan_musk.html}{\colorbox{white}{Base Reality Is Probably Boring}}}
+\protect\phantomsection\label{section-2}
+\note{\begin{itemize}
+\tightlist
+\item
+  When a man with that kind of reach tells you reality may be a product,
+  the claim carries an authority that the same words from a philosophy
+  professor would not.
+\item
+  Musk on Rogan \#1169 was 8 years ago
+\end{itemize}}
+
+\begin{itemize}
+\item
+  \emph{{[}M{]}ost likely, if we're a simulation, it's really boring
+  outside the simulation because why would you make simulation as
+  boring? You'd make simulation way more interesting than base reality.}
+\item
+  \emph{When you're in that virtual reality, which is only going to get
+  better, where are you? Where are you really?\ldots{} You aren't
+  anywhere. You're in the computer.}
+\end{itemize}
+\end{frame}
+
+\section{More Questions}\label{more-questions}
+
+\begin{frame}{Reality and Control}
+\protect\phantomsection\label{reality-and-control}
+\begin{itemize}
+\item
+  \href{https://www.youtube.com/watch?v=lWJxTXLKXUk}{How do you define
+  `real'?}
+\item
+  How much is it defined by those controlling society?
+\end{itemize}
+
+\note{\begin{itemize}
+\tightlist
+\item
+  ``How do you define real?'' is in
+  \href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/materials/thematrix/TheMatrix_screenplay.html}{TheMatrix\_screeplay.html}
+  in block at 0:37:55.
+\item
+  Which controls you more these days: the news that frightens you, or
+  the screens that please you?
+\item
+  Do those who would build realities lack empathy for the current one?
+\item
+  What does defiance look like when we are uncertain what is real?
+\item
+  Do we need to be saved? Can we collectively \textbf{accrue} the
+  ability to save ourselves?\\
+\item
+  Compare Deleuze's picture of control, modulation without walls with
+  Orwell's Big Brother?
+\item
+  How do you escape reality control?\\
+  What are your ``circuit breakers''?
+\end{itemize}}
+\end{frame}
+
+\begin{frame}{Staying Asleep}
+\protect\phantomsection\label{staying-asleep}
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.youtube.com/watch?v=OLv6ycYcpGI}{Is a Comfortable
+  Ignorance Bliss?}
+\end{itemize}
+
+\note{\begin{itemize}
+\tightlist
+\item
+  ``Ignorance is bliss?'' is in
+  \href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/materials/thematrix/TheMatrix_screenplay.html}{TheMatrix\_screeplay.html}
+  in block at 01:01:09
+\item
+  Does believing we might be in a simulation make a person more passive,
+  or less?\\
+\item
+  Is the real world too boring?
+\end{itemize}}
+\end{frame}
+
+\begin{frame}{Awakening}
+\protect\phantomsection\label{awakening}
+\begin{itemize}
+\item
+  \href{https://www.youtube.com/watch?v=XO0pcWxcROI}{Is there a ``real
+  world'' to wake up into?}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Baudrillard: No, the map becomes the reality.
+  \item
+    The film: There is a real world behind the Plato's Cave illusion.
+  \end{itemize}
+\end{itemize}
+
+\note{\begin{itemize}
+\tightlist
+\item
+  ``It is not the spoon that bends, it is only ourself.'' is in
+  \href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/materials/thematrix/TheMatrix_screenplay.html}{TheMatrix\_screeplay.html}\\
+  in block at 01:08:52
+\end{itemize}}
+\end{frame}
+
+\begin{frame}{\href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/mind_control_3/underground_man_responds_to_musk}{\colorbox{white}{Dostoevsky's Underground Man Responds to Elon Musk}}}
+\protect\phantomsection\label{section-3}
+\begin{itemize}
+\tightlist
+\item
+  What would Dostoevsky's Underground Man say to Musk?
+\end{itemize}
+
+\note{\textbf{A Possible Message from the Underground Man to those who
+worry about an arc of dystopias:}
+
+\ldots{} he would warn that while he clings to spite just to prove he is
+still a human being with free will, the tech billionaires offering to
+save you are doing the opposite. They will validate your anger online
+and tell you the system is rigged, but only so they can harness your
+energy to build a new, sterile Crystal Palace---one where you, with all
+your messy, angry, biological flaws, are quietly phased out as a
+``bootloader.'' He would tell you that you have every right to be
+confused by this world, but your spite and your suffering are the only
+things proving you are not a machine. Hold onto them, because the
+architects of the future want to engineer them away.}
+\end{frame}
+
+\begin{frame}{Next time: ``The Perfect Match''}
+\protect\phantomsection\label{next-time-the-perfect-match}
+\begin{itemize}
+\item
+  \Cteal{How did you absorb the "The Perfect Match"?}
+\item
+  \Cteal{Are we being controlled by a false sense of what we need?}
+\item
+  \Cteal{What does defiance look like when control no longer feels like control?}
+\item
+  \Cpurple{What keeps you human?}
+\item
+  \Cpurple{How do you resist systems built to predict and please you?}
+\item
+  \Cbrown{How would you add the story to the context table?}
+\end{itemize}
+\end{frame}
+
+\section{Extra Slides}\label{extra-slides}
+
+\begin{frame}{How are we influencing each other in this course?}
+\protect\phantomsection\label{how-are-we-influencing-each-other-in-this-course}
+\begin{itemize}
+\tightlist
+\item
+  constructive/destructive?\\
+\item
+  Individual/systemic?\\
+\item
+  threatening/enticing?\\
+\item
+  conceptual/affective?\\
+\item
+  extremist/balanced?
+\item
+  simple/complex?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Grounding in the Surface World}
+\protect\phantomsection\label{grounding-in-the-surface-world}
+\begin{itemize}
+\item
+  \Cpurple{I'm here, interacting with you, in person.} \vspace*{0.4in}
+\item
+  \Cgreen{But what would be different if we were on zoom?}
+\item
+  \Cgreen{What if an AI agent joined the class?}
+\item
+  \Cgreen{Lets call him Agent Smith,}
+\item
+  \Cgreen{Might as well give him a first name, Winston.} \vspace*{0.4in}
+\item
+  What if you are viewing this alone?
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Musk Documentary}
+\protect\phantomsection\label{musk-documentary}
+\begin{itemize}
+\item
+  \href{https://en.wikipedia.org/wiki/Musk_(film)}{Musk Documentary},
+  Alex Gibney, release Oct 9, 2026.
+\item
+  \href{https://www.youtube.com/watch?v=LUjirxMzFqQ}{Behind the ``Musk''
+  Documentary Elon Doesn't Want You to See}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/materials/thematrix/Behind_the_Musk_Documentary.html}{Claude
+    Summary}
+  \end{itemize}
+\item
+  \href{https://www.youtube.com/watch?v=XbQv0vO2Ymo}{Alex Gibney on the
+  Myth of Elon Musk - YouTube}
+
+  \begin{itemize}
+  \tightlist
+  \item
+    \href{https://seaxelrod.github.io/BOLLI-f26-tales-of-defiance/materials/thematrix/AlexGibneyOnMusk_summary.html}{YouTube
+    Summary}
+  \item
+    Sent by DM, with comment:
+
+    \begin{itemize}
+    \tightlist
+    \item
+      \emph{This is an interesting interview with Alex Gibney who made a
+      documentary about Elon Musk. It's an addendum to your addendum.
+      Talk about reality and simulated reality!!!!}
+    \end{itemize}
+  \end{itemize}
+\end{itemize}
+\end{frame}
+
+\begin{frame}{More on My Digital Rabbit Hole}
+\protect\phantomsection\label{more-on-my-digital-rabbit-hole}
+\begin{itemize}
+\item
+  DuckAI, Gemini, and I wanted to make tables. \vspace*{0.3in}
+\item
+  Using \Cred{Lua filters} to process
+  \Cred{custom nodes in the AST tree}.
+\item
+  And a \Cred{python script} to help \Cred{Pandoc} convert
+  \Cred{markdown} to \Cred{PDF} and \Cred{HTML}.
+\item
+  1 of many tricks: use the \Cred{Lua current file location variable} to
+  allow me to use \Cred{directories relative to} the
+  \Cred{base of my git repository}.
+\item
+  \Cteal{We also change code to decouple from my particular machine.}
+\item
+  \Cteal{So it can all be duplicated.}
+\end{itemize}
+\end{frame}
+
+\end{document}

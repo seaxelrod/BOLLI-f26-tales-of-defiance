@@ -123,7 +123,7 @@ How do you see the arc of stories and lenses so far?
 
 :::notes
 - When a man with that kind of reach tells you reality may be a product, the claim carries an authority that the same words from a philosophy professor would not.
-- Musk on Rogan #1169 was 8 years ago
+- Musk on Rogan \#1169 was 8 years ago
 :::
 
 - *[M]ost likely, if we're a simulation, it's really boring outside the simulation because why would you make simulation as boring? 
@@ -206,7 +206,7 @@ He would tell you that you have every right to be confused by this world, but yo
 - \Cteal{What does defiance look like when control no longer feels like control?}
 
 - \Cpurple{What keeps you human?} 
-- \Cpurple{How do you resist systems built to predict and please you?}
+- \Cpurple{How do you resist systems built to monitor, predict, and please you?}
 
 - \Cbrown{How would you add the story to the context table?}
 

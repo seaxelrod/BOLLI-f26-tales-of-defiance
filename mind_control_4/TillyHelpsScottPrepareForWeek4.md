@@ -53,7 +53,7 @@ There is a great mix of participants in the study group, with varied interests i
                                         ( 2) the "matrix", which is a digitally simulated world controlled by the AI's; and
                                         (3)  the "construct", which is the digitally simulated world controlled by the human rebels. 
 
-I don't think I want to get confusingly self-referential by being up-front front about how I am exerting control on them.
+I don't think I want to get confusingly self-referential by being up-front about how I am exerting control on them.
 I don't want to lose them -- or myself -- in a multi-dimensional maze of of possibilities.  What do you think the right pedagogical choice is here?
 
 ## Gemini in Tilly Mode
@@ -91,7 +91,7 @@ In the last class I didn't get to go over the presentaton slide titled "A Glitch
 as an indicator of the computer “matrix” reality behind the course. I tried to express this playfully, but completely accurately.
 
 I'm including below the markdown code for this slide, which is how I entered it to get a list with colors in the presentation I made for class.
-Including it this way reinforces that fact that there reality is a reality of code that builds the materials for this course.
+Including it this way reinforces that fact that there is a reality of code that builds the materials for this course.
 
 ```
 ## Prelude:  A Glitch in Our Course's Digital World

@@ -10,7 +10,7 @@
 \newunicodechar{“}{``}
 \newunicodechar{”}{''}
 
-\tracinglostchars=3 % for debugging missing character warnning
+\tracinglostchars=3 % for debugging missing character warning
 
 %%%%%%%%%%%
 % Patch to fix XeLaTeX color stack desynchronization
@@ -34,3 +34,18 @@
 \newcommand{\Cpurple}[1]{\textcolor{purple!90!black}{#1}}
 \newcommand{\Cteal}[1]{\textcolor{teal!90!black}{#1}} % Added a dark teal, which looks very professional on Beamer slides
 %%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%
+% Setup for using highlight.lua. 
+\usepackage{xcolor}
+% \usepackage{soul} % this was used in a previous version of hightlight.lua
+\definecolor{hlyellow}{HTML}{FFF176}
+\definecolor{hlorange}{HTML}{FFCC80}
+\definecolor{hlgreen}{HTML}{A5D6A7}
+
+% Word-box (\HLw) and colored-space (\HLs) macros used by highlight.lua.
+% Defined here because -H header.tex overrides Lua filter header-includes.
+\providecommand{\HLw}[2]{\leavevmode{\setlength{\fboxsep}{0pt}\colorbox{#1}{\strut #2}}}
+\providecommand{\HLs}[1]{\leavevmode{\color{#1}\leaders\vrule height\ht\strutbox depth\dp\strutbox\hskip 0.333em plus 0.166em minus 0.111em}}
+%%%%%%%%%%%%%%%%
