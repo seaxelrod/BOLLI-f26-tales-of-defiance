@@ -11,6 +11,10 @@
 # Flags and files
 # =======================
 
+
+DMC_PYTHON_VENV_BIN=`pwd`"/.venv/bin"
+export PATH="$DMC_PYTHON_VENV_BIN:$PATH"
+
 export TOCFLAGS_standard="--toc --toc-depth=2"
 export TOCFLAGS="$TOCFLAGS_standard"
 
@@ -326,12 +330,30 @@ git_makebeamer_all () {
     done
 }
 
+git_make_local_pdf () {
+    local src=$1
+    local out="${src%.pdf}_locallinks.pdf"
+
+    if is_newer_than_all "$out" "$src";then
+        : echo "$out is up to date."
+    else
+        echo "Changing $src -> $out"
+	.venv/bin/python3 exec/pdf_local_links.py "$src"
+    fi
+}
+
+
+git_make_local_all() {
+    git_make_local_pdf  mind_control_4/week4_presentation_draft2_withnotes.pdf
+}
+
 git_make_all() {
     # after this, should be able to view files locally at: file:///Users/axelrod/Library/CloudStorage/Dropbox/sync/writing/j26/2026f_BOLLI/2026f_mind_control/git/index.html
     git_makebeamer_all || return 1;
-    git_makehtml_all || return 1;
-    git_makepdf_all  || return 1;
-    git_make_dev     || return 1;
+    git_makehtml_all   || return 1;
+    git_makepdf_all    || return 1;
+    git_make_dev       || return 1;
+    git_make_local_all || return 1;
 }
 
 # ==================================

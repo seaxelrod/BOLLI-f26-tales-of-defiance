@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Preview_local: open a PDF in Preview with its course-website links
+# pointing at the local site instead of the public one.
+#
+#   Preview_local mind_control_4/week4_presentation_draft2_withnotes.pdf
+#
+# The original PDF is not changed. The localized copy goes in a temporary
+# folder, keeping the original name plus _locallinks so the Preview window
+# title is readable. macOS clears old temporary files on its own.
+# Extra options (e.g. --to http://localhost:4000/) are passed to
+# pdf_local_links.py.
+
+set -euo pipefail
+
+if [ $# -lt 1 ] || [ ! -f "$1" ]; then
+    echo "Usage: Preview_local file.pdf [pdf_local_links.py options]" >&2
+    exit 1
+fi
+src=$1; shift
+
+# This script lives in exec/, next to pdf_local_links.py; use the course venv.
+here="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+py="$here/../.venv/bin/python3"
+[ -x "$py" ] || py=python3
+
+tmpdir="$(mktemp -d "${TMPDIR:-/tmp}/preview_local.XXXXXX")"
+name="$(basename "${src%.pdf}")_locallinks.pdf"
+
+"$py" "$here/pdf_local_links.py" "$src" -o "$tmpdir/$name" "$@"
+open -a Preview "$tmpdir/$name"
