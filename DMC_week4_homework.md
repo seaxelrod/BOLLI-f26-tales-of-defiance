@@ -9,7 +9,6 @@
 
 ### 4. [optional, for gluttons for punishment]  Browse the web page [The Perfect Match references and info](materials/perfect_match/perfect_match_references_and_info.html)
 
-- After class, I will send out the presentation, and also add it to the references page above.
 
 
 ## Questions to Guide Reflection

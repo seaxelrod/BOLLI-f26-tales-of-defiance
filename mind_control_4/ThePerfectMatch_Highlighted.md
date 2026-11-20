@@ -37,7 +37,7 @@ But first he still had to get through the workday. “What do you recommend for 
 
 “You are scheduled to attend the kickoff meeting for the Davis case at eleven, which means you’ll get a lunch paid for by the firm. I suggest you go light on the breakfast, maybe just a banana.”
 
-Sai was excited. All the paralegals at Chapman Singh Stevens & Rios lived for client lunches, made by the firm’s own executive chef. “Do I have time to make my own coffee?”
+[]{#pm-smoothie}Sai was excited. All the paralegals at Chapman Singh Stevens & Rios lived for client lunches, made by the firm’s own executive chef. “Do I have time to make my own coffee?”
 
 “You do. Traffic is light this morning. But <ORANGE>[Tilly:] I suggest you go to this new smoothie place along the way instead—I can get you a coupon code.</ORANGE>”
 

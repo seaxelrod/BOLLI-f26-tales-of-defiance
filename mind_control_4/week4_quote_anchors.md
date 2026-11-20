@@ -10,6 +10,7 @@ The presentation links to `ThePerfectMatch_Highlighted.html#<anchor>`. Each anch
 | Anchor | Passage begins | Speaker / context |
 |---|---|---|
 | `pm-il-sospetto` | "Sai woke to the rousing first movement of Vivaldi's..." | Opening scene |
+| `pm-smoothie` | Sai was excited. All the paralegals at Chapman Singh... | Coffee or smoothie, morning |
 | `pm-what-you-want` | "Tilly doesn't just tell you what you want," Jenny shouted. | Jenny, morning in the hallway |
 | `pm-leisure-regimen` | "Your savings rate is right on target." | Tilly, drive home after the date |
 | `pm-boring-date` | "Although everything had gone exceedingly well..." | Narration, the date with Ellen |

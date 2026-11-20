@@ -70,7 +70,8 @@ export filesToMake=(
   mind_control_4/transition_to_perfectmatch
   mind_control_4/TillyHelpsScottPrepareForWeek4
   mind_control_4/Big_Babies_Having_Tantrums
-  "mind_control_4/ThePerfectMatch_Highlighted filters/highlight.lua filters/highlight_pdf.py"
+  "mind_control_4/ThePerfectMatch_Highlighted filters/highlight.lua"
+  materials/perfect_match/surveillance_capitalism_youtube_summary
 )
 
 export filesForBeamer=(
@@ -344,7 +345,9 @@ git_make_local_pdf () {
 
 
 git_make_local_all() {
-    git_make_local_pdf  mind_control_4/week4_presentation_draft2_withnotes.pdf
+    # modify after development
+    git_makebeamer_withnotes mind_control_4/week4_presentation_draft3
+    git_make_local_pdf  mind_control_4/week4_presentation_draft3_withnotes.pdf
 }
 
 git_make_all() {

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Add pm-* anchors to ThePerfectMatch_Highlighted.md.
 
-Usage:  python3 add_pm_anchors.py ../materials/perfect_match/ThePerfectMatch_Highlighted.md
+Usage:  python3 add_pm_anchors.py ThePerfectMatch_Highlighted.md
 
 Each anchor is an empty Pandoc span, []{#pm-name}, put at the start of the
 paragraph that begins with the given text. Pandoc turns it into <span id=...>
@@ -16,6 +16,7 @@ import sys
 
 ANCHORS = [
     ("pm-il-sospetto",         "Sai woke to the rousing"),
+    ("pm-smoothie",            "Sai was excited. All the paralegals"),
     ("pm-what-you-want",       "<GREEN>“Tilly doesn’t just tell you what you want,” Jenny shouted."),
     ("pm-boring-date",         "Although everything had gone exceedingly well"),
     ("pm-dessert",             "In that moment, <ORANGE>Tilly’s voice"),

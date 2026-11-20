@@ -80,7 +80,7 @@ title: "The Perfect Match references and info"
    - When I say I'll turn off my devices for a walk, she promises to "re-sync" and absorb whatever I thought while I was gone: 
       - Surveillance Capitalism in one sentence.
 
-# References in [Preface Section on "The Perfect Match",  False Needs,  and Surveillance Capitalism](../DMC_preface.html#tale-4-the-perfect-match).
+# References in [Preface Section on "The Perfect Match",  False Needs,  and Surveillance Capitalism](../../DMC_preface.html#tale-4-the-perfect-match).
 
 ## On false needs,  see:  
 
@@ -99,5 +99,6 @@ title: "The Perfect Match references and info"
 
 - [The Age of Surveillance Capitalism -- Wikipedia](https://en.wikipedia.org/wiki/The_Age_of_Surveillance_Capitalism).
 - [Shoshana Zuboff's The Age of Surveillance Capitalism: A Guide to Fighting Back -- YouTube](https://www.youtube.com/watch?v=KKv2ZDbMyb4).
+   - [YouTube summary of above video](surveillance_capitalism_youtube_summary.html)
 
 
