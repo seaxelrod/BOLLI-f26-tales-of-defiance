@@ -66,7 +66,7 @@ export filesToMake=(
   mind_control_4/transition_to_perfectmatch
   mind_control_4/TillyHelpsScottPrepareForWeek4
   mind_control_4/Big_Babies_Having_Tantrums
-  "materials/perfect_match/ThePerfectMatch_Highlighted filters/highlight.lua filters/highlight_pdf.py"
+  "mind_control_4/ThePerfectMatch_Highlighted filters/highlight.lua filters/highlight_pdf.py"
 )
 
 export filesForBeamer=(
@@ -398,7 +398,7 @@ socketserver.TCPServer(('', 8000), NoCacheHandler).serve_forever()"
 }
 
 git_testlocal () {
-    python3 serve.py
+    python3 exec/serve.py
 }
 
 # =======================

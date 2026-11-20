@@ -1,0 +1,20 @@
+{
+  "_comment": "Active highlight colors live in 'colors'. The '_preview_colors' block below is ignored by all scripts and kept for reference only; the 'p' prefix stands for macOS Preview (sampled via Digital Color Meter).",
+  "_preview_colors": [
+    { "tag": "pYellow", "label": "Preview Yellow", "hex": "#FACD5A" },
+    { "tag": "pGreen",  "label": "Preview Green",  "hex": "#7CC868" },
+    { "tag": "pBlue",   "label": "Preview Blue",   "hex": "#69B0F1" },
+    { "tag": "pPink",   "label": "Preview Pink",   "hex": "#FB5C89" },
+    { "tag": "pPurple", "label": "Preview Purple", "hex": "#C885DA" }
+  ],
+  "colors": [
+    { "tag": "YELLOW", "label": "Yellow", "hex": "#FFF176", "border": "#FBC02D", "key": "1" },
+    { "tag": "GREEN", "label": "Green", "hex": "#A5D6A7", "border": "#43A047", "key": "2" },
+    { "tag": "ORANGE", "label": "Orange", "hex": "#FFCC80", "border": "#FB8C00", "key": "3" },
+    { "tag": "RED", "label": "Red", "hex": "#EF9A9A", "border": "#E53935", "key": "4" },
+    { "tag": "BROWN", "label": "Brown", "hex": "#D7CCC8", "border": "#8D6E63", "key": "5" },
+    { "tag": "PURPLE", "label": "Purple", "hex": "#E1BEE7", "border": "#8E24AA", "key": "6" },
+    { "tag": "TEAL", "label": "Teal", "hex": "#80CBC4", "border": "#00897B", "key": "7"
+    }
+  ]
+}

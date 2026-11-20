@@ -12,7 +12,7 @@ that seem personal but actually keep people dependent, distracted, and less free
 
 [^false_needs]:  On false needs,  see:  
 
-    - *One-Dimensional Man: Studies in the Ideology of Advanced Industrial Society*, Herbert Marcuse, Beacon Press, 1964.  
+    - [*One-Dimensional Man: Studies in the Ideology of Advanced Industrial Society*](https://www.marxists.org/ebooks/marcuse/one-dimensional-man.pdf), Herbert Marcuse, Beacon Press, 1964.  
     - [Herbert Marcuse's False Needs Theory  -- YouTube](https://www.youtube.com/watch?v=d4EfUTkjZ50).  
     - [From 1984 to One-Dimensional Man: Critical Reflections on Orwell and Marcuse](../materials/kellner_from1984_to_marcuse_onedimensional.pdf), Douglas Kellner.
 

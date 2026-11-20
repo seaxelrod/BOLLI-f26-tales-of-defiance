@@ -52,6 +52,8 @@ This uses packages need for highlighting.
 
 -   Create once: `> python3 -m venv .venv`
 -   Install once: `.venv/bin/pip install pdfplumber pypdf`
+-   Install once: `.venv/bin/pip install python-pptx`    for `pdf_popup,py`
+-  Run when pip needs upgrading: `> .venv/bin/python3.15 -m pip install --upgrade pip`
 -  Run with:  `.venv/bin/python3 filters/highlight_pdf.py ...`
 
 

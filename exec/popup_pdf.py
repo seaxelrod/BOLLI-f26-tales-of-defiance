@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!.venv/bin/python3
 """
 popup_pdf.py — export a PowerPoint deck with click-to-reveal popups to a PDF
 in which each popup gets its own page.

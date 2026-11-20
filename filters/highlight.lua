@@ -1,5 +1,6 @@
--- highlight.lua: turns <YELLOW>…</YELLOW>, <ORANGE>…</ORANGE>, <GREEN>…</GREEN>
--- into background highlights in both HTML and PDF.
+-- highlight.lua: turns <YELLOW>…</YELLOW>, <GREEN>…</GREEN>, <ORANGE>…</ORANGE>,
+-- <RED>…</RED>, <BROWN>…</BROWN>, <PURPLE>…</PURPLE>, <TEAL>…</TEAL> (or any
+-- tags defined in colors.json) into background highlights in both HTML and PDF.
 --
 --   pandoc story.md --lua-filter=highlight.lua -o story.html -s
 --   pandoc story.md --lua-filter=highlight.lua -H header.tex -o story.pdf
@@ -9,21 +10,71 @@
 -- stretchable glue, so highlights wrap across lines and justify normally.
 -- No soul package, so curly quotes and dashes cause no trouble.
 
-local colors = {
+local default_colors = {
   yellow = "FFF176",
-  orange = "FFCC80",
   green  = "A5D6A7",
+  orange = "FFCC80",
+  red    = "EF9A9A",
+  brown  = "D7CCC8",
+  purple = "E1BEE7",
+  teal   = "80CBC4",
 }
+
+local function load_colors()
+  local script_dir = ""
+  if PANDOC_SCRIPT_FILE then
+    script_dir = PANDOC_SCRIPT_FILE:match("^(.*)[/\\]") or ""
+  end
+
+  local candidates = { "colors.json" }
+  if script_dir ~= "" then
+    table.insert(candidates, script_dir .. "/colors.json")
+    table.insert(candidates, script_dir .. "/../colors.json")
+  end
+  table.insert(candidates, "../colors.json")
+
+  for _, path in ipairs(candidates) do
+    local fh = io.open(path, "r")
+    if fh then
+      local raw = fh:read("*a")
+      fh:close()
+      local ok, data = pcall(pandoc.json.decode, raw)
+      if ok and type(data) == "table" then
+        local list = data.colors or data
+        local loaded = {}
+        for _, item in ipairs(list) do
+          if type(item) == "table" and item.tag and (item.hex or item.bg) then
+            local name = tostring(item.tag):lower()
+            local hex = tostring(item.hex or item.bg):gsub("^#", ""):upper()
+            loaded[name] = hex
+          end
+        end
+        if next(loaded) ~= nil then
+          return loaded
+        end
+      end
+    end
+  end
+
+  return default_colors
+end
+
+local colors = load_colors()
 
 -- Fallback LaTeX preamble injected via header-includes.
 -- Automatically ignored by Pandoc when -H header.tex is passed on the CLI.
-local latex_setup = [[
-\providecolor{hlyellow}{HTML}{FFF176}
-\providecolor{hlorange}{HTML}{FFCC80}
-\providecolor{hlgreen}{HTML}{A5D6A7}
-\providecommand{\HLw}[2]{\leavevmode{\setlength{\fboxsep}{0pt}\colorbox{#1}{\strut #2}}}
-\providecommand{\HLs}[1]{\leavevmode{\color{#1}\leaders\vrule height\ht\strutbox depth\dp\strutbox\hskip 0.333em plus 0.166em minus 0.111em}}
-]]
+local function build_latex_setup()
+  local lines = {}
+  for name, hex in pairs(colors) do
+    table.insert(lines, string.format("\\providecolor{hl%s}{HTML}{%s}", name, hex))
+  end
+  table.sort(lines)
+  table.insert(lines, "\\providecommand{\\HLw}[2]{\\leavevmode{\\setlength{\\fboxsep}{0pt}\\colorbox{#1}{\\strut #2}}}")
+  table.insert(lines, "\\providecommand{\\HLs}[1]{\\leavevmode{\\color{#1}\\leaders\\vrule height\\ht\\strutbox depth\\dp\\strutbox\\hskip 0.333em plus 0.166em minus 0.111em}}")
+  return table.concat(lines, "\n") .. "\n"
+end
+
+local latex_setup = build_latex_setup()
 
 local function tag(el)
   if el.t ~= "RawInline" or not el.format:match("html") then return nil end
@@ -117,7 +168,7 @@ end
 
 local function Span(span)
   local name = (span.classes[1] or ""):match("^hl%-(%a+)$")
-  if not name then return nil end
+  if not name or not colors[name] then return nil end
   if FORMAT:match("latex") or FORMAT:match("beamer") then
     -- highlight_pdf.py sets HL_PDF_PLAIN: leave the text plain, it adds
     -- real PDF highlight annotations afterwards.

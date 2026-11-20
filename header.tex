@@ -1,11 +1,11 @@
 \usepackage[utf8]{inputenc} % we could add some more here to handle special character, but right now I use it to generate errors, so I can change to ascii by hand
 \usepackage{utfsym}
-\usepackage{newunicodechar} 
+\usepackage{newunicodechar}
 \usepackage{colortbl}
 
-\newunicodechar{👉}{\usym{261E}} % used in  20231006_timeless_moment_edited.tex
-\newunicodechar{↩}{$\hookleftarrow$} % used in  20231006_timeless_moment_edited.tex
-\newunicodechar{ }{\quad}  
+\newunicodechar{👉}{\usym{261E}} % used in 20231006_timeless_moment_edited.tex
+\newunicodechar{↩}{$\hookleftarrow$} % used in 20231006_timeless_moment_edited.tex
+\newunicodechar{ }{\quad}
 \newunicodechar{’}{'}
 \newunicodechar{“}{``}
 \newunicodechar{”}{''}
@@ -37,12 +37,23 @@
 
 
 %%%%%%%%%%%%%%%
-% Setup for using highlight.lua. 
+% Setup for using highlight.lua.
+%
+% NOTE: The \definecolor values below are hardcoded to match colors.json as of
+% 2026-11-19 and must be updated manually whenever colors.json changes.
+% Although highlight.lua reads colors.json and injects color definitions via
+% `doc.meta["header-includes"] = header`, Pandoc ignores Lua/YAML
+% header-includes whenever -H / --include-in-header (header.tex) is passed on
+% the command line. (These \definecolor entries are only used for LaTeX
 \usepackage{xcolor}
-% \usepackage{soul} % this was used in a previous version of hightlight.lua
+% \usepackage{soul} % this was used in a previous version of highlight.lua
 \definecolor{hlyellow}{HTML}{FFF176}
-\definecolor{hlorange}{HTML}{FFCC80}
 \definecolor{hlgreen}{HTML}{A5D6A7}
+\definecolor{hlorange}{HTML}{FFCC80}
+\definecolor{hlred}{HTML}{EF9A9A}
+\definecolor{hlbrown}{HTML}{D7CCC8}
+\definecolor{hlpurple}{HTML}{E1BEE7}
+\definecolor{hlteal}{HTML}{80CBC4}
 
 % Word-box (\HLw) and colored-space (\HLs) macros used by highlight.lua.
 % Defined here because -H header.tex overrides Lua filter header-includes.

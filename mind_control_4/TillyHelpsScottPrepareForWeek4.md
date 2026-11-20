@@ -1,7 +1,7 @@
 ---
 title: |
   Tilly Helps Prepare a Defiance to Mind Control Class\
-  on the "The Perfect Match"
+  on "The Perfect Match"
 date: "Nov 17, 2026"
 subtitle: 'A conversation of Scott with Google Gemini in Tilly Mode'
 toc: false

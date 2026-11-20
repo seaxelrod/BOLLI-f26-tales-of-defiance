@@ -360,9 +360,27 @@ I'll just give one out of many, many examples.
 ## plus a million other examples
 
 
-# IX: Scott writing related to 1984
+# IX:Class presentation for  1984
 
 
 - [PowerPoint presentation for Class 2](mind_control_2/Class2_Outlier_to_1984.pptx)
 - [PDF export of Powerpoint](mind_control_2/Class2_Outlier_to_1984.pdf )
 - [non-graphical html version of presentation](mind_control_2/Class2_Outlier_to_1984_md.html )
+
+
+# X: References in [Preface Section on "1984", Disciplinary Surveillance (Foucault -- Panopticon),  Narrative Analysis  (Bruner)](../DMC_preface.html#tale-2-1984)
+
+
+On disciplinary surveillance, see:  
+
+- [Discipline & Punish (1975), Panopticism](https://files.libcom.org/files/michel-foucault-panopticism.pdf) by Michel Foucault, Vintage Books, 1995, pp. 195-228 translated from the French by Alan Sheridan, 1977.
+  - [local copy of PDF](../michel-foucault-panopticism.pdf)
+
+
+On narrative analysis, see   
+
+- ["The Narrative Construction of Reality"](https://www.academia.edu/9503047/The_Narrative_Construction_of_Reality), Jerome Bruner, Critical Inquiry, Vol. 18, No. 1, Autumn 1991.
+  -  [local copy of PDF](../Bruner_1991_The Narrative Construction of Reality.pdf)
+
+- ["Bruner's Narrative Theory for DMC Course"](materials/DMC_bruner_narrative_theory.pdf).
+
