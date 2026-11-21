@@ -128,7 +128,6 @@ Across 150 years, each story offers a different answer:
 2. Is Tilly worse than Big Brother, or better? Why?
 3. Where in your own week do you feel like a "piano key," and where do you still feel free to stick out your tongue?
 
-**Footnotes**
 
 
 [^1]: On Chernyshevsky and rational egoism, see ["Nikolay Chernyshevsky," Wikipedia](https://en.wikipedia.org/wiki/Nikolay_Chernyshevsky), and Sarah J. Young's lecture notes, ["Dostoevsky and the anti-rationalist argument"](https://sarahjyoung.com/site/2012/12/10/russian-thought-lecture-5-dostoevsky-and-the-anti-rationalist-argument/). The theory is set out in his 1860 essay "The Anthropological Principle in Philosophy."

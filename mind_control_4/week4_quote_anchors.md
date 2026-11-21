@@ -1,43 +1,48 @@
 ---
-title: "Proposed Anchors for The Perfect Match Highlighted Copy"
-subtitle: "Links used in week4_presentation_draft2.md"
-date: "Nov 20, 2026"
+title: "Quote Anchors in The Perfect Match Highlighted Copy"
+subtitle: "Each anchor wraps the words it points to"
+date: "Nov 21, 2026"
 author: "Scott, assisted by Claude Anthropicson"
 ---
 
-The presentation links to `ThePerfectMatch_Highlighted.html#<anchor>`. Each anchor goes at the start of the passage named by its opening words.
+Each anchor in `ThePerfectMatch_Highlighted.md` is a span around the passage it marks, e.g. `[Do you even know what you really want any more?”]{#pm-what-you-want}`. A style block at the top of the story highlights that span in purple when a link brings you there; readers who scroll normally see nothing extra.
 
-| Anchor | Passage begins | Speaker / context |
-|---|---|---|
-| `pm-il-sospetto` | "Sai woke to the rousing first movement of Vivaldi's..." | Opening scene |
-| `pm-smoothie` | Sai was excited. All the paralegals at Chapman Singh... | Coffee or smoothie, morning |
-| `pm-what-you-want` | "Tilly doesn't just tell you what you want," Jenny shouted. | Jenny, morning in the hallway |
-| `pm-leisure-regimen` | "Your savings rate is right on target." | Tilly, drive home after the date |
-| `pm-boring-date` | "Although everything had gone exceedingly well..." | Narration, the date with Ellen |
-| `pm-dessert` | "In that moment, Tilly's voice burst into his earpiece..." | The dessert suggestion |
-| `pm-treated-like-child` | "I'm being treated like a child." | Sai's thought, right after the dessert |
-| `pm-gaps-in-sharing` | "Are you sure? Gaps in sharing can cause your profile to be incomplete—" | Tilly, when Sai turns her off |
-| `pm-advertising-match` | "That's the point of advertising, isn't it?" | Sai, in Jenny's apartment |
-| `pm-paid-pitch` | "You mean some advertiser paid Centillion to pitch it at you." | Jenny |
-| `pm-sniffing-wifi` | "Years ago, they caught Centillion's traffic-monitoring cars..." | Jenny's documents |
-| `pm-segregation` | "Centillion noticed a certain tendency for people..." | Jenny, in the run-down neighborhood |
-| `pm-bits-not-him` | "Collectively, the bits made up a digital copy of him..." | Sai decides to help |
-| `pm-so-what` | "Sai woke to Miles Davis's rendition of 'So What.'" | Second morning; the fail-safe |
-| `pm-frogs` | "I grew up in China," Jenny said... | Jenny's background |
-| `pm-exhilarating` | "Getting to know Jenny was the oddest thing he'd ever done..." | Sai and Jenny alone |
-| `pm-types` | "I never really thought of you as my type," she said. | Jenny |
-| `pm-champions` | "Sai woke to—what else?—'We Are the Champions.'" | Third morning |
-| `pm-cant-do-that` | "Tilly, call the police!" | Four men in the bedroom |
-| `pm-white-tea` | "When the strange men had appeared in his apartment..." | Meeting Rinn |
-| `pm-accelerometer` | "It was his phone, on that first night he visited you." | Rinn explains how they were caught |
-| `pm-just-like-us` | "They know that there's no way to hack into our systems..." | Rinn on Jenny using Sai |
-| `pm-surprised-by-you` | "It's not like that," Jenny said. | Jenny's answer |
-| `pm-darkness` | "We unveil only the darkness that was already inside people," | Rinn |
-| `pm-neutral` | "There's no such thing as neutrally offering up information." | Rinn |
-| `pm-cyborgs` | "You see? Without Tilly, you can't do your job..." | Rinn |
-| `pm-come-work` | "I want you to come and work for Centillion." | Rinn |
-| `pm-replace-us` | "If we fail, who do you think will replace us?" | Rinn |
-| `pm-cant-be-found` | "No one would believe you." | Rinn |
-| `pm-adapt` | "In the face of the inevitable, the only choice is to adapt." | Rinn, last line of the meeting |
-| `pm-my-way` | "Sai closed the door of the apartment behind him." | Final scene |
-| `pm-red-light` | "But a red light continued to blink, slowly, in the darkness." | Last line of the story |
+To add an anchor, wrap the words in `[...]{#pm-name}`. Keep the span inside or outside any `<YELLOW>`/`<ORANGE>`/`<GREEN>` tags, never across one tag's boundary.
+
+| Anchor | Wrapped words (in story order) |
+|---|---|
+| `pm-il-sospetto` | Vivaldi’s violin concerto in C minor, “Il Sospetto.” |
+| `pm-smoothie` | I suggest you go to this new smoothie place along the way instead—I can get you a coupon code. |
+| `pm-know-best` | “Okay, Tilly. You always know best.” |
+| `pm-what-you-want` | Do you even know what you really want any more?” |
+| `pm-boring-date` | There were no surprises, no thrill of finding the truly new. |
+| `pm-dessert` | he did suddenly have a craving for something sweet and delicate. |
+| `pm-treated-like-child` | I’m being treated like a child. |
+| `pm-gaps-in-sharing` | Gaps in sharing can cause your profile to be incomplete— |
+| `pm-leisure-regimen` | regimen for consumption of leisure |
+| `pm-paid-pitch` | “You mean some advertiser paid Centillion to pitch it at you.” |
+| `pm-advertising-match` | the perfect product finds the perfect consumer, the perfect girl finds the perfect boy |
+| `pm-sniffing-wifi` | Centillion’s traffic-monitoring cars sniffing all the wireless traffic from home networks |
+| `pm-segregation` | The company tried to serve this need by prioritizing different real estate listings to searchers based on their race. |
+| `pm-bits-not-him` | The bits were his, but not him. |
+| `pm-so-what` | Sai woke to Miles Davis’s rendition of “So What.” |
+| `pm-chill` | He felt a chill tingle on his back. |
+| `pm-twelve-hours` | “There’s a gap of about twelve hours during which I couldn’t acquire data about you. |
+| `pm-exhilarating` | He was on his own. And it was exhilarating. |
+| `pm-frogs` | You grew up believing you were free, which made it even harder for you to see when you weren’t. |
+| `pm-types` | “But who thinks only in terms of ‘types’ except Tilly?” |
+| `pm-champions` | “We Are the Champions.” |
+| `pm-cant-do-that` | “I’m afraid I can’t do that, Sai.” |
+| `pm-white-tea` | having white tea. |
+| `pm-accelerometer` | It’s an old technology we developed for catching terrorists and drug dealers. |
+| `pm-just-like-us` | just like they accuse us of doing. |
+| `pm-surprised-by-you` | I was surprised by you |
+| `pm-darkness` | “We unveil only the darkness that was already inside people,” |
+| `pm-neutral` | There’s no such thing as neutrally offering up information. |
+| `pm-cyborgs` | We are now a race of cyborgs. |
+| `pm-come-work` | “I want you to come and work for Centillion.” |
+| `pm-replace-us` | “If we fail, who do you think will replace us? ShareAll? A Chinese company?” |
+| `pm-cant-be-found` | On the Net, if it can’t be found by Centillion, it doesn’t exist.” |
+| `pm-adapt` | “In the face of the inevitable, the only choice is to adapt.” |
+| `pm-my-way` | set the wake-up song to Sinatra’s ‘My Way.’ |
+| `pm-red-light` | But a red light continued to blink, slowly, in the darkness. |

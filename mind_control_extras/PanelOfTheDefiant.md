@@ -332,6 +332,5 @@ It was the last session. There was no next week.
 
 He went down to open the door.
 
-**Footnotes**
 
 

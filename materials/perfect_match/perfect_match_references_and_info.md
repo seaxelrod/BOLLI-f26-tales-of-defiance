@@ -9,6 +9,8 @@ title: "The Perfect Match references and info"
 
 - ["The Perfect Match", pdf highlighted by Scott](../../mind_control_4/ThePerfectMatch_Highlighted.pdf)
 
+- [The Perfect Match: Summary with Concepts: The plot, its key lines, and the ideas behind them](../../mind_control_4/PerfectMatch_SummaryWithConcepts.html)
+
 
 # II: Commentary related to "The Perfect Match"'
 

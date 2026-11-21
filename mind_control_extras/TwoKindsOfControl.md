@@ -23,7 +23,6 @@ In 1990, before the web existed, a French philosopher named Gilles Deleuze wrote
 **Further Reading:** See Shoshana Zuboff, "You Are Now Remotely Controlled."[^3] 
 <!-- If you want to go further afterward, two accessible books are listed below.[^4] -->
 
-**Footnotes**
 
 [^1]: Michel Foucault, *Discipline and Punish: The Birth of the Prison* (1975). The source of the disciplinary model Deleuze is revising.
 

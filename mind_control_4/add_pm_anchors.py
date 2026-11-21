@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 """Add pm-* anchors to ThePerfectMatch_Highlighted.md.
 
+NOTE (Nov 21, 2026): the anchors are now hand-placed spans that wrap each
+quote, e.g. [Do you even know ...]{#pm-what-you-want}. This script only adds
+missing anchors, as empty markers; anchors already present are left alone.
+
 Usage:  python3 add_pm_anchors.py ThePerfectMatch_Highlighted.md
 
 Each anchor is an empty Pandoc span, []{#pm-name}, put at the start of the
@@ -57,7 +61,7 @@ def main(path):
     problems, added, skipped = [], 0, 0
     for anchor, start in ANCHORS:
         tag = "[]{#" + anchor + "}"
-        if any(tag in line for line in lines):
+        if any("{#" + anchor + "}" in line for line in lines):  # empty or wrapping span
             skipped += 1
             continue
         hits = [i for i, line in enumerate(lines) if line.startswith(start)]

@@ -72,6 +72,8 @@ export filesToMake=(
   mind_control_4/Big_Babies_Having_Tantrums
   "mind_control_4/ThePerfectMatch_Highlighted filters/highlight.lua"
   materials/perfect_match/surveillance_capitalism_youtube_summary
+  mind_control_4/PerfectMatch_SummaryWithConcepts
+  mind_control_4/Claude_compact_notes_midDraft8
 )
 
 export filesForBeamer=(
@@ -245,8 +247,16 @@ _git_build_latex () {
             format_flags="-t beamer -V theme:metropolis"
 
             # Dynamically inject note options for specific builds
+	    notes_flags=()
             if [[ "$mode" == "beamer_withnotes" ]]; then
-                notes_flags=(-V header-includes='\usepackage{pgfpages}' -V header-includes='\setbeameroption{show notes on second screen=right}')
+		# pgfpages misplaces links inside notes (they land on the slide),
+                # so strip links from notes in this build only
+                notes_flags=(-V header-includes='\usepackage{pgfpages}'
+                             -V header-includes='\setbeameroption{show notes on second screen=right}'
+			     --lua-filter="${filterDir}/notes-nolinks.lua")
+   
+
+		
             elif [[ "$mode" == "beamer_onlynotes" ]]; then
                 notes_flags=(-V header-includes='\setbeameroption{show only notes}')
             fi
@@ -345,9 +355,18 @@ git_make_local_pdf () {
 
 
 git_make_local_all() {
-    # modify after development
-    git_makebeamer_withnotes mind_control_4/week4_presentation_draft3
-    git_make_local_pdf  mind_control_4/week4_presentation_draft3_withnotes.pdf
+    if [ "$#" -eq 0 ]; then
+	# modify after development
+	draftNum=8
+	src="mind_control_4/week4_presentation_draft${draftNum}"
+    else
+	src="$1"
+    fi
+    echo "src=$src"
+    git_makebeamer_withnotes "$src"  || return 1
+    git_make_local_pdf  "${src}_withnotes.pdf" || return 1
+    git_makebeamer "$src"            || return 1
+    git_makebeamer_onlynotes "$src"  || return 1
 }
 
 git_make_all() {

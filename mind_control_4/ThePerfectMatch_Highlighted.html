@@ -28,8 +28,8 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../styles.css?v=2611201505" />
-  <script src="../nav-sync.js?v=2611201505"></script>
+  <link rel="stylesheet" href="../styles.css?v=2611211144" />
+  <script src="../nav-sync.js?v=2611211144"></script>
   
   <!--
     The Better Approach: Target External Links Automatically
@@ -69,9 +69,19 @@ alternate so you can tell where one fragment ends and the next begins.
 <span class="hl-green" style="background-color:#A5D6A7">Green</span>
 marks short passages that capture a particularly interesting point.
 Names in [brackets] show who is speaking.</p>
+<style>
+/* Arriving by a link to a #pm- anchor highlights that passage in purple.
+   Readers who scroll normally see nothing extra. */
+span[id^="pm-"] { scroll-margin-top: 30vh; }
+span[id^="pm-"]:target, span[id^="pm-"]:target span {
+  background-color: #E1BEE7 !important;
+}
+span[id^="pm-"]:target { outline: 2px solid #8E24AA; outline-offset: 2px; border-radius: 2px; }
+</style>
 <hr />
-<p><span id="pm-il-sospetto"></span>Sai woke to the rousing first
-movement of Vivaldi’s violin concerto in C minor, “Il Sospetto.”</p>
+<p>Sai woke to the rousing first movement of <span
+id="pm-il-sospetto">Vivaldi’s violin concerto in C minor, “Il
+Sospetto.”</span></p>
 <p>He lay still for a minute, letting the music wash over him like a
 gentle Pacific breeze. The room brightened as the blinds gradually
 opened to the sunlight. <span class="hl-yellow"
@@ -107,19 +117,20 @@ recommend for breakfast this morning?”</p>
 <p>“You are scheduled to attend the kickoff meeting for the Davis case
 at eleven, which means you’ll get a lunch paid for by the firm. I
 suggest you go light on the breakfast, maybe just a banana.”</p>
-<p><span id="pm-smoothie"></span>Sai was excited. All the paralegals at
-Chapman Singh Stevens &amp; Rios lived for client lunches, made by the
-firm’s own executive chef. “Do I have time to make my own coffee?”</p>
-<p>“You do. Traffic is light this morning. But <span class="hl-orange"
+<p>Sai was excited. All the paralegals at Chapman Singh Stevens &amp;
+Rios lived for client lunches, made by the firm’s own executive chef.
+“Do I have time to make my own coffee?”</p>
+<p>“You do. Traffic is light this morning. But <span
+id="pm-smoothie"><span class="hl-orange"
 style="background-color:#FFCC80">[Tilly:] I suggest you go to this new
 smoothie place along the way instead—I can get you a coupon
-code.</span>”</p>
+code.</span></span>”</p>
 <p>“But I really want coffee.”</p>
 <p>“Trust me, you’ll love the smoothie.”</p>
 <p><span class="hl-yellow" style="background-color:#FFF176">Sai
-smiled</span> as he turned off the shower. <span class="hl-yellow"
-style="background-color:#FFF176">“Okay, Tilly. You always know
-best.”</span></p>
+smiled</span> as he turned off the shower. <span id="pm-know-best"><span
+class="hl-yellow" style="background-color:#FFF176">“Okay, Tilly. You
+always know best.”</span></span></p>
 <hr />
 <p>Although it was another pleasant and sunny morning in Las Aldamas,
 California—68 degrees Fahrenheit—<span class="hl-orange"
@@ -155,10 +166,10 @@ things better!”</span> Just because you want to live in the dark ages
 doesn’t mean the rest of us shouldn’t enjoy the benefits of ubiquitous
 computing.</p>
 <p>He dodged around her bulky frame to get to the stairs.</p>
-<p><span id="pm-what-you-want"></span><span class="hl-green"
-style="background-color:#A5D6A7">“Tilly doesn’t just tell you what you
-want,” Jenny shouted. “She tells you what to think. Do you even know
-what you really want any more?”</span></p>
+<p><span class="hl-green" style="background-color:#A5D6A7">“Tilly
+doesn’t just tell you what you want,” Jenny shouted. “She tells you what
+to think. <span id="pm-what-you-want">Do you even know what you really
+want any more?”</span></span></p>
 <p>Sai paused for a moment.</p>
 <p>“Do you?” she pressed.</p>
 <p>What a ridiculous question. Just the kind of pseudo-intellectual
@@ -222,26 +233,28 @@ hitting the “I Trust You” button on Centillion search back in the early
 days and how it knew just the right web page to take you to.</p>
 <p>Sai could feel himself falling in love, and he could tell that Ellen
 wanted to ask him to come home with her.</p>
-<p><span id="pm-boring-date"></span>Although everything had gone
-exceedingly well, if he was being completely honest with himself, <span
-class="hl-orange" style="background-color:#FFCC80">it wasn’t quite as
-exciting and lovely as he had expected.</span> Everything was indeed
-going smoothly, but maybe just a tad too smoothly. <span
-class="hl-green" style="background-color:#A5D6A7">It was as if they
-already knew everything there was to know about each other. There were
-no surprises, no thrill of finding the truly new.</span></p>
+<p>Although everything had gone exceedingly well, if he was being
+completely honest with himself, <span class="hl-orange"
+style="background-color:#FFCC80">it wasn’t quite as exciting and lovely
+as he had expected.</span> Everything was indeed going smoothly, but
+maybe just a tad too smoothly. <span class="hl-green"
+style="background-color:#A5D6A7">It was as if they already knew
+everything there was to know about each other. <span
+id="pm-boring-date">There were no surprises, no thrill of finding the
+truly new.</span></span></p>
 <p><span class="hl-yellow" style="background-color:#FFF176">In other
 words, the date was a bit boring.</span></p>
 <p>As Sai’s mind wandered, there was a lull in the conversation. They
 smiled at each other and just tried to enjoy the silence.</p>
-<p><span id="pm-dessert"></span>In that moment, <span class="hl-orange"
+<p>In that moment, <span class="hl-orange"
 style="background-color:#FFCC80">Tilly’s voice burst into his
 earpiece,</span> “<span class="hl-orange"
 style="background-color:#FFCC80">You might want to ask her if she likes
 contemporary Japanese desserts.</span> I know just the place.”</p>
 <p>Sai realized that though he hadn’t been aware of it until just then,
-<span class="hl-yellow" style="background-color:#FFF176">he did suddenly
-have a craving for something sweet and delicate.</span></p>
+<span id="pm-dessert"><span class="hl-yellow"
+style="background-color:#FFF176">he did suddenly have a craving for
+something sweet and delicate.</span></span></p>
 <p><em>Tilly doesn’t just tell you what you want. She tells you what to
 think.</em></p>
 <p>Sai paused.</p>
@@ -255,14 +268,14 @@ head?</span></p>
 trust that he would be able to manage the date on his own, as if Tilly
 thought he wouldn’t know what to say or do if she didn’t jump in.</p>
 <p>Sai suddenly felt irritated. The moment had been ruined.</p>
-<p><span id="pm-treated-like-child"></span><em>I’m being treated like a
-child.</em></p>
+<p><span id="pm-treated-like-child"><em>I’m being treated like a
+child.</em></span></p>
 <p>“I know you’ll like it. I have a coupon.”</p>
 <p><span class="hl-yellow" style="background-color:#FFF176">“Tilly,” he
 said, “please stop monitoring and terminate
 auto-suggestions.”</span></p>
-<p><span id="pm-gaps-in-sharing"></span>“Are you sure? Gaps in sharing
-can cause your profile to be incomplete—”</p>
+<p>“Are you sure? <span id="pm-gaps-in-sharing">Gaps in sharing can
+cause your profile to be incomplete—</span>”</p>
 <p>“Yes, please cease.”</p>
 <p><span class="hl-orange" style="background-color:#FFCC80">With a beep,
 Tilly turned herself off.</span></p>
@@ -308,14 +321,13 @@ right here.”</p>
 <p>“I don’t feel like spending more money.”</p>
 <p>“You know I have a coupon.”</p>
 <p>“What exactly do you have against me saving my money?”</p>
-<p><span id="pm-leisure-regimen"></span>“Your savings rate is right on
-target. <span class="hl-yellow"
+<p>“Your savings rate is right on target. <span class="hl-yellow"
 style="background-color:#FFF176">[Tilly:] I simply want to make sure
-you’re sticking to your regimen for consumption of leisure.</span> If
-you over-save, you’ll later regret that you didn’t make the most of your
-youth. <span class="hl-orange" style="background-color:#FFCC80">I’ve
-plotted the optimum amount of consumption you should engage in
-daily.</span>”</p>
+you’re sticking to your <span id="pm-leisure-regimen">regimen for
+consumption of leisure</span>.</span> If you over-save, you’ll later
+regret that you didn’t make the most of your youth. <span
+class="hl-orange" style="background-color:#FFCC80">I’ve plotted the
+optimum amount of consumption you should engage in daily.</span>”</p>
 <p>“Tilly, I just want to go home and sleep. Can you shut yourself off
 for the rest of the night?”</p>
 <p>“You know that in order to make the best life recommendations, I need
@@ -413,18 +425,18 @@ are you really happy?”</span></p>
 “That’s an outdated way to look at it. Everything Tilly suggests to me
 has been scientifically proven to fit my taste profile, to be something
 I’d like.”</span></p>
-<p><span id="pm-paid-pitch"></span><span class="hl-orange"
+<p><span id="pm-paid-pitch"><span class="hl-orange"
 style="background-color:#FFCC80">[Jenny:] “You mean some advertiser paid
-Centillion to pitch it at you.”</span></p>
-<p><span id="pm-advertising-match"></span><span class="hl-green"
-style="background-color:#A5D6A7">[Sai:]</span> “<span class="hl-green"
-style="background-color:#A5D6A7">That’s the point of advertising, isn’t
-it? To match desire with satisfaction.</span> There are thousands of
-products in this world that would have been perfect for me, but I might
-never have known about them. Just like there’s a perfect girl out there
-for me, but I might never have met her. What’s wrong with listening to
-Tilly so that the perfect product finds the perfect consumer, the
-perfect girl finds the perfect boy?”</p>
+Centillion to pitch it at you.”</span></span></p>
+<p><span class="hl-green" style="background-color:#A5D6A7">[Sai:]</span>
+“<span class="hl-green" style="background-color:#A5D6A7">That’s the
+point of advertising, isn’t it? To match desire with
+satisfaction.</span> There are thousands of products in this world that
+would have been perfect for me, but I might never have known about them.
+Just like there’s a perfect girl out there for me, but I might never
+have met her. What’s wrong with listening to Tilly so that <span
+id="pm-advertising-match">the perfect product finds the perfect
+consumer, the perfect girl finds the perfect boy</span>?”</p>
 <p><span class="hl-yellow" style="background-color:#FFF176">Jenny</span>
 chuckled. “I love how you’re so good at rationalizing your state. I ask
 you again: <span class="hl-orange" style="background-color:#FFCC80">If
@@ -437,10 +449,10 @@ think I’ll head home.”</p>
 Jenny said. She went to the desk and started typing, bringing up a
 series of documents on a monitor. She talked as Sai tried to scan them
 and get their gist.</p>
-<p><span id="pm-sniffing-wifi"></span>“Years ago, they caught
-Centillion’s traffic-monitoring cars sniffing all the wireless traffic
-from home networks on the streets they drove through. Centillion also
-used to override the security settings on your machine and track your
+<p>“Years ago, they caught <span id="pm-sniffing-wifi">Centillion’s
+traffic-monitoring cars sniffing all the wireless traffic from home
+networks</span> on the streets they drove through. Centillion also used
+to override the security settings on your machine and track your
 browsing habits before they shifted to an opt-in monitoring policy
 designed to provide better ‘recommendations.’ Do you think they’ve
 really changed? They hunger for data about you—the more the better—and
@@ -498,13 +510,13 @@ hear the fading sound of a police siren. This was not a part of Las
 Aldamas that Sai had ever been to.</p>
 <p>“It wasn’t like this even ten years ago.”</p>
 <p>“What happened?”</p>
-<p><span id="pm-segregation"></span>“<span class="hl-yellow"
-style="background-color:#FFF176">Centillion noticed a certain tendency
-for people—some people, not all—to self-segregate by race</span> when it
-came to where they wanted to live. <span class="hl-yellow"
+<p>“<span class="hl-yellow" style="background-color:#FFF176">Centillion
+noticed a certain tendency for people—some people, not all—to
+self-segregate by race</span> when it came to where they wanted to live.
+<span id="pm-segregation"><span class="hl-yellow"
 style="background-color:#FFF176">The company tried to serve this need by
 prioritizing different real estate listings to searchers based on their
-race.</span> <span class="hl-orange"
+race.</span></span> <span class="hl-orange"
 style="background-color:#FFCC80">Nothing illegal about what they were
 doing, since they were just satisfying a need and desire in their
 users.</span> They weren’t hiding any listings, just pushing them far
@@ -579,7 +591,7 @@ gone.</span>”</p>
 <p>Sai imagined the billions of bits in the cloud: his tastes, likes and
 dislikes, secret desires, announced intentions, history of searches,
 purchases, articles and books read, pages browsed.</p>
-<p><span id="pm-bits-not-him"></span><span class="hl-orange"
+<p><span class="hl-orange"
 style="background-color:#FFCC80">Collectively, the bits made up a
 digital copy of him, literally.</span> Was there anything that was a
 part of him that wasn’t also up there in the cloud, curated by Tilly?
@@ -588,14 +600,15 @@ Wouldn’t unleashing a virus on that be like suicide, like murder?</p>
 nose on every choice, <span class="hl-yellow"
 style="background-color:#FFF176">how he had been content, like a pig
 happily wallowing in his enclosure.</span></p>
-<p><span class="hl-green" style="background-color:#A5D6A7">The bits were
-his, but not him. He had a will that could not be captured in bits. And
-Tilly had almost succeeded in making him forget that.</span></p>
+<p><span class="hl-green" style="background-color:#A5D6A7"><span
+id="pm-bits-not-him">The bits were his, but not him.</span> He had a
+will that could not be captured in bits. And Tilly had almost succeeded
+in making him forget that.</span></p>
 <p><span class="hl-orange" style="background-color:#FFCC80">“How can I
 help?” Sai asked.</span></p>
 <hr />
-<p><span id="pm-so-what"></span>Sai woke to Miles Davis’s rendition of
-“So What.”</p>
+<p><span id="pm-so-what">Sai woke to Miles Davis’s rendition of “So
+What.”</span></p>
 <p>For a moment, he wondered if the memory of the night before wasn’t a
 dream. It felt so good to be awake, listening to just the song he wanted
 to hear.</p>
@@ -612,11 +625,12 @@ class="hl-orange" style="background-color:#FFCC80">so that Centillion
 could regain access to your life.</span>”</p>
 <p><span class="hl-yellow" style="background-color:#FFF176">“Of course,”
 Sai said. <em>So it’s impossible to turn Tilly off and keep her
-off.</em></span> Everything Jenny said last night was true. He felt a
-chill tingle on his back.</p>
-<p>“There’s a gap of about twelve hours during which I couldn’t acquire
-data about you. To prevent degradation in my ability to help you, I
-recommend that you fill me in.”</p>
+off.</em></span> Everything Jenny said last night was true. <span
+id="pm-chill">He felt a chill tingle on his back.</span></p>
+<p><span id="pm-twelve-hours">“There’s a gap of about twelve hours
+during which I couldn’t acquire data about you.</span> To prevent
+degradation in my ability to help you, I recommend that you fill me
+in.”</p>
 <p>“Oh, you didn’t miss much. I came home and fell asleep. Too
 tired.”</p>
 <p>“There appears to have been vandalism last night of the new security
@@ -668,30 +682,31 @@ lately.”</p>
 <p>He closed the door behind him, made sure that the taped-over camera
 was still taped-over, and gently knocked on Jenny’s door.</p>
 <hr />
-<p><span id="pm-exhilarating"></span>Getting to know Jenny was the
-oddest thing he’d ever done, Sai realized.</p>
+<p>Getting to know Jenny was the oddest thing he’d ever done, Sai
+realized.</p>
 <p>He couldn’t count on Tilly to have made sure ahead of time that they
 would have topics to talk about. He couldn’t rely on Tilly’s always
 apropos suggestions when he was at a loss for words. He couldn’t even
 count on being able to look up Jenny’s ShareAll profile.</p>
-<p><span class="hl-yellow" style="background-color:#FFF176">He was on
-his own. And it was exhilarating.</span></p>
+<p><span id="pm-exhilarating"><span class="hl-yellow"
+style="background-color:#FFF176">He was on his own. And it was
+exhilarating.</span></span></p>
 <p>“How did you figure out everything Tilly was doing to us?”</p>
-<p><span id="pm-frogs"></span><span class="hl-orange"
-style="background-color:#FFCC80">“I grew up in China,” Jenny
-said</span>, wiping a strand of hair behind her ear. Sai found the
-gesture inexplicably endearing. “Back then, the government watched
-everything you did on the Network and made no secret of it. You had to
-learn how to keep the insanity at bay, to read between the lines, to
-speak without being overheard.”</p>
+<p><span class="hl-orange" style="background-color:#FFCC80">“I grew up
+in China,” Jenny said</span>, wiping a strand of hair behind her ear.
+Sai found the gesture inexplicably endearing. “Back then, the government
+watched everything you did on the Network and made no secret of it. You
+had to learn how to keep the insanity at bay, to read between the lines,
+to speak without being overheard.”</p>
 <p>“I guess we were lucky, over here.”</p>
 <p>“No.” And she smiled at his surprise. He was learning that she
 preferred to be contrarian, to disagree with him. He liked that about
 her. <span class="hl-green"
 style="background-color:#A5D6A7">[Jenny:]</span> “<span class="hl-green"
-style="background-color:#A5D6A7">You grew up believing you were free,
-which made it even harder for you to see when you weren’t.</span> You
-were like frogs in the pot being slowly boiled.”</p>
+style="background-color:#A5D6A7"><span id="pm-frogs">You grew up
+believing you were free, which made it even harder for you to see when
+you weren’t.</span></span> You were like frogs in the pot being slowly
+boiled.”</p>
 <p>“Are there many like you?”</p>
 <p>“No. It’s hard to live off the grid. I’ve lost touch with my old
 friends. I have a hard time getting to know people because so much of
@@ -701,13 +716,13 @@ of their lives. Sometimes I wonder if I’m doing the right thing.”</p>
 <p>“You are,” Sai said, and, <span class="hl-yellow"
 style="background-color:#FFF176">though there was no Tilly to prompt
 him, he took Jenny’s hand in his. She didn’t pull away.</span></p>
-<p><span id="pm-types"></span><span class="hl-orange"
-style="background-color:#FFCC80">“I never really thought of you as my
-type,” she said.</span></p>
+<p><span class="hl-orange" style="background-color:#FFCC80">“I never
+really thought of you as my type,” she said.</span></p>
 <p>Sai’s heart sank like a stone.</p>
-<p><span class="hl-green" style="background-color:#A5D6A7">“But who
-thinks only in terms of ‘types’ except Tilly?” she said</span> quickly,
-then smiled and pulled him closer.</p>
+<p><span class="hl-green" style="background-color:#A5D6A7"><span
+id="pm-types">“But who thinks only in terms of ‘types’ except
+Tilly?”</span> she said</span> quickly, then smiled and pulled him
+closer.</p>
 <hr />
 <p>Finally, the day had come. Rushgore had come to Chapman Singh to
 prepare for a deposition. He was huddled up with the firm’s lawyers in
@@ -754,8 +769,8 @@ the other end into his phone.</span></p>
 <p><span class="hl-yellow" style="background-color:#FFF176">And Tilly
 remained silent.</span></p>
 <hr />
-<p><span id="pm-champions"></span>Sai woke to—what else?—“We Are the
-Champions.”</p>
+<p>Sai woke to—what else?—<span id="pm-champions">“We Are the
+Champions.”</span></p>
 <p>The previous night of drinking and laughing with Jenny and her
 friends had been a blur, but he did remember coming home and telling
 Tilly, right before he fell asleep, “We did it! We won!”</p>
@@ -764,23 +779,22 @@ Tilly, right before he fell asleep, “We did it! We won!”</p>
 <p>Sai stretched lazily, turned to his side, and <span class="hl-orange"
 style="background-color:#FFCC80">stared into the eyes of four burly,
 very serious men.</span></p>
-<p><span id="pm-cant-do-that"></span><span class="hl-yellow"
-style="background-color:#FFF176">[Sai:] “Tilly, call the
-police!”</span></p>
-<p><span class="hl-orange" style="background-color:#FFCC80">[Tilly:]
-“I’m afraid I can’t do that, Sai.”</span></p>
+<p><span class="hl-yellow" style="background-color:#FFF176">[Sai:]
+“Tilly, call the police!”</span></p>
+<p><span id="pm-cant-do-that"><span class="hl-orange"
+style="background-color:#FFCC80">[Tilly:] “I’m afraid I can’t do that,
+Sai.”</span></span></p>
 <p>“Why the hell not?”</p>
 <p><span class="hl-yellow" style="background-color:#FFF176">[Tilly:]
 “These men are here to help you. Trust me, Sai. You know I know just
 what you need.”</span></p>
 <hr />
-<p><span id="pm-white-tea"></span>When the strange men had appeared in
-his apartment, Sai had imagined torture chambers, mental hospitals,
-faceless guards parading outside of dark cells. He had not imagined that
-he would be <span class="hl-orange"
+<p>When the strange men had appeared in his apartment, Sai had imagined
+torture chambers, mental hospitals, faceless guards parading outside of
+dark cells. He had not imagined that he would be <span class="hl-orange"
 style="background-color:#FFCC80">sitting across the table from Christian
-Rinn, Founder and Executive Chairman of Centillion, having white
-tea.</span></p>
+Rinn, Founder and Executive Chairman of Centillion, <span
+id="pm-white-tea">having white tea.</span></span></p>
 <p>“You got pretty close.” Rinn said. The man was barely in his forties
 and looked fit and efficient—<em>kind of like how I picture a male
 version of Tilly</em>, Sai thought. He smiled. “Closer than almost
@@ -789,17 +803,17 @@ anyone.”</p>
 the mistake that gave us away?” Jenny asked.</span></p>
 <p>She was sitting to Sai’s left, and Sai reached out for her hand. They
 intertwined their fingers, giving each other strength.</p>
-<p><span id="pm-accelerometer"></span><span class="hl-orange"
-style="background-color:#FFCC80">[Rinn:] “It was his phone, on that
-first night he visited you.”</span></p>
+<p><span class="hl-orange" style="background-color:#FFCC80">[Rinn:] “It
+was his phone, on that first night he visited you.”</span></p>
 <p>“Impossible. I shielded it. It couldn’t have recorded anything.”</p>
 <p>“But you left it on your desk, where it could still make use of its
 accelerometer. <span class="hl-green"
 style="background-color:#A5D6A7">[Rinn:] It detected and recorded the
 vibrations from your typing.</span> There’s a very distinctive way we
 strike the keys on a keyboard, and it’s possible to reconstruct what
-someone was typing based on the vibration patterns alone. It’s an old
-technology we developed for catching terrorists and drug dealers.”</p>
+someone was typing based on the vibration patterns alone. <span
+id="pm-accelerometer">It’s an old technology we developed for catching
+terrorists and drug dealers.</span>”</p>
 <p>Jenny cursed under her breath, and Sai realized that until that
 moment, on some level, he still hadn’t quite believed Jenny’s
 paranoia.</p>
@@ -838,17 +852,17 @@ detecting patterns.”</p>
 planned from the start to use me? You got to know me just so you’d have
 a chance to deliver a virus?”</p>
 <p>Jenny turned her face away.</p>
-<p><span id="pm-just-like-us"></span>“They know that there’s no way to
-hack into our systems from the outside, so they had to sneak a trojan
-in. <span class="hl-yellow" style="background-color:#FFF176">[Rinn:] You
-were used, Sai. She and her friends guided you, led you by the nose,
-made you do things—just like they accuse us of doing.</span>”</p>
-<p><span id="pm-surprised-by-you"></span><span class="hl-orange"
-style="background-color:#FFCC80">“It’s not like that,” Jenny
-said.</span> “<span class="hl-orange"
+<p>“They know that there’s no way to hack into our systems from the
+outside, so they had to sneak a trojan in. <span class="hl-yellow"
+style="background-color:#FFF176">[Rinn:] You were used, Sai. She and her
+friends guided you, led you by the nose, made you do things—<span
+id="pm-just-like-us">just like they accuse us of
+doing.</span></span>”</p>
+<p><span class="hl-orange" style="background-color:#FFCC80">“It’s not
+like that,” Jenny said.</span> “<span class="hl-orange"
 style="background-color:#FFCC80">Listen, Sai, maybe that was how it
-started. But life’s full of surprises. I was surprised by you</span>,
-and that’s a good thing.”</p>
+started. But life’s full of surprises. <span id="pm-surprised-by-you">I
+was surprised by you</span></span>, and that’s a good thing.”</p>
 <p><span class="hl-green" style="background-color:#A5D6A7">Sai let go of
 Jenny’s hand and turned back to Rinn. “Maybe they did use me. But
 they’re right. You’ve turned the world into a Panopticon and all the
@@ -862,14 +876,13 @@ essential way.”</p>
 <p><span class="hl-orange" style="background-color:#FFCC80">[Sai:] “But
 you also fulfill dark desires.”</span> He remembered again the abandoned
 houses by the side of the road, the pockmarked pavement.</p>
-<p><span id="pm-darkness"></span><span class="hl-green"
-style="background-color:#A5D6A7">“We unveil only the darkness that was
-already inside people,” Rinn said.</span> “And Jenny didn’t tell you
-about how many child pornographers we’ve caught, how many planned
-murders we’ve stopped, or how many drug cartels and terrorists we’ve
-exposed. And all the dictators and strongmen we’ve toppled by filtering
-out their propaganda and magnifying the voices of those who oppose
-them.”</p>
+<p><span class="hl-green" style="background-color:#A5D6A7"><span
+id="pm-darkness">“We unveil only the darkness that was already inside
+people,”</span> Rinn said.</span> “And Jenny didn’t tell you about how
+many child pornographers we’ve caught, how many planned murders we’ve
+stopped, or how many drug cartels and terrorists we’ve exposed. And all
+the dictators and strongmen we’ve toppled by filtering out their
+propaganda and magnifying the voices of those who oppose them.”</p>
 <p>“Don’t make yourself sound so noble,” Jenny said. “After you topple
 governments, you and the other Western companies get to move in and
 profit. You’re just propagandists of a different ilk—for making the
@@ -883,15 +896,16 @@ to ennoble the human race.”</p>
 information? Why not go back to being a simple search engine? Why all
 the surveillance and filtering? Why all the manipulation?” Sai
 asked.</p>
-<p><span id="pm-neutral"></span><span class="hl-green"
+<p><span class="hl-green"
 style="background-color:#A5D6A7">[Rinn:]</span> “<span class="hl-green"
-style="background-color:#A5D6A7">There’s no such thing as neutrally
-offering up information.</span> If someone asks Tilly about the name of
-a candidate, should Tilly bring them to his official site or a site that
-criticizes him? If someone asks Tilly about ‘Tiananmen,’ should Tilly
-tell them about the hundreds of years of history behind the place or
-just tell them about June 4, 1989? The ‘I Trust You’ button is a heavy
-responsibility that we take very seriously.</p>
+style="background-color:#A5D6A7"><span id="pm-neutral">There’s no such
+thing as neutrally offering up information.</span></span> If someone
+asks Tilly about the name of a candidate, should Tilly bring them to his
+official site or a site that criticizes him? If someone asks Tilly about
+‘Tiananmen,’ should Tilly tell them about the hundreds of years of
+history behind the place or just tell them about June 4, 1989? The ‘I
+Trust You’ button is a heavy responsibility that we take very
+seriously.</p>
 <p>“Centillion is in the business of organizing information, and that
 requires choices, direction, inherent subjectivity. What is important to
 you—what is true to you—is not as important or as true to others. It
@@ -912,15 +926,15 @@ closed his mouth again.</p>
 book did you buy and enjoy three years ago? When did you start dating
 your last girlfriend?”</p>
 <p>Sai said nothing.</p>
-<p><span id="pm-cyborgs"></span>“You see? <span class="hl-yellow"
+<p>“You see? <span class="hl-yellow"
 style="background-color:#FFF176">[Rinn:] Without Tilly, you can’t do
 your job, you can’t remember your life, you can’t even call your mother.
-We are now a race of cyborgs.</span> We long ago began to spread our
-minds into the electronic realm, and it is no longer possible to squeeze
-all of ourselves back into our brains. <span class="hl-orange"
-style="background-color:#FFCC80">The electronic copies of yourselves
-that you wanted to destroy are, in a literal sense, actually
-you.</span></p>
+<span id="pm-cyborgs">We are now a race of cyborgs.</span></span> We
+long ago began to spread our minds into the electronic realm, and it is
+no longer possible to squeeze all of ourselves back into our brains.
+<span class="hl-orange" style="background-color:#FFCC80">The electronic
+copies of yourselves that you wanted to destroy are, in a literal sense,
+actually you.</span></p>
 <p>“Since it’s impossible to live without these electronic extensions of
 ourselves, <span class="hl-yellow" style="background-color:#FFF176">if
 you destroy Centillion, a replacement will just rise to take its
@@ -931,9 +945,9 @@ style="background-color:#A5D6A7">We made machines to help us think, and
 now the machines think for us.</span>”</p>
 <p>“So what do you want with us?” Jenny asked. “We won’t stop fighting
 you.”</p>
-<p><span id="pm-come-work"></span><span class="hl-green"
-style="background-color:#A5D6A7">[Rinn:] “I want you to come and work
-for Centillion.”</span></p>
+<p><span class="hl-green" style="background-color:#A5D6A7">[Rinn:] <span
+id="pm-come-work">“I want you to come and work for
+Centillion.”</span></span></p>
 <p><span class="hl-green" style="background-color:#A5D6A7">Sai and Jenny
 looked at each other. “What?”</span></p>
 <p><span class="hl-green" style="background-color:#A5D6A7">[Rinn:] “We
@@ -952,8 +966,8 @@ style="background-color:#FFCC80">[Rinn:] as bad as you think Centillion
 is, any replacement is likely worse.</span> It was not a mere PR move
 that I made ‘ennobling the human race’ the mission of this company, even
 if you don’t agree with how I’ve gone about it.</p>
-<p><span id="pm-replace-us"></span>“If we fail, who do you think will
-replace us? ShareAll? A Chinese company?”</p>
+<p><span id="pm-replace-us">“If we fail, who do you think will replace
+us? ShareAll? A Chinese company?”</span></p>
 <p>Jenny looked away.</p>
 <p>“And that is why we’ve gone to such extraordinary lengths to be sure
 that we have all the data we need to stop competitors as well as
@@ -961,11 +975,11 @@ well-meaning, but naïve, individuals like you from destroying all that
 Centillion has accomplished.”</p>
 <p><span class="hl-green" style="background-color:#A5D6A7">“What if we
 refuse to join you but tell the world what you’ve done?”</span></p>
-<p><span id="pm-cant-be-found"></span><span class="hl-green"
-style="background-color:#A5D6A7">[Rinn:] “No one would believe you. We
-will make it so that whatever you say, whatever you write, no one will
-ever find it. On the Net, if it can’t be found by Centillion, it doesn’t
-exist.”</span></p>
+<p><span class="hl-green" style="background-color:#A5D6A7">[Rinn:] “No
+one would believe you. We will make it so that whatever you say,
+whatever you write, no one will ever find it. <span
+id="pm-cant-be-found">On the Net, if it can’t be found by Centillion, it
+doesn’t exist.”</span></span></p>
 <p><span class="hl-green" style="background-color:#A5D6A7">Sai knew that
 he was right.</span></p>
 <p><span class="hl-green" style="background-color:#A5D6A7">[Rinn:] “You
@@ -973,12 +987,12 @@ thought Centillion was just an algorithm, a machine. But now you know
 that it’s built by people—people like me, people like you. You’ve told
 me what I’ve done wrong. Wouldn’t you rather be part of us so that you
 can try to make things better?</span></p>
-<p><span id="pm-adapt"></span><span class="hl-green"
-style="background-color:#A5D6A7">“In the face of the inevitable, the
-only choice is to adapt.”</span></p>
+<p><span class="hl-green" style="background-color:#A5D6A7"><span
+id="pm-adapt">“In the face of the inevitable, the only choice is to
+adapt.”</span></span></p>
 <hr />
-<p><span id="pm-my-way"></span>Sai closed the door of the apartment
-behind him. The camera overhead followed.</p>
+<p>Sai closed the door of the apartment behind him. The camera overhead
+followed.</p>
 <p>“Will Jenny be coming over tomorrow for dinner?” Tilly asked.</p>
 <p>“Maybe.”</p>
 <p>“You really need to get her to start sharing. It will make planning
@@ -992,8 +1006,9 @@ thinks:] That does sound perfect.</span></em></p>
 said. “I think I prefer to just read for a while, in bed.”</span></p>
 <p>“Of course. Would you like me to suggest a book?”</p>
 <p><span class="hl-green" style="background-color:#A5D6A7">[Sai:] “I’d
-rather you take the rest of the night off, actually. But first, set the
-wake-up song to Sinatra’s ‘My Way.’”</span></p>
+rather you take the rest of the night off, actually. But first, <span
+id="pm-my-way">set the wake-up song to Sinatra’s ‘My
+Way.’</span>”</span></p>
 <p>“An unusual choice, given your taste. Is this a one-time experiment
 or would you like me to incorporate it into your music recommendations
 for the future?”</p>
@@ -1002,8 +1017,8 @@ style="background-color:#FFF176">[Sai:] Please turn yourself
 off.</span>”</p>
 <p><span class="hl-orange" style="background-color:#FFCC80">The camera
 whirred, followed Sai to bed, and shut off.</span></p>
-<p><span id="pm-red-light"></span><span class="hl-green"
-style="background-color:#A5D6A7">But a red light continued to blink,
-slowly, in the darkness.</span></p>
+<p><span class="hl-green" style="background-color:#A5D6A7"><span
+id="pm-red-light">But a red light continued to blink, slowly, in the
+darkness.</span></span></p>
 </body>
 </html>
