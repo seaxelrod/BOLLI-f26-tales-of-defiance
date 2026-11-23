@@ -71,9 +71,15 @@ export filesToMake=(
   mind_control_4/TillyHelpsScottPrepareForWeek4
   mind_control_4/Big_Babies_Having_Tantrums
   "mind_control_4/ThePerfectMatch_Highlighted filters/highlight.lua"
+  mind_control_4/week4_quote_anchors
   materials/perfect_match/surveillance_capitalism_youtube_summary
   mind_control_4/PerfectMatch_SummaryWithConcepts
   mind_control_4/Claude_compact_notes_midDraft8
+  mind_control_4/week4_click_guide
+  mind_control_4/digital_technologies_market_cap_2021212_to_20261122
+  mind_control_4/Week4_presentation_TOC
+  mind_control_4/perfect_match_youtube_summary
+
 )
 
 export filesForBeamer=(
@@ -215,6 +221,8 @@ _git_build_latex () {
         out="${filebase}_withnotes.pdf"
     elif [[ "$mode" == "beamer_onlynotes" ]]; then
         out="${filebase}_onlynotes.pdf"
+    elif [[ "$mode" == "beamer_handout" ]]; then
+        out="${filebase}_handout.pdf"
     else
         out="${filebase}.pdf"
     fi
@@ -258,7 +266,11 @@ _git_build_latex () {
 
 		
             elif [[ "$mode" == "beamer_onlynotes" ]]; then
-                notes_flags=(-V header-includes='\setbeameroption{show only notes}')
+                notes_flags=(-V header-includes='\setbeameroption{show only notes}'
+			     -V classoption:handout)
+            elif [[ "$mode" == "beamer_handout" ]]; then
+                # one page per frame in its final form, no notes (for mailing)
+                notes_flags=(-V classoption:handout)
             fi
         else
             # Standard article geometry and TOC
@@ -313,6 +325,10 @@ git_makebeamer_onlynotes () {
     _git_build_latex "beamer_onlynotes" "$@"
 }
 
+git_makebeamer_handout () {
+    _git_build_latex "beamer_handout" "$@"
+}
+
 # ==================================
 # iterating through arrays
 # ===================================
@@ -332,14 +348,7 @@ git_makepdf_all () {
     done
 }
 
-git_makebeamer_all () {
-    for fileArgs in "${filesForBeamer[@]}"
-    do
-        git_makebeamer $fileArgs || return 1
-        git_makebeamer_onlynotes $fileArgs || return 1
-        git_makebeamer_withnotes $fileArgs || return 1
-    done
-}
+
 
 git_make_local_pdf () {
     local src=$1
@@ -354,28 +363,40 @@ git_make_local_pdf () {
 }
 
 
-git_make_local_all() {
+git_makebeamer_all () {
+    for fileArgs in "${filesForBeamer[@]}"
+    do
+        git_makebeamer_withnotes $fileArgs || return 1
+	git_make_local_pdf  "${src}_withnotes.pdf" || return 1
+        git_makebeamer $fileArgs || return 1
+        git_makebeamer_onlynotes $fileArgs || return 1
+        git_makebeamer_handout $fileArgs || return 1
+    done
+}
+
+git_make_latest() {
     if [ "$#" -eq 0 ]; then
-	# modify after development
-	draftNum=8
-	src="mind_control_4/week4_presentation_draft${draftNum}"
+	# draftNum=8
+	# src="mind_control_4/week4_presentation_draft${draftNum}"
+	src="mind_control_4/week4_presentation"
     else
 	src="$1"
     fi
-    echo "src=$src"
+    echo "git_make_latest: src=$src"
     git_makebeamer_withnotes "$src"  || return 1
     git_make_local_pdf  "${src}_withnotes.pdf" || return 1
     git_makebeamer "$src"            || return 1
+    git_makebeamer_handout "$src"    || return 1
     git_makebeamer_onlynotes "$src"  || return 1
 }
 
 git_make_all() {
     # after this, should be able to view files locally at: file:///Users/axelrod/Library/CloudStorage/Dropbox/sync/writing/j26/2026f_BOLLI/2026f_mind_control/git/index.html
+    git_make_latest    || return 1;
     git_makebeamer_all || return 1;
     git_makehtml_all   || return 1;
     git_makepdf_all    || return 1;
     git_make_dev       || return 1;
-    git_make_local_all || return 1;
 }
 
 # ==================================
@@ -420,6 +441,7 @@ git_clean_beamer () {
         /bin/rm -f "${basefile}.pdf"
         /bin/rm -f "${basefile}_onlynotes.pdf"
         /bin/rm -f "${basefile}_withnotes.pdf"
+        /bin/rm -f "${basefile}_handout.pdf"
     done
 }
 

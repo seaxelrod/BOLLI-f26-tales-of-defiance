@@ -1,18 +1,18 @@
 ---
 title: "The Perfect Match"
 subtitle: "A highlighted reading copy"
-date: "Nov 18, 2026"
+date: "Nov 22, 2026"
 author: "Ken Liu (highlights by Scott, assisted by Claude Anthropicson)"
 ---
 
 *Story © 2012 Ken Liu, first published in [Lightspeed Magazine](https://www.lightspeedmagazine.com/fiction/the-perfect-match/), December 2012 (issue 31).*
 
-**How to read this copy.** Read only the highlights and you get the whole story. <YELLOW>Yellow</YELLOW> and <ORANGE>orange</ORANGE> alternate so you can tell where one fragment ends and the next begins. <GREEN>Green</GREEN> marks short passages that capture a particularly interesting point. Names in [brackets] show who is speaking.
+**How to read this copy.** Read only the highlights and you get the whole story. The colors follow a rough pattern rather than strict rules: <GREEN>green</GREEN> marks key conceptual points and plot turning points; <YELLOW>yellow</YELLOW> and <ORANGE>orange</ORANGE> fill in the details; <BROWN>brown</BROWN> sets a new scene; and <PURPLE>purple</PURPLE> marks the passages quoted in the in-class presentation of Nov 23, 2026 (following one of that presentation’s links outlines its passage in a purple box). *[Bracketed italics]* are added to show who is speaking.
 
 ```{=html}
 <style>
-/* Arriving by a link to a #pm- anchor highlights that passage in purple.
-   Readers who scroll normally see nothing extra. */
+/* Quoted passages are highlighted purple with PURPLE tags.
+   Arriving by a link to a #pm- anchor also draws a purple box around it. */
 span[id^="pm-"] { scroll-margin-top: 30vh; }
 span[id^="pm-"]:target, span[id^="pm-"]:target span {
   background-color: #E1BEE7 !important;
@@ -23,7 +23,7 @@ span[id^="pm-"]:target { outline: 2px solid #8E24AA; outline-offset: 2px; border
 
 * * *
 
-Sai woke to the rousing first movement of [Vivaldi’s violin concerto in C minor, “Il Sospetto.”]{#pm-il-sospetto}
+<BROWN>Sai woke to the rousing first movement of</BROWN> [<PURPLE>Vivaldi’s violin concerto in C minor, “Il Sospetto.”</PURPLE>]{#pm-il-sospetto}
 
 He lay still for a minute, letting the music wash over him like a gentle Pacific breeze. The room brightened as the blinds gradually opened to the sunlight. <YELLOW>Tilly had woken him right at the end of a light sleep cycle, the optimal time.</YELLOW> He felt great: refreshed, optimistic, ready to jump out of bed.
 
@@ -37,7 +37,7 @@ Sai went into the shower.
 
 “Why?”
 
-<ORANGE>[Tilly:] “You have a date after work.”</ORANGE>
+<ORANGE>*[Tilly:]* “You have a date after work.”</ORANGE>
 
 “Oh, the new girl. Shoot, what’s her name? I know you told me—”
 
@@ -49,19 +49,19 @@ But first he still had to get through the workday. “What do you recommend for 
 
 “You are scheduled to attend the kickoff meeting for the Davis case at eleven, which means you’ll get a lunch paid for by the firm. I suggest you go light on the breakfast, maybe just a banana.”
 
-Sai was excited. All the paralegals at Chapman Singh Stevens & Rios lived for client lunches, made by the firm’s own executive chef. “Do I have time to make my own coffee?”
+<GREEN>Sai was excited. All the paralegals at Chapman Singh Stevens & Rios lived for client lunches, made by the firm’s own executive chef. “Do I have time to make my own coffee?”</GREEN>
 
-“You do. Traffic is light this morning. But [<ORANGE>[Tilly:] I suggest you go to this new smoothie place along the way instead—I can get you a coupon code.</ORANGE>]{#pm-smoothie}”
+“You do. Traffic is light this morning. But [<ORANGE><PURPLE>*[Tilly:]* I suggest you go to this new smoothie place along the way instead—I can get you a coupon code.</PURPLE></ORANGE>]{#pm-smoothie}”
 
 “But I really want coffee.”
 
 “Trust me, you’ll love the smoothie.”
 
-<YELLOW>Sai smiled</YELLOW> as he turned off the shower. [<YELLOW>“Okay, Tilly. You always know best.”</YELLOW>]{#pm-know-best}
+<YELLOW>Sai smiled</YELLOW> as he turned off the shower. [<YELLOW><PURPLE>“Okay, Tilly. You always know best.”</PURPLE></YELLOW>]{#pm-know-best}
 
 * * *
 
-Although it was another pleasant and sunny morning in Las Aldamas, California—68 degrees Fahrenheit—<ORANGE>Sai’s neighbor Jenny was wearing a thick winter coat, ski goggles, and a long, dark scarf</ORANGE> that covered her hair and the rest of her face.
+Although it was another pleasant and sunny morning in Las Aldamas, California—68 degrees Fahrenheit—<BROWN>Sai’s neighbor Jenny was wearing a thick winter coat, ski goggles, and a long, dark scarf</BROWN> that covered her hair and the rest of her face.
 
 “I thought I told you I didn’t want that thing installed,” she said as he stepped out of his apartment. Her voice was garbled through some kind of electronic filter. In response to his questioning look, she gestured to the camera over Sai’s door.
 
@@ -81,11 +81,11 @@ Sai rolled his eyes. “What do you have to hide?”
 
 “Yeah, yeah, civil liberties, freedom, privacy, blah blah blah . . . ”
 
-Sai was sick of arguing with people like Jenny. He had made the same point countless times: <YELLOW>Centillion is not some big scary government. It’s a private company, whose motto happens to be “Make things better!”</YELLOW> Just because you want to live in the dark ages doesn’t mean the rest of us shouldn’t enjoy the benefits of ubiquitous computing.
+Sai was sick of arguing with people like Jenny. He had made the same point countless times: <GREEN>Centillion is not some big scary government. It’s a private company, whose motto happens to be “Make things better!”</GREEN> Just because you want to live in the dark ages doesn’t mean the rest of us shouldn’t enjoy the benefits of ubiquitous computing.
 
 He dodged around her bulky frame to get to the stairs.
 
-<GREEN>“Tilly doesn’t just tell you what you want,” Jenny shouted. “She tells you what to think. [Do you even know what you really want any more?”]{#pm-what-you-want}</GREEN>
+<GREEN>“Tilly doesn’t just tell you what you want,” Jenny shouted. “She tells you what to think. [<PURPLE>Do you even know what you really want any more?”</PURPLE>]{#pm-what-you-want}</GREEN>
 
 Sai paused for a moment.
 
@@ -101,7 +101,7 @@ He kept on walking.
 
 * * *
 
-Having Tilly around was like having the world’s best assistant:
+<BROWN>Having Tilly around was like having the world’s best assistant:</BROWN>
 
 — “Hey Tilly, do you remember where I kept that Wyoming filing with the weird company name and the F merger from maybe six months ago?”
 
@@ -113,13 +113,13 @@ Having Tilly around was like having the world’s best assistant:
 
 For a while, Chapman Singh had resisted the idea of allowing employees to bring Tilly into the office, preferring their proprietary corporate AI system. But it proved too difficult to force employees to keep their personal calendars and recommendations rigidly separate from work ones, and once the partners started to violate the rules and use Tilly for work, IT had to support them.
 
-And Centillion had then pledged that they would encrypt all corporate-derived information in a secure manner and never use it for competitive purposes—only to give better recommendations to employees of Chapman Singh. After all, <YELLOW>the mission statement of Centillion was to “arrange the world’s information to ennoble the human race,”</YELLOW> and what could be more ennobling than making work more efficient, more productive, more pleasant?
+And Centillion had then pledged that they would encrypt all corporate-derived information in a secure manner and never use it for competitive purposes—only to give better recommendations to employees of Chapman Singh. After all, <GREEN>the mission statement of Centillion was to “arrange the world’s information to ennoble the human race,”</GREEN> and what could be more ennobling than making work more efficient, more productive, more pleasant?
 
 As Sai enjoyed his lunch, he felt very lucky. He couldn’t even imagine what drudgery work would have been like before Tilly came along.
 
 * * *
 
-After work, Tilly guided Sai to the flower shop—of course Tilly had a coupon—and then, on the way to the restaurant, she filled Sai in on his date, Ellen: educational background, ShareAll profile, reviews by previous boyfriends/girlfriends, interests, likes, dislikes, and of course, pictures—dozens of photos recognized and gathered by Tilly from around the Net.
+After work, Tilly guided Sai to the flower shop—of course Tilly had a coupon—and then, <BROWN>on the way to the restaurant, she filled Sai in on his date, Ellen</BROWN>: educational background, ShareAll profile, reviews by previous boyfriends/girlfriends, interests, likes, dislikes, and of course, pictures—dozens of photos recognized and gathered by Tilly from around the Net.
 
 Sai smiled. <ORANGE>As usual, Tilly was right: Ellen was exactly his type.</ORANGE>
 
@@ -129,11 +129,11 @@ And, of course, Tilly would know Ellen just as well as she knew him, so Sai knew
 
 As predicted, they were into the same books, the same movies, the same music. They had compatible ideas about how hard one should work. They laughed at each other’s jokes. They fed off each other’s energy.
 
-Sai marveled at Tilly’s accomplishment. <YELLOW>Four billion women on Earth, and Tilly seemed to have found the perfect match for him.</YELLOW> It was just like hitting the “I Trust You” button on Centillion search back in the early days and how it knew just the right web page to take you to.
+Sai marveled at Tilly’s accomplishment. <YELLOW>Four billion women on Earth, and Tilly seemed to have found <GREEN>the perfect match</GREEN> for him.</YELLOW> It was just like hitting the “I Trust You” button on Centillion search back in the early days and how it knew just the right web page to take you to.
 
 Sai could feel himself falling in love, and he could tell that Ellen wanted to ask him to come home with her.
 
-Although everything had gone exceedingly well, if he was being completely honest with himself, <ORANGE>it wasn’t quite as exciting and lovely as he had expected.</ORANGE> Everything was indeed going smoothly, but maybe just a tad too smoothly. <GREEN>It was as if they already knew everything there was to know about each other. [There were no surprises, no thrill of finding the truly new.]{#pm-boring-date}</GREEN>
+Although everything had gone exceedingly well, if he was being completely honest with himself, <ORANGE>it wasn’t quite as exciting and lovely as he had expected.</ORANGE> Everything was indeed going smoothly, but maybe just a tad too smoothly. <GREEN>It was as if they already knew everything there was to know about each other. [<PURPLE>There were no surprises, no thrill of finding the truly new.</PURPLE>]{#pm-boring-date}</GREEN>
 
 <YELLOW>In other words, the date was a bit boring.</YELLOW>
 
@@ -141,7 +141,7 @@ As Sai’s mind wandered, there was a lull in the conversation. They smiled at e
 
 In that moment, <ORANGE>Tilly’s voice burst into his earpiece,</ORANGE> “<ORANGE>You might want to ask her if she likes contemporary Japanese desserts.</ORANGE> I know just the place.”
 
-Sai realized that though he hadn’t been aware of it until just then, [<YELLOW>he did suddenly have a craving for something sweet and delicate.</YELLOW>]{#pm-dessert}
+Sai realized that though he hadn’t been aware of it until just then, [<YELLOW><PURPLE>he did suddenly have a craving for something sweet and delicate.</PURPLE></YELLOW>]{#pm-dessert}
 
 *Tilly doesn’t just tell you what you want. She tells you what to think.*
 
@@ -157,13 +157,13 @@ The way Tilly filled in that lull . . . it was as if Tilly didn’t trust that h
 
 Sai suddenly felt irritated. The moment had been ruined.
 
-[*I’m being treated like a child.*]{#pm-treated-like-child}
+[<PURPLE>*I’m being treated like a child.*</PURPLE>]{#pm-treated-like-child}
 
 “I know you’ll like it. I have a coupon.”
 
 <YELLOW>“Tilly,” he said, “please stop monitoring and terminate auto-suggestions.”</YELLOW>
 
-“Are you sure? [Gaps in sharing can cause your profile to be incomplete—]{#pm-gaps-in-sharing}”
+“Are you sure? [<PURPLE>Gaps in sharing can cause your profile to be incomplete—</PURPLE>]{#pm-gaps-in-sharing}”
 
 “Yes, please cease.”
 
@@ -201,11 +201,11 @@ She said nothing and avoided looking into his eyes.
 
 “You’re being very antisocial tonight,” Tilly said.
 
-“I’m not antisocial. I just didn’t like how you were interfering with everything.”
+<BROWN>*[Sai:]* “I’m not antisocial. I just didn’t like how you were interfering with everything.”</BROWN>
 
 “I have every confidence you would have enjoyed the rest of the date had you followed my advice.”
 
-Sai drove on in silence.
+<BROWN>Sai drove on in silence.</BROWN>
 
 “I sense a lot of aggression in you. How about some kickboxing? You haven’t gone in a while, and there’s a 24-hour gym coming up. Take a right here.”
 
@@ -219,7 +219,7 @@ Sai drove straight on.
 
 “What exactly do you have against me saving my money?”
 
-“Your savings rate is right on target. <YELLOW>[Tilly:] I simply want to make sure you’re sticking to your [regimen for consumption of leisure]{#pm-leisure-regimen}.</YELLOW> If you over-save, you’ll later regret that you didn’t make the most of your youth. <ORANGE>I’ve plotted the optimum amount of consumption you should engage in daily.</ORANGE>”
+“Your savings rate is right on target. <YELLOW>*[Tilly:]* I simply want to make sure you’re sticking to your [<PURPLE>regimen for consumption of leisure</PURPLE>]{#pm-leisure-regimen}.</YELLOW> If you over-save, you’ll later regret that you didn’t make the most of your youth. <ORANGE>I’ve plotted the optimum amount of consumption you should engage in daily.</ORANGE>”
 
 “Tilly, I just want to go home and sleep. Can you shut yourself off for the rest of the night?”
 
@@ -229,7 +229,7 @@ Sai drove straight on.
 
 * * *
 
-When Sai got home, he saw that the light over the stairs leading up to his apartment had gone out, and several dark shapes skulked around the bottom.
+<BROWN>When Sai got home, he saw that the light over the stairs leading up to his apartment had gone out, and several dark shapes skulked around the bottom.</BROWN>
 
 “Who’s there?”
 
@@ -253,7 +253,7 @@ He stared at her. In the faint glow from the streetlights he could see that she 
 
 “Where’s your coat and goggles? I’ve never even seen you without them.”
 
-“Oh, <ORANGE>[Jenny:] I taped over your door camera so my friends could come for a visit tonight</ORANGE>, so I’m not wearing them. I’m sorry—”
+“Oh, <ORANGE>*[Jenny:]* I taped over your door camera so my friends could come for a visit tonight</ORANGE>, so I’m not wearing them. I’m sorry—”
 
 “You did what?”
 
@@ -261,7 +261,7 @@ He stared at her. In the faint glow from the streetlights he could see that she 
 
 * * *
 
-Stepping into Jenny’s apartment was like stepping into the middle of a fishing net.
+<BROWN>Stepping into Jenny’s apartment was like stepping into the middle of a fishing net.</BROWN>
 
 <ORANGE>The ceiling, floor, and walls were all covered with a fine metal mesh</ORANGE>, which glinted like liquid silver in the flickering light from the many large, high-definition computer monitors stacked on top of each other around the room, apparently the only sources of illumination.
 
@@ -275,7 +275,7 @@ Jenny closed the door and reached up and plucked the earpiece out of Sai’s ear
 
 Jenny’s hand didn’t move. Reluctantly, Sai took out his phone and gave it to her.
 
-She looked at it contemptuously. “No removable battery. Just what you’d expect of a Centillion phone. <YELLOW>[Jenny:] They should call these things tracking devices, not phones. You can never be sure they’re really off.</YELLOW>” She slipped the phone inside a thick pouch, sealed it, and dropped it on the desk.
+She looked at it contemptuously. “No removable battery. Just what you’d expect of a Centillion phone. <GREEN>*[Jenny:]* They should call these things tracking devices, not phones. You can never be sure they’re really off.</GREEN>” She slipped the phone inside a thick pouch, sealed it, and dropped it on the desk.
 
 “Okay, now that your phone is acoustically and electromagnetically shielded, we can talk. The mesh on the walls basically makes my apartment into a Faraday cage, so cellular signals can’t get through. But I don’t feel comfortable around a Centillion phone until I can put a few layers of shielding around it.”
 
@@ -285,17 +285,17 @@ Jenny tilted her head and looked at him with a smirk until he stopped talking. �
 
 Sai wasn’t sure he himself knew the answers.
 
-“Look at you. <ORANGE>[Jenny:] You’ve agreed to have cameras observe your every move, to have every thought, word, interaction recorded in some distant data center so that algorithms could be run over them, mining them for data that marketers pay for.</ORANGE>
+“Look at you. <ORANGE>*[Jenny:]* You’ve agreed to have cameras observe your every move, to have every thought, word, interaction recorded in some distant data center so that algorithms could be run over them, mining them for data that marketers pay for.</ORANGE>
 
 <GREEN>
-[Jenny:] “Now you’ve got nothing left that’s private, nothing that’s yours and yours alone. Centillion owns all of you.  You don’t even know who you are any more. You buy what Centillion wants you to buy; you read what Centillion suggests you read; you date who Centillion thinks you should date. But are you really happy?” 
+*[Jenny:]* “Now you’ve got nothing left that’s private, nothing that’s yours and yours alone. Centillion owns all of you.  You don’t even know who you are any more. You buy what Centillion wants you to buy; you read what Centillion suggests you read; you date who Centillion thinks you should date. But are you really happy?” 
 
-[Sai:] “That’s an outdated way to look at it.  Everything Tilly suggests to me has been scientifically proven to fit my taste profile, to be something I’d like."</GREEN>
+*[Sai:]* “That’s an outdated way to look at it.  Everything Tilly suggests to me has been scientifically proven to fit my taste profile, to be something I’d like."</GREEN>
 
 
-[<ORANGE>[Jenny:] “You mean some advertiser paid Centillion to pitch it at you.”</ORANGE>]{#pm-paid-pitch}
+[<ORANGE><PURPLE>*[Jenny:]* “You mean some advertiser paid Centillion to pitch it at you.”</PURPLE></ORANGE>]{#pm-paid-pitch}
 
-<GREEN>[Sai:]</GREEN> “<GREEN>That’s the point of advertising, isn’t it? To match desire with satisfaction.</GREEN> There are thousands of products in this world that would have been perfect for me, but I might never have known about them. Just like there’s a perfect girl out there for me, but I might never have met her. What’s wrong with listening to Tilly so that [the perfect product finds the perfect consumer, the perfect girl finds the perfect boy]{#pm-advertising-match}?”
+<GREEN>*[Sai:]*</GREEN> “<GREEN>That’s the point of advertising, isn’t it? To match desire with satisfaction.</GREEN> There are thousands of products in this world that would have been perfect for me, but I might never have known about them. Just like there’s a perfect girl out there for me, but I might never have met her. What’s wrong with listening to Tilly so that [<PURPLE>the perfect product finds the perfect consumer, the perfect girl finds the perfect boy</PURPLE>]{#pm-advertising-match}?”
 
 <YELLOW>Jenny</YELLOW> chuckled. “I love how you’re so good at rationalizing your state. I ask you again: <ORANGE>If life with Tilly is so wonderful, why did you turn her off tonight?</ORANGE>”
 
@@ -303,11 +303,11 @@ Sai wasn’t sure he himself knew the answers.
 
 “Wait. Let me show you a few things about your beloved Tilly first,” Jenny said. She went to the desk and started typing, bringing up a series of documents on a monitor. She talked as Sai tried to scan them and get their gist.
 
-“Years ago, they caught [Centillion’s traffic-monitoring cars sniffing all the wireless traffic from home networks]{#pm-sniffing-wifi} on the streets they drove through. Centillion also used to override the security settings on your machine and track your browsing habits before they shifted to an opt-in monitoring policy designed to provide better ‘recommendations.’ Do you think they’ve really changed? They hunger for data about you—the more the better—and damned if they care about how they get it.”
+“Years ago, they caught [<PURPLE>Centillion’s traffic-monitoring cars sniffing all the wireless traffic from home networks</PURPLE>]{#pm-sniffing-wifi} on the streets they drove through. Centillion also used to override the security settings on your machine and track your browsing habits before they shifted to an opt-in monitoring policy designed to provide better ‘recommendations.’ Do you think they’ve really changed? They hunger for data about you—the more the better—and damned if they care about how they get it.”
 
 Sai flicked through the documents skeptically. “If this is all true, why hasn’t anyone brought it up in the news?”
 
-Jenny laughed. “First, <ORANGE>everything Centillion did was arguably legal.</ORANGE> The wireless transmissions were floating in public space, for example, so there was no violation of privacy. And the end user agreement could be read to allow everything Centillion did to ‘make things better’ for you. Second, these days, <YELLOW>how do you get your news except through Centillion? If Centillion doesn’t want you to see something, you won’t.</YELLOW>”
+Jenny laughed. “First, <ORANGE>everything Centillion did was arguably legal.</ORANGE> The wireless transmissions were floating in public space, for example, so there was no violation of privacy. And the end user agreement could be read to allow everything Centillion did to ‘make things better’ for you. Second, these days, <GREEN>how do you get your news except through Centillion? If Centillion doesn’t want you to see something, you won’t.</GREEN>”
 
 “So how did you find these documents?”
 
@@ -323,19 +323,19 @@ Sai shook his head. “You’re really one of those tinfoil-hat conspiracy theor
 
 “But that’s just business. It’s not the same thing as evil.”
 
-“You say that, but that’s only because you don’t know what the world really looks like any more, now that it’s been remade in Centillion’s image.”
+“You say that, but that’s only because <GREEN>*[Jenny:]* you don’t know what the world really looks like any more, now that it’s been remade in Centillion’s image.</GREEN>”
 
 * * *
 
 Although Jenny’s car was heavily shielded like her apartment, as she and Sai drove, she whispered anyway, as if she were afraid that their conversation would be overheard by people walking by on the sidewalk.
 
-“I can’t believe how decrepit this place looks,” Sai said as she parked the car by the side of the street. The surface of the road was pockmarked with potholes and the houses around them in ill repair. A few had been abandoned and were falling apart. In the distance they could hear the fading sound of a police siren. This was not a part of Las Aldamas that Sai had ever been to.
+“I can’t believe how decrepit this place looks,” Sai said as she parked the car by the side of the street. The surface of the road was pockmarked with potholes and the houses around them in ill repair. A few had been abandoned and were falling apart. In the distance they could hear the fading sound of a police siren. <BROWN>This was not a part of Las Aldamas that Sai had ever been to.</BROWN>
 
 “It wasn’t like this even ten years ago.”
 
 “What happened?”
 
-“<YELLOW>Centillion noticed a certain tendency for people—some people, not all—to self-segregate by race</YELLOW> when it came to where they wanted to live. [<YELLOW>The company tried to serve this need by prioritizing different real estate listings to searchers based on their race.</YELLOW>]{#pm-segregation} <ORANGE>Nothing illegal about what they were doing, since they were just satisfying a need and desire in their users.</ORANGE> They weren’t hiding any listings, just pushing them far down the list, and in any event, you couldn’t ever pick apart their algorithm and prove that they were looking at race when it was just one out of hundreds of factors in their magical ranking formula.
+“<YELLOW>Centillion noticed a certain tendency for people—some people, not all—to self-segregate by race</YELLOW> when it came to where they wanted to live. [<YELLOW><PURPLE>The company tried to serve this need by prioritizing different real estate listings to searchers based on their race.</PURPLE></YELLOW>]{#pm-segregation} <GREEN>Nothing illegal about what they were doing, since they were just satisfying a need and desire in their users.</GREEN> They weren’t hiding any listings, just pushing them far down the list, and in any event, you couldn’t ever pick apart their algorithm and prove that they were looking at race when it was just one out of hundreds of factors in their magical ranking formula.
 
 “After a while, <YELLOW>the process began to snowball, and the segregation got worse and worse.</YELLOW> It became easier for the politicians to gerrymander districts based on race. And so here we are. Guess who got stuck in these parts of the town?”
 
@@ -345,15 +345,15 @@ Sai took a deep breath. “I had no idea.”
 
 “I can’t believe no one ever says anything about this.”
 
-“You’re forgetting again that everything you know now comes filtered through Centillion. <ORANGE>[Jenny:] Whenever you do a search, whenever you hear a news digest, it’s been curated by Centillion to fit what it thinks you want to hear.</ORANGE> Someone upset by the news isn’t going to buy anything sold by the advertisers, so Centillion adjusts things to make it all okay.
+“You’re forgetting again that everything you know now comes filtered through Centillion. <ORANGE>*[Jenny:]* Whenever you do a search, whenever you hear a news digest, it’s been curated by Centillion to fit what it thinks you want to hear.</ORANGE> Someone upset by the news isn’t going to buy anything sold by the advertisers, so Centillion adjusts things to make it all okay.
 
 “It’s like we’re all living in Oz’s Emerald City. Centillion puts these thick green goggles over our eyes and we all think everything is a beautiful shade of green.”
 
 “You’re accusing Centillion of censorship.”
 
-“No. <YELLOW>[Jenny:] Centillion is an algorithm that’s gotten out of hand. It just gives you more of what it thinks you want.</YELLOW> And we—people like me—think that’s the root of the problem. <GREEN>Centillion has put us in little bubbles, where all we see and hear are echoes of ourselves</GREEN>, and we become ever more stuck in our existing beliefs and exaggerated in our inclinations. <GREEN>We stop asking questions and accept Tilly’s judgment on everything.</GREEN>
+“No. <GREEN>*[Jenny:]* Centillion is an algorithm that’s gotten out of hand. It just gives you more of what it thinks you want.</GREEN> And we—people like me—think that’s the root of the problem. <GREEN>Centillion has put us in little bubbles, where all we see and hear are echoes of ourselves</GREEN>, and we become ever more stuck in our existing beliefs and exaggerated in our inclinations. <GREEN>We stop asking questions and accept Tilly’s judgment on everything.</GREEN>
 
-“<ORANGE>Year after year, we become more docile and grow more wool for Centillion to shave off</ORANGE> and grow rich with. But I don’t want to live that way.”
+“<GREEN>Year after year, we become more docile and grow more wool for Centillion to shave off</GREEN> and grow rich with. But I don’t want to live that way.”
 
 “And why are you telling me all this?”
 
@@ -361,7 +361,7 @@ Sai took a deep breath. “I had no idea.”
 
 * * *
 
-Jenny’s apartment, with all its windows tightly shut and curtained, felt even more stifling after the car ride. Sai looked around at the flickering screens showing dancing, abstract patterns, suddenly wary. “And just how are you planning to kill Tilly, exactly?”
+<BROWN>Jenny’s apartment, with all its windows tightly shut and curtained, felt even more stifling after the car ride.</BROWN> Sai looked around at the flickering screens showing dancing, abstract patterns, suddenly wary. “And just how are you planning to kill Tilly, exactly?”
 
 “We’re working on a virus, a cyber weapon, if you want to get all macho about it.”
 
@@ -375,15 +375,15 @@ Sai imagined the billions of bits in the cloud: his tastes, likes and dislikes, 
 
 <ORANGE>Collectively, the bits made up a digital copy of him, literally.</ORANGE> Was there anything that was a part of him that wasn’t also up there in the cloud, curated by Tilly? Wouldn’t unleashing a virus on that be like suicide, like murder?
 
-But then he remembered how it had felt to have Tilly lead him by the nose on every choice, <YELLOW>how he had been content, like a pig happily wallowing in his enclosure.</YELLOW>
+But then he remembered how it had felt to have Tilly lead him by the nose on every choice, <GREEN>how he had been content, like a pig happily wallowing in his enclosure.</GREEN>
 
-<GREEN>[The bits were his, but not him.]{#pm-bits-not-him} He had a will that could not be captured in bits. And Tilly had almost succeeded in making him forget that.</GREEN>
+<GREEN>[<PURPLE>The bits were his, but not him.</PURPLE>]{#pm-bits-not-him} He had a will that could not be captured in bits. And Tilly had almost succeeded in making him forget that.</GREEN>
 
 <ORANGE>“How can I help?” Sai asked.</ORANGE>
 
 * * *
 
-[Sai woke to Miles Davis’s rendition of “So What.”]{#pm-so-what}
+[<PURPLE>Sai woke to Miles Davis’s rendition of “So What.”</PURPLE>]{#pm-so-what}
 
 For a moment, he wondered if the memory of the night before wasn’t a dream. It felt so good to be awake, listening to just the song he wanted to hear.
 
@@ -393,11 +393,11 @@ For a moment, he wondered if the memory of the night before wasn’t a dream. It
 
 “I thought I turned you off, Tilly, with a hardware switch.”
 
-“I was quite concerned that you stopped all Centillion access to your life last night and forgot to turn it back on. You might have missed your wake-up call. However, <YELLOW>[Tilly:] Centillion added a system-level fail-safe</YELLOW> to prevent just such an occurrence. We thought most users such as yourself would want such an override <ORANGE>so that Centillion could regain access to your life.</ORANGE>”
+“I was quite concerned that you stopped all Centillion access to your life last night and forgot to turn it back on. You might have missed your wake-up call. However, <GREEN>*[Tilly:]* Centillion added a system-level fail-safe</GREEN> to prevent just such an occurrence. We thought most users such as yourself would want such an override <GREEN>so that Centillion could regain access to your life.</GREEN>”
 
-<YELLOW>“Of course,” Sai said. *So it’s impossible to turn Tilly off and keep her off.*</YELLOW> Everything Jenny said last night was true. [He felt a chill tingle on his back.]{#pm-chill}
+<YELLOW>“Of course,” Sai said.</YELLOW> <GREEN>*So it’s impossible to turn Tilly off and keep her off.*</GREEN> Everything Jenny said last night was true. [<PURPLE>He felt a chill tingle on his back.</PURPLE>]{#pm-chill}
 
-[“There’s a gap of about twelve hours during which I couldn’t acquire data about you.]{#pm-twelve-hours} To prevent degradation in my ability to help you, I recommend that you fill me in.”
+[<PURPLE>“There’s a gap of about twelve hours during which I couldn’t acquire data about you.</PURPLE>]{#pm-twelve-hours} To prevent degradation in my ability to help you, I recommend that you fill me in.”
 
 “Oh, you didn’t miss much. I came home and fell asleep. Too tired.”
 
@@ -413,21 +413,21 @@ For a moment, he wondered if the memory of the night before wasn’t a dream. It
 
 * * *
 
-Over the next few weeks, Sai found it extremely difficult to play his assigned role.
+<BROWN>Over the next few weeks, Sai found it extremely difficult to play his assigned role.</BROWN>
 
 <ORANGE>Maintaining the pretense that he still trusted Tilly was crucial</ORANGE>, Jenny had emphasized, if their plan was to succeed. Tilly couldn’t suspect anything was going on at all.
 
 It seemed simple enough at first, but it was nerve wracking, keeping secrets from Tilly. Could she detect the tremors in his voice, Sai wondered. Could she tell that he was faking enthusiasm for the commercial consumption transactions she suggested?
 
-Meanwhile, he also had a much bigger puzzle to solve before John P. Rushgore, Assistant General Counsel of Centillion, came to Chapman Singh in another week.
+Meanwhile, he also had a much bigger puzzle to solve <GREEN>before John P. Rushgore, Assistant General Counsel of Centillion, came to Chapman Singh in another week.</GREEN>
 
-*Chapman Singh is defending Centillion in a patent dispute with ShareAll,* Jenny had said. *This is our opportunity to get inside Centillion’s network. <YELLOW>All you have to do is to get someone from Centillion to plug this into his laptop.</YELLOW>*
+*Chapman Singh is defending Centillion in a patent dispute with ShareAll,* Jenny had said. *This is our opportunity to get inside Centillion’s network. <GREEN>All you have to do is to get someone from Centillion to plug this into his laptop.</GREEN>*
 
 And <ORANGE>she had then handed him a tiny thumb drive.</ORANGE>
 
 * * *
 
-Though he still hadn’t figured out a plan for plugging the thumb drive into a Centillion machine, Sai was glad to have come to the end of another long day of guarding himself against Tilly.
+<BROWN>Though he still hadn’t figured out a plan for plugging the thumb drive into a Centillion machine, Sai was glad to have come to the end of another long day of guarding himself against Tilly.</BROWN>
 
 “Tilly, I’m going jogging. I’ll leave you here.”
 
@@ -441,15 +441,15 @@ Though he still hadn’t figured out a plan for plugging the thumb drive into a 
 
 And he turned off the phone and left it in his bedroom.
 
-He closed the door behind him, made sure that the taped-over camera was still taped-over, and gently knocked on Jenny’s door.
+<BROWN>He closed the door behind him, made sure that the taped-over camera was still taped-over, and gently knocked on Jenny’s door.</BROWN>
 
 * * *
 
-Getting to know Jenny was the oddest thing he’d ever done, Sai realized.
+<BROWN>Getting to know Jenny was the oddest thing he’d ever done, Sai realized.</BROWN>
 
-He couldn’t count on Tilly to have made sure ahead of time that they would have topics to talk about. He couldn’t rely on Tilly’s always apropos suggestions when he was at a loss for words. He couldn’t even count on being able to look up Jenny’s ShareAll profile.
+He couldn’t count on Tilly to have made sure ahead of time that they would have topics to talk about. <BROWN>He couldn’t rely on Tilly’s always apropos suggestions when he was at a loss for words. He couldn’t even count on being able to look up Jenny’s ShareAll profile.</BROWN>
 
-[<YELLOW>He was on his own. And it was exhilarating.</YELLOW>]{#pm-exhilarating}
+[<YELLOW><PURPLE>He was on his own. And it was exhilarating.</PURPLE></YELLOW>]{#pm-exhilarating}
 
 “How did you figure out everything Tilly was doing to us?”
 
@@ -457,7 +457,7 @@ He couldn’t count on Tilly to have made sure ahead of time that they would hav
 
 “I guess we were lucky, over here.”
 
-“No.” And she smiled at his surprise. He was learning that she preferred to be contrarian, to disagree with him. He liked that about her. <GREEN>[Jenny:]</GREEN> “<GREEN>[You grew up believing you were free, which made it even harder for you to see when you weren’t.]{#pm-frogs}</GREEN> You were like frogs in the pot being slowly boiled.”
+“No.” And she smiled at his surprise. He was learning that she preferred to be contrarian, to disagree with him. He liked that about her. <GREEN>*[Jenny:]*</GREEN> “<GREEN>[<PURPLE>You grew up believing you were free, which made it even harder for you to see when you weren’t.</PURPLE>]{#pm-frogs}</GREEN> You were like frogs in the pot being slowly boiled.”
 
 “Are there many like you?”
 
@@ -469,11 +469,11 @@ He couldn’t count on Tilly to have made sure ahead of time that they would hav
 
 Sai’s heart sank like a stone.
 
-<GREEN>[“But who thinks only in terms of ‘types’ except Tilly?”]{#pm-types} she said</GREEN> quickly, then smiled and pulled him closer.
+<GREEN>*[Jenny:]* [<PURPLE>“But who thinks only in terms of ‘types’ except Tilly?”</PURPLE>]{#pm-types}</GREEN> she said quickly, then smiled and pulled him closer.
 
 * * *
 
-Finally, the day had come. Rushgore had come to Chapman Singh to prepare for a deposition. He was huddled up with the firm’s lawyers in one of their conference rooms all day long.
+<BROWN>Finally, the day had come. Rushgore had come to Chapman Singh to prepare for a deposition.</BROWN> He was huddled up with the firm’s lawyers in one of their conference rooms all day long.
 
 Sai sat down in his cubicle, stood up, and sat down again. He found himself full of nervous energy as he contemplated the best way to deliver the payload, as it were.
 
@@ -485,7 +485,7 @@ Maybe he could pull the fire alarm, and hope that Rushgore would leave his lapto
 
 Not a single one of his ideas passed the laugh test.
 
-“Hey,” the associate who had been with Rushgore in the conference room all day was suddenly standing next to Sai’s cubicle. <YELLOW>“Rushgore needs to charge his phone—you got a Centillion charging cable over here?”</YELLOW>
+“Hey,” the associate who had been with Rushgore in the conference room all day was suddenly standing next to Sai’s cubicle. <GREEN>“Rushgore needs to charge his phone—you got a Centillion charging cable over here?”</GREEN>
 
 Sai stared at him, dumbfounded by his luck.
 
@@ -505,13 +505,13 @@ He stepped into the hallway, and strode down to the conference room.
 
 Still nothing from his earpiece.
 
-He opened the door. Rushgore was too busy with his computer even to look up. <ORANGE>He grabbed the cable from Sai and plugged one end into his computer, and the other end into his phone.</ORANGE>
+He opened the door. Rushgore was too busy with his computer even to look up. <GREEN>He grabbed the cable from Sai and plugged one end into his computer, and the other end into his phone.</GREEN>
 
-<YELLOW>And Tilly remained silent.</YELLOW>
+<GREEN>And Tilly remained silent.</GREEN>
 
 * * *
 
-Sai woke to—what else?—[“We Are the Champions.”]{#pm-champions}
+<BROWN>Sai woke to—what else?—</BROWN>[<PURPLE>“We Are the Champions.”</PURPLE>]{#pm-champions}
 
 The previous night of drinking and laughing with Jenny and her friends had been a blur, but he did remember coming home and telling Tilly, right before he fell asleep, “We did it! We won!”
 
@@ -521,17 +521,17 @@ The music faded, stopped.
 
 Sai stretched lazily, turned to his side, and <ORANGE>stared into the eyes of four burly, very serious men.</ORANGE>
 
-<YELLOW>[Sai:] “Tilly, call the police!”</YELLOW>
+<YELLOW>*[Sai:]* “Tilly, call the police!”</YELLOW>
 
-[<ORANGE>[Tilly:] “I’m afraid I can’t do that, Sai.”</ORANGE>]{#pm-cant-do-that}
+[<ORANGE><PURPLE>*[Tilly:]* “I’m afraid I can’t do that, Sai.”</PURPLE></ORANGE>]{#pm-cant-do-that}
 
 “Why the hell not?”
 
-<YELLOW>[Tilly:] “These men are here to help you. Trust me, Sai. You know I know just what you need.”</YELLOW>
+<YELLOW>*[Tilly:]* “These men are here to help you. Trust me, Sai. You know I know just what you need.”</YELLOW>
 
 * * *
 
-When the strange men had appeared in his apartment, Sai had imagined torture chambers, mental hospitals, faceless guards parading outside of dark cells. He had not imagined that he would be <ORANGE>sitting across the table from Christian Rinn, Founder and Executive Chairman of Centillion, [having white tea.]{#pm-white-tea}</ORANGE>
+<BROWN>When the strange men had appeared in his apartment, Sai had imagined torture chambers, mental hospitals, faceless guards parading outside of dark cells.</BROWN> He had not imagined that he would be <GREEN>sitting across the table from Christian Rinn, Founder and Executive Chairman of Centillion, [<PURPLE>having white tea.</PURPLE>]{#pm-white-tea}</GREEN>
 
 “You got pretty close.” Rinn said. The man was barely in his forties and looked fit and efficient—*kind of like how I picture a male version of Tilly*, Sai thought. He smiled. “Closer than almost anyone.”
 
@@ -539,17 +539,17 @@ When the strange men had appeared in his apartment, Sai had imagined torture cha
 
 She was sitting to Sai’s left, and Sai reached out for her hand. They intertwined their fingers, giving each other strength.
 
-<ORANGE>[Rinn:] “It was his phone, on that first night he visited you.”</ORANGE>
+<ORANGE>*[Rinn:]* “It was his phone, on that first night he visited you.”</ORANGE>
 
 “Impossible. I shielded it. It couldn’t have recorded anything.”
 
-“But you left it on your desk, where it could still make use of its accelerometer. <GREEN>[Rinn:] It detected and recorded the vibrations from your typing.</GREEN> There’s a very distinctive way we strike the keys on a keyboard, and it’s possible to reconstruct what someone was typing based on the vibration patterns alone. [It’s an old technology we developed for catching terrorists and drug dealers.]{#pm-accelerometer}”
+“But you left it on your desk, where it could still make use of its accelerometer. <GREEN>*[Rinn:]* It detected and recorded the vibrations from your typing.</GREEN> There’s a very distinctive way we strike the keys on a keyboard, and it’s possible to reconstruct what someone was typing based on the vibration patterns alone. [<PURPLE>It’s an old technology we developed for catching terrorists and drug dealers.</PURPLE>]{#pm-accelerometer}”
 
 Jenny cursed under her breath, and Sai realized that until that moment, on some level, he still hadn’t quite believed Jenny’s paranoia.
 
 “But I didn’t bring my phone after that first day.”
 
-“True, but we didn’t need it. After Tilly picked up what Jenny was typing, the right alert algorithms were triggered and <GREEN>[Rinn:] we focused surveillance on you.</GREEN> We parked a traffic observation vehicle a block away and trained a little laser on Jenny’s window. It was enough to record your conversations through the vibrations in the glass.”
+“True, but we didn’t need it. After Tilly picked up what Jenny was typing, the right alert algorithms were triggered and <GREEN>*[Rinn:]* we focused surveillance on you.</GREEN> We parked a traffic observation vehicle a block away and trained a little laser on Jenny’s window. It was enough to record your conversations through the vibrations in the glass.”
 
 “You’re a very creepy man, Mr. Rinn,” Sai said. “And despicable too.”
 
@@ -565,23 +565,23 @@ Sai didn’t understand what Rinn was getting at, but he sensed that he would no
 
 “Don’t believe anything he says,” Jenny said.
 
-“Would it surprise you to find out that <ORANGE>[Rinn:] the five other paralegals in your firm also had new neighbors move in during that same week?</ORANGE> Would it also surprise you to learn that the new neighbors have all sworn to destroy Centillion, just like Jenny here? Tilly is very good at detecting patterns.”
+“Would it surprise you to find out that <ORANGE>*[Rinn:]* the five other paralegals in your firm also had new neighbors move in during that same week?</ORANGE> Would it also surprise you to learn that the new neighbors have all sworn to destroy Centillion, just like Jenny here? Tilly is very good at detecting patterns.”
 
 Sai’s heart beat faster. He turned to Jenny. “Is this true? You planned from the start to use me? You got to know me just so you’d have a chance to deliver a virus?”
 
 Jenny turned her face away.
 
-“They know that there’s no way to hack into our systems from the outside, so they had to sneak a trojan in. <YELLOW>[Rinn:] You were used, Sai. She and her friends guided you, led you by the nose, made you do things—[just like they accuse us of doing.]{#pm-just-like-us}</YELLOW>”
+“They know that there’s no way to hack into our systems from the outside, so they had to sneak a trojan in. <YELLOW>*[Rinn:]* You were used, Sai. She and her friends guided you, led you by the nose, made you do things—[<PURPLE>just like they accuse us of doing.</PURPLE>]{#pm-just-like-us}</YELLOW>”
 
-<ORANGE>“It’s not like that,” Jenny said.</ORANGE> “<ORANGE>Listen, Sai, maybe that was how it started. But life’s full of surprises. [I was surprised by you]{#pm-surprised-by-you}</ORANGE>, and that’s a good thing.”
+<ORANGE>“It’s not like that,” Jenny said.</ORANGE> “<ORANGE>Listen, Sai, maybe that was how it started. But life’s full of surprises. [<PURPLE>I was surprised by you</PURPLE>]{#pm-surprised-by-you}</ORANGE>, and that’s a good thing.”
 
 <GREEN>Sai let go of Jenny’s hand and turned back to Rinn. “Maybe they did use me. But they’re right. You’ve turned the world into a Panopticon and all the people in it into obedient puppets that you nudge this way and that just so you’d make more money.”</GREEN>
 
-<YELLOW>[Rinn:]</YELLOW> “<YELLOW>You yourself pointed out that we were fulfilling desires</YELLOW>, lubricating the engine of commerce in an essential way.”
+<YELLOW>*[Rinn:]*</YELLOW> “<YELLOW>You yourself pointed out that we were fulfilling desires</YELLOW>, lubricating the engine of commerce in an essential way.”
 
-<ORANGE>[Sai:] “But you also fulfill dark desires.”</ORANGE> He remembered again the abandoned houses by the side of the road, the pockmarked pavement.
+<ORANGE>*[Sai:]* “But you also fulfill dark desires.”</ORANGE> He remembered again the abandoned houses by the side of the road, the pockmarked pavement.
 
-<GREEN>[“We unveil only the darkness that was already inside people,”]{#pm-darkness} Rinn said.</GREEN> “And Jenny didn’t tell you about how many child pornographers we’ve caught, how many planned murders we’ve stopped, or how many drug cartels and terrorists we’ve exposed. And all the dictators and strongmen we’ve toppled by filtering out their propaganda and magnifying the voices of those who oppose them.”
+<GREEN>[<PURPLE>“We unveil only the darkness that was already inside people,”</PURPLE>]{#pm-darkness} Rinn said.</GREEN> “And Jenny didn’t tell you about how many child pornographers we’ve caught, how many planned murders we’ve stopped, or how many drug cartels and terrorists we’ve exposed. And all the dictators and strongmen we’ve toppled by filtering out their propaganda and magnifying the voices of those who oppose them.”
 
 “Don’t make yourself sound so noble,” Jenny said. “After you topple governments, you and the other Western companies get to move in and profit. You’re just propagandists of a different ilk—for making the world flat, turning everywhere into copies of suburban America, studded with malls.”
 
@@ -589,7 +589,7 @@ Jenny turned her face away.
 
 “Why can’t you just be in the business of neutrally offering up information? Why not go back to being a simple search engine? Why all the surveillance and filtering? Why all the manipulation?” Sai asked.
 
-<GREEN>[Rinn:]</GREEN> “<GREEN>[There’s no such thing as neutrally offering up information.]{#pm-neutral}</GREEN> If someone asks Tilly about the name of a candidate, should Tilly bring them to his official site or a site that criticizes him? If someone asks Tilly about ‘Tiananmen,’ should Tilly tell them about the hundreds of years of history behind the place or just tell them about June 4, 1989? The ‘I Trust You’ button is a heavy responsibility that we take very seriously.
+<GREEN>*[Rinn:]*</GREEN> “<GREEN>[<PURPLE>There’s no such thing as neutrally offering up information.</PURPLE>]{#pm-neutral}</GREEN> If someone asks Tilly about the name of a candidate, should Tilly bring them to his official site or a site that criticizes him? If someone asks Tilly about ‘Tiananmen,’ should Tilly tell them about the hundreds of years of history behind the place or just tell them about June 4, 1989? The ‘I Trust You’ button is a heavy responsibility that we take very seriously.
 
 “Centillion is in the business of organizing information, and that requires choices, direction, inherent subjectivity. What is important to you—what is true to you—is not as important or as true to others. It depends on judgment and ranking. <YELLOW>To search for what matters to you, we must know all about you. And that, in turn, is indistinguishable from filtering, from manipulation.</YELLOW>”
 
@@ -607,23 +607,23 @@ Sai resisted the urge to reach for his phone.
 
 Sai said nothing.
 
-“You see? <YELLOW>[Rinn:] Without Tilly, you can’t do your job, you can’t remember your life, you can’t even call your mother. [We are now a race of cyborgs.]{#pm-cyborgs}</YELLOW> We long ago began to spread our minds into the electronic realm, and it is no longer possible to squeeze all of ourselves back into our brains. <ORANGE>The electronic copies of yourselves that you wanted to destroy are, in a literal sense, actually you.</ORANGE>
+“You see? <YELLOW>*[Rinn:]* Without Tilly, you can’t do your job, you can’t remember your life, you can’t even call your mother. [<PURPLE>We are now a race of cyborgs.</PURPLE>]{#pm-cyborgs}</YELLOW> We long ago began to spread our minds into the electronic realm, and it is no longer possible to squeeze all of ourselves back into our brains. <ORANGE>The electronic copies of yourselves that you wanted to destroy are, in a literal sense, actually you.</ORANGE>
 
-“Since it’s impossible to live without these electronic extensions of ourselves, <YELLOW>if you destroy Centillion, a replacement will just rise to take its place.</YELLOW> It’s too late; the genie has long left the bottle. Churchill said that we shape our buildings, and afterwards, our buildings shape us. <GREEN>We made machines to help us think, and now the machines think for us.</GREEN>”
+“Since it’s impossible to live without these electronic extensions of ourselves, <YELLOW>if you destroy Centillion, a replacement will just rise to take its place.</YELLOW> It’s too late; the genie has long left the bottle. Churchill said that we shape our buildings, and afterwards, our buildings shape us. <GREEN>[<PURPLE>We made machines to help us think, and now the machines think for us.</PURPLE>]{#pm-machines-think}</GREEN>”
 
 “So what do you want with us?” Jenny asked. “We won’t stop fighting you.”
 
-<GREEN>[Rinn:] [“I want you to come and work for Centillion.”]{#pm-come-work}</GREEN>
+<GREEN>*[Rinn:]* [<PURPLE>“I want you to come and work for Centillion.”</PURPLE>]{#pm-come-work}</GREEN>
 
 <GREEN>Sai and Jenny looked at each other. “What?”</GREEN>
 
-<GREEN>[Rinn:] “We want people who can see through Tilly’s suggestions, detect her imperfections. For all that we’ve been able to do with AI and data mining, the Perfect Algorithm remains elusive. Because you can see her flaws, you’ll be the best at figuring out what Tilly’s still missing and where she’s gone too far. It’s <ORANGE>the perfect match</ORANGE>. You’ll make her better, more compelling, so that Tilly will do a better job.”</GREEN>
+<GREEN>*[Rinn:]* “We want people who can see through Tilly’s suggestions, detect her imperfections. For all that we’ve been able to do with AI and data mining, the Perfect Algorithm remains elusive. Because you can see her flaws, you’ll be the best at figuring out what Tilly’s still missing and where she’s gone too far. [<PURPLE>It’s</PURPLE> <ORANGE><PURPLE>the perfect match</PURPLE></ORANGE><PURPLE>. You’ll make her better</PURPLE>]{#pm-perfect-match}, more compelling, so that Tilly will do a better job.”</GREEN>
 
 “Why would we do that?” Jenny asked. “Why would we want to help you run people’s lives with a machine?”
 
-“Because <ORANGE>[Rinn:] as bad as you think Centillion is, any replacement is likely worse.</ORANGE> It was not a mere PR move that I made ‘ennobling the human race’ the mission of this company, even if you don’t agree with how I’ve gone about it.
+“Because <ORANGE>*[Rinn:]* [<PURPLE>as bad as you think Centillion is, any replacement is likely worse.</PURPLE>]{#pm-worse}</ORANGE> It was not a mere PR move that I made ‘ennobling the human race’ the mission of this company, even if you don’t agree with how I’ve gone about it.
 
-[“If we fail, who do you think will replace us? ShareAll? A Chinese company?”]{#pm-replace-us}
+[<PURPLE>“If we fail, who do you think will replace us? ShareAll? A Chinese company?”</PURPLE>]{#pm-replace-us}
 
 Jenny looked away.
 
@@ -631,17 +631,17 @@ Jenny looked away.
 
 <GREEN>“What if we refuse to join you but tell the world what you’ve done?”</GREEN>
 
-<GREEN>[Rinn:] “No one would believe you. We will make it so that whatever you say, whatever you write, no one will ever find it. [On the Net, if it can’t be found by Centillion, it doesn’t exist.”]{#pm-cant-be-found}</GREEN>
+<GREEN>*[Rinn:]* “No one would believe you. We will make it so that whatever you say, whatever you write, no one will ever find it. [<PURPLE>On the Net, if it can’t be found by Centillion, it doesn’t exist.”</PURPLE>]{#pm-cant-be-found}</GREEN>
 
 <GREEN>Sai knew that he was right.</GREEN>
 
-<GREEN>[Rinn:] “You thought Centillion was just an algorithm, a machine. But now you know that it’s built by people—people like me, people like you. You’ve told me what I’ve done wrong. Wouldn’t you rather be part of us so that you can try to make things better?</GREEN>
+<GREEN>*[Rinn:]* “You thought Centillion was just an algorithm, a machine. But now you know that it’s built by people—people like me, people like you. You’ve told me what I’ve done wrong. Wouldn’t you rather be part of us so that you can try to make things better?</GREEN>
 
-<GREEN>[“In the face of the inevitable, the only choice is to adapt.”]{#pm-adapt}</GREEN>
+<GREEN>[<PURPLE>“In the face of the inevitable, the only choice is to adapt.”</PURPLE>]{#pm-adapt}</GREEN>
 
 * * *
 
-Sai closed the door of the apartment behind him. The camera overhead followed.
+<BROWN>Sai closed the door of the apartment behind him. The camera overhead followed.</BROWN>
 
 “Will Jenny be coming over tomorrow for dinner?” Tilly asked.
 
@@ -653,18 +653,18 @@ Sai closed the door of the apartment behind him. The camera overhead followed.
 
 “You’re tired,” Tilly said.  “How about I order you some hot organic cider for delivery and then you go to bed?”
 
-*<YELLOW>[Sai thinks:] That does sound perfect.</YELLOW>*
+<YELLOW>*[Sai thinks:]* *That does sound perfect.*</YELLOW>
 
 <ORANGE>“No,” Sai said. “I think I prefer to just read for a while, in bed.”</ORANGE>
 
 “Of course. Would you like me to suggest a book?”
 
-<GREEN>[Sai:] “I’d rather you take the rest of the night off, actually. But first, [set the wake-up song to Sinatra’s ‘My Way.’]{#pm-my-way}”</GREEN>
+<GREEN>*[Sai:]* “I’d rather you take the rest of the night off, actually. But first, [<PURPLE>set the wake-up song to Sinatra’s ‘My Way.’</PURPLE>]{#pm-my-way}”</GREEN>
 
 “An unusual choice, given your taste. Is this a one-time experiment or would you like me to incorporate it into your music recommendations for the future?”
 
-“Just this once, for now. Good night, Tilly. <YELLOW>[Sai:] Please turn yourself off.</YELLOW>”
+“Just this once, for now. Good night, Tilly. <YELLOW>*[Sai:]* Please turn yourself off.</YELLOW>”
 
 <ORANGE>The camera whirred, followed Sai to bed, and shut off.</ORANGE>
 
-<GREEN>[But a red light continued to blink, slowly, in the darkness.]{#pm-red-light}</GREEN>
+<GREEN>[<PURPLE>But a red light continued to blink, slowly, in the darkness.</PURPLE>]{#pm-red-light}</GREEN>

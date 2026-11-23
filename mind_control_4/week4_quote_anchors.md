@@ -1,13 +1,16 @@
 ---
 title: "Quote Anchors in The Perfect Match Highlighted Copy"
 subtitle: "Each anchor wraps the words it points to"
-date: "Nov 21, 2026"
+date: "Nov 22, 2026"
 author: "Scott, assisted by Claude Anthropicson"
 ---
 
-Each anchor in `ThePerfectMatch_Highlighted.md` is a span around the passage it marks, e.g. `[Do you even know what you really want any more?”]{#pm-what-you-want}`. A style block at the top of the story highlights that span in purple when a link brings you there; readers who scroll normally see nothing extra.
+Each anchor in `ThePerfectMatch_Highlighted.md` is a span around the passage it marks, with the text inside it highlighted purple, e.g. `[<PURPLE>Do you even know what you really want any more?”</PURPLE>]{#pm-what-you-want}`. Purple is a permanent highlight (in both HTML and PDF); in addition, a style block at the top of the story draws a purple box around the passage when a link brings you there.
 
-To add an anchor, wrap the words in `[...]{#pm-name}`. Keep the span inside or outside any `<YELLOW>`/`<ORANGE>`/`<GREEN>` tags, never across one tag's boundary.
+To add an anchor:
+
+1. Wrap the words in `[...]{#pm-name}`. Keep the span entirely inside or outside any `<YELLOW>`/`<ORANGE>`/`<GREEN>` tags, never across one tag's boundary.
+2. Inside the span, put `<PURPLE>...</PURPLE>` innermost, around each stretch of text, so it sits inside any other color tag, e.g. `[<ORANGE><PURPLE>...</PURPLE></ORANGE>]{#pm-name}`. Otherwise the inner yellow, orange or green covers the purple. Keep spaces outside the PURPLE tags.
 
 | Anchor | Wrapped words (in story order) |
 |---|---|
@@ -40,7 +43,10 @@ To add an anchor, wrap the words in `[...]{#pm-name}`. Keep the span inside or o
 | `pm-darkness` | “We unveil only the darkness that was already inside people,” |
 | `pm-neutral` | There’s no such thing as neutrally offering up information. |
 | `pm-cyborgs` | We are now a race of cyborgs. |
+| `pm-machines-think` | We made machines to help us think, and now the machines think for us. |
 | `pm-come-work` | “I want you to come and work for Centillion.” |
+| `pm-perfect-match` | It’s the perfect match. You’ll make her better |
+| `pm-worse` | as bad as you think Centillion is, any replacement is likely worse. |
 | `pm-replace-us` | “If we fail, who do you think will replace us? ShareAll? A Chinese company?” |
 | `pm-cant-be-found` | On the Net, if it can’t be found by Centillion, it doesn’t exist.” |
 | `pm-adapt` | “In the face of the inevitable, the only choice is to adapt.” |

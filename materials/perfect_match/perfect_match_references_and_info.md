@@ -11,6 +11,7 @@ title: "The Perfect Match references and info"
 
 - [The Perfect Match: Summary with Concepts: The plot, its key lines, and the ideas behind them](../../mind_control_4/PerfectMatch_SummaryWithConcepts.html)
 
+- [Ken Liu's The Perfect Match, TheLit Parlour description on YouTube](https://www.youtube.com/watch?v=OTHJ_clCtl8)
 
 # II: Commentary related to "The Perfect Match"'
 

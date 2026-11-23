@@ -5,7 +5,7 @@
   <meta name="generator" content="pandoc 3.11" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   <meta name="author" content="Scott, assisted by Claude Anthropicson" />
-  <title>Proposed Anchors for The Perfect Match Highlighted Copy</title>
+  <title>Quote Anchors in The Perfect Match Highlighted Copy</title>
   <style>
     /* Default styles provided by pandoc.
     ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -28,8 +28,8 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="../styles.css?v=2611200931" />
-  <script src="../nav-sync.js?v=2611200931"></script>
+  <link rel="stylesheet" href="../styles.css?v=2611221251" />
+  <script src="../nav-sync.js?v=2611221251"></script>
   
   <!--
     The Better Approach: Target External Links Automatically
@@ -52,184 +52,206 @@
 </head>
 <body>
 <header id="title-block-header">
-<h1 class="title">Proposed Anchors for The Perfect Match Highlighted
+<h1 class="title">Quote Anchors in The Perfect Match Highlighted
 Copy</h1>
-<p class="subtitle">Links used in week4_presentation_draft2.md</p>
+<p class="subtitle">Each anchor wraps the words it points to</p>
 <p class="author">Scott, assisted by Claude Anthropicson</p>
-<p class="date">Nov 20, 2026</p>
+<p class="date">Nov 22, 2026</p>
 </header>
-<p>The presentation links to
-<code>ThePerfectMatch_Highlighted.html#&lt;anchor&gt;</code>. Each
-anchor goes at the start of the passage named by its opening words.</p>
+<p>Each anchor in <code>ThePerfectMatch_Highlighted.md</code> is a span
+around the passage it marks, with the text inside it highlighted purple,
+e.g. <code>[&lt;PURPLE&gt;Do you even know what you really want any more?”&lt;/PURPLE&gt;]{#pm-what-you-want}</code>.
+Purple is a permanent highlight (in both HTML and PDF); in addition, a
+style block at the top of the story draws a purple box around the
+passage when a link brings you there.</p>
+<p>To add an anchor:</p>
+<ol type="1">
+<li>Wrap the words in <code>[...]{#pm-name}</code>. Keep the span
+entirely inside or outside any
+<code>&lt;YELLOW&gt;</code>/<code>&lt;ORANGE&gt;</code>/<code>&lt;GREEN&gt;</code>
+tags, never across one tag’s boundary.</li>
+<li>Inside the span, put <code>&lt;PURPLE&gt;...&lt;/PURPLE&gt;</code>
+innermost, around each stretch of text, so it sits inside any other
+color tag,
+e.g. <code>[&lt;ORANGE&gt;&lt;PURPLE&gt;...&lt;/PURPLE&gt;&lt;/ORANGE&gt;]{#pm-name}</code>.
+Otherwise the inner yellow, orange or green covers the purple. Keep
+spaces outside the PURPLE tags.</li>
+</ol>
 <table>
 <colgroup>
-<col style="width: 33%" />
-<col style="width: 33%" />
-<col style="width: 33%" />
+<col style="width: 50%" />
+<col style="width: 50%" />
 </colgroup>
 <thead>
 <tr>
 <th>Anchor</th>
-<th>Passage begins</th>
-<th>Speaker / context</th>
+<th>Wrapped words (in story order)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><code>pm-il-sospetto</code></td>
-<td>“Sai woke to the rousing first movement of Vivaldi’s…”</td>
-<td>Opening scene</td>
+<td>Vivaldi’s violin concerto in C minor, “Il Sospetto.”</td>
+</tr>
+<tr>
+<td><code>pm-smoothie</code></td>
+<td>I suggest you go to this new smoothie place along the way instead—I
+can get you a coupon code.</td>
+</tr>
+<tr>
+<td><code>pm-know-best</code></td>
+<td>“Okay, Tilly. You always know best.”</td>
 </tr>
 <tr>
 <td><code>pm-what-you-want</code></td>
-<td>“Tilly doesn’t just tell you what you want,” Jenny shouted.</td>
-<td>Jenny, morning in the hallway</td>
-</tr>
-<tr>
-<td><code>pm-leisure-regimen</code></td>
-<td>“Your savings rate is right on target.”</td>
-<td>Tilly, drive home after the date</td>
+<td>Do you even know what you really want any more?”</td>
 </tr>
 <tr>
 <td><code>pm-boring-date</code></td>
-<td>“Although everything had gone exceedingly well…”</td>
-<td>Narration, the date with Ellen</td>
+<td>There were no surprises, no thrill of finding the truly new.</td>
 </tr>
 <tr>
 <td><code>pm-dessert</code></td>
-<td>“In that moment, Tilly’s voice burst into his earpiece…”</td>
-<td>The dessert suggestion</td>
+<td>he did suddenly have a craving for something sweet and
+delicate.</td>
 </tr>
 <tr>
 <td><code>pm-treated-like-child</code></td>
-<td>“I’m being treated like a child.”</td>
-<td>Sai’s thought, right after the dessert</td>
+<td>I’m being treated like a child.</td>
 </tr>
 <tr>
 <td><code>pm-gaps-in-sharing</code></td>
-<td>“Are you sure? Gaps in sharing can cause your profile to be
-incomplete—”</td>
-<td>Tilly, when Sai turns her off</td>
+<td>Gaps in sharing can cause your profile to be incomplete—</td>
 </tr>
 <tr>
-<td><code>pm-advertising-match</code></td>
-<td>“That’s the point of advertising, isn’t it?”</td>
-<td>Sai, in Jenny’s apartment</td>
+<td><code>pm-leisure-regimen</code></td>
+<td>regimen for consumption of leisure</td>
 </tr>
 <tr>
 <td><code>pm-paid-pitch</code></td>
 <td>“You mean some advertiser paid Centillion to pitch it at you.”</td>
-<td>Jenny</td>
+</tr>
+<tr>
+<td><code>pm-advertising-match</code></td>
+<td>the perfect product finds the perfect consumer, the perfect girl
+finds the perfect boy</td>
 </tr>
 <tr>
 <td><code>pm-sniffing-wifi</code></td>
-<td>“Years ago, they caught Centillion’s traffic-monitoring cars…”</td>
-<td>Jenny’s documents</td>
+<td>Centillion’s traffic-monitoring cars sniffing all the wireless
+traffic from home networks</td>
 </tr>
 <tr>
 <td><code>pm-segregation</code></td>
-<td>“Centillion noticed a certain tendency for people…”</td>
-<td>Jenny, in the run-down neighborhood</td>
+<td>The company tried to serve this need by prioritizing different real
+estate listings to searchers based on their race.</td>
 </tr>
 <tr>
 <td><code>pm-bits-not-him</code></td>
-<td>“Collectively, the bits made up a digital copy of him…”</td>
-<td>Sai decides to help</td>
+<td>The bits were his, but not him.</td>
 </tr>
 <tr>
 <td><code>pm-so-what</code></td>
-<td>“Sai woke to Miles Davis’s rendition of ‘So What.’”</td>
-<td>Second morning; the fail-safe</td>
+<td>Sai woke to Miles Davis’s rendition of “So What.”</td>
 </tr>
 <tr>
-<td><code>pm-frogs</code></td>
-<td>“I grew up in China,” Jenny said…</td>
-<td>Jenny’s background</td>
+<td><code>pm-chill</code></td>
+<td>He felt a chill tingle on his back.</td>
+</tr>
+<tr>
+<td><code>pm-twelve-hours</code></td>
+<td>“There’s a gap of about twelve hours during which I couldn’t acquire
+data about you.</td>
 </tr>
 <tr>
 <td><code>pm-exhilarating</code></td>
-<td>“Getting to know Jenny was the oddest thing he’d ever done…”</td>
-<td>Sai and Jenny alone</td>
+<td>He was on his own. And it was exhilarating.</td>
+</tr>
+<tr>
+<td><code>pm-frogs</code></td>
+<td>You grew up believing you were free, which made it even harder for
+you to see when you weren’t.</td>
 </tr>
 <tr>
 <td><code>pm-types</code></td>
-<td>“I never really thought of you as my type,” she said.</td>
-<td>Jenny</td>
+<td>“But who thinks only in terms of ‘types’ except Tilly?”</td>
 </tr>
 <tr>
 <td><code>pm-champions</code></td>
-<td>“Sai woke to—what else?—‘We Are the Champions.’”</td>
-<td>Third morning</td>
+<td>“We Are the Champions.”</td>
 </tr>
 <tr>
 <td><code>pm-cant-do-that</code></td>
-<td>“Tilly, call the police!”</td>
-<td>Four men in the bedroom</td>
+<td>“I’m afraid I can’t do that, Sai.”</td>
 </tr>
 <tr>
 <td><code>pm-white-tea</code></td>
-<td>“When the strange men had appeared in his apartment…”</td>
-<td>Meeting Rinn</td>
+<td>having white tea.</td>
 </tr>
 <tr>
 <td><code>pm-accelerometer</code></td>
-<td>“It was his phone, on that first night he visited you.”</td>
-<td>Rinn explains how they were caught</td>
+<td>It’s an old technology we developed for catching terrorists and drug
+dealers.</td>
 </tr>
 <tr>
 <td><code>pm-just-like-us</code></td>
-<td>“They know that there’s no way to hack into our systems…”</td>
-<td>Rinn on Jenny using Sai</td>
+<td>just like they accuse us of doing.</td>
 </tr>
 <tr>
 <td><code>pm-surprised-by-you</code></td>
-<td>“It’s not like that,” Jenny said.</td>
-<td>Jenny’s answer</td>
+<td>I was surprised by you</td>
 </tr>
 <tr>
 <td><code>pm-darkness</code></td>
 <td>“We unveil only the darkness that was already inside people,”</td>
-<td>Rinn</td>
 </tr>
 <tr>
 <td><code>pm-neutral</code></td>
-<td>“There’s no such thing as neutrally offering up information.”</td>
-<td>Rinn</td>
+<td>There’s no such thing as neutrally offering up information.</td>
 </tr>
 <tr>
 <td><code>pm-cyborgs</code></td>
-<td>“You see? Without Tilly, you can’t do your job…”</td>
-<td>Rinn</td>
+<td>We are now a race of cyborgs.</td>
+</tr>
+<tr>
+<td><code>pm-machines-think</code></td>
+<td>We made machines to help us think, and now the machines think for
+us.</td>
 </tr>
 <tr>
 <td><code>pm-come-work</code></td>
 <td>“I want you to come and work for Centillion.”</td>
-<td>Rinn</td>
+</tr>
+<tr>
+<td><code>pm-perfect-match</code></td>
+<td>It’s the perfect match. You’ll make her better</td>
+</tr>
+<tr>
+<td><code>pm-worse</code></td>
+<td>as bad as you think Centillion is, any replacement is likely
+worse.</td>
 </tr>
 <tr>
 <td><code>pm-replace-us</code></td>
-<td>“If we fail, who do you think will replace us?”</td>
-<td>Rinn</td>
+<td>“If we fail, who do you think will replace us? ShareAll? A Chinese
+company?”</td>
 </tr>
 <tr>
 <td><code>pm-cant-be-found</code></td>
-<td>“No one would believe you.”</td>
-<td>Rinn</td>
+<td>On the Net, if it can’t be found by Centillion, it doesn’t
+exist.”</td>
 </tr>
 <tr>
 <td><code>pm-adapt</code></td>
 <td>“In the face of the inevitable, the only choice is to adapt.”</td>
-<td>Rinn, last line of the meeting</td>
 </tr>
 <tr>
 <td><code>pm-my-way</code></td>
-<td>“Sai closed the door of the apartment behind him.”</td>
-<td>Final scene</td>
+<td>set the wake-up song to Sinatra’s ‘My Way.’</td>
 </tr>
 <tr>
 <td><code>pm-red-light</code></td>
-<td>“But a red light continued to blink, slowly, in the darkness.”</td>
-<td>Last line of the story</td>
+<td>But a red light continued to blink, slowly, in the darkness.</td>
 </tr>
 </tbody>
 </table>

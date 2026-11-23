@@ -1,9 +1,17 @@
 ---
-title: "DMC Class 4: Presentation Draft 7"
+title: "DMC Class 4: Presentation Draft 8"
 subtitle: |
-  29 pages with 29 Slides \
-  \faSink \ included \
-  Controlling You with Information You Need to Know 
+  25 frames with 44 parts \
+  ~~Controlling You~~ Caring for You \
+  with Information ~~I Want You~~ You Need to Know  \
+  \faSink \ included: \
+   Links to Highlighted Story \
+   Sections: \
+   - First Impressions of the Story \
+   - Context \
+   - Looking at the Story through Analytical Lenses \
+   - Beyond the Story \
+   - Extra Slides
 date: November 23, 2026
 ---
 
@@ -19,9 +27,10 @@ date: November 23, 2026
 \end{center}
 \vspace*{0.6in}
 
-- How did you absorb "The Perfect Match"\
-  emotionally and intellectually? \vspace*{0.3in}
-- How does it compare to the stories before it?
+. . .
+
+- \Cquestion{How did you absorb ``The Perfect Match''\\ emotionally and intellectually?} \vspace*{0.3in}\ 
+- \Cquestion{How does it compare to the stories before it?}\ 
 
 :::notes
 **Open the floor. Box plays the music.**
@@ -31,72 +40,21 @@ date: November 23, 2026
 - The box links to a YouTube recording of Vivaldi's Violin Concerto in C minor, RV 199, "Il Sospetto."
 :::
 
-## Context for The Perfect Match <!-- {.shrink} -->
-
-\begin{center}
-\makebox[\textwidth][c]{
-\resizebox{0.92\textwidth}{!}{
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|l|l|l|l|l|}
-\hline
- & \cellcolor{gray!20}\textbf{Underground Man} & \cellcolor{gray!20}\textbf{Winston Smith} & \cellcolor{gray!20}\textbf{Neo} & \textbf{Sai} \\
-\hline
-\textbf{Mind Control} &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} 2+2=4 \\ Rational egoism \end{tabular} &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} 2+2=5 \\ Fear dictatorship \end{tabular} &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} 10+10=100 \\ Reality hidden \end{tabular} &
-  \begin{tabular}{@{}l@{}} 2+2=what you like \\ Desire supplied \end{tabular} \\
-\hline
-\textbf{Lenses} &
-  \cellcolor{gray!20}Human outlier control &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Narrative control \\ Disciplinary surveillance \end{tabular} &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Individuals $\rightarrow$ Dividuals \\ Simulated reality \end{tabular} &
-  \begin{tabular}{@{}l@{}} Wants made for us \\ Watched for profit \end{tabular} \\
-\hline
-\textbf{Defiance} &
-  \cellcolor{gray!20}Spite &
-  \cellcolor{gray!20}Remembers &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Take red pill to see \\ Reality=Wonderland \end{tabular} &
-  \begin{tabular}{@{}l@{}} Turns Tilly off \\ Picks his own song \end{tabular} \\
-\hline
-\textbf{How Compromised?} &
-  \cellcolor{gray!20}No love or faith &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Corrupt \\ Part of system \end{tabular} &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Wants love \\ Unsure of being "The One" \end{tabular} &
-  \begin{tabular}{@{}l@{}} Offered a job \\ The red light still blinks \end{tabular} \\
-\hline
-\textit{Emotions} &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} \textit{Humiliation, spite} \\ \textit{Shame after Liza} \end{tabular} &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} \textit{Fear, longing} \\ \textit{Ends loving Big Brother} \end{tabular} &
-  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} \textit{Unease, disbelief} \\ \textit{Hope, love} \end{tabular} &
-  \begin{tabular}{@{}l@{}} \textit{Content $\rightarrow$ bored} \\ \textit{Irritated $\rightarrow$ exhilarated} \end{tabular} \\
-\hline
-\end{tabular}
-}
-}
-\end{center}
-
-\vspace{0.4in}
-
-How would you add the story to the table?
-
-:::notes
-**Their Sai column first. Emotions row: flag only.**
-
-- Week 3 ended by asking this question. Ask for the class's version of the Sai column before discussing the one on the slide.
-- The Emotions row (italics) is new. Don't dwell on it here: just say there are slides on it if we get there ("Emotional Arc of Sai"; extra slide "Emotional Arc 2: Four Stories").
-:::
-
 ## Four Wake-Up Songs
 
-1. [\Cteal{Vivaldi, "Il Sospetto" (The Suspicion):}](ThePerfectMatch_Highlighted.html#pm-il-sospetto) Tilly's choice. Life is perfect.
-2. [\Cteal{Miles Davis, "So What":}](ThePerfectMatch_Highlighted.html#pm-so-what) the morning after Sai first turns Tilly off.
-3. [\Cred{Queen, "We Are the Champions":}](ThePerfectMatch_Highlighted.html#pm-champions) the morning after the virus is planted.
-4. [\Cpurple{Sinatra, "My Way":}](ThePerfectMatch_Highlighted.html#pm-my-way) the first song Sai chooses himself. \vspace*{0.3in}
+1. [\Cteal{Vivaldi, "Il Sospetto" (The Suspicion):}](ThePerfectMatch_Highlighted.html#pm-il-sospetto)\
+   Tilly's choice. Life is perfect. \vspace{0.08in}
+2. [\Cteal{Miles Davis, "So What":}](ThePerfectMatch_Highlighted.html#pm-so-what)\
+   The morning after Sai first turns Tilly off. \vspace{0.08in}
+3. [\Cred{Queen, "We Are the Champions":}](ThePerfectMatch_Highlighted.html#pm-champions)\
+   The morning after the virus is planted. \vspace{0.08in}
+4. [\Cpurple{Sinatra, "My Way":}](ThePerfectMatch_Highlighted.html#pm-my-way)\
+   The first song Sai chooses himself. \vspace*{0.25in}
 
-- Did the songs help structure the story?
-   - emotionally or intellectually?
-- Why is the story called "The Perfect Match"?
+. . .
+
+- \Cquestion{Did the songs help structure the story?} \vspace{0.2in}\ 
+- \Cquestion{Why is the story called ``The Perfect Match''?}\ 
 
 :::notes
 **Songs = plot spine. Crib sheet below.**
@@ -113,15 +71,17 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
 
 ## Emotional Arc of Sai
 
-- [\textcolor{gray!80!black}{Content:} *"Okay, Tilly. You always know best."*](ThePerfectMatch_Highlighted.html#pm-smoothie)
-- [$\hookrightarrow$ \textcolor{gray!80!black}{Bored:} the perfect date](ThePerfectMatch_Highlighted.html#pm-boring-date)
-- [\textcolor{orange!85!black}{Irritated:} *"I'm being treated like a child."*](ThePerfectMatch_Highlighted.html#pm-treated-like-child)
-- [$\hookrightarrow$ \textcolor{orange!85!black}{Chilled:} Tilly comes back on her own](ThePerfectMatch_Highlighted.html#pm-so-what)
-- [$\hookrightarrow$ \textcolor{orange!85!black}{Exhilarated:} *"He was on his own."*](ThePerfectMatch_Highlighted.html#pm-exhilarating)
+- [\textcolor{gray!80!black}{Content:} \Cquote{\textit{``Okay, Tilly. You always know best.''}}](ThePerfectMatch_Highlighted.html#pm-know-best)
+- [$\hookrightarrow$ \textcolor{gray!80!black}{Bored:} the perfect date](ThePerfectMatch_Highlighted.html#pm-boring-date) \vspace{0.1in}
+- [\textcolor{orange!85!black}{Irritated:} \Cquote{\textit{``I'm being treated like a child.''}}](ThePerfectMatch_Highlighted.html#pm-treated-like-child)
+- [$\hookrightarrow$ \textcolor{orange!85!black}{Chilled:} Tilly comes back on her own](ThePerfectMatch_Highlighted.html#pm-chill)
+- [$\hookrightarrow$ \textcolor{orange!85!black}{Exhilarated:} \Cquote{\textit{``He was on his own.''}}](ThePerfectMatch_Highlighted.html#pm-exhilarating) \vspace{0.1in}
 - [\textcolor{violet!80!black}{Betrayed:} Jenny used him](ThePerfectMatch_Highlighted.html#pm-just-like-us)
 - [$\hookrightarrow$ \textcolor{violet!80!black}{Quietly defiant:} "My Way"](ThePerfectMatch_Highlighted.html#pm-my-way) \vspace*{0.2in}
 
-- Which feelings did Tilly schedule? Which slipped through?
+. . .
+
+- \Cquestion{Which feelings did Tilly schedule? Which slipped through?}\ 
 
 :::notes
 **Tilly sells moods. Defiance starts with a feeling she didn't schedule.**
@@ -133,6 +93,138 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
 - Keep the focus on the characters' feelings. Students can project, and will get personal on their own.
 :::
 
+# Context
+
+## The Story in Our Arc <!-- {.shrink} -->
+
+\Cquestion{How would you add the story to the table?}
+
+\vspace{0.3in}
+
+\begin{center}
+\makebox[\textwidth][c]{
+\resizebox{0.92\textwidth}{!}{
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+ & \cellcolor{gray!20}\textbf{Underground Man} & \cellcolor{gray!20}\textbf{Winston Smith} & \cellcolor{gray!20}\textbf{Neo} & \textbf{Sai} \\
+\hline
+\textbf{Mind Control} &
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} 2+2=4 \\ Rational egoism \end{tabular} &
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} 2+2=5 \\ Fear dictatorship \end{tabular} &
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} 10+10=100 \\ Reality hidden \end{tabular} &
+  \uncover<2->{\begin{tabular}{@{}l@{}} 2+2=what you like \\ Desire supplied \end{tabular}} \\
+\hline
+\textbf{Lenses} &
+  \cellcolor{gray!20}Human outlier control &
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Narrative control \\ Disciplinary surveillance \end{tabular} &
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Individuals $\rightarrow$ Dividuals \\ Simulated reality \end{tabular} &
+  \uncover<2->{\begin{tabular}{@{}l@{}} Wants made for us \\ Watched for profit \end{tabular}} \\
+\hline
+\textbf{Defiance} &
+  \cellcolor{gray!20}Spite &
+  \cellcolor{gray!20}Remembers &
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Take red pill to see \\ Reality=Wonderland \end{tabular} &
+  \uncover<2->{\begin{tabular}{@{}l@{}} Turns Tilly off \\ Picks his own song \end{tabular}} \\
+\hline
+\textbf{How Compromised?} &
+  \cellcolor{gray!20}No love or faith &
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Corrupt \\ Part of system \end{tabular} &
+  \cellcolor{gray!20}\begin{tabular}{@{}l@{}} Wants love \\ Unsure of being "The One" \end{tabular} &
+  \uncover<2->{\begin{tabular}{@{}l@{}} Offered a job \\ The red light still blinks \end{tabular}} \\
+\hline
+\uncover<3->{\textit{Emotions}} &
+  \cellcolor{gray!20}\uncover<3->{\begin{tabular}{@{}l@{}} \textit{Humiliation, spite} \\ \textit{Shame after Liza} \end{tabular}} &
+  \cellcolor{gray!20}\uncover<3->{\begin{tabular}{@{}l@{}} \textit{Fear, longing} \\ \textit{Ends loving Big Brother} \end{tabular}} &
+  \cellcolor{gray!20}\uncover<3->{\begin{tabular}{@{}l@{}} \textit{Unease, disbelief} \\ \textit{Hope, love} \end{tabular}} &
+  \uncover<3->{\begin{tabular}{@{}l@{}} \textit{Content $\rightarrow$ bored} \\ \textit{Irritated $\rightarrow$ exhilarated} \\ \textit{Betrayed $\rightarrow$ quietly defiant} \end{tabular}} \\
+\hline
+\end{tabular}
+}
+}
+\end{center}
+
+:::notes
+**Click 1: Sai column. Click 2: Emotions row (flag only). Their Sai column first.**
+
+- Week 3 ended by asking this question. Ask for the class's version of the Sai column before discussing the one on the slide.
+- The Emotions row (italics) is new. Don't dwell on it here: just say there are slides on it if we get there ("Emotional Arc of Sai"; extra slide "Emotional Arc 2: Four Stories").
+:::
+
+## What would you have predicted in 2012? And what now?
+
+```{=latex}
+\linespread{0.95}\selectfont
+```
+
+. . .
+
+- Control dressed as care goes back to the first child.
+- Critiques of consumer society long predate Marcuse's false needs (1964).
+- Zuboff's [*The Age of Surveillance Capitalism*](https://en.wikipedia.org/wiki/The_Age_of_Surveillance_Capitalism) (2019) built on books going back to 1988.
+
+. . .
+
+- \textcolor{blue!60!black}{1997: IBM's Deep Blue beats world chess champion Garry Kasparov}\ 
+- \textcolor{blue!60!black}{1998: Scott worked on the ``DARPA Communicator'' project for IBM}\ 
+- \textcolor{blue!60!black}{2005: Ray Kurzweil publishes \textit{The Singularity Is Near}}\ 
+- \textcolor{blue!60!black}{2010: Street View cars recorded home Wi-Fi traffic}\ 
+- \textcolor{blue!60!black}{2011: Siri spoken dialog on iPhone}\ 
+- \textcolor{blue!60!black}{2012: Google Now predicts users' information desires}\ 
+- \textcolor{blue!60!black}{2012: Google fined for bypassing Safari's privacy settings}\ 
+- \textcolor{blue!60!black}{2012: Facebook passes one billion users}\ 
+- \textcolor{blue!60!black}{2017: DeepMind's AlphaZero attains world-champion level by playing itself for 9 hours}\ 
+
+:::notes
+**Liu's leap: one assistant, always there, filtering all the news.**
+
+- In the story the surveillance is old news ([Jenny's documents](ThePerfectMatch_Highlighted.html#pm-sniffing-wifi)).
+- Before Marcuse: Veblen's "conspicuous consumption" (1899); Packard's *The Hidden Persuaders* (1957).
+- Zuboff: *In the Age of the Smart Machine* (1988); named "surveillance capitalism" in a 2015 article.
+- Street View: in May 2010 Google admitted its cars captured bits of emails, web pages, even passwords from open Wi-Fi.
+- Safari: in 2012 Google paid a record \$22.5 million FTC fine for getting around Safari's block on tracking cookies.
+- Google Now (June 2012): "cards" predicting your needs from searches, location, calendar.
+- Parallels: "I Trust You" vs. "I'm Feeling Lucky"; "Make things better!" vs. "Don't be evil."
+:::
+
+## Money Talks
+
+\begin{center}
+\small
+\renewcommand{\arraystretch}{0.95}
+\begin{tabular}{rll}
+\textbf{Rank} & \textbf{End of 2012} & \textbf{Nov 2026} \\
+\hline
+1 & \textcolor{blue!60!black}{Apple} & \textcolor{blue!60!black}{Apple} \\
+2 & \textcolor{gray}{---} & \textcolor{blue!60!black}{Microsoft} \\
+3 & \textcolor{gray}{---} & \textcolor{blue!60!black}{Alphabet (Google)} \\
+4 & \textcolor{gray}{---} & \textcolor{blue!60!black}{NVIDIA} \\
+5 & \textcolor{gray}{---} & \textcolor{blue!60!black}{Amazon} \\
+6 & \textcolor{blue!60!black}{China Mobile} & \textcolor{blue!60!black}{SpaceX} \\
+7 & \textcolor{gray}{---} & \textcolor{gray}{---} \\
+8 & \textcolor{blue!60!black}{Samsung} & \textcolor{blue!60!black}{Taiwan Semiconductor} \\
+9 & \textcolor{blue!60!black}{Microsoft} & \textcolor{blue!60!black}{Broadcom} \\
+10 & \textcolor{gray}{---} & \textcolor{blue!60!black}{Meta (Facebook)} \\
+\end{tabular}\\[3pt]
+\footnotesize World's most valuable public companies; \textcolor{blue!60!black}{digital tech in blue}
+\end{center}
+
+. . .
+
+- Digital tech in the top ten: \textbf{4} in 2012 $\rightarrow$ \textbf{9} today\ 
+- NVIDIA: about \#700--1,000 in 2012 $\rightarrow$ top five today\ 
+- This week: Anthropic goes public, valued at over \$1 trillion\ 
+
+:::notes
+**From a niche to nearly the whole top ten.**
+
+- Ranks are approximate: lists differ on share classes and dates. Another November 2026 ranking puts NVIDIA second and TSMC sixth.
+- 2012 ranks for Apple, China Mobile, Samsung, and Microsoft are recorded year-end positions; the rest of the 2012 column is unknown or estimated.
+- In 2026 dollars: Apple about \$735B (2012) vs. \$4.98T now; NVIDIA \$11B vs. \$3.0T.
+- Anthropic (Nov 2026): record \$81.3B IPO, about \$1.1T non-diluted, \$1.5T fully diluted.
+- Source: digital technologies market-cap summary (Scott, with DuckAI, Nov 22, 2026).
+:::
+
 # Looking at the Story through Analytical Lenses
 
 ## Table of Contents of Lenses
@@ -141,8 +233,7 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
 - Watched for Profit (Surveillance Capitalism) \textcolor{olive}{+ extra}
 - What Keeps You Human? \textcolor{olive}{+ extra}
 - Control Dressed as Care \textcolor{olive}{+ extra}
-- The Founder: You Need Us, Join Us \textcolor{olive}{+ extra}
-- What Does the System Do with a Rebel?
+- Controllers' Treatment of Rebels: Ignored $\rightarrow$ Hired \textcolor{olive}{+ extra}
 - A Victory, a Surrender, or Both?
 
 :::notes
@@ -155,7 +246,9 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
 - [A sudden craving for Japanese dessert, right on cue.](ThePerfectMatch_Highlighted.html#pm-dessert) \vspace*{0.1in}
 - [A daily plan for how much to spend on fun.](ThePerfectMatch_Highlighted.html#pm-leisure-regimen) \vspace*{0.3in}
 
-- [*"Do you even know what you really want any more?"*](ThePerfectMatch_Highlighted.html#pm-what-you-want)
+. . .
+
+- [\Cquote{\textit{``Do you even know what you really want any more?''}}](ThePerfectMatch_Highlighted.html#pm-what-you-want)
 
 :::notes
 **Wants supplied $\rightarrow$ whose wants?**
@@ -169,19 +262,23 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
 
 ## Watched for Profit (Surveillance Capitalism)
 
-- [*"Gaps in sharing can cause your profile to be incomplete."*](ThePerfectMatch_Highlighted.html#pm-gaps-in-sharing) \vspace*{0.1in}
+- [\Cquote{\textit{``Gaps in sharing can cause your profile to be incomplete.''}}](ThePerfectMatch_Highlighted.html#pm-gaps-in-sharing) \vspace*{0.1in}
+- [\Cquote{\textit{``You mean some advertiser paid Centillion to pitch it at you.''}}](ThePerfectMatch_Highlighted.html#pm-paid-pitch) \vspace*{0.1in}
 - The off switch has a hidden override. \vspace*{0.1in}
-- His phone records Jenny's typing through the desk. \vspace*{0.3in}
+- His phone records Jenny's typing through the desk. \vspace*{0.1in}
+- [\Cquote{\textit{``If it can't be found by Centillion, it doesn't exist.''}}](ThePerfectMatch_Highlighted.html#pm-cant-be-found) \vspace*{0.3in}
 
-- [*"If it can't be found by Centillion, it doesn't exist."*](ThePerfectMatch_Highlighted.html#pm-cant-be-found)
+. . .
+
+- \Cquestion{Does this seem familiar?}\ 
 
 :::notes
 **Data is the product; a gap is a defect.**
 
 - The last line is Rinn's. It ties this story to 1984's narrative control: no Ministry of Truth is needed when a search engine decides what can be found.
 - Jenny calls data "the lifeblood of Tilly." Her plan is to poison the data, not to smash a machine.
-- Jenny on what the suggestions really are: [*"You mean some advertiser paid Centillion to pitch it at you."*](ThePerfectMatch_Highlighted.html#pm-paid-pitch)
-- More detail in Extra Slides "Surveillance Capitalism 2–4."
+- The paid-pitch click also shows Sai's defense (ads "match desire with satisfaction") and the Wi-Fi documents.
+- More detail in "Indicators in 2012" and Extra Slides "Surveillance Capitalism 2–3."
 :::
 
 ## What Keeps You Human?
@@ -190,9 +287,11 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
    - no profile to read,
    - no suggestions when he's at a loss for words. \vspace*{0.2in}
 
-- [*"He was on his own. And it was exhilarating."*](ThePerfectMatch_Highlighted.html#pm-exhilarating) \vspace*{0.3in}
+- [\Cquote{\textit{``He was on his own. And it was exhilarating.''}}](ThePerfectMatch_Highlighted.html#pm-exhilarating) \vspace*{0.3in}
 
-- What does defiance look like when control no longer feels like control?
+. . .
+
+- \Cquestion{What does defiance look like when control no longer feels like control?}\ 
 
 :::notes
 **Surprise, friction, not being known in advance.**
@@ -205,12 +304,14 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
 
 ## Control Dressed as Care
 
-- [*"I'm being treated like a child."*](ThePerfectMatch_Highlighted.html#pm-treated-like-child) \vspace*{0.2in}
-- [*"Tilly, call the police!"*](ThePerfectMatch_Highlighted.html#pm-cant-do-that)\
-  *"I'm afraid I can't do that, Sai."*\
-  *"Trust me, Sai. You know I know just what you need."* \vspace*{0.3in}
+- [\Cquote{\textit{``I'm being treated like a child.''}}](ThePerfectMatch_Highlighted.html#pm-treated-like-child) \vspace*{0.2in}
+- [\Cquote{\textit{``Tilly, call the police!''}}](ThePerfectMatch_Highlighted.html#pm-cant-do-that)\
+  \Cquote{\textit{``I'm afraid I can't do that, Sai.''}}\
+  \Cquote{\textit{``Trust me, Sai. You know I know just what you need.''}} \vspace*{0.3in}
 
-- How is this different from O'Brien or the Architect?
+. . .
+
+- \Cquestion{How is this different from O'Brien or the Architect?}\ 
 
 :::notes
 **Tilly says no only once: when the system is threatened.**
@@ -222,45 +323,37 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
 - The same move in every story: see Extra Slide "Control Dressed as Care 2."
 :::
 
-## The Founder: You Need Us, Join Us
+## Controllers' Treatment of Rebels: Ignored $\rightarrow$ Hired
 
-- \Cteal{Without your phone, could you:}
-   - call your mother?
-   - say what happened in the world yesterday?
-   - remember when you started dating someone? \vspace*{0.3in}
+- \Cteal{The Underground Man is \textbf{ignored}.} \vspace{0.03in}\ 
+- \Cteal{Winston is \textbf{broken} and rebuilt.} \vspace{0.03in}\ 
+- \Cteal{Neo is \textbf{hunted}, to be deleted.} \vspace{0.03in}\ 
+- \Cteal{Rinn offers to \textbf{hire} Sai:} \vspace{0.03in}\ 
+   - [\Cquote{\textit{``We are now a race of cyborgs.''}}](ThePerfectMatch_Highlighted.html#pm-cyborgs)
+   - [\Cquote{\textit{``We made machines to help us think, and now the machines think for us.''}}](ThePerfectMatch_Highlighted.html#pm-machines-think)
+   - [\Cquote{\textbf{\textit{``I want you to come and work for Centillion.''}}}](ThePerfectMatch_Highlighted.html#pm-come-work)
+   - [\Cquote{\textit{``It's the perfect match. You'll make [Tilly] better.''}}](ThePerfectMatch_Highlighted.html#pm-perfect-match)
+   - [\Cquote{\textit{``as bad as you think Centillion is, any replacement is likely worse.''}}](ThePerfectMatch_Highlighted.html#pm-worse)
+   - [\Cquote{\textit{``In the face of the inevitable, the only choice is to adapt.''}}](ThePerfectMatch_Highlighted.html#pm-adapt)
 
-- [*"In the face of the inevitable, the only choice is to adapt."*](ThePerfectMatch_Highlighted.html#pm-adapt)
-- Is he right?
+. . .
 
-:::notes
-**Dependence as an argument. Is adapting the only choice?**
-
-- Rinn's argument at full strength:
-   - No information is neutral. Organizing it means choosing, and choosing well means knowing you.
-   - [*"We are now a race of cyborgs."*](ThePerfectMatch_Highlighted.html#pm-cyborgs) Our electronic copies are, in a literal sense, us.
-   - Destroy Centillion and something worse replaces it.
-- He quotes Churchill: we shape our buildings, and afterwards our buildings shape us.
-- Possible follow-up: Which of these do you hand off to a device by choice? Which have you stopped noticing?
-- A real-life version: the host of the Epoch Philosophy video lost his entire digital livelihood when his Google account was compromised ([14:15](https://www.youtube.com/watch?v=KKv2ZDbMyb4&t=855s)).
-:::
-
-## What Does the System Do with a Rebel?
-
-- \Cteal{The Underground Man is ignored.}
-- \Cteal{Winston is broken and rebuilt.}
-- \Cteal{Neo is hunted, to be deleted.} \vspace*{0.2in}
-
-- \Cred{Sai is offered a job:}\
-  [*"I want you to come and work for Centillion."*](ThePerfectMatch_Highlighted.html#pm-come-work) \vspace*{0.3in}
-
-- Each step is gentler. Is each one harder to resist?
+- \Cquestion{Each step is gentler. Is it getting harder to resist?}\ 
+- \Cquestion{Do we have to adapt? How?}\ 
 
 :::notes
-**Ignored $\rightarrow$ broken $\rightarrow$ hunted $\rightarrow$ hired.**
+**Rinn's argument**
 
-- Rinn's reason: people who can see Tilly's flaws are the best ones to fix them. The system turns its critics into improvements.
+- People who can see Tilly's flaws are the best ones to fix them.
+- The system turns its critics into improvements.
 - The academic version: a comfortable society absorbs its opposition instead of crushing it (Marcuse; see Extra Slide "False Needs 2").
-- The story never says whether Sai and Jenny take the job. Jenny is still around at the end, and she still refuses to "share."
+- The story never says whether Sai and Jenny take the job.
+- Jenny is still around at the end, and she still refuses to "share."
+
+**More questions**
+
+- What have you chosen to hand off to a device?
+- Have you stopped noticing?
 :::
 
 ## A Victory, a Surrender, or Both?
@@ -271,7 +364,7 @@ Last Scene:
 - He asks for Sinatra's "My Way" as his wake-up song.
 - Tilly: *"An unusual choice, given your taste."* \vspace*{0.3in}
 
-- [*"But a red light continued to blink, slowly, in the darkness."*](ThePerfectMatch_Highlighted.html#pm-red-light) 
+- [\Cquote{\textit{``But a red light continued to blink, slowly, in the darkness.''}}](ThePerfectMatch_Highlighted.html#pm-red-light) 
 
 :::notes
 **Small defiance; even defiance becomes data.**
@@ -286,11 +379,14 @@ Last Scene:
 
 ## Tilly Comes to Class
 
-- [\colorbox{white}{Tilly Helps Prepare a Defiance to Mind Control Class}](TillyHelpsScottPrepareForWeek4.html) \vspace*{0.3in}
+- [\colorbox{white}{Tilly Helps Prepare a Defiance to Mind Control Class}](TillyHelpsScottPrepareForWeek4.html)
 
-- \Cpurple{Would we lose something essential about our humanity\\ if we take the easy, comfortable route?} \vspace*{0.3in}
+. . .
 
-- How do you resist systems built to monitor, predict, and please you?
+\vspace*{0.5in}
+
+- \Cquestion{Would we lose something essential about our humanity\\ if we take the easy, comfortable route?} \vspace*{0.1in}\ 
+- \Cquestion{How do you resist systems built to monitor, predict, and please you?}\ 
 
 :::notes
 **Both lenses, worked on me. Option: "I'm controlling you with care, too."**
@@ -303,10 +399,10 @@ Last Scene:
 
 ## Next Time: \newline Looking Back at the Arc and Looking Forward
 
-- \Cteal{Did the lenses help?}
-- \Cteal{What have we learned, and where do we go from here?} \vspace*{0.3in}
+- \Cquestion{Did the lenses help?}\ 
+- \Cquestion{What have we learned, and where do we go from here?} \vspace*{0.3in}\ 
 
-- \Cpurple{Which story felt closest to your own life?}
+- \Cquestion{Which story felt closest to your own life?}\ 
 
 :::notes
 - Based on the Class 5 plan: look back on all four stories, ask whether the lenses helped, and look at how quickly we're moving into a new reality.
@@ -327,7 +423,7 @@ Last Scene:
 - \Cteal{Neo:} \textbf{unease} $\rightarrow$ disbelief $\rightarrow$ fear $\rightarrow$ belief $\rightarrow$ \textbf{love} \vspace*{0.1in}
 - \Cred{Sai:} \textcolor{gray!80!black}{\textbf{contentment}} $\rightarrow$ \textcolor{gray!80!black}{boredom} $\rightarrow$ \textcolor{orange!85!black}{irritation} $\rightarrow$ \textcolor{orange!85!black}{chill} $\rightarrow$ \textcolor{orange!85!black}{exhilaration} $\rightarrow$ \textcolor{violet!80!black}{betrayal} $\rightarrow$ \textcolor{violet!80!black}{\textbf{quiet defiance}} \vspace*{0.3in}
 
-- Whose feelings are their own?
+- \Cquestion{Whose feelings are their own?}\ 
 
 :::notes
 - Each system has its own relation to feeling: Dostoevsky's rational society ignores it; the Party crushes and then rewrites it; the Matrix sedates it with a comfortable dream; Tilly manages and sells it.
@@ -370,7 +466,7 @@ Last Scene:
 
 - In the story:
    - Tilly's suggestions are paid pitches.
-   - [*"There's a gap of about twelve hours during which I couldn't acquire data about you."*](ThePerfectMatch_Highlighted.html#pm-so-what)
+   - [\Cquote{\textit{``There's a gap of about twelve hours during which I couldn't acquire data about you.''}}](ThePerfectMatch_Highlighted.html#pm-twelve-hours)
 
 :::notes
 - Source: *The Age of Surveillance Capitalism* (2019).
@@ -381,30 +477,9 @@ Last Scene:
 - Ken Liu, in the Lightspeed author spotlight, worries less about the machines than about "those who hold the keys to the databases."
 :::
 
-## Surveillance Capitalism 4: How Prescient Was Ken Liu?
-
-- \Cteal{The world he wrote in (2012):}
-   - Facebook passes one billion users
-   - Siri (2011) answers; Google Now (2012) predicts
-   - "Chat" still meant texting and chat rooms; chatbots were novelties
-- \Cteal{Already in the news:}
-   - Street View cars recording home Wi-Fi traffic (2010)
-   - Google bypassing Safari's privacy settings (fined 2012) \vspace*{0.2in}
-
-- What did he see coming?
-
-:::notes
-- In the story these are old news ([Jenny's documents](ThePerfectMatch_Highlighted.html#pm-sniffing-wifi)).
-- Street View: in May 2010 Google admitted its cars had captured bits of emails, web pages, even passwords from open Wi-Fi.
-- Safari: in 2012 Google paid a record \$22.5 million FTC fine for getting around Safari's block on tracking cookies.
-- Google Now (June 2012) showed "cards" predicting what you'd need from your searches, location, and calendar: Tilly's first steps.
-- Liu's leap: an assistant that is always there and always talking, and one company filtering all the news.
-- Parallels: Centillion's mission vs. Google's ("organize the world's information"); "I Trust You" vs. "I'm Feeling Lucky"; "Make things better!" vs. "Don't be evil."
-:::
-
 ## What Keeps You Human 2: Jenny's Defiance
 
-- [*"You grew up believing you were free, which made it even harder for you to see when you weren't."*](ThePerfectMatch_Highlighted.html#pm-frogs) \vspace*{0.2in}
+- [\Cquote{\textit{``You grew up believing you were free, which made it even harder for you to see when you weren't.''}}](ThePerfectMatch_Highlighted.html#pm-frogs) \vspace*{0.2in}
 
 - Her price: lost friends, a life off the grid. \vspace*{0.1in}
 - Her method: moved in next door to use Sai.
@@ -423,7 +498,7 @@ Last Scene:
 - Don't keep your whole life in one company's account \vspace*{0.1in}
 - For the adventurous: run your own services at home \vspace*{0.3in}
 
-- Is digital hygiene defiance, or just comfort?
+- \Cquestion{Is digital hygiene defiance, or just comfort?}\ 
 
 :::notes
 - The title links to the "Guide to Fighting Back" section of the Epoch Philosophy video (24:06). Sections: [security basics](https://www.youtube.com/watch?v=KKv2ZDbMyb4&t=1504s) (25:04), [open-source software](https://www.youtube.com/watch?v=KKv2ZDbMyb4&t=1641s) (27:21), [de-Googling](https://www.youtube.com/watch?v=KKv2ZDbMyb4&t=2182s) (36:22), [self-hosting](https://www.youtube.com/watch?v=KKv2ZDbMyb4&t=2360s) (39:20).
@@ -444,7 +519,7 @@ Last Scene:
 - Sai expected torture chambers, mental hospitals, faceless guards. He got white tea ([passage](ThePerfectMatch_Highlighted.html#pm-white-tea)).
 :::
 
-## The Founder 2: Rinn's Full Argument
+## Rebels Hired 2: Rinn's Full Argument
 
 - \Cteal{Should a search for "Tiananmen" give centuries of history,\\ or June 4, 1989?} \vspace*{0.2in}
 
@@ -461,11 +536,11 @@ Last Scene:
 
 ## More Questions
 
-- How would Sai tell a need that was his from one given to him? \vspace*{0.1in}
-- How did the system plan ahead for people who defy it? \vspace*{0.1in}
-- Is surveillance by a company different from surveillance by a government? \vspace*{0.1in}
-- How important is privacy to Sai, and to you? \vspace*{0.1in}
-- Is comfortable ignorance bliss?
+- \Cquestion{How would Sai tell a need that was his from one given to him?} \vspace*{0.1in}\ 
+- \Cquestion{How did the system plan ahead for people who defy it?} \vspace*{0.1in}\ 
+- \Cquestion{Is surveillance by a company different from surveillance by a government?} \vspace*{0.1in}\ 
+- \Cquestion{How important is privacy to Sai, and to you?} \vspace*{0.3in}\ 
+- \Cquestion{Is comfortable ignorance bliss?}\ 
 
 :::notes
 - Jenny on companies vs. governments: "Surveillance is surveillance." Centillion toppled three governments that banned it.
