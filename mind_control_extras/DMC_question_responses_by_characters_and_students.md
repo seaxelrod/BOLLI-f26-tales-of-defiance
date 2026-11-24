@@ -1,6 +1,7 @@
 ---
 title: "Responses to Questions by Story Characters and Fictional Students"
-author: "Scott Axelrod with Claude"
+date: "July 1, 2026"
+author: "Scott, assisted by Claude Anthropicson"
 ---
 
 <!-- adapted from  2026f_mind_control/Claude_Play_for_DMC/DiscussionQuestionsForDMC.md -->
@@ -61,7 +62,7 @@ You wouldn't, and that's the design. A boot on your face you'd resist. But Tilly
 
 ##  The Controllers 
 
-### The Governors of the Crystal Palace, as the Undeground Man imagines them
+### The Governors of the Crystal Palace, as the Underground Man imagines them
 
 
 **Q: "Who decides which thoughts are 'crazy,' and is dispersing that power to platforms better or worse?"**
@@ -105,9 +106,9 @@ Let's retire the word "against." It presumes we know your interests better by de
 Four retired students at the same seminar table, each shaped by a long life, 
 each aware a new reality is approaching, and each relating to tales of defiance to mind control from a  current American moment.
 
-They are all strugglling to "lead an authentic life despite the apparent absurdity or incomprehensibility of existence[^existwiki]."
-They try try to attain wisdom  to know the difference between what they can change and what they must accept[^serenity_prayer].
-They each  begin to notice that  the other students' voices live inside them too,
+They are all struggling to "lead an authentic life despite the apparent absurdity or incomprehensibility of existence[^existwiki]."
+They try to attain wisdom  to know the difference between what they can change and what they must accept[^serenity_prayer].
+They each  begin to notice that  the other students' voices live inside them too.
 
 Dorothy's gratitude can be wisdom or the comfort-trap from "The Perfect Match" wearing a kind face. 
 Marvin's doubts can be skepticism or realism.
@@ -115,7 +116,7 @@ Fran's acceptance can be hard-won serenity or the fatalism the Architect and O'B
 Arthur's resistance can be the one honest response or an old man refighting an old war.
 
 
-[^existwiki]: Quoted from the Wikipedia page on [Existentialism](https://en.wikipedia.org/wiki/Fyodor_Dostoevsky)
+[^existwiki]: Quoted from the Wikipedia page on [Existentialism](https://en.wikipedia.org/wiki/Existentialism)
 
 [^serenity_prayer]: See [Serenity  Prayer](https://en.wikipedia.org/wiki/Serenity_Prayer).
 

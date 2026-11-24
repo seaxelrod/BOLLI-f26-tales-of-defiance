@@ -3,12 +3,6 @@ title: "DMC course: Week 5"
 ---
 
 
-:::{.section-block .yellow}
-
-
-# THIS PAGE UNDER CONTRUCTION
-
-:::
 
 :::: {.section-block .white}
 
@@ -18,7 +12,7 @@ title: "DMC course: Week 5"
 
 ::::
 
-:::: {.section-block .white}
+:::{.section-block .yellow}
 
 ##  Week 5 Class Presentation 
 

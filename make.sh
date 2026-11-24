@@ -69,7 +69,6 @@ export filesToMake=(
   materials/wrapup/wrapup_references_and_info
   mind_control_4/transition_to_perfectmatch
   mind_control_4/TillyHelpsScottPrepareForWeek4
-  mind_control_4/Big_Babies_Having_Tantrums
   "mind_control_4/ThePerfectMatch_Highlighted filters/highlight.lua"
   mind_control_4/week4_quote_anchors
   materials/perfect_match/surveillance_capitalism_youtube_summary
@@ -79,6 +78,8 @@ export filesToMake=(
   mind_control_4/digital_technologies_market_cap_2021212_to_20261122
   mind_control_4/Week4_presentation_TOC
   mind_control_4/perfect_match_youtube_summary
+  mind_control_5/Big_Babies_Having_Tantrums
+  mind_control_5/asimov_rationality_youtube_transcript
 
 )
 
