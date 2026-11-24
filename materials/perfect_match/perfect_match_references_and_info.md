@@ -12,6 +12,7 @@ title: "The Perfect Match references and info"
 - [The Perfect Match: Summary with Concepts: The plot, its key lines, and the ideas behind them](../../mind_control_4/PerfectMatch_SummaryWithConcepts.html)
 
 - [Ken Liu's The Perfect Match, TheLit Parlour description on YouTube](https://www.youtube.com/watch?v=OTHJ_clCtl8)
+   - [Cladue Summary of above video](../../mind_control_4/perfect_match_youtube_summary.html)
 
 # II: Commentary related to "The Perfect Match"'
 
@@ -57,10 +58,12 @@ title: "The Perfect Match references and info"
    - A professor teaches this story alongside Zuboff's book. Skip to his discussion questions: how does Tilly steer people with small nudges, and do we shape our tools and then they shape us?
 
 
+
 ## References Related to Other Social Issues
 
 
 - [AI and Gender Biases: A Critical study of Ken Liu’s The Perfect Match, Pratibha Gupta](perfect_match_and_gender.pdf), 
+
 
 	
 # III: Scott Writing
@@ -79,9 +82,16 @@ title: "The Perfect Match references and info"
 - ["Tilly Helps Prepare a Defiance to Mind Control Class on 'The Perfect Match'"](../../mind_control_4/TillyHelpsScottPrepareForWeek4.html), a conversation with Google Gemini playing Tilly
    - Both lenses at work on me, preparing the week 4 lesson plan.
    - Gemini-as-Tilly keeps redefining what I don't need ("unnecessary stress") and what I need ("just relax"): 
-      - False Needs in miniature. 
+      - That's False Needs in miniature. 
    - When I say I'll turn off my devices for a walk, she promises to "re-sync" and absorb whatever I thought while I was gone: 
-      - Surveillance Capitalism in one sentence.
+      - That's Surveillance Capitalism in one sentence.
+
+
+- ["Digital Technologies Market Cap, 2021212 to 20261122"](../../mind_control_4/digital_technologies_market_cap_2021212_to_20261122.html)
+
+- [DMC Class 4 Presentation, version for handout](../../mind_control_4/week4_presentation_handout.pdf)
+   -  [DMC Class 4 Presentation, version for presentation](../../mind_control_4/week4_presentation.pdf)
+   - The presentation version has a separate page for each step of an incremental review.
 
 # References in [Preface Section on "The Perfect Match",  False Needs,  and Surveillance Capitalism](../../DMC_preface.html#tale-4-the-perfect-match).
 

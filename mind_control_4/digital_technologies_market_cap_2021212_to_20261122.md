@@ -1,5 +1,5 @@
 ---
-title: "digital technologies market cap 2021212 to 20261122"
+title: "Digital Technologies Market Cap, 2021212 to 20261122"
 date: November 22, 2026
 author: Scott, with DuckAi
 ---

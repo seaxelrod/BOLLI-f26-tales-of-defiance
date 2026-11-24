@@ -1,5 +1,5 @@
 ---
-title: "DMC Class 4: Presentation Draft 8"
+title: 'DMC Class 4 Presentation'
 subtitle: |
   25 frames with 44 parts \
   ~~Controlling You~~ Caring for You \
@@ -42,11 +42,11 @@ date: November 23, 2026
 
 ## Four Wake-Up Songs
 
-1. [\Cteal{Vivaldi, "Il Sospetto" (The Suspicion):}](ThePerfectMatch_Highlighted.html#pm-il-sospetto)\
+1. [\Cpurple{Vivaldi, "Il Sospetto" (The Suspicion):}](ThePerfectMatch_Highlighted.html#pm-il-sospetto)\
    Tilly's choice. Life is perfect. \vspace{0.08in}
-2. [\Cteal{Miles Davis, "So What":}](ThePerfectMatch_Highlighted.html#pm-so-what)\
+2. [\Cpurple{Miles Davis, "So What":}](ThePerfectMatch_Highlighted.html#pm-so-what)\
    The morning after Sai first turns Tilly off. \vspace{0.08in}
-3. [\Cred{Queen, "We Are the Champions":}](ThePerfectMatch_Highlighted.html#pm-champions)\
+3. [\Cpurple{Queen, "We Are the Champions":}](ThePerfectMatch_Highlighted.html#pm-champions)\
    The morning after the virus is planted. \vspace{0.08in}
 4. [\Cpurple{Sinatra, "My Way":}](ThePerfectMatch_Highlighted.html#pm-my-way)\
    The first song Sai chooses himself. \vspace*{0.25in}
@@ -170,8 +170,8 @@ If the plot needs a refresher, ask: What happened between the songs? Crib sheet 
 - \textcolor{blue!60!black}{2005: Ray Kurzweil publishes \textit{The Singularity Is Near}}\ 
 - \textcolor{blue!60!black}{2010: Street View cars recorded home Wi-Fi traffic}\ 
 - \textcolor{blue!60!black}{2011: Siri spoken dialog on iPhone}\ 
-- \textcolor{blue!60!black}{2012: Google Now predicts users' information desires}\ 
-- \textcolor{blue!60!black}{2012: Google fined for bypassing Safari's privacy settings}\ 
+- \textcolor{blue!60!black}{2012: \textbf{Google} [=?] Now predicts users' information desires}\ 
+- \textcolor{blue!60!black}{2012: \textbf{Google} [=?]  fined for bypassing Safari's privacy settings}\ 
 - \textcolor{blue!60!black}{2012: Facebook passes one billion users}\ 
 - \textcolor{blue!60!black}{2017: DeepMind's AlphaZero attains world-champion level by playing itself for 9 hours}\ 
 
